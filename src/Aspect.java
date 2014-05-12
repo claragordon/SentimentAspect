@@ -5,7 +5,8 @@ class Aspect {
 	private String text;
 	private int start;
 	private int end;
-	private boolean polarity;
+
+	private String polarity;
 
 	public Aspect(String text, int start, int end) {
 		this.text = text;
@@ -27,7 +28,7 @@ class Aspect {
 		return this.end;
 	}
 
-	public boolean getPolarity() {
+	public String getPolarity() {
 		return this.polarity;
 	}
 
