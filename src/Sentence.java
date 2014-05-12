@@ -6,7 +6,6 @@ import java.util.List;
  * @author Clara Gordon
  */
 public class Sentence {
-	int a;
 	private String text;
 	private String docId;
 	private List<Aspect> aspects;

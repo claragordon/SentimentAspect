@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/SentimentAspect.iml" filepath="$PROJECT_DIR$/.idea/SentimentAspect.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/SentimentAspect.iml" filepath="$PROJECT_DIR$/SentimentAspect.iml" />
+>>>>>>> FETCH_HEAD
     </modules>
   </component>
 </project>

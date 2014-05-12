@@ -10,20 +10,15 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="file:///usr/local/bin/stanford-corenlp-full-2013-11-12" />
+          <root url="file:///usr/local/bin/stanford-corenlp-full-2014-01-04" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="file:///usr/local/bin/stanford-corenlp-full-2013-11-12" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file:///usr/local/bin/stanford-corenlp-full-2013-11-12" recursive="false" />
+        <SOURCES>
+          <root url="file:///usr/local/bin/stanford-corenlp-full-2014-01-04" />
+          <root url="file:///usr/local/bin/stanford-corenlp-full-2014-01-04" />
+        </SOURCES>
+        <jarDirectory url="file:///usr/local/bin/stanford-corenlp-full-2014-01-04" recursive="false" />
+        <jarDirectory url="file:///usr/local/bin/stanford-corenlp-full-2014-01-04" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
   </component>

@@ -21,7 +21,6 @@ public class XMLReader{
 
 		List<Sentence> sentences = new ArrayList<Sentence> ();
 
-
 		try {
 
 			DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
