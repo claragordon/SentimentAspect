@@ -88,7 +88,6 @@ public class XMLReader{
 			t.printStackTrace ();
 		}
 
-
 		return sentences;
 
 	}
