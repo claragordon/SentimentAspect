@@ -67,9 +67,9 @@ public class XMLReader{
 							aspects.add(new Aspect(aspectTerm, start, end));
 						}
 
-						for (Aspect a : aspects) {
-							sentences.add(new Sentence(text, docId, aspects));
-						}
+
+						sentences.add(new Sentence(text, docId, aspects));
+
 					}
 				}
 			}
@@ -88,10 +88,6 @@ public class XMLReader{
 			t.printStackTrace ();
 		}
 
-
-		for (Sentence s: sentences) {
-			System.out.print(s);
-		}
 
 		return sentences;
 

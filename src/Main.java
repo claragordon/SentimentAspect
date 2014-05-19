@@ -5,9 +5,11 @@ import edu.stanford.nlp.dcoref.CorefChain;
 import edu.stanford.nlp.dcoref.CorefCoreAnnotations;
 import edu.stanford.nlp.io.*;
 import edu.stanford.nlp.ling.*;
+import edu.stanford.nlp.neural.rnn.RNNCoreAnnotations;
 import edu.stanford.nlp.pipeline.*;
 import edu.stanford.nlp.semgraph.SemanticGraph;
 import edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations;
+import edu.stanford.nlp.sentiment.SentimentCoreAnnotations;
 import edu.stanford.nlp.trees.*;
 import edu.stanford.nlp.util.*;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -19,9 +21,34 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
+	    Properties props = new Properties();
+	    props.setProperty("annotators", "tokenize, ssplit, parse, sentiment");
+	    PrintWriter out = new PrintWriter (System.out);
+
+
+	    StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
+
+
 	    List<Sentence> sentences = XMLReader.readFile("data/test/Laptops_Test_data_phaseB.xml");
 	    for (Sentence s : sentences) {
-		    System.out.print(sentences);
+//		    System.out.print(s);
+
+
+		    Annotation annotation = pipeline.process(s.getText());
+		    for (CoreMap sentence : annotation.get(CoreAnnotations.SentencesAnnotation.class)) {
+			    Tree tree = sentence.get (SentimentCoreAnnotations.AnnotatedTree.class);
+			    List<LabeledScoredTreeNode> list  = tree.getLeaves ();
+
+			    double score = list.get(0).score ();
+
+
+			    int sentiment = RNNCoreAnnotations.getPredictedClass (tree);
+
+			    System.out.println(s.getText());
+			    System.out.println(sentiment);
+
+	        }
+
 	    }
 
 //	    Properties props = new Properties();
@@ -102,6 +129,13 @@ public class Main {
 //		    out.println("The first sentence parsed is:");
 ////		    tree.pennPrint(out);
 //	    }
+
+
+
+
+
+
+
 
 
     }
