@@ -15,6 +15,9 @@ import edu.stanford.nlp.util.*;
 */
 public class Main {
 
+
+
+
     public static List<String> ngrams(int n, String str) {
         List<String> ngrams = new ArrayList<String>();
         String[] words = str.split(" ");
@@ -22,7 +25,7 @@ public class Main {
             ngrams.add(concat(words, i, i+n));
         return ngrams;
     }
-    
+
     public static String concat(String[] words, int start, int end) {
         StringBuilder sb = new StringBuilder();
         for (int i = start; i < end; i++)
@@ -33,7 +36,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
 	    Map<String, Integer> features = new HashMap<String, Integer>();
-    
+
         List<Sentence> sentences = XMLReader.readFile("data/train/Laptop_Train_v2.xml");
       
         Sentence s = sentences.get(3);
@@ -48,46 +51,29 @@ public class Main {
 		for (Aspect a : s.getAspects()){
             System.out.println("ASPECT: " + a.getText());
             String[] parts = s.getText().split(a.getText());
-         
+
+			// front ngrams
             List<String> front_ngrams = ngrams(1, parts[0]);
-            if (front_ngrams.size() > 5){
-                for (int i = 1; i < 6; i++){
+            int limit;
+			if (front_ngrams.size() > 5) limit = 6;
+			else limit = front_ngrams.size() + 1;
+            for (int i = 1; i < limit; i++){
             
                     String target = front_ngrams.get(front_ngrams.size() - i);
-                    features.put(target, features.get(target)+1);
-                    System.out.println(front_ngrams.get(front_ngrams.size() - i));
-                }
-            } else {
-                for (int i = 1; i < front_ngrams.size()+1; i++){
-                System.out.println(front_ngrams.get(front_ngrams.size() - i));
-                }
+                    features = updateMap (features, target);
+	                System.out.println(front_ngrams.get(front_ngrams.size() - i));
             }
 
-			int current_count;
-			String feature;
-            List<String> ngrams = ngrams(1, parts[1]);
-            if (ngrams.size() > 5){
-                for (int i = 1; i < 6; i++){
-	                feature = ngrams.get(i);
-	                System.out.println(feature);
+			// back ngrams
+            List<String> back_ngrams = ngrams(1, parts[1]);
+			if (back_ngrams.size() > 5) limit = 6;
+			else limit = back_ngrams.size() + 1;
+			for (int i = 1; i < limit; i++){
 
-		            // add to feature map
-		            if (features.containsKey(feature)) current_count = features.get(feature);
-		            else current_count = 0;
-		            features.put(feature, current_count + 1);
-
-                }
-            } else {
-                for (int i = 1; i < ngrams.size()+1; i++) {
-                    feature = ngrams.get(i);
-	                System.out.println(feature);
-
-		            // add to feature map
-		            if (features.containsKey(feature)) current_count = features.get(feature);
-		            else current_count = 0;
-		            features.put(feature, current_count + 1);
-            }
-         }
+				String target = back_ngrams.get(back_ngrams.size() - i);
+				features = updateMap (features, target);
+				System.out.println(back_ngrams.get(back_ngrams.size() - i));
+			}
 
         System.out.println("FINISHED ASPECT: " + a.getText());
 
@@ -107,6 +93,15 @@ public class Main {
 //          System.out.println(a.getPolarity());
       }
     }
+
+	private static Map<String, Integer> updateMap(Map<String, Integer> map, String s) {
+		// add to feature map
+		int current_count;
+		if (map.containsKey(s)) current_count = map.get(s);
+		else current_count = 0;
+		map.put (s, current_count + 1);
+		return map;
+	}
       
 
 
