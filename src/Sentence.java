@@ -21,7 +21,7 @@ public class Sentence {
 		return this.text;
 	}
 
-	public String docId() {
+	public String getDocId() {
 		return this.docId;
 	}
 

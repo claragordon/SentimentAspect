@@ -89,9 +89,9 @@ public class XMLReader{
 		}
 
 
-		for (Sentence s: sentences) {
-			System.out.print(s);
-		}
+// 		for (Sentence s: sentences) {
+// 			System.out.print(s);
+// 		}
 
 		return sentences;
 
