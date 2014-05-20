@@ -47,11 +47,12 @@ public class Main {
          System.out.println("ASPECT: " + a.getText());
          String[] parts = s.getText().split(a.getText());
          
-         List front_ngrams = ngrams(1, parts[0]);
+         List<String> front_ngrams = ngrams(1, parts[0]);
          if (front_ngrams.size() > 5){
             for (int i = 1; i < 6; i++){
             
                String target = front_ngrams.get(front_ngrams.size() - i);
+               
                features.put(target, features.get(target)+1);
                System.out.println(front_ngrams.get(front_ngrams.size() - i));
                
