@@ -36,7 +36,7 @@ public class XMLReader{
 			String aspectTerm;
 			int start;
 			int end;
-			boolean polarity;
+			String polarity;
 			ArrayList<Aspect> aspects;
 
 			for(int s=0; s<sentenceNodes.getLength() ; s++){
@@ -63,8 +63,9 @@ public class XMLReader{
 							aspectTerm = aspectElements.getNamedItem ("term").getTextContent ();
 							start = Integer.parseInt (aspectElements.getNamedItem ("from").getTextContent ());
 							end = Integer.parseInt (aspectElements.getNamedItem ("to").getTextContent ());
+							polarity = aspectElements.getNamedItem ("polarity").getTextContent ();
 
-							aspects.add(new Aspect(aspectTerm, start, end));
+							aspects.add(new Aspect(aspectTerm, start, end, polarity));
 						}
 
 

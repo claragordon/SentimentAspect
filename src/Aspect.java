@@ -8,7 +8,7 @@ class Aspect {
 
 	private String polarity;
 
-	public Aspect(String text, int start, int end) {
+	public Aspect(String text, int start, int end, String polarity) {
 		this.text = text;
 		this.start = start;
 		this.end = end;

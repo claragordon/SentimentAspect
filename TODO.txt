@@ -1,3 +1,18 @@
 find dependency parser
 explore using MRS
 adapt MRS code and parse data
+
+
+
+BASELINE RESULTS
+
+
+RESTAURANTS:
+PASSED! This corpus has: 3041 sentences, 3693 aspect term occurrences, and 1288 distinct aspect terms.
+Estimating aspect term polarity...
+Accuracy = 0.578019, #Correct/#All: 426/737
+
+LAPTOPS
+PASSED! This corpus has: 3045 sentences, 2358 aspect term occurrences, and 1042 distinct aspect terms.
+Estimating aspect term polarity...
+Accuracy = 0.470588, #Correct/#All: 232/493

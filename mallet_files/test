@@ -1,0 +1,737 @@
+Instance0: negative before_and before_we before_had before_the before_worst after_experience after_at after_a after_restaurant after_ever 
+Instance1: positive before_so before_glad before_this before_was before_the after_it after_o after_trip after_ended after_ 
+Instance2: neutral before_went before_on before_a before_3 before_day after_binge after_ after_with after_fish after_bringing 
+Instance3: neutral before_day before_oyster before_binge before_ before_with after_bringing after_up after_the after_closing after_ 
+Instance4: negative before_s before_day before_ before_and before_the after_was after_pretty after_rude 
+Instance5: neutral before_time before_we before_sat before_at before_the after_(chef after_yoshi) after_and after_ordered after_everything 
+Instance6: neutral before_at before_the before_sushi before_bar before_( after_yoshi) after_and after_ordered after_everything after_ala 
+Instance7: neutral before_(chef before_yoshi) before_and before_ordered before_everything 
+Instance8: positive before_the after_is after_very after_relaxed after_and after_cozy 
+Instance9: positive before_is before_very before_relaxed before_and before_cozy after_was after_great after_and after_the after_food 
+Instance10: positive before_service before_was before_great before_and before_the after_was after_excellent! 
+Instance11: positive before_try before_to before_snag before_an before_outside 
+Instance12: positive before_are before_looking before_for before_a before_good after_ after_ after_cheap after_eats after_- 
+Instance13: positive before_the after_was after_friendly after_and after_the after_atmosphere 
+Instance14: positive before_service before_was before_friendly before_and before_the after_was after_casual 
+Instance15: neutral before_i before_would before_buy before_freeze before_the after_and after_they after_would after_still after_be 
+Instance16: positive before_i before_recommend before_their after_ after_ after_pork after_chops after_or 
+Instance17: positive before_recommend before_their before_pad before_see before_ew after_or after_tofu after_plates 
+Instance18: positive before_ew before_ before_pork before_chops before_or 
+Instance19: positive before_could before_be before_satisfied before_both before_in after_and after_in after_quantity after_for after_$3 
+Instance20: positive before_both before_in before_taste before_and before_in after_for after_$3 after_00 after_in after_nyc 
+Instance21: neutral before_i before_heard before_that before_from before_the after_ after_ after_after after_having after_brilliant 
+Instance22: positive before_bartender before_ before_after before_having before_brilliant after_( after_try after_steak after_with after_portobello 
+Instance23: positive before_steak before_with before_portobello before_mushrooms) before_and after_on after_the after_bar after_last after_tuesday 
+Instance24: positive before_having before_brilliant before_food before_( before_try after_) after_and after_drinks after_on after_the 
+Instance25: neutral before_mushrooms) before_and before_drinks before_on before_the after_last after_tuesday 
+Instance26: positive before_the after_was after_excellent after_- after_friendly after_and 
+Instance27: positive before_the after_had after_an after_average after_portion after_ 
+Instance28: neutral before_main before_course before_had before_an before_average after_ after_ after_and after_was after_decent 
+Instance29: negative before_20 before_minutes before_for before_our after_but after_it after_gave after_us after_time 
+Instance30: positive before_time before_to before_have before_a before_few after_and after_enjoy after_our after_surroundings after_and 
+Instance31: positive before_few before_cocktails before_and before_enjoy before_our after_and after_each after_other 
+Instance32: positive before_ after_is after_great after_ after_very after_attentive 
+Instance33: positive before_the after_is after_diverse after_and after_top-notch after_as 
+Instance34: positive before_it before_is before_what before_modern after_is after_all after_about 
+Instance35: positive before_i before_don before_t before_like after_too after_much after_and after_this after_was 
+Instance36: positive before_ before_vegetarians before_can before_rejoice-all before_the after_are after_manna after_from after_heaven 
+Instance37: conflict before_forget before_the before_rush before_and before_the after_and after_the after_noise after_(which after_isn 
+Instance38: conflict before_and before_the before_wait before_and before_the after_(which after_isn after_t after_actually after_that 
+Instance39: conflict before_forget before_the after_and after_the after_wait after_and after_the 
+Instance40: negative before_someone before_else before_is before_footing before_the 
+Instance41: neutral before_new before_york before_city before_we before_buy after_to after_eat after_hot after_and after_then 
+Instance42: positive before_hands before_down before_the before_hottest before_night after_in after_the after_bronx 
+Instance43: negative before_the before_masses before_in before_terms before_of after_- after_delivery after_is after_their after_achilles 
+Instance44: negative before_in before_terms before_of before_service before_- after_is after_their after_achilles after_ after_heel 
+Instance45: negative before_the before_$300 after_was after_a after_bit after_steep after_ 
+Instance46: positive before_nice before_ambiance before_ before_nice before_little after_ after_ after_good after_bartender after_ 
+Instance47: positive before_nice before_little before_bar before_ before_good after_ after_ after_francois after_ after_and 
+Instance48: positive before_ before_francois before_ before_and before_good 
+Instance49: positive before_nice after_ after_ after_nice after_little after_bar 
+Instance50: positive before_the after_comes after_with after_an after_incredible after_sauce 
+Instance51: positive before_calamari before_comes before_with before_an before_incredible after_ after_ after_and after_the after_duck 
+Instance52: positive before_incredible before_sauce before_ before_and before_the after_are after_yummy after_as after_well 
+Instance53: positive before_for before_some before_of before_those before_exotic after_on after_the after_blackboard 
+Instance54: positive before_simple after_and after_what after_hot after_and after_lage 
+Instance55: positive before_and before_what before_hot before_and before_lage 
+Instance56: negative before_away before_from before_the before_two before_specialty after_on after_the after_menu after_ after_though- 
+Instance57: neutral before_two before_specialty before_rolls before_on before_the after_ after_ after_though- after_too after_much 
+Instance58: negative before_menu before_ before_though- before_too before_much after_and after_rice after_will after_fill after_you 
+Instance59: negative before_though- before_too before_much before_avocado before_and after_will after_fill after_you after_up after_right 
+Instance60: negative before_we before_didn before_t before_get after_and after_she after_didn after_t after_even 
+Instance61: neutral before_offer before_us before_the before_option before_of 
+Instance62: positive before_the after_are after_also after_reasonably after_priced after_for 
+Instance63: positive before_the before_bagels before_are before_also before_reasonably after_for after_nyc 
+Instance64: positive before_a before_great before_place before_for before_a after_ after_ after_fun after_with after_friends 
+Instance65: positive before_with before_friends before_or before_simply before_a after_for after_2 
+Instance66: negative before_ after_leaves after_something after_to after_be after_desired 
+Instance67: neutral before_specify before_if before_you before_like before_your after_spicy- after_its after_rather after_bland after_if 
+Instance68: positive before_our after_was after_fine after_ after_the after_place 
+Instance69: positive before_waiter before_was before_fine before_ before_the after_looks after_nice after_in after_that after_not-trying-too-hard 
+Instance70: negative before_way before_ before_but before_at before_those after_ after_ after_a after_little after_more 
+Instance71: negative before_should before_be before_expected before_of before_your 
+Instance72: positive before_(although before_they before_have before_more before_funky after_!) 
+Instance73: positive before_any before_more before_ before_it before_a after_you after_ll after_never after_forget after_if 
+Instance74: positive before_ before_you before_ll before_miss before_a after_of after_your after_life after_time 
+Instance75: positive before_we before_spend before_$60 before_00 before_(have after_ummmmm after_need after_i after_say after_more) 
+Instance76: positive before_no before_desserts before_beyond before_the before_complimentary 
+Instance77: negative before_ before_the before_restaurant before_offers before_no after_beyond after_the after_complimentary after_espresso after_cup 
+Instance78: positive before_when before_i before_m before_craving before_for after_ after_ after_lemon after_grass after_chicken 
+Instance79: positive before_i before_m before_craving before_for before_pho after_or after_beef after_cube after_on after_rice 
+Instance80: positive before_ before_lemon before_grass before_chicken before_or after_ after_ after_this after_is after_the 
+Instance81: positive before_ before_there before_are before_plenty before_of after_of after_indian after_actors after_and after_actresses 
+Instance82: positive before_the after_is after_spectacular after_ after_from after_the 
+Instance83: positive before_is before_spectacular before_ before_from before_the after_to after_the after_main after_course after_ 
+Instance84: positive before_from before_the before_appitizers before_to before_the after_ after_ after_and after_then after_of 
+Instance85: positive before_and before_then before_of before_course before_the after_ after_ after_(wow) after_you after_ll 
+Instance86: positive before_my after_was after_delicious after_in after_an after_incredible 
+Instance87: positive before_was before_delicious before_in before_an before_incredible 
+Instance88: positive before_of before_the before_most before_authentic before_nyc after_experience after_look after_no after_further after_than 
+Instance89: positive before_upon before_delivery before_ before_their before_juicy after_are after_quite after_good 
+Instance90: positive before_average before_to before_good after_ after_ after_but after_terrible after_delivery 
+Instance91: negative before_thai before_food before_ before_but before_terrible 
+Instance92: positive before_the after_is after_nice after_but after_when after_we 
+Instance93: negative before_but before_when before_we before_order before_our after_we after_were after_in after_for after_a 
+Instance94: negative before_the before_entire after_and after_the after_treatment after_we after_received 
+Instance95: positive before_used before_to before_have before_the before_best after_until after_this after_pizzeria after_opened after_up 
+Instance96: positive before_and before_they before_provided before_a before_delicious after_on after_the after_house! 
+Instance97: negative before_you before_want before_to before_make before_a after_you after_are after_limited 
+Instance98: positive before_the after_is after_amazing after_ after_rich after_pastas 
+Instance99: positive before_food before_is before_amazing before_ before_rich after_and after_fresh after_doughy after_pizza 
+Instance100: positive before_rich before_pastas before_and before_fresh before_doughy 
+Instance101: positive before_ after_was after_very after_good after_ after_but 
+Instance102: positive before_i before_had after_it after_has after_2 after_oz after_ 
+Instance103: positive before_has before_2 before_oz before_ before_of after_in after_it 
+Instance104: positive before_try before_the after_ after_ after_it after_s after_fabulous 
+Instance105: positive before_it before_s before_fabulous before_and before_their after_are after_so after_cheap! 
+Instance106: positive before_ after_is after_great after_and after_inexpensive 
+Instance107: positive before_the after_very after_reasonable 
+Instance108: positive before_ after_- after_can after_t after_be after_missed 
+Instance109: positive before_order before_ before_but before_once before_the after_is after_ordered after_ after_you after_are 
+Instance110: positive before_ after_are after_organic after_which after_is after_a 
+Instance111: negative before_refused before_to before_pay before_for before_my 
+Instance112: positive before_anyone before_who before_enjoys before_ before_fine after_at after_reasonable after_prices 
+Instance113: positive before_ before_fine before_cuisine before_at before_reasonable 
+Instance114: positive before_the after_was after_very after_attentive after_ after_the 
+Instance115: positive before_was before_very before_attentive before_ before_the after_lovely after_ after_and after_the after_food 
+Instance116: positive before_ambience before_lovely before_ before_and before_the after_superb 
+Instance117: positive before_restaurants before_think before_using before_fancy before_expensive after_makes after_the after_food after_fine after_cuisine 
+Instance118: positive before_ingrediants before_makes before_the before_food before_fine after_ after_ after_even after_with after_no 
+Instance119: positive before_fancy before_expensive before_ingrediants before_makes before_the after_fine after_cuisine after_ after_even after_with 
+Instance120: positive before_the after_and after_wine after_were after_excellent-the after_service 
+Instance121: positive before_the before_pizza before_and after_were after_excellent-the after_service after_too--but after_what 
+Instance122: positive before_pizza before_and before_wine before_were before_excellent-the after_too--but after_what after_really after_made after_this 
+Instance123: positive before_made before_this before_place before_was before_the 
+Instance124: positive before_the after_are after_sweet after_ after_the after_food 
+Instance125: positive before_waiters before_are before_sweet before_ before_the after_is after_tasty after_and after_the after_bill 
+Instance126: positive before_food before_is before_tasty before_and before_the after_is after_never after_too after_large 
+Instance127: positive before_the after_was after_superb after_ after_they after_treat 
+Instance128: positive before_we before_all before_had before_the before_tasting after_and after_unlike after_some after_of after_the 
+Instance129: positive before_there before_was before_more before_than before_enough 
+Instance130: positive before_minutes before_to before_get before_an before_empty after_ after_ after_but after_standing after_up 
+Instance131: negative before_the after_may after_be after_small after_ after_but 
+Instance132: negative before_in before_which before_they before_make before_the after_-result after_- after_we after_had after_large 
+Instance133: negative before_had before_large before_chunks before_of before_burnt after_in after_our after_serving after_bowl 
+Instance134: conflict before_- before_for before_dessert before_we before_split after_and after_vanilla after_gelato after_(with after_espresso) 
+Instance135: conflict before_we before_split before_chocolate before_cake before_and after_ after_ after_which after_were after_tasty 
+Instance136: conflict before_- before_for after_we after_split after_chocolate after_cake after_and 
+Instance137: positive before_warm before_ before_comfortable after_ after_ after_nice after_appointments after_(witness 
+Instance138: neutral before_glass before_and before_brickwork before_separating before_the after_) 
+Instance139: neutral before_a before_little before_late before_for before_the after_but after_it after_wasn after_t after_a 
+Instance140: positive before_a before_problem before_to before_get before_our after_immediately 
+Instance141: positive before_arrived before_on before_time before_for before_our after_and after_seated after_promptly after_the 
+Instance142: neutral before_but before_not before_for before_regular before_fine 
+Instance143: positive before_the before_well before_mannered before_ before_pleasant after_that after_tony after_has after_in after_his 
+Instance144: positive before_the after_robust after_and after_subtle 
+Instance145: positive before_the before_some before_of before_the before_cheapest after_you after_ll after_find after_in after_the 
+Instance146: positive before_the before_city before_ before_though before_the after_is after_some after_of after_the after_best 
+Instance147: neutral before_would before_never before_wait before_for before_a after_to after_eat after_ after_it after_just 
+Instance148: positive before_we before_concluded before_with after_ after_ after_both after_were after_delicious 
+Instance149: negative before_the after_is after_bad 
+Instance150: positive before_ after_here after_was after_great after_ after_food 
+Instance151: positive before_service before_here before_was before_great after_was after_fantastic 
+Instance152: positive before_such before_a before_lovely before_ before_peaceful after_to after_eat after_outside 
+Instance153: positive before_the after_is after_delicious after_and after_the after_crust 
+Instance154: positive before_sauce before_is before_delicious before_and before_the after_is after_perfect 
+Instance155: neutral before_since before_my before_first after_i after_have after_had after_the after_chance 
+Instance156: neutral before_had before_the before_chance before_to before_have after_at after_orsay after_3x 
+Instance157: negative before_pay before_a before_lot before_for before_the after_ after_ after_but after_the after_food 
+Instance158: neutral before_the before_decore before_ before_but before_the after_is after_no after_better after_or after_worse 
+Instance159: positive before_they before_have before_some before_great after_here after_as after_well 
+Instance160: neutral before_the after_is after_not after_consistently after_excellent after_-- 
+Instance161: positive before_the after_ after_ after_served after_in after_small 
+Instance162: neutral before_the before_food after_in after_small after_tasting after_portions after_(as 
+Instance163: positive before_ before_served before_in before_small before_tasting after_(as after_an after_option) after_is after_very 
+Instance164: positive before_is before_very before_good before_with before_each after_being after_better after_than after_the after_next 
+Instance165: positive before_they before_do after_to after_american after_palates after_ after_but 
+Instance166: positive before_i before_had before_the after_and after_i after_can after_t after_go 
+Instance167: positive before_delicious before_that before_was before_and before_the after_was after_beatiful 
+Instance168: neutral before_i before_care before_more before_about before_the after_and after_ambience 
+Instance169: neutral before_more before_about before_the before_food before_and 
+Instance170: negative before_ before_we before_were before_out before_of after_(which after_were after_also after_delightfully after_overpriced) 
+Instance171: positive before_the after_is after_fantastic 
+Instance172: positive before_the after_are after_hands after_down after_the after_best 
+Instance173: neutral before_ after_and after_service after_was after_okay 
+Instance174: neutral before_food before_and after_was after_okay 
+Instance175: negative before_the after_was after_under-cooked after_and after_extrmely after_chewy 
+Instance176: positive before_the before_best after_i after_ve after_ever after_had 
+Instance177: negative before_over before_time before_ before_the after_has after_decreased after_substantially after_ after_it 
+Instance178: negative before_used before_to before_ before_and before_the after_must after_definitely after_be after_part after_of 
+Instance179: positive before_great after_and after_fantastic after_service 
+Instance180: positive before_great before_pizza before_and before_fantastic 
+Instance181: negative before_were before_seated before_outside before_and before_the after_spilled after_red after_wine after_and after_hot 
+Instance182: neutral before_outside before_and before_the before_waiter before_spilled after_and after_hot after_tea after_on after_myself 
+Instance183: neutral before_waiter before_spilled before_red before_wine before_and after_on after_myself after_and after_my after_date 
+Instance184: neutral before_we before_were before_seated after_and after_the after_waiter after_spilled after_red 
+Instance185: negative before_would before_just before_ask before_for before_no after_next after_time 
+Instance186: positive before_while before_this before_is before_a before_pretty after_in after_that after_overly after_cute after_french 
+Instance187: negative before_cute before_french before_way before_ before_the after_was after_insultingly after_horrible 
+Instance188: neutral before_i before_went before_there before_for after_and after_it after_was after_not after_as 
+Instance189: negative before_the after_isn after_t after_great after_ after_and 
+Instance190: negative before_t before_great before_ before_and before_the after_are after_shipped after_in after_from after_bruno 
+Instance191: neutral before_i before_ordered before_a after_and after_asked after_4 after_times after_for 
+Instance192: positive before_their after_is after_quite after_good after_too! 
+Instance193: positive before_great after_(italian) after_ after_good after_food after_ 
+Instance194: positive before_wine before_list before_(italian) before_ before_good after_ after_ after_service after_was after_initially 
+Instance195: conflict before_list before_(italian) before_ before_good before_food after_was after_initially after_fine 
+Instance196: positive before_despite before_the before_fact before_that before_the after_is after_large after_ after_they after_ve 
+Instance197: negative before_ve before_overcrowded before_the before_floor before_with 
+Instance198: conflict before_as before_far before_as before_the after_goes after_ after_the after_waitresses after_were 
+Instance199: conflict before_the before_service before_goes before_ before_the after_were after_not after_particularly after_friendly after_ 
+Instance200: negative before_not before_only before_regret before_chosing before_this after_ after_ after_but after_also after_become 
+Instance201: neutral before_finally before_came before_back before_with before_the after_ive after_requested 
+Instance202: neutral before_were before_all before_delicious before_and before_my after_did after_not after_complain 
+Instance203: positive before_ after_delicious! 
+Instance204: negative before_places before_in before_nyc before_where before_the after_you after_want after_only after_come after_as 
+Instance205: positive before_in before_a before_reasonably-sized before_portion before_(and after_) 
+Instance206: positive before_you before_want before_in before_a before_reasonably-sized after_(and after_price) 
+Instance207: neutral before_ after_is after_still after_there after_ after_too 
+Instance208: positive before_small before_ before_neighborhood before_kind before_of 
+Instance209: negative before_couldn before_t before_even before_make before_a after_that after_was after_appealing 
+Instance210: neutral before_for before_two before_people before_with after_was after_less after_than after_$25 after_bucks 
+Instance211: positive before_killer after_! 
+Instance212: positive before_so before_packed before_is before_because before_the after_is after_so after_delicious! 
+Instance213: negative before_ after_are after_not after_that after_friendly after_ 
+Instance214: positive before_that before_friendly before_ before_but before_the after_covers after_all 
+Instance215: positive before_the after_plays after_everything after_from after_italian after_opera 
+Instance216: positive before_plus before_they before_made before_a before_perfect 
+Instance217: neutral before_if before_i before_would before_call before_the after_here after_indian after_as after_it after_is 
+Instance218: neutral before_am before_very before_familiar before_with before_the 
+Instance219: positive before_the after_was after_attentive 
+Instance220: positive before_their after_is after_best after_i after_ve after_had 
+Instance221: positive before_the after_makes after_your after_mouth after_water after_for 
+Instance222: positive before_their after_was after_extensive after_ after_but after_we 
+Instance223: conflict before_but before_we before_were before_looking before_for after_ after_ after_which after_wasn after_t 
+Instance224: negative before_the after_are after_crammed after_way after_too after_close 
+Instance225: neutral before_way before_too before_close before_ before_the after_is after_typical after_of after_any after_italian 
+Instance226: negative before_italian before_restaurant before_ before_and before_the after_is after_simply after_overpriced 
+Instance227: negative before_the after_was after_actually after_aweful 
+Instance228: positive before_are before_served before_with before_a before_free after_and after_the after_portions after_are after_perfect 
+Instance229: positive before_a before_free before_appetizer before_and before_the after_are after_perfect after_for after_lunch 
+Instance230: neutral before_they before_are after_with after_a after_free after_appetizer after_and 
+Instance231: neutral before_the before_portions before_are before_perfect before_for 
+Instance232: positive before_there before_is before_actually after_to after_breathe after_and after_the after_decor 
+Instance233: positive before_space before_to before_breathe before_and before_the after_sets after_the after_tone after_for after_an 
+Instance234: neutral before_the before_tone before_for before_an before_intimate 
+Instance235: positive before_bit before_by before_then before_so before_the after_was after_great! 
+Instance236: neutral before_and before_i before_both before_ordered before_the after_ after_ after_medium 
+Instance237: negative before_furthermore before_ before_the after_had after_no after_seasoning after_ after_so 
+Instance238: negative before_no before_seasoning before_ before_so before_the after_was after_bland after_and after_disgusting 
+Instance239: negative before_ before_the before_rice before_had before_no after_ after_ after_so after_the after_sushi 
+Instance240: positive before_this before_place before_has before_realy before_fresh after_and after_a after_nice after_large after_menu 
+Instance241: positive before_sushi before_and before_a before_nice before_large after_of after_japanese after_classic after_cuisine 
+Instance242: positive before_a before_nice before_large before_menu before_of 
+Instance243: neutral before_the after_is after_average after_and after_the after_prices 
+Instance244: neutral before_sushi before_is before_average before_and before_the after_are after_anything after_but 
+Instance245: positive before_and before_i before_also before_enjoyed before_the after_ after_ after_the after_shanghai after_low 
+Instance246: positive before_enjoyed before_the before_spinach before_ before_the after_ after_ after_and after_other after_attractions 
+Instance247: neutral before_ after_must after_have after_coem after_on after_this 
+Instance248: positive before_turned before_out before_there before_was before_full after_upstairs after_and after_sat after_down 
+Instance249: neutral before_several before_of before_the after_had after_about after_6-8 after_pieces 
+Instance250: positive before_if before_you before_have before_a after_fetish after_i after_suggest after_you after_try 
+Instance251: positive before_three before_page after_ after_ after_one after_page after_entree 
+Instance252: positive before_wine before_menu before_ before_one before_page after_and after_horedevous 
+Instance253: positive before_ before_one before_page before_entree before_and 
+Instance254: positive before_the after_is after_consistently after_wonderful after_- after_i 
+Instance255: positive before_for before_years before_ before_and before_the after_has after_always after_been after_accomodating after_and 
+Instance256: negative before_the after_and after_owners after_were after_nonchalant after_about 
+Instance257: negative before_the before_waiters before_and after_were after_nonchalant after_about after_this after_and 
+Instance258: positive before_and before_the after_was after_fantastic 
+Instance259: neutral before_sit before_down before_ before_have before_a after_and after_conversations after_with after_friends after_ 
+Instance260: positive before_sweet-n-tart before_and before_order before_yourself before_a after_and after_tea after_with after_tapioca after_pearls 
+Instance261: positive before_a before_hong-kong before_styled before_milk before_and 
+Instance262: neutral before_the before_sea before_urchin before_ before_the after_recommended after_an after_assortment after_of after_fish 
+Instance263: neutral before_ before_the before_chef before_recommended before_an after_including after_fatty after_yellow after_tail after_ 
+Instance264: neutral before_an before_assortment before_of before_fish before_including after_ after_ after_boton after_shrimp after_ 
+Instance265: neutral before_fish before_including before_fatty before_yellow before_tail after_ after_ after_blue after_fin after_torro 
+Instance266: neutral before_blue before_fin before_torro before_(fatty before_tuna) after_ after_ after_etc 
+Instance267: neutral before_aside before_from before_the after_ after_ after_the after_chef after_recommended 
+Instance268: neutral before_yellow before_tail before_ before_boton before_shrimp after_ after_ after_sea after_eel after_ 
+Instance269: positive before_friendlier before_here before_ before_especially before_the after_ after_ after_kenny 
+Instance270: negative before_while before_the after_is after_not after_particularly after_comfortable after_ 
+Instance271: positive before_except before_what before_s before_on before_your 
+Instance272: negative before_never before_before before_seen before_so before_many after_in after_one after_place after_(except after_in 
+Instance273: positive before_her before_staff before_are before_the before_best after_you after_can after_find after_serving after_you 
+Instance274: positive before_winnie before_and before_her after_are after_the after_best after_crew after_you 
+Instance275: positive before_best before_crew before_you before_can before_find after_you 
+Instance276: positive before_the after_is after_minimal after_the after_food after_is 
+Instance277: negative before_the before_ambiance before_is before_minimal before_the after_is after_not after_phenomenal after_ after_but 
+Instance278: positive before_not before_phenomenal before_ before_but before_some after_are after_quite after_good after_ after_such 
+Instance279: positive before_good before_ before_such before_as before_the after_ after_ after_veal after_in after_carozza 
+Instance280: positive before_such before_as before_the before_eggplant before_parmesan 
+Instance281: neutral before_my after_asked after_for after_appetizers after_for after_the 
+Instance282: neutral before_my before_host before_asked before_for after_for after_the after_group after_and after_the 
+Instance283: neutral before_for before_the before_group before_and before_the after_gave after_us after_not after_only after_what 
+Instance284: positive before_even before_get before_packages before_of before_the after_to after_stock after_your after_fridge! 
+Instance285: positive before_the after_has after_various after_selections after_and after_the 
+Instance286: positive before_has before_various before_selections before_and before_the after_is after_a after_catcher! after_2 after_for 
+Instance287: positive before_it before_isn before_t before_for before_the after_(a+++) after_ after_it after_must after_be 
+Instance288: positive before_ before_it before_must before_be before_the after_or after_the after_ambience 
+Instance289: positive before_be before_the before_service before_or before_the 
+Instance290: negative before_past before_3 before_months before_ before_the after_and after_staff after_changed after_and after_it 
+Instance291: negative before_months before_ before_the before_chef before_and after_changed after_and after_it after_was after_not 
+Instance292: positive before_i before_like before_the after_ after_ after_it after_s after_very 
+Instance293: negative before_overall before_ before_not before_worth before_the 
+Instance294: negative before_place before_is before_not before_worth before_the 
+Instance295: neutral before_we before_left before_after before_one 
+Instance296: positive before_a before_bagel before_has before_the before_best after_in after_the after_city 
+Instance297: conflict before_you before_are before_paying before_for before_the after_ after_ after_which after_is after_nice 
+Instance298: negative before_its before_small before_there before_is before_no after_and after_the after_seat after_at after_the 
+Instance299: negative before_no before_waiting before_area before_and before_the after_at after_the after_bar after_was after_all 
+Instance300: neutral before_and before_the before_seat before_at before_the after_was after_all after_taken 
+Instance301: negative before_yes before_you before_have before_to after_to after_be after_seated after_and after_because 
+Instance302: negative before_i before_ordered before_from before_here before_my after_was after_soo after_spicy after_that after_ 
+Instance303: negative before_spice before_took before_away before_from before_the after_of after_the after_dish 
+Instance304: negative before_from before_the before_flavor before_of before_the 
+Instance305: negative before_eat before_it before_ before_and before_the after_took after_away after_from after_the after_flavor 
+Instance306: positive before_the after_are after_great! 
+Instance307: positive before_has before_the before_best before_chinese before_style after_in after_the after_city 
+Instance308: neutral before_here before_so before_many before_times before_the after_know after_my after_name 
+Instance309: conflict before_the after_is after_very after_simple after_but after_comfortable 
+Instance310: neutral before_we before_figured before_we before_never before_had after_before after_so after_we after_grabbed after_our 
+Instance311: neutral before_before before_so before_we before_grabbed before_our after_there after_ after_sharing after_a after_large 
+Instance312: positive before_there before_ before_sharing before_a before_large after_ after_ after_a after_pizza after_of 
+Instance313: positive before_a before_large before_pelligrino before_ before_a after_of after_two after_of after_their after_specials 
+Instance314: positive before_their before_specials before_ before_one before_was after_the after_other after_blue after_cheese after_ 
+Instance315: positive before_was before_goat before_cheese before_the before_other after_ after_ after_and after_both after_were 
+Instance316: positive before_the after_ after_ after_and after_ after_bombay 
+Instance317: positive before_the before_ before_kamasutra before_ before_and after_ after_ after_are after_excellent after_and 
+Instance318: positive before_this before_is before_the before_perfect after_for after_williamsburg after_couples 
+Instance319: neutral before_the after_here after_is after_only after_so-so 
+Instance320: positive before_and before_there before_is before_much before_tasty after_ after_ after_all after_of after_it 
+Instance321: positive before_straight before_up before_cheap before_ before_good 
+Instance322: neutral before_ after_is after_ok after_even after_though after_sometimes 
+Instance323: negative before_$70 before_00 before_inexpensive before_ before_the after_is after_through after_the after_roof after_for 
+Instance324: conflict before_even before_with before_a before_relatively before_inexpensive after_ after_ after_if after_you after_can 
+Instance325: negative before_ after_was after_slow after_ after_but after_the 
+Instance326: positive before_was before_slow before_ before_but before_the after_were after_friendly 
+Instance327: negative before_the after_was after_very after_fatty after_and after_the 
+Instance328: negative before_was before_very before_fatty before_and before_the after_was after_overpowering after_and after_not after_very 
+Instance329: positive before_the after_makes after_you after_feel after_at after_home 
+Instance330: positive before_feel before_at before_home before_ before_the after_is after_great after_and after_the after_atmosphere 
+Instance331: positive before_food before_is before_great before_and before_the after_is after_wonderful! 
+Instance332: conflict before_the after_is after_alright after_- after_some after_stuff 
+Instance333: negative before_some before_is before_not before_(like before_the after_which after_tends after_to after_be after_dry) 
+Instance334: positive before_they before_have before_a before_very before_diverse after_so after_its after_something after_for after_everybody 
+Instance335: negative before_the after_was after_too after_busy after_ordering after_sushi 
+Instance336: neutral before_staff before_was before_too before_busy before_ordering after_for after_dinner after_and after_then after_laying 
+Instance337: neutral before_to before_even before_bring before_me before_my 
+Instance338: neutral before_too before_busy before_ordering before_sushi before_for after_and after_then after_laying after_it after_out 
+Instance339: neutral before_out before_to before_eat before_on before_the after_to after_even after_bring after_me after_my 
+Instance340: positive before_found before_the before_best before_late before_night after_in after_the after_city 
+Instance341: neutral before_the after_was after_huge 
+Instance342: positive before_get before_the after_of after_gari 
+Instance343: positive before_i before_like before_the after_ after_ after_chai after_ after_and 
+Instance344: positive before_i before_like before_the before_somosas after_ after_ after_and after_the after_chole 
+Instance345: positive before_ before_chai before_ before_and before_the after_ after_ after_but after_the after_dhosas 
+Instance346: negative before_the before_chole before_ before_but before_the after_and after_dhal after_were after_kinda after_dissapointing 
+Instance347: negative before_ before_but before_the before_dhosas before_and after_were after_kinda after_dissapointing 
+Instance348: negative before_really before_a before_ripoff before_at before_those after_given after_whats after_in after_the after_area 
+Instance349: conflict before_the after_has after_been after_nice after_ after_but 
+Instance350: negative before_really before_stressed before_and before_the before_unisex after_needs after_to after_be after_cleaned after_more 
+Instance351: positive before_the after_was after_the after_only after_thing after_good 
+Instance352: positive before_ after_- after_friendly after_and after_attentive 
+Instance353: conflict before_ after_was after_very after_prompt after_but after_slightly 
+Instance354: positive before_great after_ after_ after_great after_decor after_ 
+Instance355: positive before_great before_food before_ before_great after_ after_ after_great after_service 
+Instance356: positive before_ before_great before_decor before_ before_great 
+Instance357: neutral before_and before_ before_atlhough after_opened after_up after_next after_to after_us 
+Instance358: neutral before_asked before_for before_a before_slightly before_larger after_ after_ after_they after_left after_us 
+Instance359: neutral before_the after_was after_standard after_ after_and after_i 
+Instance360: neutral before_not before_a before_fan before_of before_the 
+Instance361: positive before_price before_for before_the before_same before_excellent after_experience 
+Instance362: positive before_monte before_carlo before_for before_half before_the after_for after_the after_same after_excellent after_dining 
+Instance363: negative before_yeah before_ before_sometimes before_the after_can after_be after_slow 
+Instance364: negative before_there before_was before_no 
+Instance365: positive before_instead before_ before_they before_have before_amazing after_and after_the after_best after_service 
+Instance366: positive before_amazing before_food before_and before_the before_best 
+Instance367: positive before_the after_was after_attentive after_without after_being after_overbearing 
+Instance368: positive before_without before_being before_overbearing before_and before_each after_we after_tried after_was after_wonderful after_from 
+Instance369: positive before_tried before_was before_wonderful before_from before_the after_to after_the after_cod after_with after_pineapple 
+Instance370: positive before_the before_spring before_rolls before_to before_the 
+Instance371: neutral before_was before_if before_we before_got before_a after_ after_ after_the after_waitress after_would 
+Instance372: negative before_got before_a before_bottle before_ before_the after_would after_have after_simply after_multiplied after_the 
+Instance373: negative before_have before_simply before_multiplied before_the before_glass after_x4 after_ after_which after_makes after_no 
+Instance374: positive before_they before_sell before_special after_ after_ after_everything after_have after_a 
+Instance375: positive before_ before_everything before_have before_a before_topping after_and after_etc 
+Instance376: positive before_sushi before_ before_everything before_have before_a after_ after_ after_sauce after_and after_etc 
+Instance377: negative before_apparently before_have before_no before_sense before_of 
+Instance378: positive before_little before_crowded before_ before_but before_the after_is after_excellent after_and after_it after_s 
+Instance379: negative before_the after_is after_small after_and after_intimate after_and 
+Instance380: positive before_the after_was after_excellent after_and after_the after_food 
+Instance381: positive before_service before_was before_excellent before_and before_the after_was after_delicious 
+Instance382: positive before_ after_was after_also after_very after_good 
+Instance383: positive before_a before_relaxing before_ before_really before_good 
+Instance384: negative before_been before_so before_disappointed before_with before_the after_if after_the after_qualities after_were after_good 
+Instance385: negative before_with before_the before_portions before_if before_the after_were after_good after_enough after_to after_make 
+Instance386: positive before_in before_the before_neighborhood before_and before_the after_is after_very after_comforting 
+Instance387: positive before_good after_ after_ after_combination after_of after_all 
+Instance388: positive before_combination before_of before_all before_the before_hottest after_dress after_code after_is after_relatively after_strict 
+Instance389: negative before_of before_all before_the before_hottest before_music after_e after_is after_relatively after_strict after_except 
+Instance390: positive before_love before_the 
+Instance391: positive before_heart before_warming before_surrounding before_filled before_with after_and after_family after_pictures 
+Instance392: positive before_wants before_to before_have before_a before_romantic after_in after_a after_heart after_warming after_surrounding 
+Instance393: positive before_dinner before_in before_a before_heart before_warming after_filled after_with after_candles after_and after_family 
+Instance394: positive before_filled before_with before_candles before_and before_family 
+Instance395: positive before_all before_the after_the after_group after_tried after_got after_favorable 
+Instance396: positive before_s before_something before_smooth before_about before_sipping after_upper after_east after_side after_style 
+Instance397: positive before_it before_s before_a before_nice after_to after_relax after_and after_have after_conversation 
+Instance398: positive before_best after_ever! 
+Instance399: positive before_strike before_is before_a before_great before_casual after_to after_just after_grab after_a after_bite 
+Instance400: positive before_wonderful after_as after_well! 
+Instance401: neutral before_favorite before_aunt before_s before_house before_for after_ after_ after_assuming after_that after_your 
+Instance402: negative before_the after_has after_been after_from after_average after_to 
+Instance403: negative before_to before_below before_average before_ before_the after_has after_always after_been after_sub-par after_the 
+Instance404: conflict before_has before_always before_been before_sub-par before_the after_goes after_from after_nice after_to after_really 
+Instance405: negative before_(if before_you before_sit before_in before_the after_beyond after_the after_kitchen after_ after_the 
+Instance406: positive before_ after_were after_delicious after_if after_a after_bit 
+Instance407: positive before_here before_you before_get before_the after_without after_feeling after_rigid 
+Instance408: neutral before_down before_and before_then before_getting before_a after_at after_a after_local after_bar after_first 
+Instance409: neutral before_a before_drink before_at before_a before_local after_first after_though after_because after_of after_the 
+Instance410: negative before_first before_though before_because before_of before_the 
+Instance411: positive before_fell before_in before_love before_with before_the 
+Instance412: neutral before_that before_there before_will before_be before_a after_i after_can after_sit after_at after_by 
+Instance413: neutral before_have before_to before_share before_with before_the after_people 
+Instance414: positive before_overall before_ before_the before_best after_in after_town 
+Instance415: positive before_light before_ before_refreshing after_(not after_fried) after_remind after_me after_of 
+Instance416: positive before_the after_seemed after_pretty after_fresh after_and after_was 
+Instance417: negative before_but before_the after_was after_a after_bit after_slow 
+Instance418: positive before_ after_and after_toppings after_are after_great after_- 
+Instance419: positive before_spreads before_and after_are after_great after_- after_though after_a 
+Instance420: positive before_was before_going before_to before_be before_good after_! 
+Instance421: neutral before_with before_nothing before_touched before_on before_our 
+Instance422: positive before_ after_was after_very after_cozy after_and after_cute 
+Instance423: positive before_we before_had before_a before_3 before_hour after_- after_they after_definitely after_do after_not 
+Instance424: positive before_and before_they before_kept before_the before_unlimited after_flowing after_the after_whole after_time 
+Instance425: negative before_and before_their after_are after_very after_high after_- after_they 
+Instance426: negative before_get before_away before_with before_charging before_such after_for after_such after_terrible after_food after_and 
+Instance427: negative before_such before_prices before_for before_such before_terrible after_and after_service! 
+Instance428: negative before_for before_such before_terrible before_food before_and after_! 
+Instance429: positive before_the after_was after_excellent after_ after_the after_food 
+Instance430: positive before_service before_was before_excellent before_ before_the after_was after_excellent after_ after_but after_the 
+Instance431: positive before_the after_is after_good after_and after_the after_resturant 
+Instance432: positive before_looking before_for before_a before_couple before_of after_or after_quiet after_dinner 
+Instance433: positive before_couple before_of before_drinks before_or before_quiet 
+Instance434: positive before_great after_ after_ after_whether after_looking after_for 
+Instance435: negative before_just before_stick before_with before_the before_small after_! 
+Instance436: positive before_the after_itself after_was after_really after_nice after_with 
+Instance437: positive before_was before_really before_nice before_with before_comfortable after_and after_tables after_ after_but after_the 
+Instance438: positive before_with before_comfortable before_outdoor before_chairs before_and after_ after_ after_but after_the after_service 
+Instance439: negative before_and before_tables before_ before_but before_the after_could after_have after_been after_better 
+Instance440: positive before_had before_a before_problem before_with before_slow after_in after_the after_10 after_years after_i 
+Instance441: positive before_ after_is after_excellent 
+Instance442: positive before_lettuce before_and before_some before_walnuts before_the after_we after_got after_were after_great 
+Instance443: neutral before_we before_were before_looking before_for before_regular after_and after_some after_walnuts after_the after_salads 
+Instance444: neutral before_for before_regular before_lettuce before_and before_some after_the after_salads after_we after_got after_were 
+Instance445: positive before_excellent after_for after_only after_$6 after_95 
+Instance446: negative before_re before_not before_familiar before_with before_the after_ after_ after_you after_may after_encounter 
+Instance447: positive before_both before_are before_very before_reasonably after_(around after_$8 after_for after_dinner after_and 
+Instance448: positive before_reasonably before_priced before_(around before_$8 before_for after_and after_$5 after_for after_lunch) after_ 
+Instance449: positive before_for before_dinner before_and before_$5 before_for after_) after_ after_and after_are after_delicious 
+Instance450: positive before_ after_is after_so after_cute after_and after_quaint 
+Instance451: positive before_the after_here after_are after_huge after_ after_and 
+Instance452: positive before_are before_huge before_ before_and before_the after_is after_good 
+Instance453: positive before_my before_boyfriend before_ate after_and after_it after_was after_cooked after_perfectly! 
+Instance454: neutral before_this before_wasn before_t before_the before_expected after_comprised after_only after_of after_pad after_thai 
+Instance455: neutral before_expected before_menu before_comprised before_only before_of after_and after_tom after_yum after_soup after_ 
+Instance456: neutral before_only before_of before_pad before_thai before_and after_ after_ after_but after_i after_thought 
+Instance457: positive before_good after_at after_the after_restaurant after_(a after_bit 
+Instance458: positive before_who before_wants before_delicious before_top before_grade after_and after_fantastic after_service 
+Instance459: positive before_top before_grade before_caviar before_and before_fantastic 
+Instance460: conflict before_t before_say before_its before_cheap before_because after_is after_cheaper after_in after_chinatown 
+Instance461: positive before_there before_3-4 before_times before_and before_the after_was after_always after_good 
+Instance462: negative before_t before_thrilled before_to before_have before_to after_on after_line after_for after_thirty after_minutes 
+Instance463: positive before_great after_ after_ after_good after_times 
+Instance464: positive before_grilled before_whole after_wonderful after_ after_great after_spicing 
+Instance465: conflict before_for before_years before_ before_i before_thought after_was after_the after_best after_ after_but 
+Instance466: positive before_converted before_me before_to before_the before_hearty after_on after_my after_first after_visit 
+Instance467: negative before_plus before_ before_when before_our after_were after_held after_up after_in after_the 
+Instance468: positive before_the before_owner before_sent before_over before_complimentary after_to after_hold after_us after_over! 
+Instance469: positive before_busy before_saturday before_night before_ before_the after_sent after_over after_complimentary after_summer after_rolls 
+Instance470: positive before_the after_was after_great after_as after_well 
+Instance471: positive before_try before_the after_and after_the after_rose after_special after_roll 
+Instance472: positive before_the before_lobster before_teriyaki before_and before_the 
+Instance473: positive before_plus before_is before_most before_of before_the after_are after_approx 
+Instance474: positive before_the after_was after_delicious after_ after_the after_atmosphere 
+Instance475: positive before_food before_was before_delicious before_ before_the after_was after_relaxed after_ after_and after_we 
+Instance476: negative before_than before_accomodating before_even before_though before_the after_was after_packed 
+Instance477: positive before_i before_found before_the after_ after_ after_service after_and after_value 
+Instance478: positive before_i before_found before_the before_food after_and after_value after_exceptional after_everytime after_i 
+Instance479: positive before_the before_food before_ before_service before_and after_exceptional after_everytime after_i after_have after_been 
+Instance480: negative before_but before_very before_unhappy before_with before_the 
+Instance481: positive before_the after_is after_definitely after_good after_ after_but 
+Instance482: neutral before_lb before_girl before_ before_had before_a after_and after_a after_glass after_of after_beer 
+Instance483: neutral before_glass before_of before_wine before_and before_a after_prior after_to after_the after_dinner after_ 
+Instance484: neutral before_of before_beer before_prior before_to before_the after_ after_ after_and after_i after_was 
+Instance485: positive before_the after_are after_a after_saving after_grace after_ 
+Instance486: negative before_a before_saving before_grace before_ before_but after_ after_ after_please after_ after_get 
+Instance487: negative before_re before_ordering before_in before_-- before_the after_have after_major after_attitude 
+Instance488: positive before_the before_all-italian after_is after_warm after_and after_engaging after_from 
+Instance489: positive before_the after_are after_exceptionally after_reasonable after_for after_food 
+Instance490: positive before_prices before_are before_exceptionally before_reasonable before_for after_of after_this after_caliber 
+Instance491: positive before_your before_focus before_should before_be before_the 
+Instance492: positive before_the after_was after_superb! 
+Instance493: positive before_due before_to before_the before_consistently before_good after_and after_ease after_of after_getting after_a 
+Instance494: positive before_good before_food before_and before_ease before_of 
+Instance495: positive before_this after_is after_the after_most after_japanese after_it 
+Instance496: positive before_the after_is after_good after_ after_i after_can 
+Instance497: positive before_great after_ after_ after_lt after_s after_of 
+Instance498: positive before_i before_did before_ before_but before_the after_i after_had after_was after_otherworldly after_ 
+Instance499: positive before_had before_was before_otherworldly before_ before_the after_are after_like after_mom after_s after_ 
+Instance500: positive before_mom before_s before_ before_and before_the after_give after_yonah after_schimmel after_s after_a 
+Instance501: neutral before_the after_is after_nothing after_special after_ after_but 
+Instance502: positive before_cozy before_romantic after_with after_only after_around after_15 after_tables 
+Instance503: positive before_atomosphere before_with before_only before_around before_15 after_at after_most 
+Instance504: positive before_even before_if before_only before_for before_their 
+Instance505: positive before_i before_really before_like before_both before_the after_and after_the after_mahi after_mahi after_(on 
+Instance506: positive before_both before_the before_scallops before_and before_the after_-yum!) 
+Instance507: positive before_the after_was after_so after_fun after_ after_and 
+Instance508: positive before_so before_fun before_ before_and before_the after_were after_great after_ after_on after_top 
+Instance509: positive before_of before_the before_fact before_that before_the after_was after_really after_tasty 
+Instance510: negative before_do before_not before_get before_the after_ after_ after_no after_matter after_what 
+Instance511: positive before_the after_are after_out-of-this after_world! 
+Instance512: positive before_square before_is before_the before_place before_for 
+Instance513: positive before_ after_is after_charming 
+Instance514: positive before_the after_was after_very after_well after_prepared 
+Instance515: positive before_really before_tasty after_and after_noodles after_for after_a after_good 
+Instance516: positive before_really before_tasty before_spring before_rolls before_and after_for after_a after_good after_price after_though 
+Instance517: positive before_and before_noodles before_for before_a before_good after_though 
+Instance518: negative before_food before_ before_but before_bad before_because after_is after_supposed after_to after_be after_smaller 
+Instance519: positive before_hey before_ before_it before_s before_more after_ after_ after_but after_bad after_because 
+Instance520: negative before_is before_supposed before_to before_be before_smaller after_so after_you after_can after_try after_out 
+Instance521: neutral before_you before_can before_try before_out before_more after_and after_smaller after_so after_that after_each 
+Instance522: neutral before_and before_smaller before_so before_that before_each after_is after_cheap 
+Instance523: negative before_to before_spending before_over before_$50 before_on after_in after_new after_york after_bars after_and 
+Instance524: negative before_on before_drinks before_in before_new before_york after_and after_hardly after_feeling after_a after_thing 
+Instance525: positive before_feeling before_a before_thing before_ before_the after_here after_are after_plentiful after_and after_unique 
+Instance526: positive before_complimentary after_kept after_coming after_ after_and after_when 
+Instance527: positive before_coming before_ before_and before_when before_the after_saw after_me after_opening after_a after_gift 
+Instance528: positive before_gift before_ before_i before_received before_my after_on after_a after_plate after_that after_had 
+Instance529: positive before_nice before_touch before_ before_and before_attentive 
+Instance530: negative before_the after_arrived after_20 after_minutes after_after after_i 
+Instance531: positive before_if before_you before_go before_for before_the after_ after_ after_it after_s after_an 
+Instance532: positive before_and before_wonderfully before_presented before_and before_tasting after_and after_vegetables after_regardless after_of after_portion 
+Instance533: positive before_presented before_and before_tasting before_seafood before_and after_regardless after_of after_portion after_size after_ 
+Instance534: negative before_seafood before_and before_vegetables before_regardless before_of after_ after_ after_kai after_is after_your 
+Instance535: positive before_the after_cannot after_be after_beat after_for after_the 
+Instance536: positive before_cannot before_be before_beat before_for before_the after_ after_ after_quantity after_ after_freshness 
+Instance537: positive before_be before_beat before_for before_the before_quality after_ after_ after_freshness after_and after_taste 
+Instance538: positive before_for before_the before_quality before_ before_quantity after_and after_taste 
+Instance539: positive before_ before_quantity before_ before_freshness before_and 
+Instance540: positive before_it before_won before_t before_hurt before_your after_or after_your after_wallet 
+Instance541: positive before_hurt before_your before_stomach before_or before_your 
+Instance542: positive before_kennsington before_ before_honestly before_the before_best after_i after_have after_ever after_had! 
+Instance543: negative before_incredibly before_poor after_an after_food after_quality after_at after_exorbitant 
+Instance544: negative before_incredibly before_poor before_service before_an after_at after_exorbitant after_prices 
+Instance545: negative before_an before_food before_quality before_at before_exorbitant 
+Instance546: positive before_have before_always before_had before_a before_great 
+Instance547: negative before_i before_go before_back before_in after_like after_three after_times after_on after_average 
+Instance548: positive before_just before_get before_some before_of before_the after_and after_they after_are after_very after_reasonably 
+Instance549: positive before_and before_they before_are before_very before_reasonably after_and after_very after_tasty 
+Instance550: negative before_horrible after_and after_horrible after_service 
+Instance551: negative before_horrible before_food before_and before_horrible 
+Instance552: positive before_the after_and after_cheese after_plate after_are after_plentiful 
+Instance553: positive before_the before_wine before_and after_plate after_are after_plentiful after_and after_can 
+Instance554: positive before_t before_wait before_to before_try before_the after_or after_table after_grilling 
+Instance555: positive before_to before_try before_the before_fondue before_or 
+Instance556: positive before_treated before_us before_well before_and before_the after_was after_extremely after_fresh after_and after_well-prepared 
+Instance557: positive before_their after_is after_basic after_ly after_a after_delcious 
+Instance558: positive before_basic before_ly before_a before_delcious before_little after_with after_a after_peanut after_sauce after_that 
+Instance559: positive before_that before_is before_perfect before_before before_their 
+Instance560: positive before_little before_green before_salad before_with before_a after_that after_is after_perfect after_before after_their 
+Instance561: negative before_the before_big before_complaint before_ before_no after_available 
+Instance562: positive before_even before_if before_the after_wasn after_t after_this after_good after_ 
+Instance563: positive before_t before_this before_good before_ before_the after_is after_a after_great after_place after_to 
+Instance564: positive before_the before_garden before_is before_a before_great after_to after_sit after_outside after_and after_relax 
+Instance565: positive before_more before_than before_that before_when before_the after_is after_this after_friendly 
+Instance566: negative before_the after_came after_out after_wrong after_ after_the 
+Instance567: negative before_came before_out before_wrong before_ before_the after_was after_no after_where after_to after_be 
+Instance568: negative before_to before_be before_found before_and before_the after_showed after_up after_at after_the after_end 
+Instance569: neutral before_at before_the before_end before_of before_the 
+Instance570: positive before_the after_and after_steak after_were after_seasoned after_and 
+Instance571: positive before_the before_chicken before_and after_were after_seasoned after_and after_cooked after_to 
+Instance572: positive before_to before_perfection before_ before_and before_the after_is after_great after_for after_heartier after_appetites 
+Instance573: negative before_i before_m before_not before_sure before_which after_it after_was 
+Instance574: positive before_to before_go before_back before_because before_the after_was after_good 
+Instance575: positive before_the after_was after_great after_and after_the after_service 
+Instance576: positive before_food before_was before_great before_and before_the after_was after_even after_better 
+Instance577: positive before_for before_a before_plate before_heaped before_with after_and after_2-3 after_entrees 
+Instance578: positive before_heaped before_with before_rice before_and before_2-3 
+Instance579: positive before_ after_was after_pleasant after_though after_the after_hall 
+Instance580: negative before_decour before_was before_pleasant before_though before_the after_was after_rather after_noisy after_- after_the 
+Instance581: positive before_the after_is after_fresh after_and after_each after_piece 
+Instance582: positive before_perfection before_and before_seasoned before_by before_the after_(usually after_with after_a after_little after_fresh 
+Instance583: positive before_(usually before_with before_a before_little before_fresh after_and after_soy after_sauce after_but after_also 
+Instance584: positive before_a before_little before_fresh before_wasabi before_and after_but after_also after_sometimes after_with after_some 
+Instance585: positive before_but before_also before_sometimes before_with before_some after_) 
+Instance586: negative before_consequently before_ before_their after_fell after_apart after_in after_their after_hands 
+Instance587: positive before_and before_his before_girlfriend before_both before_wanted after_and after_they after_were after_huge! 
+Instance588: positive before_really before_recommend before_the before_very before_simple 
+Instance589: positive before_very before_good 
+Instance590: positive before_wonderful before_ before_and before_live before_relaxed after_on after_certain after_nights 
+Instance591: negative before_were before_seated before_and before_ignored before_by 
+Instance592: positive before_recomends before_sharing before_- before_they before_have after_on after_most after_tables after_- after_even 
+Instance593: positive before_have before_lazy before_susans before_on before_most after_- after_even after_families after_can after_feel 
+Instance594: positive before_up before_15 before_minutes before_after before_the after_melt 
+Instance595: positive before_tasty after_ after_ after_pork after_loin after_ 
+Instance596: positive before_tasty before_steak after_ after_ after_the after_works 
+Instance597: neutral before_and before_we before_lingered before_at before_the after_for after_a after_bit after_and after_didn 
+Instance598: negative before_even before_though before_there before_was before_a 
+Instance599: positive before_-- before_it before_provides before_and before_intimate after_and after_nice after_service 
+Instance600: positive before_and before_intimate before_setting before_and before_nice 
+Instance601: positive before_the after_was after_great after_ after_also 
+Instance602: negative before_they before_did before_give before_a before_15% after_at after_the after_end after_ after_wasn 
+Instance603: negative before_ before_as before_they before_knew before_the after_was after_horrible 
+Instance604: positive before_cheap before_does before_not before_mean before_the after_are after_small after_or after_the after_food 
+Instance605: positive before_portions before_are before_small before_or before_the after_is after_nasty after_ after_it after_is 
+Instance606: positive before_the after_was after_great 
+Instance607: positive before_i before_had before_never before_had after_before after_but after_i after_thought after_it 
+Instance608: negative before_however before_ before_it before_s before_the after_that after_leaves after_a after_bad after_taste 
+Instance609: neutral before_he before_didn before_t before_mention before_the after_ after_ after_he after_didn after_t 
+Instance610: positive before_the after_was after_extremely after_reasonable after_for after_the 
+Instance611: positive before_was before_extremely before_reasonable before_for before_the after_and after_food after_we after_ate 
+Instance612: positive before_reasonable before_for before_the before_appetizers before_and after_we after_ate 
+Instance613: negative before_dine before_at before_tamarind before_for before_the after_ after_ after_they after_are after_simply 
+Instance614: positive before_up before_to before_par before_with before_the 
+Instance615: positive before_kenny before_the after_is after_always after_there after_and after_he 
+Instance616: positive before_it before_but before_until before_then before_the after_is after_pretty after_good after_and after_the 
+Instance617: positive before_is before_pretty before_good before_and before_the after_is after_consistent 
+Instance618: neutral before_only before_a before_few before_times before_during after_but after_this after_place after_is after_definitely 
+Instance619: positive before_place before_is before_definitely before_worth before_the 
+Instance620: positive before_all before_in before_all before_the after_was after_above after_average after_and after_i 
+Instance621: neutral before_operate before_with before_four before_or before_less 
+Instance622: positive before_delicious after_ after_ after_excellent after_service after_ 
+Instance623: positive before_delicious before_food before_ before_excellent after_ after_ after_and after_a after_pretty 
+Instance624: positive before_service before_ before_and before_a before_pretty after_make after_this after_a after_great after_choice 
+Instance625: positive before_dinner before_and before_the before_$5 before_99 after_makes after_it after_an after_even after_better 
+Instance626: positive before_this before_a before_great before_choice before_for after_and after_the after_$5 after_99 after_lunch 
+Instance627: positive before_an before_even before_better before_choice before_for after_! 
+Instance628: neutral before_for after_ after_ after_i after_recommend after_the 
+Instance629: positive before_appetizers before_ before_i before_recommend before_the after_and after_dumplings 
+Instance630: positive before_recommend before_the before_shrimp before_fritters before_and 
+Instance631: positive before_such before_nice after_working after_here after_- after_but after_i 
+Instance632: neutral before_i before_have before_to before_review before_the 
+Instance633: negative before_attractive before_and before_then before_you before_have after_shining after_on after_you after_putting after_you 
+Instance634: positive before_try before_the after_-- after_ginger after_lemonade after_with after_vodka 
+Instance635: positive before_the before_times before_square before_cocktail before_-- after_(also after_available after_without after_vodka after_) 
+Instance636: positive before_ after_- after_better after_than after_patsy after_s! 
+Instance637: positive before_great after_ after_ after_great after_food 
+Instance638: positive before_great before_wine before_ before_great 
+Instance639: neutral before_the after_was after_mediocre after_ after_and after_the 
+Instance640: negative before_ before_and before_the before_lack before_of after_made after_for after_a after_less after_than 
+Instance641: negative before_for before_a before_less before_than before_comfortable 
+Instance642: positive before_the after_and after_staff after_always after_surprise after_me 
+Instance643: positive before_the before_food before_and after_always after_surprise after_me after_with after_the 
+Instance644: neutral before_ottimo before_and before_was before_expecting before_outstanding after_(as after_i after_love after_la after_pizza 
+Instance645: negative before_honestly before_the before_worst after_my after_husband after_and after_i after_had 
+Instance646: positive before_ before_if before_you before_want before_great after_at after_a after_great after_price after_and 
+Instance647: positive before_great before_food before_at before_a before_great after_and after_don after_t after_mind after_the 
+Instance648: negative before_and before_don before_t before_mind before_the after_ after_ after_you after_can after_t 
+Instance649: positive before_restaurant before_special before_are before_the before_authentic after_and after_being after_the after_only after_one 
+Instance650: positive before_in before_nyc before_that before_offers before_authentic 
+Instance651: negative before_our before_tiny after_for after_two after_(dinner after_plates after_hung 
+Instance652: negative before_one before_of before_the before_lanes before_of 
+Instance653: negative before_tiny before_table before_for before_two before_( after_hung after_over after_edge) after_was after_right 
+Instance654: conflict before_ after_was after_excellent after_(try after_nanbu after_bijin) 
+Instance655: positive before_sake before_collection before_was before_excellent before_(try after_) after_ after_but after_pricy 
+Instance656: positive before_interesting before_other after_for after_a after_change after_include after_chicken 
+Instance657: positive before_dishes before_for before_a before_change before_include after_e after_and after_salmon after_caserole 
+Instance658: positive before_chicken before_in before_curry before_sauce before_and 
+Instance659: positive before_my before_favorites before_though before_was before_the after_ after_ after_a after_cold after_lobster 
+Instance660: positive before_the before_angry before_lobster before_ before_a after_that after_was after_magnificent 
+Instance661: positive before_for before_usha before_ before_the before_nicest after_in after_manhattan 
+Instance662: positive before_the after_is after_outstanding after_and after_my after_crab-cake 
+Instance663: positive before_service before_is before_outstanding before_and before_my after_could after_not after_have after_been after_better 
+Instance664: positive before_the before_place before_s after_and after_hidden after_bathrooms after_made after_for 
+Instance665: positive before_place before_s before_decor before_and before_hidden after_made after_for after_a after_good after_laugh 
+Instance666: positive before_its after_is after_good after_and after_the after_fact 
+Instance667: positive before_college before_is before_near before_and before_their after_are after_very after_reasonable after_ after_makes 
+Instance668: positive before_a before_wonderful after_! 
+Instance669: conflict before_ after_was after_on after_par after_but after_not 
+Instance670: negative before_ after_often after_take after_up after_to after_an 
+Instance671: negative before_to before_an before_hour before_and before_the after_are after_higher after_than after_most after_other 
+Instance672: negative before_kind before_of before_a before_small after_but after_i after_guess after_if after_they 
+Instance673: neutral before_we before_also before_ordered before_two after_thinking after_they after_would after_be after_pretty 
+Instance674: neutral before_a before_whole before_section before_on before_the after_devoted after_to after_them 
+Instance675: neutral before_i before_ve before_had before_the after_ after_ after_chicken after_with after_black 
+Instance676: neutral before_the before_chicken before_with before_garlic before_sauce after_ after_ after_and after_hunan after_chicken 
+Instance677: neutral before_black before_bean before_sauce before_ before_and 
+Instance678: negative before_of before_the before_delicate before_thin before_crust after_get after_soggy after_in after_their after_boxes 
+Instance679: negative before_because before_of before_the before_delicate before_thin after_ after_ after_take-out after_pies after_get 
+Instance680: neutral before_the after_had after_like after_6 after_pieces after_of 
+Instance681: neutral before_had before_like before_6 before_pieces before_of after_in after_it 
+Instance682: neutral before_served before_while before_in before_line before_a 
+Instance683: neutral before_got before_in before_line before_and before_were after_while after_in after_line after_a after_bannan 
+Instance684: neutral before_can before_couteract before_with before_eat before_more after_and after_keeping after_water after_on after_hand 
+Instance685: neutral before_eat before_more before_rice before_and before_keeping after_on after_hand 
+Instance686: positive before_this after_is after_always after_very after_crowded after_and 
+Instance687: neutral before_ after_are after_somewhere after_around after_$7 after_each 
+Instance688: neutral before_around before_$7 before_each before_and before_the after_are after_between after_$11 after_and after_$16 
+Instance689: neutral before_to before_orsay before_for before_valentine before_s 
+Instance690: neutral before_eat before_i before_go before_for before_the after_not after_for after_the after_atmosphere 
+Instance691: neutral before_the before_food before_not before_for before_the 
+Instance692: conflict before_they before_should before_have before_called before_it after_s-good after_but after_a after_far after_cry 
+Instance693: negative before_a before_gentleman before_ before_maybe before_the after_ after_ after_came after_to after_our 
+Instance694: neutral before_manager before_ before_came before_to before_our after_ after_ after_and after_without after_so 
+Instance695: neutral before_sat before_down before_to before_begin before_ordering 
+Instance696: neutral before_i before_ve before_had after_both after_times after_and after_the after_caprese 
+Instance697: neutral before_pizza before_both before_times before_and before_the 
+Instance698: negative before_was before_terribly before_thirsty before_after before_the after_too 
+Instance699: neutral before_wasn before_t before_there before_for before_the after_ after_ after_but after_tuesday after_night 
+Instance700: neutral before_if before_you before_like before_the after_and after_the after_value after_you after_get 
+Instance701: neutral before_like before_the before_food before_and before_the after_you after_get after_from after_some after_of 
+Instance702: neutral before_the after_changes after_frequently after_but after_the after_basic 
+Instance703: neutral before_selection before_changes before_frequently before_but before_the after_are after_always after_available 
+Instance704: positive before_get before_the after_and after_a after_nosh after_(pastrami after_sandwich) 
+Instance705: positive before_get before_the before_soup before_and before_a after_for after_$8 after_and after_you after_re 
+Instance706: neutral before_to before_get before_a before_saet before_a after_- after_i after_dont after_mind 
+Instance707: neutral before_last before_night before_for before_our before_annual after_with after_the after_family after_members after_who 
+Instance708: positive before_i before_grew before_up before_on before_these 
+Instance709: negative before_booked before_solid before_and before_no before_other after_was after_available 
+Instance710: neutral before_restaraurant before_is before_very before_small before_so after_are after_a after_must 
+Instance711: negative before_to before_my before_right before_ before_the after_stood after_over after_a after_busboy after_and 
+Instance712: neutral before_the before_hostess before_stood before_over before_a after_and after_hissed after_rapido after_ after_rapido 
+Instance713: neutral before_to before_clear before_and before_re-set before_a after_for after_six 
+Instance714: negative before_after before_dealing before_with before_subpar after_all after_over after_the after_kensington after_neighborhood 
+Instance715: neutral before_then before_we before_ordered before_a after_and after_white after_tuna after_sashimi 
+Instance716: neutral before_ordered before_a before_dinosaur before_rolls before_and 
+Instance717: positive before_i before_m before_partial before_to before_the 
+Instance718: neutral before_anniversary before_for before_a before_friday before_night after_and after_told after_me after_they after_d 
+Instance719: negative before_that before_they before_do before_not before_serve after_ after_ after_you after_must after_bring 
+Instance720: neutral before_outside before_at before_haru before_s before_sake after_because after_haru after_s after_restaurant after_next 
+Instance721: neutral before_the after_was after_typical after_short-order after_ after_dinner 
+Instance722: neutral before_we before_shared before_a after_ after_ after_an after_order after_of 
+Instance723: neutral before_sake before_ before_an before_order before_of after_ after_ after_and after_she after_had 
+Instance724: neutral before_ before_and before_she before_had before_the after_while after_i after_had after_the after_sashimi 
+Instance725: neutral before_plate before_while before_i before_had before_the 
+Instance726: neutral before_believe before_people before_complain before_about before_no 
+Instance727: positive before_from before_the after_we after_ate after_ after_the after_dim 
+Instance728: positive before_appetizers before_we before_ate before_ before_the after_and after_other after_variety after_of after_foods 
+Instance729: positive before_sum before_and before_other before_variety before_of after_ after_ after_it after_was after_impossible 
+Instance730: positive before_was before_impossible before_to before_criticize before_the 
+Instance731: neutral before_each after_has after_a after_pot after_of after_boiling 
+Instance732: neutral before_each before_table before_has before_a after_sunken after_into after_its after_surface after_ 
+Instance733: neutral before_get before_platters before_of before_thin before_sliced after_ after_ after_various after_vegetables after_ 
+Instance734: neutral before_thin before_sliced before_meats before_ before_various after_ after_ after_and after_rice after_and 
+Instance735: neutral before_ before_various before_vegetables before_ before_and after_and after_glass after_noodles 
+Instance736: neutral before_vegetables before_ before_and before_rice before_and 
