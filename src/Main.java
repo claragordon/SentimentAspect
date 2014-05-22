@@ -27,30 +27,39 @@ public class Main {
 				// write label
 				writer.print(a.getPolarity () + " ");
 
-				String front_span = s.getText ().toLowerCase ().substring (0, a.getStart ()).trim().replaceAll ("\\.\\?\\',:;", " ");
-				String back_span = s.getText ().toLowerCase ().substring (a.getEnd ()).trim();
-				// remove punc
-				back_span = back_span.replaceAll ("[\\.\\?\\',:;]", " ");
-				front_span = front_span.replaceAll ("[\\.\\?\\',:;]", " ");
+				writeNGrams (s, a, 1, writer);
+				writeNGrams (s, a, 2, writer);
 
-				String [] front_words = trimUnigrams(front_span.trim().split(" "), true);
-				String [] back_words = trimUnigrams(back_span.split(" "), false);
 
-				// write front ngrams
-				List<String> front_ngrams = ngrams(1, front_words);
-				for (String ngram : front_ngrams) writer.print("before_" + ngram + " ");
-
-				// write back ngrams
-				List<String> back_ngrams = ngrams(1, back_words);
-				for (String ngram : back_ngrams) writer.print("after_" + ngram + " ");
+				counter ++;
 
 				writer.println ();
-				counter ++;
 			}
 		}
 		writer.close();
 	}
 
+
+	private static void writeNGrams(Sentence s, Aspect a, int n, PrintWriter writer) {
+
+		String front_span = s.getText ().toLowerCase ().substring (0, a.getStart ()).trim().replaceAll ("\\.\\?\\',:;", " ");
+		String back_span = s.getText ().toLowerCase ().substring (a.getEnd ()).trim();
+		// remove punc
+		back_span = back_span.replaceAll ("[\\.\\?\\',:;]", " ");
+		front_span = front_span.replaceAll ("[\\.\\?\\',:;]", " ");
+
+		String [] front_words = trimUnigrams(front_span.trim().split(" "), true);
+		String [] back_words = trimUnigrams(back_span.split(" "), false);
+
+		// write front ngrams
+		List<String> front_ngrams = ngrams(n, front_words);
+		for (String ngram : front_ngrams) writer.print("before_" + ngram + " ");
+
+		// write back ngrams
+		List<String> back_ngrams = ngrams(n, back_words);
+		for (String ngram : back_ngrams) writer.print("after_" + ngram + " ");
+
+	}
 
 	private static Map<String, Integer> updateMap(Map<String, Integer> map, String s) {
 		// add to feature map
@@ -71,10 +80,11 @@ public class Main {
 	}
 
 	public static String concat(String[] words, int start, int end) {
-		StringBuilder sb = new StringBuilder();
-		for (int i = start; i < end; i++)
-			sb.append((i > start ? " " : "") + words[i]);
-		return sb.toString();
+		String ngram = "";
+		for (int i = start; i < end - 1; i++)
+			ngram += words[i] + "_";
+		ngram += words[end - 1];
+		return ngram;
 	}
 
 	public static String [] trimUnigrams(String [] words, boolean front) {
