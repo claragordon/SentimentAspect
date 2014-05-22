@@ -7,8 +7,8 @@ public class Main {
 	private static final int UNIGRAM_WINDOW = 5;
 
 	public static void main(String[] args) throws IOException {
-		printMalletFiles ("data/train/restaurant--train.xml", "mallet_files/train");
-		printMalletFiles ("data/test/restaurant--test.gold.xml", "mallet_files/test");
+		printMalletFiles (args[0], "mallet_files/train");
+		printMalletFiles (args[1], "mallet_files/test");
 
     }
 

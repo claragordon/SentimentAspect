@@ -1,11 +1,47 @@
-find dependency parser
 explore using MRS
 adapt MRS code and parse data
+
+Feature ideas
+bi-, trigrams
+POS tags (alone and appended) ngrams
+sentiment backoff (use sentistrength)
+POS filtering, upweighting
+expansion -- wordnet, distributional sim
+..MRS...
+punctuation
+positional features -- distance from start/end, aspect
+character-grams
+semantic role labeling
+
+
+Parse-based
+CoreNLP - node sentiments?
+Dependency parse stuff**
+constituent parse stuff
+negation -- negativity
+chunks
+tree-based distance
+
+
+
+Later on...
+Rule-based -- confidences scores from classifier
+
+
+
+**class readings?
+
+ML
+NB, MaxEnt, Adaboost
+
+
+
+baseline script -- run multiple algorithms
+
 
 
 
 BASELINE RESULTS
-
 
 RESTAURANTS:
 PASSED! This corpus has: 3041 sentences, 3693 aspect term occurrences, and 1288 distinct aspect terms.
