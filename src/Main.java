@@ -33,86 +33,50 @@ public class Main {
         return sb.toString();
     }
 
-    public static void main(String[] args) throws IOException {
+   public static void main(String[] args) throws IOException {
 
-	    Map<String, Integer> features = new HashMap<String, Integer>();
+      List<Sentence> sentences = XMLReader.readFile("../data/train/Laptop_Train_v2.xml");
+      
+//       Sentence s = sentences.get(4);
+//       System.out.println(s.getText());
 
-        List<Sentence> sentences = XMLReader.readFile("data/train/Laptop_Train_v2.xml");
-      
-        Sentence s = sentences.get(3);
-        System.out.println(s.getText());
-      
-     
-//       String[] split = s.getText().split("\\s+");
-//       for (String w : split){
-//          System.out.println(w);
+//       List<Aspect> aspects = s.getAspects();
+//       for (Aspect a : aspects){
+//          System.out.println(a.)
 //       }
-<<<<<<< HEAD
-      
-      for (Aspect a : s.getAspects()){
-         System.out.println("ASPECT: " + a.getText());
-         String[] parts = s.getText().split(a.getText());
-         
-         List<String> front_ngrams = ngrams(1, parts[0]);
-         if (front_ngrams.size() > 5){
-            for (int i = 1; i < 6; i++){
-            
-               String target = front_ngrams.get(front_ngrams.size() - i);
-               
-               features.put(target, features.get(target)+1);
-               System.out.println(front_ngrams.get(front_ngrams.size() - i));
-               
-            }
-         }
-         else{
-            for (int i = 1; i < front_ngrams.size()+1; i++){
-               System.out.println(front_ngrams.get(front_ngrams.size() - i));
-=======
-
+      for (Sentence s : sentences){
 		for (Aspect a : s.getAspects()){
-            System.out.println("ASPECT: " + a.getText());
-            String[] parts = s.getText().split(a.getText());
-
-			// front ngrams
-            List<String> front_ngrams = ngrams(1, parts[0]);
-            int limit;
+         Map<String, Integer> features = new HashMap<String, Integer>();
+         System.out.println("ASPECT: " + a.getText());
+         String[] parts = s.getText().replaceAll("[^a-zA-Z ]", "").split(a.getText()); // remove punctuation
+			
+         //if aspcet is not first word
+         // front ngrams
+         List<String> front_ngrams = ngrams(1, parts[0]);
+         int limit;
 			if (front_ngrams.size() > 5) limit = 6;
 			else limit = front_ngrams.size() + 1;
-            for (int i = 1; i < limit; i++){
-            
-                    String target = front_ngrams.get(front_ngrams.size() - i);
-                    features = updateMap (features, target);
-	                System.out.println(front_ngrams.get(front_ngrams.size() - i));
->>>>>>> FETCH_HEAD
-            }
-
+         
+         for (int i = 1; i < limit; i++){
+            String target = front_ngrams.get(front_ngrams.size() - i);
+            features = updateMap (features, target);
+         }
+         // if aspect is not last word
 			// back ngrams
-            List<String> back_ngrams = ngrams(1, parts[1]);
+         List<String> back_ngrams = ngrams(1, parts[1]);
 			if (back_ngrams.size() > 5) limit = 6;
-			else limit = back_ngrams.size() + 1;
+			else limit = back_ngrams.size();
+         
 			for (int i = 1; i < limit; i++){
-
-				String target = back_ngrams.get(back_ngrams.size() - i);
+				String target = back_ngrams.get(i);
 				features = updateMap (features, target);
-				System.out.println(back_ngrams.get(back_ngrams.size() - i));
 			}
-
-        System.out.println("FINISHED ASPECT: " + a.getText());
-
-
-//          System.out.println(temp.sublist(0,5));
-//          System.out.println(ngrams(1, parts[1]));
-      
-//          System.out.println(s.getText().indexOf(a.getText()));
-//          int start = s.getText().indexOf(a.getText());
-//          
-//          String secondPart = s.getText().substring(s.getText().indexOf(a.getText()));
-//          System.out.println(s.getText());
-//          System.out.println(a.getText());
-//          System.out.println(firstPart);
-//          System.out.println(s.getText()[)
-//          System.out.println(a.getText());
-//          System.out.println(a.getPolarity());
+         List<String> keys = new ArrayList<String>(features.keySet());
+         for (String key: keys) {
+            System.out.println(key + ": " + features.get(key));
+         }
+         System.out.println("FINISHED ASPECT: " + a.getText());
+      }
       }
     }
 
