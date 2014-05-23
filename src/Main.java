@@ -1,84 +1,64 @@
+
 import java.io.*;
 import java.util.*;
-/*
-import edu.stanford.nlp.dcoref.CorefChain;
-import edu.stanford.nlp.dcoref.CorefCoreAnnotations;
-import edu.stanford.nlp.io.*;
-import edu.stanford.nlp.ling.*;
-import edu.stanford.nlp.neural.rnn.RNNCoreAnnotations;
-import edu.stanford.nlp.pipeline.*;
-import edu.stanford.nlp.semgraph.SemanticGraph;
-import edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations;
-import edu.stanford.nlp.sentiment.SentimentCoreAnnotations;
-import edu.stanford.nlp.trees.*;
-import edu.stanford.nlp.util.*;
-*/
+
 public class Main {
 
+	private static final int UNIGRAM_WINDOW = 5;
 
+	public static void main(String[] args) throws IOException {
+		printMalletFiles (args[0], "mallet_files/train");
+		printMalletFiles (args[1], "mallet_files/test");
 
-
-    public static List<String> ngrams(int n, String str) {
-        List<String> ngrams = new ArrayList<String>();
-        String[] words = str.split(" ");
-        for (int i = 0; i < words.length - n + 1; i++)
-            ngrams.add(concat(words, i, i+n));
-        return ngrams;
     }
 
-    public static String concat(String[] words, int start, int end) {
-        StringBuilder sb = new StringBuilder();
-        for (int i = start; i < end; i++)
-            sb.append((i > start ? " " : "") + words[i]);
-        return sb.toString();
-    }
+	private static void printMalletFiles(String xmlFile, String malletFile) throws FileNotFoundException {
 
-   public static void main(String[] args) throws IOException {
+		File trainFile = new File(malletFile);
+		PrintWriter writer = new PrintWriter(trainFile);
+		List<Sentence> sentences = XMLReader.readFile(xmlFile);
 
-      List<Sentence> sentences = XMLReader.readFile("../data/train/Laptop_Train_v2.xml");
-      
-//       Sentence s = sentences.get(4);
-//       System.out.println(s.getText());
+		int counter = 0;
+		for (Sentence s: sentences) {
+			for (Aspect a : s.getAspects()){
+				// write instance name
+				writer.print(String.format("Instance%d:", counter) + " ");
+				// write label
+				writer.print(a.getPolarity () + " ");
 
-//       List<Aspect> aspects = s.getAspects();
-//       for (Aspect a : aspects){
-//          System.out.println(a.)
-//       }
-      for (Sentence s : sentences){
-		for (Aspect a : s.getAspects()){
-         Map<String, Integer> features = new HashMap<String, Integer>();
-         System.out.println("ASPECT: " + a.getText());
-         String[] parts = s.getText().replaceAll("[^a-zA-Z ]", "").split(a.getText()); // remove punctuation
-			
-         //if aspcet is not first word
-         // front ngrams
-         List<String> front_ngrams = ngrams(1, parts[0]);
-         int limit;
-			if (front_ngrams.size() > 5) limit = 6;
-			else limit = front_ngrams.size() + 1;
-         
-         for (int i = 1; i < limit; i++){
-            String target = front_ngrams.get(front_ngrams.size() - i);
-            features = updateMap (features, target);
-         }
-         // if aspect is not last word
-			// back ngrams
-         List<String> back_ngrams = ngrams(1, parts[1]);
-			if (back_ngrams.size() > 5) limit = 6;
-			else limit = back_ngrams.size();
-         
-			for (int i = 1; i < limit; i++){
-				String target = back_ngrams.get(i);
-				features = updateMap (features, target);
+				writeNGrams (s, a, 1, writer);
+				writeNGrams (s, a, 2, writer);
+
+
+				counter ++;
+
+				writer.println ();
 			}
-         List<String> keys = new ArrayList<String>(features.keySet());
-         for (String key: keys) {
-            System.out.println(key + ": " + features.get(key));
-         }
-         System.out.println("FINISHED ASPECT: " + a.getText());
-      }
-      }
-    }
+		}
+		writer.close();
+	}
+
+
+	private static void writeNGrams(Sentence s, Aspect a, int n, PrintWriter writer) {
+
+		String front_span = s.getText ().toLowerCase ().substring (0, a.getStart ()).trim().replaceAll ("\\.\\?\\',:;", " ");
+		String back_span = s.getText ().toLowerCase ().substring (a.getEnd ()).trim();
+		// remove punc
+		back_span = back_span.replaceAll ("[\\.\\?\\',:;]", " ");
+		front_span = front_span.replaceAll ("[\\.\\?\\',:;]", " ");
+
+		String [] front_words = trimUnigrams(front_span.trim().split(" "), true);
+		String [] back_words = trimUnigrams(back_span.split(" "), false);
+
+		// write front ngrams
+		List<String> front_ngrams = ngrams(n, front_words);
+		for (String ngram : front_ngrams) writer.print("before_" + ngram + " ");
+
+		// write back ngrams
+		List<String> back_ngrams = ngrams(n, back_words);
+		for (String ngram : back_ngrams) writer.print("after_" + ngram + " ");
+
+	}
 
 	private static Map<String, Integer> updateMap(Map<String, Integer> map, String s) {
 		// add to feature map
@@ -88,7 +68,32 @@ public class Main {
 		map.put (s, current_count + 1);
 		return map;
 	}
-      
 
+	public static List<String> ngrams(int n, String [] words) {
+
+		List<String> ngrams = new ArrayList<String> ();
+		for (int i = 0; i < words.length - n + 1; i++)
+			ngrams.add(concat(words, i, i+n));
+
+		return ngrams;
+	}
+
+	public static String concat(String[] words, int start, int end) {
+		String ngram = "";
+		for (int i = start; i < end - 1; i++)
+			ngram += words[i] + "_";
+		ngram += words[end - 1];
+		return ngram;
+	}
+
+	public static String [] trimUnigrams(String [] words, boolean front) {
+
+		int length = words.length;
+		if (UNIGRAM_WINDOW >= length) return words;
+		else if (front) return Arrays.copyOfRange (words, length - UNIGRAM_WINDOW, length);
+		else return Arrays.copyOfRange (words, 0, UNIGRAM_WINDOW);
+
+
+	}
 
 }
