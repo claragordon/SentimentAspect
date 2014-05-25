@@ -12,7 +12,6 @@ public class Main {
 
     }
 
-
 	private static void printMalletFiles(String xmlFile, String malletFile) throws FileNotFoundException {
 
 		File trainFile = new File(malletFile);
