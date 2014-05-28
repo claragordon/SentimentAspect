@@ -13,6 +13,16 @@ positional features -- distance from start/end, aspect
 character-grams
 semantic role labeling
 
+5/27
+sentiment backoff (use sentistrength)
+expansion
+stemming
+positional
+
+DEEP:
+tree based
+
+
 
 Parse-based
 CoreNLP - node sentiments?

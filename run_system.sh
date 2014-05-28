@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 
-java -cp out/production/SentimentAspect/ Main "$1" "$2"
+java -Xmx6g -cp "out/production/SentimentAspect/:/usr/local/bin/stanford-corenlp-full-2014-01-04/*" Main "$1" "$2"
 
 mallet import-file --input mallet_files/train --output mallet_files/train.mallet
 

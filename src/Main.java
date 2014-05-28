@@ -18,16 +18,29 @@ public class Main {
 		PrintWriter writer = new PrintWriter(trainFile);
 		List<Sentence> sentences = XMLReader.readFile(xmlFile);
 
+		StanfordPipeLine pipeline = new StanfordPipeLine ();
+
 		int counter = 0;
+		String sText;
+		int aspectIdx;
 		for (Sentence s: sentences) {
+			sText = s.getText ();
 			for (Aspect a : s.getAspects()){
 				// write instance name
 				writer.print(String.format("Instance%d:", counter) + " ");
 				// write label
 				writer.print(a.getPolarity () + " ");
 
-				writeNGrams (s, a, 1, writer);
-				writeNGrams (s, a, 2, writer);
+				aspectIdx = getAspectTokenIdx (sText, a);
+
+				String sentiment  = pipeline.sentiment (sText, a);
+			    writer.print("sentiment=" + sentiment + " ");
+
+//				String posString = pipeline.posString (sText, a);
+
+//				writeNGrams (posString, a, 1, writer, aspectIdx, false);
+				writeNGrams (sText, a, 1, writer, aspectIdx, true);
+//				writeNGrams (sText, a, 2, writer, aspectIdx, true);
 
 
 				counter ++;
@@ -39,16 +52,23 @@ public class Main {
 	}
 
 
-	private static void writeNGrams(Sentence s, Aspect a, int n, PrintWriter writer) {
+	private static void writeNGrams(String s, Aspect a, int n, PrintWriter writer, int aspectIdx, boolean raw) {
 
-		String front_span = s.getText ().toLowerCase ().substring (0, a.getStart ()).trim().replaceAll ("\\.\\?\\',:;", " ");
-		String back_span = s.getText ().toLowerCase ().substring (a.getEnd ()).trim();
-		// remove punc
-		back_span = back_span.replaceAll ("[\\.\\?\\',:;]", " ");
-		front_span = front_span.replaceAll ("[\\.\\?\\',:;]", " ");
 
-		String [] front_words = trimUnigrams(front_span.trim().split(" "), true);
-		String [] back_words = trimUnigrams(back_span.split(" "), false);
+
+		if (raw) {
+			// remove punc
+			s = s.replaceAll ("[\\.\\?\\',:;]", "");
+		}
+
+		s = s.toLowerCase ();
+
+		String [] split = s.trim().split(" ");
+
+
+
+		String [] front_words = trimUnigrams (split, true, aspectIdx);
+		String [] back_words = trimUnigrams (split, false, aspectIdx);
 
 		// write front ngrams
 		List<String> front_ngrams = ngrams(n, front_words);
@@ -86,14 +106,46 @@ public class Main {
 		return ngram;
 	}
 
-	public static String [] trimUnigrams(String [] words, boolean front) {
+	public static String [] trimUnigrams(String [] words, boolean front, int aspectIdx) {
 
 		int length = words.length;
-		if (UNIGRAM_WINDOW >= length) return words;
-		else if (front) return Arrays.copyOfRange (words, length - UNIGRAM_WINDOW, length);
-		else return Arrays.copyOfRange (words, 0, UNIGRAM_WINDOW);
+
+		int start;
+		int end;
+
+		if ((front && aspectIdx == 0) || (!front && aspectIdx == length - 1))   {
+			return new String [0];
+		}
+
+		if (front) {
 
 
+			// assign start
+			if (aspectIdx <= UNIGRAM_WINDOW + 1) {
+				start = 0;
+			} else {
+				start = aspectIdx - UNIGRAM_WINDOW;
+			}
+			end = aspectIdx;
+
+		} else {
+			start = aspectIdx + 1;
+
+			// assign end
+			if (length <= aspectIdx + UNIGRAM_WINDOW + 1){
+				end = length;
+			} else {
+				end = aspectIdx + UNIGRAM_WINDOW;
+			}
+		}
+
+		if (end <= start) return new String [0];
+
+		return Arrays.copyOfRange (words, start, end);
+	}
+
+	public static int getAspectTokenIdx(String s, Aspect a) {
+		return s.substring (0, a.getStart ()).trim().split(" ").length;
 	}
 
 }

@@ -2,9 +2,11 @@
 
 import edu.stanford.nlp.io.*;
 import edu.stanford.nlp.ling.*;
+import edu.stanford.nlp.neural.rnn.RNNCoreAnnotations;
 import edu.stanford.nlp.pipeline.*;
 import edu.stanford.nlp.semgraph.SemanticGraph;
 import edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations;
+import edu.stanford.nlp.sentiment.SentimentCoreAnnotations;
 import edu.stanford.nlp.trees.*;
 import edu.stanford.nlp.util.*;
 
@@ -26,59 +28,85 @@ public class StanfordPipeLine {
 		pipeline = new StanfordCoreNLP(props);
 	}
 
-	public String posString(String text, Aspect a) {
 
-		int start = a.getStart ();
-		int end = a.getEnd ();
+	public CoreMap parse(String text) {
+
 
 		text = text.replaceAll ("[\\.\\?\\',:;]", "");
 
 
-	    // create an empty Annotation just with the given text
-	    Annotation document = new Annotation(text);
+		// create an empty Annotation just with the given text
+		Annotation document = new Annotation(text);
 
-	    // run all Annotators on this text
-	    this.pipeline.annotate(document);
+		// run all Annotators on this text
+		this.pipeline.annotate(document);
 
-	    // these are all the sentences in this document
-	    // a CoreMap is essentially a Map that uses class objects as keys and has values with custom types
-	    List<CoreMap> sentences = document.get(CoreAnnotations.SentencesAnnotation.class);
+		// these are all the sentences in this document
+		// a CoreMap is essentially a Map that uses class objects as keys and has values with custom types
+		List<CoreMap> sentences = document.get(CoreAnnotations.SentencesAnnotation.class);
+
+		return sentences.get(0);
+
+
+
+	}
+
+	private String posString(String text, Aspect a) {
+
+		int start = a.getStart ();
+		int end = a.getEnd ();
+
+		CoreMap sentence = parse (text);
 
 //		List<String> posTagged = new ArrayList<String> ();
 		String add;
 	    String result = "";
-		for(CoreMap sentence: sentences) {
-		    // traversing the words in the current sentence
-		    // a CoreLabel is a CoreMap with additional token-specific methods
 
-		    for (CoreLabel token: sentence.get(CoreAnnotations.TokensAnnotation.class)) {
-			    add = "";
-			    // this is the text of the token
-			    String word = token.get(CoreAnnotations.TextAnnotation.class);
-			    add += word;
-			    // this is the POS tag of the token
-			    String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
-			    add += "_" + pos;
-			    // this is the NER label of the token
-			    String ne = token.get(CoreAnnotations.NamedEntityTagAnnotation.class);
+	    // a CoreLabel is a CoreMap with additional token-specific methods
+	    for (CoreLabel token: sentence.get(CoreAnnotations.TokensAnnotation.class)) {
+		    add = "";
+		    // this is the text of the token
+		    String word = token.get(CoreAnnotations.TextAnnotation.class);
+		    add += word;
+		    // this is the POS tag of the token
+		    String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
+		    add += "_" + pos;
+//		    // this is the NER label of the token
+//		    String ne = token.get(CoreAnnotations.NamedEntityTagAnnotation.class);
 
-			    result += add + " ";
-		    }
-
-		    System.out.println(result);
-		    // this is the parse tree of the current sentence
-		    Tree tree = sentence.get(TreeCoreAnnotations.TreeAnnotation.class);
-
-		    // this is the Stanford dependency graph of the current sentence
-		    SemanticGraph dependencies;
-		    dependencies = sentence.get(SemanticGraphCoreAnnotations.CollapsedCCProcessedDependenciesAnnotation.class);
+		    result += add + " ";
 	    }
 
 		return result;
 	}
 
 
+	public String sentiment(String text, Aspect a) {
 
+		CoreMap sentence = parse(text);
+
+		Tree tree = sentence.get(SentimentCoreAnnotations.AnnotatedTree.class);
+		int sentiment = RNNCoreAnnotations.getPredictedClass (tree);
+
+		return Integer.toString(sentiment);
+
+
+	}
+
+
+	public String dependencies(String text, Aspect a) {
+
+		CoreMap sentence = parse (text);
+
+		// this is the Stanford dependency graph of the current sentence
+		SemanticGraph dependencies;
+		dependencies = sentence.get(SemanticGraphCoreAnnotations.CollapsedCCProcessedDependenciesAnnotation.class);
+
+
+		return "";
+
+
+	}
 
 //	public static void stanford() {
 //

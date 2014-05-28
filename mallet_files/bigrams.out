@@ -1,0 +1,80 @@
+
+-------------------- Trial 0  --------------------
+
+Trial 0 Training NaiveBayesTrainer with 56 instances
+Trial 0 Training NaiveBayesTrainer finished
+Trial 0 Trainer NaiveBayesTrainer test data accuracy = 0.4969574036511156
+
+NaiveBayesTrainer
+Summary. test accuracy mean = 0.4969574036511156 stddev = 0.0 stderr = 0.0
+
+-------------------- Trial 0  --------------------
+
+Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 with 56 instances
+Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 finished
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data accuracy = 0.5314401622718052
+
+MaxEntTrainer,gaussianPriorVariance=1.0
+Summary. test accuracy mean = 0.5314401622718052 stddev = 0.0 stderr = 0.0
+
+-------------------- Trial 0  --------------------
+
+Trial 0 Training NaiveBayesTrainer with 479 instances
+Trial 0 Training NaiveBayesTrainer finished
+Trial 0 Trainer NaiveBayesTrainer test data accuracy = 0.5720081135902637
+
+NaiveBayesTrainer
+Summary. test accuracy mean = 0.5720081135902637 stddev = 0.0 stderr = 0.0
+
+-------------------- Trial 0  --------------------
+
+Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 with 479 instances
+Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 finished
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data accuracy = 0.5720081135902637
+
+MaxEntTrainer,gaussianPriorVariance=1.0
+Summary. test accuracy mean = 0.5720081135902637 stddev = 0.0 stderr = 0.0
+
+-------------------- Trial 0  --------------------
+
+Trial 0 Training NaiveBayesTrainer with 0 instances
+
+-------------------- Trial 0  --------------------
+
+Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 with 0 instances
+Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 finished
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data accuracy = 0.4077079107505071
+
+MaxEntTrainer,gaussianPriorVariance=1.0
+Summary. test accuracy mean = 0.4077079107505071 stddev = 0.0 stderr = 0.0
+
+-------------------- Trial 0  --------------------
+
+Trial 0 Training NaiveBayesTrainer with 0 instances
+
+-------------------- Trial 0  --------------------
+
+Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 with 0 instances
+Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 finished
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data accuracy = 0.4077079107505071
+
+MaxEntTrainer,gaussianPriorVariance=1.0
+Summary. test accuracy mean = 0.4077079107505071 stddev = 0.0 stderr = 0.0
+
+-------------------- Trial 0  --------------------
+
+Trial 0 Training NaiveBayesTrainer with 1865 instances
+Trial 0 Training NaiveBayesTrainer finished
+Trial 0 Trainer NaiveBayesTrainer test data accuracy = 0.6369168356997972
+
+NaiveBayesTrainer
+Summary. test accuracy mean = 0.6369168356997972 stddev = 0.0 stderr = 0.0
+
+-------------------- Trial 0  --------------------
+
+Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 with 1865 instances
+Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 finished
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data accuracy = 0.6288032454361054
+
+MaxEntTrainer,gaussianPriorVariance=1.0
+Summary. test accuracy mean = 0.6288032454361054 stddev = 0.0 stderr = 0.0
