@@ -30,17 +30,25 @@ public class Main {
 				writer.print(String.format("Instance%d:", counter) + " ");
 				// write label
 				writer.print(a.getPolarity () + " ");
-
 				aspectIdx = getAspectTokenIdx (sText, a);
 
+
+				// FEATURES
+
+
+				// sentiment rating: 1 - 5
 				String sentiment  = pipeline.sentiment (sText, a);
 			    writer.print("sentiment=" + sentiment + " ");
 
-//				String posString = pipeline.posString (sText, a);
 
-//				writeNGrams (posString, a, 1, writer, aspectIdx, false);
+				// POS n_grams
+				String posString = pipeline.posString (sText, a);
+				writeNGrams (posString, a, 1, writer, aspectIdx, false);
+
+
+				// plain n-grams
 				writeNGrams (sText, a, 1, writer, aspectIdx, true);
-//				writeNGrams (sText, a, 2, writer, aspectIdx, true);
+				writeNGrams (sText, a, 2, writer, aspectIdx, true);
 
 
 				counter ++;

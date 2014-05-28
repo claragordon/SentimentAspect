@@ -24,7 +24,7 @@ public class StanfordPipeLine {
 
 	public StanfordPipeLine() {
 		Properties props = new Properties ();
-		props.put("annotators", "tokenize, ssplit, pos, parse, sentiment");
+		props.put("annotators", "tokenize, ssplit, pos, parse, sentiment, dcoref");
 		pipeline = new StanfordCoreNLP(props);
 	}
 
@@ -51,7 +51,7 @@ public class StanfordPipeLine {
 
 	}
 
-	private String posString(String text, Aspect a) {
+	public String posString(String text, Aspect a) {
 
 		int start = a.getStart ();
 		int end = a.getEnd ();
