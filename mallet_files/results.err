@@ -397,4 +397,180 @@ Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
 L-BFGS initial gradient is zero; saying converged
 L-BFGS initial gradient is zero; saying converged
 
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
 

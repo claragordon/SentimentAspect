@@ -43,7 +43,7 @@ public class Main {
 				String posString = pipeline.posString (sText, a);
 				writeNGrams (posString, a, 1, writer, aspectIdx, false);
             
-            // polarity of closest ADJ
+            // surface distance to closest ADJ
             String closestAdjDistance = distanceOfClosestAdj(s, a, posString);
             writer.print("closestAdjDistance=" + closestAdjDistance + " ");
 

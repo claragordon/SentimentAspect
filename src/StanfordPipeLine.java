@@ -24,7 +24,7 @@ public class StanfordPipeLine {
 
 	public StanfordPipeLine() {
 		Properties props = new Properties ();
-		props.put("annotators", "tokenize, ssplit, pos, parse, sentiment");
+		props.put("annotators", "tokenize, ssplit, pos");
 		pipeline = new StanfordCoreNLP(props);
 	}
 
