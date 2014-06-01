@@ -1,6 +1,8 @@
 explore using MRS
 adapt MRS code and parse data
 
+
+
 Feature ideas
 bi-, trigrams
 POS tags (alone and appended) ngrams
@@ -17,11 +19,15 @@ semantic role labeling
 sentiment backoff (use sentistrength)
 expansion
 stemming
-positional
+positional - relative to other aspects or adjective or clue word or start of sentence
 
 DEEP:
+<<<<<<< HEAD
 tree based
     distance from root
+=======
+tree based - position relative to root?
+>>>>>>> d8ec78cab179c61adbb676796a817fbe149be09e
 
 
 

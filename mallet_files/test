@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Instance0: positive sentiment=5 
 Instance1: negative sentiment=1 
 Instance2: neutral sentiment=1 
@@ -491,3 +492,5 @@ Instance489: neutral sentiment=1
 Instance490: conflict sentiment=1 
 Instance491: positive sentiment=1 
 Instance492: neutral sentiment=1 
+=======
+>>>>>>> d8ec78cab179c61adbb676796a817fbe149be09e

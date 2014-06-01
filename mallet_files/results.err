@@ -57,4 +57,317 @@ Value (labelProb=2664.9482588825795 prior=2.568838350841087) loglikelihood = -26
 Exiting L-BFGS on termination #1:
 value difference below tolerance (oldValue: -2127.1964282172835 newValue: -2127.195042132034
 
+<<<<<<< HEAD
+=======
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=2585.4389834884746 prior=0.0) loglikelihood = -2585.4389834884746Value (labelProb=2177.5111402922057 prior=0.4999999999999999) loglikelihood = -2178.0111402922057Value (labelProb=2145.6838400979673 prior=0.6905230734067129) loglikelihood = -2146.374363171374 Value (labelProb=2129.5631244627884 prior=0.9885199392409079) loglikelihood = -2130.5516444020295Value (labelProb=2126.168956864019 prior=1.2192641655369523) loglikelihood = -2127.388221029556  Value (labelProb=2125.9068588848086 prior=1.2903419392185733) loglikelihood = -2127.1972008240273
+Exiting L-BFGS on termination #1:
+value difference below tolerance (oldValue: -2127.388221029556 newValue: -2127.1972008240273
+Value (labelProb=2664.9482588825795 prior=2.568838350841087) loglikelihood = -2667.5170972334204Value (labelProb=2131.088293565546 prior=1.3731915803808243) loglikelihood = -2132.461485145927 Value (labelProb=2127.132008612933 prior=1.3305167597996985) loglikelihood = -2128.4625253727327Value (labelProb=2125.907385405652 prior=1.2942469212766854) loglikelihood = -2127.2016323269286Value (labelProb=2125.9056969048593 prior=1.2907313124243842) loglikelihood = -2127.1964282172835Value (labelProb=2125.9021202089098 prior=1.2929219231243088) loglikelihood = -2127.195042132034 
+Exiting L-BFGS on termination #1:
+value difference below tolerance (oldValue: -2127.1964282172835 newValue: -2127.195042132034
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.get(ArrayList.java:322)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=2585.4389834884746 prior=0.0) loglikelihood = -2585.4389834884746Value (labelProb=3017.1330630768944 prior=0.49999999999996486) loglikelihood = -3017.6330630768944Value (labelProb=2254.5583426216945 prior=0.09652664301660398) loglikelihood = -2254.654869264711 Value (labelProb=2160.645382680424 prior=0.08784219291921605) loglikelihood = -2160.7332248733433Value (labelProb=2135.577092610912 prior=0.0820444438156422) loglikelihood = -2135.6591370547276 Value (labelProb=2131.111609049974 prior=0.08601381953065007) loglikelihood = -2131.197622869505Value (labelProb=2120.168302712667 prior=0.10283166588268082) loglikelihood = -2120.2711343785495Value (labelProb=2096.1631227309886 prior=0.168446142913683) loglikelihood = -2096.331568873902  Value (labelProb=2058.265830537923 prior=0.3517951375186555) loglikelihood = -2058.617625675442Value (labelProb=2210.934891094517 prior=1.531057653797506) loglikelihood = -2212.4659487483145Value (labelProb=2037.0808542244424 prior=0.569366135947762) loglikelihood = -2037.6502203603902Value (labelProb=1987.0402421868291 prior=1.087011962681482) loglikelihood = -1988.1272541495107Value (labelProb=1932.2802921307034 prior=2.1732499809080617) loglikelihood = -1934.4535421116116Value (labelProb=1944.1961779406727 prior=4.193513583445611) loglikelihood = -1948.3896915241182 Value (labelProb=1894.0666429875105 prior=3.0005738763427092) loglikelihood = -1897.0672168638532Value (labelProb=1840.6496549994838 prior=4.517745812928745) loglikelihood = -1845.1674008124126 Value (labelProb=1800.087385069147 prior=5.6253047987719365) loglikelihood = -1805.7126898679192Value (labelProb=1794.1798938281954 prior=6.802584993985669) loglikelihood = -1800.982478822181 Value (labelProb=1782.0253827005067 prior=6.194251322018345) loglikelihood = -1788.219634022525Value (labelProb=1769.4886566069988 prior=5.7374934325309015) loglikelihood = -1775.2261500395298Value (labelProb=1747.04212411091 prior=5.704458077594569) loglikelihood = -1752.7465821885046   Value (labelProb=1711.4547399383025 prior=6.840149681201594) loglikelihood = -1718.2948896195041Value (labelProb=1740.792213451413 prior=11.880733621995697) loglikelihood = -1752.6729470734087Value (labelProb=1685.4977113387204 prior=8.603661571016147) loglikelihood = -1694.1013729097365Value (labelProb=1643.2969560816937 prior=11.455043962404009) loglikelihood = -1654.7520000440977Value (labelProb=1577.3811881115112 prior=19.922007299371845) loglikelihood = -1597.303195410883 Value (labelProb=1576.3935855247446 prior=26.269617191117483) loglikelihood = -1602.663202715862Value (labelProb=1561.6402666473118 prior=22.718648007618988) loglikelihood = -1584.358914654931Value (labelProb=1545.9189390271176 prior=26.660787448539114) loglikelihood = -1572.5797264756568Value (labelProb=1532.883879779946 prior=29.107717307547418) loglikelihood = -1561.9915970874933 Value (labelProb=1515.41780687026 prior=31.559872649545824) loglikelihood = -1546.9776795198059 Value (labelProb=1499.1350481122731 prior=33.65810222030348) loglikelihood = -1532.7931503325767Value (labelProb=1481.6990330168874 prior=34.254272300951094) loglikelihood = -1515.9533053178384Value (labelProb=1464.5732493193764 prior=32.798900088208335) loglikelihood = -1497.3721494075846Value (labelProb=1448.273526911719 prior=31.78658985802992) loglikelihood = -1480.060116769749   Value (labelProb=1462.5991296860998 prior=30.64636757269073) loglikelihood = -1493.2454972587905Value (labelProb=1439.3777882361633 prior=31.310149069328038) loglikelihood = -1470.6879373054912Value (labelProb=1422.7325248874333 prior=31.182900975356496) loglikelihood = -1453.9154258627898Value (labelProb=1413.1668955486555 prior=31.61797447033853) loglikelihood = -1444.784870018994  Value (labelProb=1405.0001404001323 prior=32.54297065566681) loglikelihood = -1437.543111055799Value (labelProb=1397.7497471461961 prior=33.082435097752466) loglikelihood = -1430.8321822439486Value (labelProb=1387.1331916094132 prior=33.894644361104085) loglikelihood = -1421.0278359705173Value (labelProb=1370.468884961455 prior=35.28141777950701) loglikelihood = -1405.7503027409618  Value (labelProb=1384.9936104786875 prior=37.528085076767724) loglikelihood = -1422.5216955554552Value (labelProb=1363.0997013914002 prior=36.03411343367311) loglikelihood = -1399.1338148250734 Value (labelProb=1348.2176673472745 prior=36.956299465389066) loglikelihood = -1385.1739668126636Value (labelProb=1337.1545333008357 prior=37.88333890354952) loglikelihood = -1375.0378722043852 Value (labelProb=1330.3938963752087 prior=38.16922017570022) loglikelihood = -1368.563116550909 Value (labelProb=1323.4894506597877 prior=38.17409631452673) loglikelihood = -1361.6635469743144Value (labelProb=1305.983699496718 prior=39.113651779298365) loglikelihood = -1345.0973512760163Value (labelProb=1285.7941760617355 prior=41.1191855386791) loglikelihood = -1326.9133616004146 Value (labelProb=1274.266371436486 prior=42.674614055649485) loglikelihood = -1316.9409854921355Value (labelProb=1269.1753048668998 prior=46.60433156912154) loglikelihood = -1315.7796364360213Value (labelProb=1255.145667580118 prior=46.46068430863697) loglikelihood = -1301.606351888755  Value (labelProb=1251.7695263023718 prior=46.464276059711864) loglikelihood = -1298.2338023620837Value (labelProb=1239.8618954217116 prior=48.64664631041484) loglikelihood = -1288.5085417321263 Value (labelProb=1227.374578169697 prior=51.68456332016195) loglikelihood = -1279.059141489859  Value (labelProb=1216.9144170853544 prior=62.280328903771704) loglikelihood = -1279.1947459891262Value (labelProb=1213.079012491737 prior=56.76258572530435) loglikelihood = -1269.8415982170413  Value (labelProb=1192.5451401016144 prior=63.287009621500005) loglikelihood = -1255.8321497231143Value (labelProb=1177.4408558104215 prior=68.53386374921205) loglikelihood = -1245.9747195596335 Value (labelProb=1158.984181988966 prior=76.78482998249041) loglikelihood = -1235.7690119714564 Value (labelProb=1138.427585822346 prior=82.97746962691276) loglikelihood = -1221.4050554492587Value (labelProb=1126.187226342026 prior=84.79668886085547) loglikelihood = -1210.9839152028815Value (labelProb=1113.5832264785297 prior=86.44924634656604) loglikelihood = -1200.0324728250957Value (labelProb=1082.9231795068758 prior=93.13855835518673) loglikelihood = -1176.0617378620625Value (labelProb=1058.928020361303 prior=121.95106039210448) loglikelihood = -1180.8790807534074Value (labelProb=1053.6442590380518 prior=106.04791712766257) loglikelihood = -1159.6921761657145Value (labelProb=1016.025296860509 prior=120.31911174850742) loglikelihood = -1136.3444086090165 Value (labelProb=1009.501231197267 prior=122.99305060890417) loglikelihood = -1132.494281806171 Value (labelProb=1000.1793702467911 prior=127.54559966508779) loglikelihood = -1127.7249699118788Value (labelProb=990.9829448475739 prior=131.5160581664799) loglikelihood = -1122.4990030140539  Value (labelProb=980.7189512757097 prior=133.80690078382037) loglikelihood = -1114.52585205953 Value (labelProb=958.1768945262576 prior=140.4191800027699) loglikelihood = -1098.5960745290274Value (labelProb=948.7505218228547 prior=143.7105213409371) loglikelihood = -1092.4610431637918Value (labelProb=924.4088721581438 prior=157.27579682108887) loglikelihood = -1081.6846689792328Value (labelProb=907.7096508179516 prior=163.21455327422512) loglikelihood = -1070.9242040921768Value (labelProb=908.4289773273371 prior=159.60809084555402) loglikelihood = -1068.0370681728912Value (labelProb=907.9921870323212 prior=159.11624525012138) loglikelihood = -1067.1084322824427Value (labelProb=906.2774825761094 prior=158.58935700556995) loglikelihood = -1064.8668395816794Value (labelProb=903.9781332754758 prior=162.66903084809633) loglikelihood = -1066.647164123572 Value (labelProb=902.8610106917977 prior=160.26282263337544) loglikelihood = -1063.123833325173Value (labelProb=897.2980368546804 prior=162.37546879281507) loglikelihood = -1059.6735056474954Value (labelProb=880.4417142490452 prior=170.8535563543411) loglikelihood = -1051.2952706033861 Value (labelProb=863.2667222131 prior=180.56316911939737) loglikelihood = -1043.8298913324975  Value (labelProb=863.3208576032513 prior=195.05390726125472) loglikelihood = -1058.374764864506Value (labelProb=856.6543722242799 prior=184.56986153512085) loglikelihood = -1041.2242337594007Value (labelProb=841.5183717262053 prior=193.94449816114442) loglikelihood = -1035.4628698873496Value (labelProb=834.9367892307489 prior=197.82807345232376) loglikelihood = -1032.7648626830726Value (labelProb=830.8542939303552 prior=199.8357117327975) loglikelihood = -1030.6900056631528 Value (labelProb=830.1336022351334 prior=198.36153388802302) loglikelihood = -1028.4951361231565Value (labelProb=830.5011672210748 prior=195.02828036928815) loglikelihood = -1025.529447590363 Value (labelProb=859.6734430943172 prior=207.7117586900043) loglikelihood = -1067.3852017843215Value (labelProb=827.4052275601509 prior=196.8587392382745) loglikelihood = -1024.2639667984254Value (labelProb=826.1459988511463 prior=195.5195093604335) loglikelihood = -1021.6655082115798Value (labelProb=814.4827166919051 prior=201.9192165188319) loglikelihood = -1016.4019332107371Value (labelProb=790.9886934198753 prior=230.8145467342837) loglikelihood = -1021.803240154159 Value (labelProb=800.1584867930351 prior=212.76983969899655) loglikelihood = -1012.9283264920316Value (labelProb=787.1859990135656 prior=222.91930435295) loglikelihood = -1010.1053033665156   Value (labelProb=780.3445235405445 prior=228.66512203357723) loglikelihood = -1009.0096455741218Value (labelProb=775.1209971455673 prior=232.7849271674216) loglikelihood = -1007.905924312989  Value (labelProb=770.4457650172014 prior=236.7707679313255) loglikelihood = -1007.216532948527Value (labelProb=771.0517531097346 prior=235.0373296149258) loglikelihood = -1006.0890827246603Value (labelProb=773.6199825030726 prior=231.404108891594) loglikelihood = -1005.0240913946666 Value (labelProb=775.9163121199084 prior=227.44515548824717) loglikelihood = -1003.3614676081556Value (labelProb=786.653562645608 prior=223.54254913764305) loglikelihood = -1010.196111783251  Value (labelProb=775.8325977291248 prior=226.35850463473827) loglikelihood = -1002.1911023638631Value (labelProb=776.66485232814 prior=223.2441147040242) loglikelihood = -999.9089670321642    Value (labelProb=773.172167051214 prior=225.34310491247587) loglikelihood = -998.5152719636899Value (labelProb=768.4136572785019 prior=229.29756925524336) loglikelihood = -997.7112265337453Value (labelProb=765.2355821890246 prior=231.72858969720377) loglikelihood = -996.9641718862284Value (labelProb=755.4725727391985 prior=239.57640314161293) loglikelihood = -995.0489758808114Value (labelProb=742.5843500016001 prior=250.56228841256956) loglikelihood = -993.1466384141697Value (labelProb=726.8863531245057 prior=267.1969870472772) loglikelihood = -994.083340171783  Value (labelProb=734.7357125297633 prior=257.4236980027971) loglikelihood = -992.1594105325604Value (labelProb=730.2556456895793 prior=260.9198169824913) loglikelihood = -991.1754626720706Value (labelProb=726.7810298839655 prior=263.4719819814968) loglikelihood = -990.2530118654623Value (labelProb=724.3555637694845 prior=265.14616363504115) loglikelihood = -989.5017274045257Value (labelProb=723.3932389673995 prior=266.10156569165997) loglikelihood = -989.4948046590595
+Exiting L-BFGS on termination #1:
+value difference below tolerance (oldValue: -989.5017274045257 newValue: -989.4948046590595
+Value (labelProb=2980.773582924383 prior=266.3812196998337) loglikelihood = -3247.1548026242167Value (labelProb=745.2740378417355 prior=266.08453109247654) loglikelihood = -1011.3585689342121Value (labelProb=724.5277376250463 prior=266.09179839207036) loglikelihood = -990.6195360171166 Value (labelProb=721.411460151015 prior=266.0963695418653) loglikelihood = -987.5078296928803  Value (labelProb=721.1926109987656 prior=266.0909133113476) loglikelihood = -987.2835243101133Value (labelProb=720.6993840184873 prior=266.06408416590057) loglikelihood = -986.7634681843879Value (labelProb=720.4101392170252 prior=266.02946888107857) loglikelihood = -986.4396080981037Value (labelProb=720.0021136430215 prior=265.9417786835606) loglikelihood = -985.943892326582  Value (labelProb=719.3921146929712 prior=265.58159251686504) loglikelihood = -984.9737072098362Value (labelProb=718.3245130354794 prior=265.3538890554679) loglikelihood = -983.6784020909473 Value (labelProb=717.1659274882733 prior=265.0514088897254) loglikelihood = -982.2173363779987Value (labelProb=715.7765769437688 prior=264.60650639015086) loglikelihood = -980.3830833339196Value (labelProb=716.675899488251 prior=264.1233094798082) loglikelihood = -980.7992089680592  Value (labelProb=715.3259351687615 prior=264.38652280056976) loglikelihood = -979.7124579693312Value (labelProb=714.6088561718233 prior=264.16531521029606) loglikelihood = -978.7741713821193Value (labelProb=714.3188711156357 prior=264.1410939856827) loglikelihood = -978.4599651013184 Value (labelProb=713.7285470120875 prior=264.04304405184376) loglikelihood = -977.7715910639313Value (labelProb=713.6815047434684 prior=263.7723411519035) loglikelihood = -977.4538458953718 Value (labelProb=713.0683144836769 prior=263.77132005340286) loglikelihood = -976.8396345370797Value (labelProb=712.7427260417307 prior=263.7037520724647) loglikelihood = -976.4464781141954 Value (labelProb=712.351237606478 prior=263.52777913477615) loglikelihood = -975.8790167412542Value (labelProb=713.9167321943324 prior=263.3616855700835) loglikelihood = -977.278417764416 Value (labelProb=712.1704385104003 prior=263.4806806613899) loglikelihood = -975.6511191717902Value (labelProb=711.9343603955367 prior=263.323839362352) loglikelihood = -975.2581997578886 Value (labelProb=711.8448623076142 prior=263.27791893085526) loglikelihood = -975.1227812384695Value (labelProb=711.6823526015097 prior=263.2654605587229) loglikelihood = -974.9478131602326 Value (labelProb=711.5039474985958 prior=263.2803243400382) loglikelihood = -974.784271838634 Value (labelProb=710.5658353181141 prior=263.329328794681) loglikelihood = -973.8951641127951Value (labelProb=710.1648946696363 prior=263.37523926814987) loglikelihood = -973.5401339377861Value (labelProb=708.9238228417863 prior=263.3703546298997) loglikelihood = -972.294177471686  Value (labelProb=707.9189173382565 prior=263.37419647653417) loglikelihood = -971.2931138147907Value (labelProb=706.7367930967581 prior=263.448140126629) loglikelihood = -970.1849332233871  Value (labelProb=706.8019944721625 prior=263.8585716192543) loglikelihood = -970.6605660914167Value (labelProb=705.8630521394259 prior=263.59849223145767) loglikelihood = -969.4615443708835Value (labelProb=704.5608188464349 prior=263.8650526106457) loglikelihood = -968.4258714570806 Value (labelProb=704.1468657426558 prior=263.95828079065194) loglikelihood = -968.1051465333078Value (labelProb=703.7557388179457 prior=264.0568958538263) loglikelihood = -967.812634671772  Value (labelProb=703.1242698597174 prior=264.20857831261094) loglikelihood = -967.3328481723283Value (labelProb=701.8309585815562 prior=264.58124475172656) loglikelihood = -966.4122033332827Value (labelProb=699.548033627285 prior=265.44286513172403) loglikelihood = -964.990898759009  Value (labelProb=698.663927767713 prior=266.17963588061633) loglikelihood = -964.8435636483293Value (labelProb=697.9931309745099 prior=265.9643839409869) loglikelihood = -963.9575149154969Value (labelProb=698.0097140938299 prior=265.90098690248783) loglikelihood = -963.9107009963177
+Exiting L-BFGS on termination #1:
+value difference below tolerance (oldValue: -963.9575149154969 newValue: -963.9107009963177
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.get(ArrayList.java:322)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at cc.mallet.classify.NaiveBayesTrainer.setup(NaiveBayesTrainer.java:227)
+	at cc.mallet.classify.NaiveBayesTrainer.trainIncremental(NaiveBayesTrainer.java:200)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:193)
+	at cc.mallet.classify.NaiveBayesTrainer.train(NaiveBayesTrainer.java:59)
+	at cc.mallet.classify.tui.Vectors2Classify.main(Vectors2Classify.java:431)
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=0.0 prior=0.0) loglikelihood = -0.0
+L-BFGS initial gradient is zero; saying converged
+L-BFGS initial gradient is zero; saying converged
+
+>>>>>>> d8ec78cab179c61adbb676796a817fbe149be09e
 
