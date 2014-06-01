@@ -25,18 +25,22 @@ public class StanfordPipeLine {
 	public StanfordPipeLine() {
 		Properties props = new Properties ();
 <<<<<<< HEAD
+<<<<<<< HEAD
 		//, lemma, ner, dcoref
 		props.put("annotators", "tokenize, ssplit, pos, parse, sentiment");
 =======
 		props.put("annotators", "tokenize, ssplit, pos");
 >>>>>>> d8ec78cab179c61adbb676796a817fbe149be09e
+=======
+		props.put("annotators", "tokenize, ssplit, pos, parse, sentiment");
+>>>>>>> 85750c9863d775b10eaa8632180c08d3d6e9b0d4
 		pipeline = new StanfordCoreNLP(props);
 	}
 
 
 	public CoreMap parse(String text) {
 
-
+        //remove punctuation
 		text = text.replaceAll ("[\\.\\?\\',:;]", "");
 
 
