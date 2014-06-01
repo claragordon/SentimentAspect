@@ -1,493 +1,493 @@
-Instance0: positive sentiment=3 before_screen after_is after_perfect after_for after_portable 
-Instance1: negative sentiment=1 before_first before_it before_does before_not before_have before_a after_button after_to after_open after_the after_lid 
-Instance2: neutral sentiment=1 before_push before_button before_to before_open before_the 
-Instance3: neutral sentiment=1 before_recently before_my before_7 before_year before_old after_4 after_with after_ht after_1 
-Instance4: neutral sentiment=1 before_old before_pentium before_4 before_with before_ht after_gb after_ram after_sata after_desktop 
-Instance5: positive sentiment=1 before_been before_better before_spent before_on before_a after_laptop 
-Instance6: negative sentiment=2 before_) before_and before_printing before_from before_either after_processor after_is after_an after_adventure 
-Instance7: negative sentiment=1 before_that before_i before_need before_a before_special after_device after_to after_connect after_my 
-Instance8: negative sentiment=1 before_another after_program after_that after_is after_laughable 
-Instance9: negative sentiment=2 before_yes before_i before_thought before_the after_was after_a after_little after_much 
-Instance10: positive sentiment=3 before_great before_for before_general before_internet before_use after_office after_apps after_home after_bookkeeping after_etc 
-Instance11: positive sentiment=3 before_it before_works before_great before_for before_general after_use after_microsoft after_office after_apps 
-Instance12: positive sentiment=4 before_the after_was after_very after_good after_and 
-Instance13: positive sentiment=4 before_and before_the before_product before_is before_top 
-Instance14: neutral sentiment=3 before_it before_played before_various after_without after_problems after_and after_ran 
-Instance15: neutral sentiment=3 before_games before_without before_problems before_and before_ran after_smoothly after_and after_flawlessly 
-Instance16: neutral sentiment=1 before_after before_replacing before_the after_drive after_the after_battery after_stopped 
-Instance17: negative sentiment=1 before_after before_replacing before_the before_hard before_drive before_the after_stopped after_working after_ after_(3 
-Instance18: negative sentiment=1 before_� before_the after_almost after_looked after_like after_a 
-Instance19: negative sentiment=1 before_m6809 before_was before_unsteady before_in before_its 
-Instance20: positive sentiment=3 before_still before_has before_a before_big before_enough after_to after_get after_everything after_done 
-Instance21: positive sentiment=4 before_it before_even before_has before_a before_great after_and after_skype after_works after_very after_well 
-Instance22: positive sentiment=4 before_has before_a before_great before_webcam before_and after_works after_very after_well 
-Instance23: positive sentiment=3 before_i before_love before_the before_solid after_aluminum after_frame after_and after_the 
-Instance24: positive sentiment=3 before_machined before_aluminum before_frame before_and before_the after_is after_the after_best after_of 
-Instance25: positive sentiment=1 before_you before_can before_even before_run before_a after_type after_program after_easily after_and 
-Instance26: positive sentiment=1 before_and before_run before_any before_leftover before_pc after_that after_you after_absolutely after_cannot 
-Instance27: positive sentiment=2 before_i before_used before_daily before_nice before_compact 
-Instance28: positive sentiment=3 before_the after_graphics after_card after_is after_a 
-Instance29: positive sentiment=3 before_slightly before_older before_games before_that before_a after_built-in after_card after_would after_have 
-Instance30: neutral sentiment=3 before_to before_run before_some before_slightly before_older after_that after_a after_intel after_built-in 
-Instance31: negative sentiment=2 before_it before_was before_hard before_to after_and after_operate after_at after_school 
-Instance32: negative sentiment=2 before_it before_was before_hard before_to before_handle before_and after_at after_school 
-Instance33: positive sentiment=3 before_it before_has before_easy before_to before_use after_and after_all after_the after_speed 
-Instance34: positive sentiment=3 before_use before_features before_and before_all before_the after_and after_power after_i after_could 
-Instance35: positive sentiment=3 before_and before_all before_the before_speed before_and after_i after_could after_ask after_for 
-Instance36: negative sentiment=2 before_my after_supply after_cord after_developed after_exposed 
-Instance37: positive sentiment=2 before_it before_was before_covered before_by before_the after_warranty after_plan 
-Instance38: positive sentiment=2 before_fit before_and before_feel before_of before_the after_inch 
-Instance39: negative sentiment=2 before_power after_went after_bad after_after after_2 
-Instance40: negative sentiment=2 before_the after_takes after_some after_getting after_use 
-Instance41: negative sentiment=1 before_how before_awful before_it before_is before_to 
-Instance42: negative sentiment=2 before_the after_speaker after_did after_not after_work 
-Instance43: negative sentiment=1 before_� before_dealing before_with before_the after_drone after_on after_the after_other 
-Instance44: positive sentiment=1 before_the after_cut after_pro after_on after_this 
-Instance45: negative sentiment=1 before_the before_computer after_extremely after_slowly after_whether after_opening 
-Instance46: positive sentiment=1 before_the after_snow after_leopard after_o/s after_is 
-Instance47: neutral sentiment=1 before_use before_although before_very before_different before_than after_xp after_visa after_or after_win7 
-Instance48: neutral sentiment=1 before_very before_different before_than before_win before_xp after_or after_win7 
-Instance49: neutral sentiment=1 before_than before_win before_xp before_visa before_or 
-Instance50: positive sentiment=1 before_o/s before_is before_extremely before_easy before_to after_although after_very after_different after_than 
-Instance51: neutral sentiment=1 before_startup after_about after_30 after_seconds after_shutdown 
-Instance52: neutral sentiment=1 before_startup before_in before_about before_30 before_seconds after_in after_2-4 after_seconds after_resume 
-Instance53: neutral sentiment=1 before_seconds before_shutdown before_in before_2-4 before_seconds after_from after_sleep after_in after_0-2 after_seconds 
-Instance54: positive sentiment=3 before_the after_is after_nice after_and after_the 
-Instance55: positive sentiment=3 before_images before_comes before_very before_clear before_the after_and after_the after_fit after_just 
-Instance56: positive sentiment=3 before_clear before_the before_keyboard before_and before_the after_just after_feels after_right 
-Instance57: neutral sentiment=1 before_i before_have before_only before_had before_pcs before_with after_before after_so after_this after_takes 
-Instance58: positive sentiment=3 before_super before_fast after_and after_really after_nice after_graphics after_card 
-Instance59: positive sentiment=3 before_super before_fast before_processor before_and before_really before_nice after_card 
-Instance60: positive sentiment=1 before_plus before_this before_is before_a before_great after_if after_i after_want after_to 
-Instance61: neutral sentiment=1 before_i before_want before_to before_unplug before_the after_keyboard after_mouse after_and after_monitor 
-Instance62: neutral sentiment=1 before_to before_unplug before_the before_external before_keyboard after_and after_monitor after_to after_take 
-Instance63: neutral sentiment=1 before_the before_external before_keyboard before_mouse before_and after_to after_take after_it after_with 
-Instance64: negative sentiment=1 before_after before_you before_buy before_it before_the after_7 after_system after_is after_a 
-Instance65: negative sentiment=2 before_i before_dislike before_the after_and after_size after_cubersome 
-Instance66: negative sentiment=2 before_i before_dislike before_the before_weight before_and after_cubersome 
-Instance67: negative sentiment=3 before_the after_that after_turns after_the after_volume 
-Instance68: positive sentiment=1 before_i before_cannot before_be before_happier before_with before_the after_or after_product 
-Instance69: positive sentiment=3 before_on before_the before_side before_and before_the after_keyboard after_makes after_typing after_quick 
-Instance70: negative sentiment=3 before_speakers after_sound after_that after_great 
-Instance71: positive sentiment=1 before_i before_love after_7 after_but after_i after_cant 
-Instance72: negative sentiment=1 before_unless before_yall before_get before_serious before_about after_and after_making after_required after_connections 
-Instance73: negative sentiment=1 before_about before_ergonomics before_and before_making before_required after_less after_obtrusive after_i after_will 
-Instance74: negative sentiment=1 before_after before_numerous before_calls before_to after_tech after_support after_i after_was 
-Instance75: negative sentiment=1 before_is before_that before_i before_pushed before_the after_plug after_in after_too after_hard 
-Instance76: positive sentiment=1 before_the after_on after_the after_screen after_is 
-Instance77: neutral sentiment=1 before_with before_all before_the after_that after_came after_with after_it 
-Instance78: neutral sentiment=1 before_came before_with before_it before_such before_as after_and after_iwork after_i after_was 
-Instance79: neutral sentiment=1 before_it before_such before_as before_ilife before_and after_i after_was after_set after_from 
-Instance80: negative sentiment=3 before_i before_recommend before_it before_for before_quality after_as after_i after_have after_a 
-Instance81: positive sentiment=3 before_great before_value before_fast after_computer after_works after_as after_if 
-Instance82: positive sentiment=3 before_great after_fast after_delivery- after_computer after_works 
-Instance83: negative sentiment=1 before_the after_explorer after_was after_very after_slow 
-Instance84: negative sentiment=1 before_the after_power after_port after_becomes after_loose 
-Instance85: positive sentiment=3 before_macbook before_pro before_has before_a before_better after_system after_in after_which after_i 
-Instance86: negative sentiment=1 before_gold before_key before_numbers before_too before_intall after_you after_must after_use after_the 
-Instance87: positive sentiment=1 before_the before_awesome before_ergonomic before_small before_lightweight after_supply after_with after_a after_power 
-Instance88: negative sentiment=1 before_lightweight before_power before_supply before_with before_a after_supply after_that after_weighed after_more 
-Instance89: positive sentiment=2 before_enjoy before_that before_toshib after_and after_durability after_unparalleled 
-Instance90: positive sentiment=2 before_enjoy before_that before_toshib before_force before_and after_unparalleled 
-Instance91: positive sentiment=1 before_which before_is before_great before_i before_am before_running after_business after_and after_scored after_a 
-Instance92: neutral sentiment=1 before_computer before_to before_basically before_check before_emails after_the after_web after_print after_coupons 
-Instance93: positive sentiment=3 before_we before_love before_the after_of after_the after_screen after_although 
-Instance94: positive sentiment=3 before_lightweight before_and before_very before_easy before_to after_around 
-Instance95: negative sentiment=1 before_that before_the before_computer before_does before_not after_on after_the after_24 after_twenty 
-Instance96: positive sentiment=2 before_market before_for before_an before_easy before_to after_stylish after_fun after_awesome after_computer 
-Instance97: negative sentiment=2 before_� before_the after_is after_irreplaceable 
-Instance98: positive sentiment=1 before_the before_more before_robust before_versions before_of after_7 after_and after_grab after_a 
-Instance99: positive sentiment=1 before_win before_7 before_and before_grab before_a after_stick after_of after_memory after_to 
-Instance100: negative sentiment=1 before_thought before_i before_was before_protected before_by 
-Instance101: negative sentiment=1 before_the after_was after_locekd after_and after_froze 
-Instance102: negative sentiment=1 before_to before_be before_used before_and before_the after_prompt after_would after_not after_work 
-Instance103: positive sentiment=3 before_its after_and after_speed after_enable after_it 
-Instance104: positive sentiment=3 before_its before_software before_and after_enable after_it after_to after_do 
-Instance105: negative sentiment=1 before_with before_me before_and before_finally before_the after_drive after_went after_out 
-Instance106: positive sentiment=3 before_i before_am before_most before_impressed before_with before_the after_including after_the after_iphoto 
-Instance107: positive sentiment=3 before_with before_the before_programming before_including before_the 
-Instance108: negative sentiment=1 before_speakers after_small after_to after_be after_of 
-Instance109: positive sentiment=3 before_i before_upgraded before_its after_to after_2gb after_i after_am 
-Instance110: positive sentiment=1 before_toshiba before_satellite before_m60 before_(with before_harman/kardon after_in after_december after_of after_2005 
-Instance111: negative sentiment=1 before_they before_should before_have before_included before_more after_on after_their after_computers after_if 
-Instance112: negative sentiment=1 before_their before_computers before_if before_they before_knew after_would after_run after_slowly 
-Instance113: negative sentiment=1 before_battery after_could after_be after_better after_but 
-Instance114: positive sentiment=1 before_better before_but before_overall before_for before_the after_and after_toshibas after_reputation after_for 
-Instance115: negative sentiment=1 before_the after_never after_held after_a after_charge 
-Instance116: negative sentiment=1 before_the before_battery before_never before_held before_a after_longer after_than after_one after_hour 
-Instance117: negative sentiment=1 before_two before_months before_stopped before_holding before_a after_for after_more after_than after_ten after_minutes 
-Instance118: neutral sentiment=1 before_� before_after before_the after_expired after_the after_hard after_drive 
-Instance119: negative sentiment=1 before_� before_after before_the before_warrenty before_expired before_the after_drive after_went after_bad after_and 
-Instance120: positive sentiment=2 before_the after_7 after_starter after_is after_in 
-Instance121: positive sentiment=3 before_the before_neat before_and before_organized after_list after_is after_a after_welcome 
-Instance122: negative sentiment=3 before_change before_from before_cluttered before_and before_confusing after_icons 
-Instance123: negative sentiment=1 before_laptop before_crashed before_right before_after before_the after_expired 
-Instance124: positive sentiment=4 before_is before_a before_winning before_combination before_of after_and after_performance 
-Instance125: positive sentiment=4 before_winning before_combination before_of before_price before_and 
-Instance126: positive sentiment=4 before_apparently before_well-built after_gorgeous after_to after_look after_at 
-Instance127: positive sentiment=4 before_apparently before_well-built before_and before_gorgeous before_to after_at after_the after_i5 after_macbook 
-Instance128: positive sentiment=1 before_the after_care after_has after_never after_failed 
-Instance129: positive sentiment=1 before_am before_using before_is before_easier before_to after_than after_most after_i after_have after_tried 
-Instance130: neutral sentiment=1 before_getting before_since before_it before_was before_under 
-Instance131: negative sentiment=1 before_after before_2 before_hours before_it before_didnt 
-Instance132: positive sentiment=3 before_i before_love before_the after_keyboard after_the after_functions 
-Instance133: positive sentiment=3 before_i before_love before_the before_size after_the after_functions 
-Instance134: positive sentiment=3 before_i before_love before_the before_size before_keyboard before_the 
-Instance135: negative sentiment=2 before_the after_is after_way after_way after_way 
-Instance136: positive sentiment=1 before_the after_is after_still after_as after_fast 
-Instance137: positive sentiment=1 before_was before_purchased before_and before_continues before_to after_flawlessly 
-Instance138: negative sentiment=1 before_the before_upper before_zone before_of before_the after_which after_is after_noticable after_to after_me 
-Instance139: negative sentiment=1 before_thing before_in before_for before_repairs before_(delivery after_was after_slow after_and after_without 
-Instance140: positive sentiment=3 before_the before_notebook before_is before_astonishing before_in after_picture after_quality after_and after_ease 
-Instance141: positive sentiment=3 before_notebook before_is before_astonishing before_in before_performance after_quality after_and after_ease after_of after_use 
-Instance142: positive sentiment=3 before_picture before_quality before_and before_ease before_of 
-Instance143: positive sentiment=1 before_the after_processor after_doesnt after_seem after_to 
-Instance144: positive sentiment=1 before_to before_run before_hot before_and before_the after_rarely after_turns after_on 
-Instance145: negative sentiment=1 before_� before_the after_never after_held after_a after_charge 
-Instance146: negative sentiment=1 before_� before_the before_battery before_never before_held before_a after_longer after_than after_one after_hour 
-Instance147: negative sentiment=1 before_two before_months before_stopped before_holding before_a after_for after_more after_than after_ten after_minutes 
-Instance148: neutral sentiment=1 before_laptop before_back before_with before_a before_new after_keys after_and after_casing 
-Instance149: neutral sentiment=1 before_back before_with before_a before_new before_mousepad after_and after_casing 
-Instance150: neutral sentiment=1 before_a before_new before_mousepad before_keys before_and 
-Instance151: neutral sentiment=1 before_and before_get before_just before_a before_normal after_system after_with after_trials after_of 
-Instance152: negative sentiment=1 before_dont before_understand before_is before_that before_the after_of after_the after_screen after_isnt 
-Instance153: negative sentiment=1 before_option before_to before_turn before_off before_the after_with after_a after_button after_like 
-Instance154: positive sentiment=3 before_when before_you before_travel before_and before_the after_life after_is after_excellent 
-Instance155: negative sentiment=1 before_� before_the before_machine before_is before_slow before_to after_up after_and after_occasionally after_crashes after_completely 
-Instance156: positive sentiment=3 before_dont before_have before_a before_chance before_to after_during after_one after_of after_the after_lectures 
-Instance157: neutral sentiment=1 before_option before_that before_only before_boots before_the after_at after_setup after_and after_removes 
-Instance158: neutral sentiment=2 before_the after_brightness after_automatically after_adjusts 
-Instance159: positive sentiment=2 before_i before_especially before_like before_the after_keyboard 
-Instance160: positive sentiment=3 before_besides before_the before_great after_it after_is after_a after_great after_machine 
-Instance161: negative sentiment=1 before_my before_laptop after_approximately after_$2300 after_and after_died 
-Instance162: negative sentiment=3 before_the after_is after_a after_bit after_quiet 
-Instance163: neutral sentiment=1 before_(the after_controller after_is after_the after_motherboard 
-Instance164: neutral sentiment=1 before_(the before_sata before_controller before_is before_the after_chip after_that after_lets after_the 
-Instance165: neutral sentiment=1 before_motherboard before_chip before_that before_lets before_the after_talk after_to after_the after_hard after_drive) 
-Instance166: neutral sentiment=1 before_the before_cpu before_talk before_to before_the after_drive) 
-Instance167: negative sentiment=2 before_the after_you after_have after_to after_press 
-Instance168: negative sentiment=1 before_the after_life after_was after_supposed after_to 
-Instance169: neutral sentiment=1 before_if before_i before_ran before_off before_the after_with after_the after_high after_effeciency 
-Instance170: negative sentiment=1 before_the before_high before_effeciency before_setting before_the after_would after_only after_last after_me 
-Instance171: positive sentiment=2 before_right after_and after_weight after_for after_portability 
-Instance172: positive sentiment=2 before_right before_size before_and after_for after_portability 
-Instance173: positive sentiment=2 before_right before_size before_and before_weight before_for 
-Instance174: negative sentiment=1 before_the after_life after_also after_doesnt after_keep 
-Instance175: neutral sentiment=1 before_� before_it before_was before_loaded before_with after_vista after_home after_premium--delivered after_with 
-Instance176: negative sentiment=1 before_vista before_home before_premium--delivered before_with before_only after_of after_ram after_and after_it 
-Instance177: negative sentiment=1 before_the before_reflectiveness before_of before_the after_is after_only after_a after_minor 
-Instance178: neutral sentiment=1 before_you before_can before_crank before_up before_the 
-Instance179: negative sentiment=1 before_is before_that before_ive before_noticed before_an after_fuzz after_sound after_coming after_out 
-Instance180: negative sentiment=1 before_sound before_coming before_out before_of before_the after_jack after_when after_headphones after_are 
-Instance181: neutral sentiment=1 before_like before_it before_i before_tried before_the after_at after_the after_store after_and 
-Instance182: positive sentiment=1 before_more before_expensive before_long-lasting before_laptop before_of after_like after_a after_sony after_apple 
-Instance183: neutral sentiment=3 before_for before_free before_even before_without before_the 
-Instance184: neutral sentiment=2 before_was before_searching before_online before_for before_a after_supply after_when after_i after_found 
-Instance185: neutral sentiment=2 before_and before_complex before_data before_analysis before_and 
-Instance186: neutral sentiment=2 before_my before_computer before_for before_anything before_like after_editing after_and after_complex after_data 
-Instance187: neutral sentiment=2 before_anything before_like before_graphics before_editing before_and after_data after_analysis after_and after_gaming 
-Instance188: negative sentiment=1 before_money before_on before_a before_computer before_that after_more after_then after_a after_toshiba 
-Instance189: positive sentiment=2 before_(no before_problem before_with before_the before_ordering before_or after_by after_the after_way 
-Instance190: positive sentiment=1 before_and before_the after_(the after_thing after_that after_makes 
-Instance191: positive sentiment=1 before_sporting before_2 before_gigs before_for before_high after_to after_handle after_more after_stuff 
-Instance192: positive sentiment=1 before_more before_stuff before_at before_once before_and after_the after_web after_a after_whole 
-Instance193: negative sentiment=2 before_it before_had before_was before_a before_detailed after_manuel 
-Instance194: negative sentiment=1 before_not before_live before_with before_a before_non-functioning 
-Instance195: positive sentiment=3 before_fast before_great 
-Instance196: positive sentiment=3 before_its after_very after_reasonable after_and after_works 
-Instance197: positive sentiment=3 before_its before_priced before_very before_reasonable before_and after_very after_well after_right after_out 
-Instance198: neutral sentiment=2 before_you before_want before_to before_reload before_the after_(i after_recommend after_doing after_if 
-Instance199: positive sentiment=1 before_while before_the after_itself after_is after_alright after_the 
-Instance200: negative sentiment=1 before_keyboard before_itself before_is before_alright before_the after_around after_it after_is after_cheap 
-Instance201: negative sentiment=1 before_hollow before_sound before_when before_using before_the after_command after_buttons 
-Instance202: positive sentiment=4 before_there before_are before_so before_many before_wonderful after_and after_benefits after_to after_the 
-Instance203: positive sentiment=3 before_read before_your before_emails before_at before_blazing 
-Instance204: negative sentiment=3 before_can before_say before_is before_that before_the after_pad after_doesnt after_work after_like 
-Instance205: positive sentiment=2 before_because before_its before_very before_fast before_great after_and after_has after_fantastic after_features 
-Instance206: positive sentiment=2 before_great before_size before_and before_has before_fantastic after_like after_the after_lighted after_keyboard 
-Instance207: positive sentiment=2 before_has before_fantastic before_features before_like before_the after_keyboard after_and after_easy after_mouse after_pad 
-Instance208: positive sentiment=2 before_the before_lighted before_keyboard before_and before_easy after_pad 
-Instance209: negative sentiment=2 before_battery after_needs after_more after_life 
-Instance210: negative sentiment=2 before_the before_computer before_doesnt before_reconize before_the after_system 
-Instance211: positive sentiment=2 before_the after_was after_easy after_to after_learn 
-Instance212: positive sentiment=1 before_applications after_in after_seconds after_and after_there 
-Instance213: negative sentiment=1 before_lose before_the before_data before_on before_my after_drive 
-Instance214: neutral sentiment=1 before_that before_it before_could before_not before_load after_so after_i after_contacted after_acer 
-Instance215: neutral sentiment=1 before_get before_it before_fixed before_thru before_my after_and after_it after_took after_about 
-Instance216: negative sentiment=1 before_fighting before_on before_the before_phone before_with after_and after_it after_seemed after_as 
-Instance217: negative sentiment=2 before_they before_did before_not before_make before_the after_larger 
-Instance218: neutral sentiment=2 before_we before_paid before_for before_the after_year after_warranty after_and after_the 
-Instance219: neutral sentiment=2 before_three before_year before_warranty before_and before_the after_warranty after_after after_that after_one 
-Instance220: negative sentiment=1 before_its before_not before_just before_slow before_on before_the after_its after_slow after_in after_general 
-Instance221: positive sentiment=3 before_it before_has before_just before_enough after_to after_run after_smoothly after_and 
-Instance222: positive sentiment=3 before_to before_run before_smoothly before_and before_enough after_to after_satisfy after_my after_needs 
-Instance223: negative sentiment=1 before_the before_issue before_is before_with before_the after_grafics after_card after_but after_still 
-Instance224: negative sentiment=1 before_expensve before_laptop before_that before_did before_not after_after after_2 after_days 
-Instance225: positive sentiment=2 before_the after_is after_even after_higher after_then 
-Instance226: negative sentiment=1 before_then before_just before_the before_other before_day before_my after_"mouse" after_button after_snapped! 
-Instance227: positive sentiment=3 before_the before_added before_feature before_that before_the after_is after_lighted 
-Instance228: positive sentiment=3 before_great before_- before_besides before_the before_added after_that after_the after_keyboard after_is after_lighted 
-Instance229: positive sentiment=3 before_it before_is before_very before_easy before_to after_on after_and after_feels after_great 
-Instance230: negative sentiment=2 before_as before_a before_15" before_but before_the after_looks after_like after_that after_of 
-Instance231: neutral sentiment=2 before_laptop before_is before_advertised before_as before_a after_but after_the after_casing after_looks 
-Instance232: neutral sentiment=2 before_looks before_like before_that before_of before_a 
-Instance233: positive sentiment=3 before_the after_of after_this after_machine after_compared 
-Instance234: negative sentiment=1 before_in before_due before_course before_ill before_remove before_the after_disc after_from after_this after_new 
-Instance235: negative sentiment=1 before_they before_are before_worse before_try before_finding after_protection after_programs after_for after_a 
-Instance236: positive sentiment=3 before_but before_with before_a before_way before_bigger after_and after_is after_able after_to 
-Instance237: neutral sentiment=3 before_able before_to before_connect before_to before_an 
-Instance238: negative sentiment=1 before_the after_are after_awful after_and after_the 
-Instance239: negative sentiment=1 before_the before_graphics before_are before_awful before_and before_the after_switch after_it after_at after_the 
-Instance240: positive sentiment=4 before_the before_overall after_quality after_of after_the after_unit 
-Instance241: neutral sentiment=2 before_i before_guess before_he before_was before_the after_person 
-Instance242: neutral sentiment=1 before_a before_seventy before_dollar 
-Instance243: negative sentiment=1 before_however before_the before_second before_time before_they after_it after_to after_the after_incorrect 
-Instance244: negative sentiment=2 before_got before_it before_i before_thought before_the after_of after_it after_was after_a after_joke 
-Instance245: positive sentiment=2 before_not before_had before_a before_problem before_with after_connection after_or after_any after_other after_problems 
-Instance246: positive sentiment=3 before_im before_really before_impressed before_with before_the after_and after_performance after_for after_the 
-Instance247: positive sentiment=3 before_impressed before_with before_the before_quality before_and after_for after_the after_price after_of 
-Instance248: positive sentiment=3 before_quality before_and before_performance before_for before_the after_of after_the after_computer 
-Instance249: neutral sentiment=1 before_my before_replacement before_i before_made before_both after_dvds after_(4) after_and after_a 
-Instance250: neutral sentiment=1 before_recovery before_dvds before_(4) before_and before_a after_dvd 
-Instance251: positive sentiment=3 before_in before_addition before_there before_is after_detection after_software after_that after_will 
-Instance252: negative sentiment=1 before_the after_are after_terrible after_and after_are 
-Instance253: negative sentiment=1 before_paying before_for before_the before_repair before_(the after_of after_a after_new after_one) 
-Instance254: positive sentiment=3 before_it before_is before_so before_simple before_to after_i after_use after_it after_more 
-Instance255: negative sentiment=1 before_had before_a before_problem before_with before_the after_that after_caused after_the after_mouse 
-Instance256: neutral sentiment=1 before_to before_jump before_all before_over before_the 
-Instance257: negative sentiment=1 before_the before_touchpad before_that before_caused before_the after_pointer after_to after_jump after_all 
-Instance258: negative sentiment=1 before_problems before_with before_it before_unlike before_some after_defects after_on after_past after_models 
-Instance259: negative sentiment=1 before_either before_way before_the after_is after_unsatisfactory 
-Instance260: negative sentiment=2 before_ever before_go before_back before_to before_any 
-Instance261: negative sentiment=2 before_what before_they before_fixed before_it before_no after_out after_of after_pocket 
-Instance262: positive sentiment=3 before_the after_engineering after_design after_and after_warranty 
-Instance263: positive sentiment=3 before_the before_quality after_design after_and after_warranty after_are 
-Instance264: positive sentiment=3 before_the before_quality before_engineering before_design before_and after_are after_superior--covers after_damage after_from 
-Instance265: positive sentiment=1 before_the after_are after_also after_very after_easy 
-Instance266: positive sentiment=1 before_the before_large after_gives after_you after_the after_option 
-Instance267: positive sentiment=3 before_great before_laptop before_for before_school before_easy before_to after_for after_beginners after_in after_the after_household 
-Instance268: negative sentiment=2 before_4) before_laptop before_still before_did before_not after_blue after_screen after_within after_a after_week 
-Instance269: negative sentiment=1 before_about before_this before_netbook before_is before_the after_they after_are after_not after_loud 
-Instance270: negative sentiment=1 before_other before_netbooks before_and before_clearly before_their after_are after_tighter after_and after_i 
-Instance271: positive sentiment=2 before_loaded before_with before_all before_necessary before_basic 
-Instance272: negative sentiment=1 before_didnt after_when after_shipped after_from after_walmartcom 
-Instance273: negative sentiment=1 before_if before_this before_is before_an before_improvement before_in after_service after_then after_i after_would 
-Instance274: positive sentiment=1 before_all before_of before_the after_(keynote after_pages after_numbers) after_have 
-Instance275: neutral sentiment=1 before_all before_of before_the before_programs before_(keynote after_numbers) after_have after_an after_option 
-Instance276: neutral sentiment=1 before_all before_of before_the before_programs before_(keynote after_numbers) after_have after_an after_option 
-Instance277: neutral sentiment=1 before_all before_of before_the before_programs before_(keynote before_pages after_have after_an after_option after_to 
-Instance278: negative sentiment=0 before_sure before_the before_initial before_out before_of before_pocket after_is after_greater after_but after_that 
-Instance279: positive sentiment=0 before_the before_fact before_that before_these before_machines after_like after_none after_other after_on 
-Instance280: positive sentiment=1 before_allow before_you before_to before_choose before_the after_are after_better after_and after_for 
-Instance281: positive sentiment=1 before_better before_and before_for before_the before_same after_you after_can after_get after_a 
-Instance282: positive sentiment=1 before_a before_signifant� before_amount before_off before_the 
-Instance283: negative sentiment=1 before_there before_is before_no after_drive after_on after_the after_computer 
-Instance284: positive sentiment=3 before_and before_best before_buy before_matched before_their after_so after_i after_was after_able 
-Instance285: negative sentiment=1 before_unfortunately before_apples after_has after_continued after_to after_slide 
-Instance286: positive sentiment=3 before_i before_believe before_that before_the after_of after_a after_mac after_is 
-Instance287: positive sentiment=3 before_a before_mac before_is before_worth before_the 
-Instance288: negative sentiment=1 before_moving before_your before_finger before_and before_the after_will after_not after_even after_move 
-Instance289: positive sentiment=1 before_my before_budget before_and before_with before_free after_and after_no after_tax after_to 
-Instance290: positive sentiment=1 before_ca before_this before_is before_the before_best after_we after_can after_get after_for 
-Instance291: positive sentiment=1 before_pro before_just before_fits before_in before_my after_and after_with after_free after_shipping 
-Instance292: negative sentiment=1 before_considering before_it before_has before_a before_short after_span after_i after_can after_only 
-Instance293: positive sentiment=3 before_i before_also before_love before_the after_the after_looks after_the after_feel 
-Instance294: positive sentiment=3 before_i before_also before_love before_the before_design before_the after_the after_feel after_and after_the 
-Instance295: positive sentiment=3 before_the before_design before_the before_looks before_the after_and after_the after_my after_toshiba 
-Instance296: positive sentiment=3 before_looks before_the before_feel before_and before_the after_toshiba after_feature after_is after_wonderfull 
-Instance297: negative sentiment=0 before_the after_of after_the after_macbook after_is 
-Instance298: negative sentiment=1 before_was before_not before_happy before_with after_of after_the after_programs after_on after_it 
-Instance299: positive sentiment=3 before_need before_a before_reliable before_easy before_to after_computer 
-Instance300: negative sentiment=1 before_the before_first before_one before_sent after_didnt after_work after_the after_second 
-Instance301: negative sentiment=1 before_didnt before_work before_the before_second before_sent after_didnt after_work after_the after_third 
-Instance302: negative sentiment=1 before_didnt before_work before_the before_third before_sent after_didnt after_work after_the after_fourth 
-Instance303: positive sentiment=1 before_as before_works before_for before_windows) before_but after_is after_cheap after_compared after_to after_office 
-Instance304: negative sentiment=1 before_iwork before_is before_cheap before_compared before_to 
-Instance305: negative sentiment=1 before_doesnt before_provide before_any before_kind before_of after_processor after_(such after_as after_works 
-Instance306: neutral sentiment=1 before_processor before_(such before_as before_works before_for after_but after_iwork after_is after_cheap 
-Instance307: neutral sentiment=1 before_you before_are before_using before_this before_for after_creation after_apple after_doesnt after_provide 
-Instance308: positive sentiment=3 before_it before_is before_light before_and before_the after_last after_a after_very after_long after_time 
-Instance309: neutral sentiment=1 before_stick before_when before_i before_upgrade before_my after_for after_the after_first after_time 
-Instance310: negative sentiment=1 before_me before_for before_installing before_a before_bad after_stick after_when after_i after_upgrade 
-Instance311: neutral sentiment=1 before_the before_laptop before_(i before_bought before_the after_stick after_they after_recomended) 
-Instance312: negative sentiment=1 before_externally before_the after_on after_my after_keyboard after_are 
-Instance313: negative sentiment=1 before_externally before_the before_keys before_on before_my after_are after_falling after_off after_after 
-Instance314: negative sentiment=1 before_paint before_is before_rubbing before_off before_the after_below after_the after_mouse after_pad 
-Instance315: negative sentiment=1 before_my before_hands before_sit before_and before_the after_has after_a after_terrible after_glare 
-Instance316: negative sentiment=1 before_after before_a before_few before_uses before_the after_is after_rubbing after_off after_the 
-Instance317: negative sentiment=1 before_i before_had before_an before_issue before_my after_wouldnt after_work 
-Instance318: negative sentiment=1 before_the after_is after_extremely after_sensitive after_which 
-Instance319: positive sentiment=1 before_also before_it before_comes before_with before_very before_useful after_like after_iphoto after_that after_it 
-Instance320: positive sentiment=1 before_with before_very before_useful before_applications before_like after_that after_it after_is after_the 
-Instance321: positive sentiment=1 before_that before_it before_is before_the before_best after_application after_i after_have after_ever after_had 
-Instance322: negative sentiment=2 before_from before_a before_mac before_even before_on after_resulting after_in after_a after_ton 
-Instance323: neutral sentiment=1 before_computer before_that before_i before_bought before_is after_ince after_screen after_and after_its 
-Instance324: positive sentiment=1 before_but before_i before_like before_the before_big after_on after_it 
-Instance325: negative sentiment=2 before_games before_with before_me before_for before_the after_period 
-Instance326: negative sentiment=0 before_i before_had before_to before_have before_my after_flashed after_and after_lost after_everything 
-Instance327: negative sentiment=0 before_unable before_to before_roll before_back before_the after_and after_everything after_to after_an 
-Instance328: neutral sentiment=0 before_power before_on before_after before_intalling before_a after_update after_i after_had after_to 
-Instance329: positive sentiment=1 before_i before_can before_have before_both after_and after_windows after_xp after_running 
-Instance330: positive sentiment=1 before_i before_can before_have before_both before_osx before_and after_xp after_running after_at after_the 
-Instance331: neutral sentiment=2 before_overall before_ before_poor after_average after_performance after_poor after_battery 
-Instance332: negative sentiment=2 before_overall before_ before_poor before_features before_average after_poor after_battery after_life after_excellent 
-Instance333: positive sentiment=2 before_poor before_features before_average before_performance before_poor after_life after_excellent after_price-value after_poor 
-Instance334: negative sentiment=2 before_performance before_poor before_battery before_life before_excellent after_poor 
-Instance335: negative sentiment=2 before_poor before_battery before_life before_excellent before_price-value 
-Instance336: negative sentiment=1 before_repairs before_for before_the before_multitude before_of after_problems 
-Instance337: positive sentiment=3 before_the after_are after_stunning 
-Instance338: positive sentiment=3 before_and before_definitely before_a before_decent before_enough after_to after_keep after_you after_entertained 
-Instance339: negative sentiment=1 before_10 before_days before_asus before_replaced before_itthe after_is after_very after_weak 
-Instance340: neutral sentiment=1 before_want before_you before_to before_buy before_more after_to after_fix after_it 
-Instance341: neutral sentiment=1 before_it before_is before_easy before_to before_navigate before_and after_programs 
-Instance342: positive sentiment=1 before_it before_is before_easy before_to after_and after_update after_programs 
-Instance343: positive sentiment=2 before_applications after_immediately after_(not after_like after_the 
-Instance344: negative sentiment=2 before_(not before_like before_the before_tired before_ms 
-Instance345: positive sentiment=1 before_geek before_squad before_is before_and before_also after_service 
-Instance346: negative sentiment=1 before_me before_is before_how before_dirty before_the after_gets after_and after_rather after_quickly after_too 
-Instance347: positive sentiment=1 before_is before_very before_lightweight before_can before_easily after_around after_in after_a after_knapsack 
-Instance348: positive sentiment=1 before_and before_it before_barely before_adds before_any 
-Instance349: positive sentiment=1 before_occassionally before_but before_can before_run before_many after_(ie after_internet after_tabs after_programs 
-Instance350: neutral sentiment=1 before_many before_applications before_(ie before_internet before_tabs after_etc) after_simultaneously 
-Instance351: positive sentiment=1 before_can before_run before_many before_applications before_(ie after_tabs after_programs after_etc) after_simultaneously 
-Instance352: negative sentiment=1 before_did before_not before_like before_the before_loud after_it after_made after_or after_how 
-Instance353: negative sentiment=1 before_it before_made before_or before_how before_the after_of after_the after_computer after_would 
-Instance354: positive sentiment=1 before_needed before_or before_they before_sent before_a after_technician after_to after_my after_house 
-Instance355: negative sentiment=2 before_defective 
-Instance356: negative sentiment=2 before_this before_computer before_was before_so before_challenging before_to after_and after_handle 
-Instance357: negative sentiment=2 before_so before_challenging before_to before_carry before_and 
-Instance358: negative sentiment=1 before_cords after_out after_the after_right after_for 
-Instance359: negative sentiment=1 before_cords before_coming before_out before_the before_right before_for after_plus after_cords after_coming after_out 
-Instance360: negative sentiment=1 before_cords before_coming before_out before_front before_for after_plus after_network after_connection after_on 
-Instance361: negative sentiment=1 before_coming before_out before_front before_for before_headphones/mic after_network after_connection after_on after_left 
-Instance362: negative sentiment=1 before_out before_front before_for before_headphones/mic before_plus after_connection after_on after_left after_make 
-Instance363: negative sentiment=1 before_make before_for before_a before_very before_messy after_with after_cords after_going after_every after_direction 
-Instance364: negative sentiment=1 before_the before_right before_for before_power before_plus after_coming after_out after_front after_for 
-Instance365: negative sentiment=1 before_a before_very before_messy before_setup before_with after_going after_every after_direction 
-Instance366: negative sentiment=1 before_inconvenienced before_with before_a before_non before_working after_supply after_which after_you after_cant 
-Instance367: neutral sentiment=1 before_my before_desktop before_which before_is before_a after_quad after_running after_at after_283 after_ghz 
-Instance368: positive sentiment=3 before_having before_to before_worry before_about before_the after_life 
-Instance369: positive sentiment=3 before_the after_is after_nice after_side after_view 
-Instance370: positive sentiment=1 before_the before_fact before_that before_the after_reacts after_to after_the after_lighting 
-Instance371: positive sentiment=1 before_have before_a before_darker before_softer before_lit 
-Instance372: neutral sentiment=1 before_and before_will before_not before_open before_any 
-Instance373: negative sentiment=1 before_not before_to before_mention before_sometimes before_the before_whole after_unit after_will after_decide after_not 
-Instance374: negative sentiment=1 before_but before_has before_a before_horribly before_cheap 
-Instance375: positive sentiment=1 before_looks after_but after_has after_a after_horribly 
-Instance376: positive sentiment=1 before_other before_computers before_that before_get before_strong after_that after_dont after_drop after_in 
-Instance377: negative sentiment=1 before_that before_this before_"net"book before_loses before_its 
-Instance378: positive sentiment=1 before_the after_of after_this after_is after_better 
-Instance379: positive sentiment=1 before_more before_money before_to before_get before_great 
-Instance380: neutral sentiment=1 before_i before_upgraded before_the after_and after_replaced after_the after_base 
-Instance381: neutral sentiment=1 before_memory before_and before_replaced before_the before_base after_7 after_starter after_to after_win 
-Instance382: neutral sentiment=1 before_base before_windows before_7 before_starter before_to after_7 after_home after_and after_it 
-Instance383: positive sentiment=1 before_win before_7 before_home before_and before_it after_just after_fine 
-Instance384: neutral sentiment=1 before_sure before_if before_it before_was before_the after_itself after_however 
-Instance385: negative sentiment=1 before_the before_users before_mentioned before_how before_the after_on after_the after_macbook after_is 
-Instance386: positive sentiment=1 before_spend before_on before_one before_of before_the after_shells after_it after_doesnt after_seem 
-Instance387: positive sentiment=1 before_it before_is before_easy before_to before_use before_its after_easily after_accommodates after_large after_hands 
-Instance388: positive sentiment=1 before_accommodates before_large before_hands before_and before_its after_is after_fantasic 
-Instance389: positive sentiment=1 before_it before_is before_easy before_to after_its after_keyboard after_easily after_accommodates 
-Instance390: negative sentiment=0 before_want before_me before_to before_pay before_the after_to after_ship after_it after_to 
-Instance391: neutral sentiment=0 before_to before_ship before_it before_to before_their after_center after_- after_i after_was 
-Instance392: neutral sentiment=1 before_this before_before before_i before_installed before_my 
-Instance393: positive sentiment=1 before_the after_is after_really after_long 
-Instance394: negative sentiment=2 before_july before_of before_this before_year before_the after_burner after_stopped after_working after_and 
-Instance395: negative sentiment=2 before_computer before_stared before_having before_issues before_with after_supply 
-Instance396: negative sentiment=1 before_had before_some before_trouble before_finding before_a after_that after_it after_would after_fit after_in 
-Instance397: negative sentiment=1 before_has before_had before_issues before_with before_the after_where after_it after_lost after_half 
-Instance398: negative sentiment=1 before_where before_it before_lost before_half before_the after_functions 
-Instance399: positive sentiment=2 before_comes before_with 
-Instance400: negative sentiment=1 before_computer before_has before_been before_at after_facility after_more after_than after_in 
-Instance401: positive sentiment=2 before_when before_i before_called before_sony before_the after_service after_was after_great 
-Instance402: negative sentiment=2 before_2 before_months before_left before_on before_the 
-Instance403: neutral sentiment=3 before_more before_streamlined before_system before_for before_adding after_using after_the after_internet after_and 
-Instance404: positive sentiment=3 before_it before_is before_a before_much before_more before_streamlined after_for after_adding after_programs after_using 
-Instance405: neutral sentiment=3 before_streamlined before_system before_for before_adding before_programs after_the after_internet after_and after_doing 
-Instance406: negative sentiment=1 before_froze before_on before_several before_occasion before_had after_that after_randomely after_would after_fall 
-Instance407: negative sentiment=2 before_not before_even after_mode after_boots 
-Instance408: negative sentiment=1 before_this before_is before_an before_over-sized after_laptop 
-Instance409: negative sentiment=1 before_to before_pay before_$100 before_for before_a after_charger after_for after_this after_cheap 
-Instance410: positive sentiment=3 before_the after_opened after_seamlessly after_in after_the 
-Instance411: negative sentiment=1 before_1you before_can before_not before_change before_your after_background after_(windows after_7 after_starter 
-Instance412: negative sentiment=1 before_change before_your before_desktop before_background before_(windows after_starter after_does after_not after_support 
-Instance413: negative sentiment=1 before_starter before_does before_not before_support before_that 
-Instance414: negative sentiment=1 before_with before_14 before_of before_the before_worse after_support after_technicians after_in after_the after_world 
-Instance415: negative sentiment=2 before_4 before_or before_so before_months before_the after_stopped after_working after_so after_i 
-Instance416: negative sentiment=2 before_go before_out before_and before_buy before_new after_just after_to after_keep after_this 
-Instance417: negative sentiment=1 before_as before_usual before_at after_service after_center after_she after_asked 
-Instance418: negative sentiment=1 before_the after_gets after_smeary after_and after_dusty 
-Instance419: negative sentiment=1 before_strengthswell-shaped before_weaknessesa before_bad 
-Instance420: positive sentiment=1 before_strengthswell-shaped after_bad after_videocard! 
-Instance421: negative sentiment=1 before_you before_cant before_even before_get before_a after_card after_which after_is after_why 
-Instance422: negative sentiment=1 before_the after_life after_before after_the after_battery 
-Instance423: negative sentiment=1 before_the before_battery before_life before_before before_the after_completely after_died after_of after_course 
-Instance424: positive sentiment=1 before_it before_is before_a before_real after_not after_the after_toy after_i 
-Instance425: neutral sentiment=1 before_no before_one before_can before_override before_the after_and after_that after_managers after_ 
-Instance426: positive sentiment=3 before_price after_purpose after_is after_awesome! 
-Instance427: positive sentiment=3 before_wonderful 
-Instance428: positive sentiment=1 before_the after_is after_huge after_and after_coloful 
-Instance429: neutral sentiment=1 before_more before_money before_for before_a before_normal after_laptop after_than after_a after_cheaper 
-Instance430: positive sentiment=3 before_this before_computer before_is before_easy before_to 
-Instance431: negative sentiment=1 before_� before_worse before_for before_the after_i after_could after_get after_a 
-Instance432: positive sentiment=3 before_it before_had before_most before_of before_the after_and after_all after_of after_the 
-Instance433: positive sentiment=3 before_features before_and before_all before_of before_the after_that after_i after_wanted after_to 
-Instance434: positive sentiment=3 before_keyboard after_also after_very after_nice after_and 
-Instance435: negative sentiment=1 before_it before_did before_not before_have before_all before_the after_i after_expected after_it after_to after_have 
-Instance436: negative sentiment=1 before_machouse before_they before_stated before_the before_their after_center after_is after_down after_due 
-Instance437: positive sentiment=3 before_there before_is before_a after_keyboard after_which after_is after_perfect 
-Instance438: positive sentiment=4 before_it before_has before_a before_lot before_of after_and after_a after_great after_battery after_life 
-Instance439: positive sentiment=4 before_of before_memory before_and before_a before_great after_life 
-Instance440: neutral sentiment=1 before_i before_spoke before_with before_a after_rep after_at after_micro after_center 
-Instance441: negative sentiment=1 before_the before_same before_problem before_with before_her after_adapter after_so after_its after_not 
-Instance442: positive sentiment=3 before_i before_love before_this after_it after_is after_superior after_to 
-Instance443: negative sentiment=3 before_program before_it before_is before_superior before_to after_movie after_maker 
-Instance444: negative sentiment=1 before_he before_has before_replaced before_his after_drive after_twice after_and after_(of 
-Instance445: negative sentiment=1 before_has before_had before_to before_pay before_for after_software after_every after_year 
-Instance446: positive sentiment=3 before_with before_the before_intuition before_of before_the after_the after_beauty after_of after_the 
-Instance447: positive sentiment=3 before_intuition before_of before_the before_design before_the after_of after_the after_product after_and 
-Instance448: positive sentiment=3 before_the after_is after_great after_for after_this 
-Instance449: negative sentiment=2 before_not before_able before_to before_load before_my after_gps after_software after_or after_microsoft 
-Instance450: negative sentiment=2 before_my before_garmin before_gps before_software before_or after_office after_2003 
-Instance451: negative sentiment=1 before_ive before_also before_had before_to before_have before_the after_replaced after_at after_my after_expense 
-Instance452: negative sentiment=2 before_i before_had before_the after_telling after_me after_older after_version 
-Instance453: negative sentiment=2 before_version before_did before_not before_make before_the after_noise after_cause after_it after_is 
-Instance454: positive sentiment=3 before_was before_very before_much before_worth before_the after_i after_paid 
-Instance455: neutral sentiment=2 before_even before_out before_of 
-Instance456: positive sentiment=3 before_great before_little before_computer before_for before_the 
-Instance457: positive sentiment=3 before_crisp after_great after_battery after_life after_and 
-Instance458: positive sentiment=3 before_crisp before_screen before_great after_life after_and after_plenty after_of after_storage 
-Instance459: positive sentiment=3 before_battery before_life before_and before_plenty before_of 
-Instance460: positive sentiment=1 before_all after_associates after_are after_always after_wiling 
-Instance461: negative sentiment=1 before_and before_after before_8 before_months before_the after_split after_in after_half after_just 
-Instance462: positive sentiment=1 before_than before_i before_expected before_for before_the 
-Instance463: negative sentiment=3 before_i before_had before_to before_adjust before_my after_sensitivity after_because after_it after_is 
-Instance464: negative sentiment=1 before_i before_wish after_or after_ms after_office after_came 
-Instance465: negative sentiment=1 before_i before_wish before_iwork before_or after_office after_came after_with after_the 
-Instance466: negative sentiment=1 before_came before_with before_the before_mac before_but after_office after_doesnt after_even after_come 
-Instance467: negative sentiment=1 before_keyboard after_plastic after_and after_spongey after_feeling 
-Instance468: positive sentiment=2 before_still before_have before_them before_but before_the after_osx after_is after_a after_clean 
-Instance469: positive sentiment=2 before_is before_a before_clean before_and before_smooth after_system 
-Instance470: positive sentiment=2 before_number before_set before_up before_on before_the after_which after_most after_laptops after_do 
-Instance471: negative sentiment=2 before_because before_he before_said before_that before_the after_is after_under after_the after_motherboard 
-Instance472: neutral sentiment=2 before_the before_hinge before_is before_under before_the after_and after_they after_have after_to 
-Instance473: positive sentiment=1 before_netbook before_was before_desinged before_for before_was after_the after_web after_and after_boy 
-Instance474: positive sentiment=3 before_is before_quick before_and before_easy before_to 
-Instance475: neutral sentiment=2 before_with before_notes before_saying before_they before_replaced before_the after_drive 
-Instance476: positive sentiment=3 before_the before_laptop before_is before_relatively before_simple before_to after_though after_i after_bought after_ 
-Instance477: negative sentiment=1 before_cant before_close before_the before_2nd after_bay after_since after_there after_are 
-Instance478: negative sentiment=2 before_no after_on after_the after_display 
-Instance479: neutral sentiment=1 before_the after_carrying after_case after_keyboard after_and 
-Instance480: neutral sentiment=1 before_the before_leather before_carrying before_case after_and after_mouse after_arrived after_in 
-Instance481: neutral sentiment=1 before_the before_leather before_carrying before_case before_keyboard before_and after_arrived after_in after_two after_days 
-Instance482: positive sentiment=3 before_the after_pad after_is after_among after_the after_best 
-Instance483: negative sentiment=2 before_at before_a before_slanted before_angle before_the after_will after_"topple" after_or after_"slide" 
-Instance484: neutral sentiment=2 before_its before_now before_all after_hardware 
-Instance485: neutral sentiment=1 before_we before_also before_use after_so after_we after_can after_run 
-Instance486: neutral sentiment=1 before_can before_run before_virtual before_machines before_of after_xp after_professional after_windows after_7 
-Instance487: neutral sentiment=1 before_machines before_of before_windows before_xp before_professional after_7 after_home after_premium after_windows 
-Instance488: neutral sentiment=1 before_professional before_windows before_7 before_home before_premium after_server after_enterprise after_2003 after_and 
-Instance489: neutral sentiment=1 before_windows before_server before_enterprise before_2003 before_and after_server after_2008 after_enterprise 
-Instance490: conflict sentiment=2 before_how before_toshiba before_handles before_the after_seems after_to after_vary after_some 
-Instance491: positive sentiment=2 before_intial before_fix before_others before_had before_the after_repair after_done after_5 after_times 
-Instance492: neutral sentiment=2 before_like before_to before_use before_a before_different after_system after_altogether 
+negative the:1 mouse:1 is:1 way:1 way:1 way:1 to:1 sensitve:1 .:1 
+positive Only:1 other:1 thing:1 is:1 that:1 if:1 you:1 are:1 using:1 this:1 for:1 document:1 creation:1 Apple:1 doesnt:1 provide:1 any:1 kind:1 of:1 word:1 processor:1 (:1 such:1 as:1 works:1 for:1 windows:1 ):1 ,:1 but:1 iwork:1 is:1 cheap:1 compared:1 to:1 office:1 .:1 
+negative Only:1 other:1 thing:1 is:1 that:1 if:1 you:1 are:1 using:1 this:1 for:1 document:1 creation:1 Apple:1 doesnt:1 provide:1 any:1 kind:1 of:1 word:1 processor:1 (:1 such:1 as:1 works:1 for:1 windows:1 ):1 ,:1 but:1 iwork:1 is:1 cheap:1 compared:1 to:1 office:1 .:1 
+negative Only:1 other:1 thing:1 is:1 that:1 if:1 you:1 are:1 using:1 this:1 for:1 document:1 creation:1 Apple:1 doesnt:1 provide:1 any:1 kind:1 of:1 word:1 processor:1 (:1 such:1 as:1 works:1 for:1 windows:1 ):1 ,:1 but:1 iwork:1 is:1 cheap:1 compared:1 to:1 office:1 .:1 
+neutral Only:1 other:1 thing:1 is:1 that:1 if:1 you:1 are:1 using:1 this:1 for:1 document:1 creation:1 Apple:1 doesnt:1 provide:1 any:1 kind:1 of:1 word:1 processor:1 (:1 such:1 as:1 works:1 for:1 windows:1 ):1 ,:1 but:1 iwork:1 is:1 cheap:1 compared:1 to:1 office:1 .:1 
+neutral Only:1 other:1 thing:1 is:1 that:1 if:1 you:1 are:1 using:1 this:1 for:1 document:1 creation:1 Apple:1 doesnt:1 provide:1 any:1 kind:1 of:1 word:1 processor:1 (:1 such:1 as:1 works:1 for:1 windows:1 ):1 ,:1 but:1 iwork:1 is:1 cheap:1 compared:1 to:1 office:1 .:1 
+negative They:1 don:1 t:1 translate:1 from:1 a:1 Mac:1 ,:1 even:1 on:1 Word:1 ,:1 resulting:1 in:1 a:1 ton:1 of:1 run-on:1 sentences:1 .:1 
+positive Price:1 and:1 purpose:1 is:1 awesome:1 !:1 
+positive and:1 they:1 replaced:1 the:1 awesome:1 ergonomic:1 small:1 lightweight:1 power:1 supply:1 with:1 a:1 power:1 supply:1 that:1 weighed:1 more:1 than:1 the:1 machine:1 itself:1 .:1 
+negative and:1 they:1 replaced:1 the:1 awesome:1 ergonomic:1 small:1 lightweight:1 power:1 supply:1 with:1 a:1 power:1 supply:1 that:1 weighed:1 more:1 than:1 the:1 machine:1 itself:1 .:1 
+positive The:1 battery:1 is:1 really:1 long:1 .:1 
+positive (:1 No:1 problem:1 with:1 the:1 ordering:1 or:1 shipping:1 by:1 the:1 way:1 .:1 
+negative The:1 wheel:1 that:1 turns:1 the:1 volume:1 up:1 and:1 down:1 does:1 n't:1 work:1 in:1 real:1 time:1 .:1 
+neutral I:1 spoke:1 with:1 a:1 service:1 rep:1 at:1 Micro:1 Center:1 and:1 his:1 girlfriend:1 is:1 having:1 the:1 same:1 problem:1 with:1 her:1 power:1 adapter:1 ,:1 so:1 it:1 's:1 not:1 just:1 an:1 isolated:1 incident:1 !:1 !:1 !:1 
+negative I:1 spoke:1 with:1 a:1 service:1 rep:1 at:1 Micro:1 Center:1 and:1 his:1 girlfriend:1 is:1 having:1 the:1 same:1 problem:1 with:1 her:1 power:1 adapter:1 ,:1 so:1 it:1 's:1 not:1 just:1 an:1 isolated:1 incident:1 !:1 !:1 !:1 
+neutral We:1 also:1 use:1 Paralles:1 so:1 we:1 can:1 run:1 virtual:1 machines:1 of:1 Windows:1 XP:1 Professional:1 ,:1 Windows:1 7:1 Home:1 Premium:1 ,:1 Windows:1 Server:1 Enterprise:1 2003:1 ,:1 and:1 Windows:1 Server:1 2008:1 Enterprise:1 .:1 
+neutral We:1 also:1 use:1 Paralles:1 so:1 we:1 can:1 run:1 virtual:1 machines:1 of:1 Windows:1 XP:1 Professional:1 ,:1 Windows:1 7:1 Home:1 Premium:1 ,:1 Windows:1 Server:1 Enterprise:1 2003:1 ,:1 and:1 Windows:1 Server:1 2008:1 Enterprise:1 .:1 
+neutral We:1 also:1 use:1 Paralles:1 so:1 we:1 can:1 run:1 virtual:1 machines:1 of:1 Windows:1 XP:1 Professional:1 ,:1 Windows:1 7:1 Home:1 Premium:1 ,:1 Windows:1 Server:1 Enterprise:1 2003:1 ,:1 and:1 Windows:1 Server:1 2008:1 Enterprise:1 .:1 
+neutral We:1 also:1 use:1 Paralles:1 so:1 we:1 can:1 run:1 virtual:1 machines:1 of:1 Windows:1 XP:1 Professional:1 ,:1 Windows:1 7:1 Home:1 Premium:1 ,:1 Windows:1 Server:1 Enterprise:1 2003:1 ,:1 and:1 Windows:1 Server:1 2008:1 Enterprise:1 .:1 
+neutral We:1 also:1 use:1 Paralles:1 so:1 we:1 can:1 run:1 virtual:1 machines:1 of:1 Windows:1 XP:1 Professional:1 ,:1 Windows:1 7:1 Home:1 Premium:1 ,:1 Windows:1 Server:1 Enterprise:1 2003:1 ,:1 and:1 Windows:1 Server:1 2008:1 Enterprise:1 .:1 
+negative It:1 did:1 not:1 have:1 all:1 the:1 features:1 I:1 expected:1 it:1 to:1 have:1 .:1 
+neutral I:1 am:1 not:1 sure:1 if:1 it:1 was:1 the:1 drive:1 itself:1 ,:1 however:1 ;:1 
+positive The:1 OS:1 is:1 still:1 as:1 fast:1 as:1 the:1 day:1 that:1 the:1 laptop:1 was:1 purchased:1 and:1 continues:1 to:1 run:1 flawlessly:1 .:1 
+positive The:1 OS:1 is:1 still:1 as:1 fast:1 as:1 the:1 day:1 that:1 the:1 laptop:1 was:1 purchased:1 and:1 continues:1 to:1 run:1 flawlessly:1 .:1 
+neutral With:1 notes:1 saying:1 they:1 replaced:1 the:1 hard:1 drive:1 .:1 
+positive It:1 is:1 good:1 to:1 know:1 that:1 I:1 can:1 mobilize:1 without:1 having:1 to:1 worry:1 about:1 the:1 battery:1 life:1 .:1 
+negative 4:1 ):1 Laptop:1 still:1 did:1 not:1 work:1 ,:1 blue:1 screen:1 within:1 a:1 week:1 ...:1 
+neutral Long:1 story:1 ,:1 but:1 after:1 many:1 calls:1 to:1 various:1 offices:1 ,:1 I:1 was:1 told:1 that:1 no:1 one:1 can:1 override:1 the:1 depot:1 and:1 that:1 managers:1 do:1 n't:1 take:1 phone:1 calls:1 or:1 e/mails:1 .:1 
+negative The:1 repairs:1 were:1 made:1 quickly:1 though:1 I:1 must:1 say:1 ,:1 however:1 the:1 second:1 time:1 they:1 shipped:1 it:1 to:1 the:1 incorrect:1 address:1 and:1 it:1 took:1 nearly:1 a:1 week:1 for:1 them:1 to:1 get:1 it:1 to:1 me:1 .:1 
+negative No:1 luck:1 ,:1 although:1 I:1 waited:1 for:1 hours:1 on:1 the:1 phone-Visited:1 MacHouse:1 ,:1 they:1 stated:1 the:1 their:1 call:1 center:1 is:1 down:1 due:1 to:1 too:1 many:1 phonecalls:1 (:1 difficult:1 to:1 believe:1 ):1 .:1 
+positive The:1 13:1 '':1 Macbook:1 Pro:1 just:1 fits:1 in:1 my:1 budget:1 and:1 with:1 free:1 shipping:1 and:1 no:1 tax:1 to:1 CA:1 this:1 is:1 the:1 best:1 price:1 we:1 can:1 get:1 for:1 a:1 great:1 product:1 .:1 
+positive The:1 13:1 '':1 Macbook:1 Pro:1 just:1 fits:1 in:1 my:1 budget:1 and:1 with:1 free:1 shipping:1 and:1 no:1 tax:1 to:1 CA:1 this:1 is:1 the:1 best:1 price:1 we:1 can:1 get:1 for:1 a:1 great:1 product:1 .:1 
+positive The:1 13:1 '':1 Macbook:1 Pro:1 just:1 fits:1 in:1 my:1 budget:1 and:1 with:1 free:1 shipping:1 and:1 no:1 tax:1 to:1 CA:1 this:1 is:1 the:1 best:1 price:1 we:1 can:1 get:1 for:1 a:1 great:1 product:1 .:1 
+positive I:1 can:1 have:1 both:1 OSX:1 and:1 Windows:1 XP:1 running:1 at:1 the:1 same:1 time:1 !:1 
+positive I:1 can:1 have:1 both:1 OSX:1 and:1 Windows:1 XP:1 running:1 at:1 the:1 same:1 time:1 !:1 
+negative There:1 are:1 no:1 gold:1 key:1 numbers:1 too:1 intall:1 programs:1 ,:1 you:1 must:1 use:1 the:1 serial:1 numbers:1 that:1 it:1 does:1 not:1 accept:1 and:1 then:1 things:1 are:1 limited:1 as:1 far:1 a:1 working:1 because:1 they:1 are:1 only:1 good:1 for:1 a:1 short:1 time:1 .:1 
+negative This:1 computer:1 that:1 I:1 have:1 has:1 had:1 issues:1 with:1 the:1 keyboard:1 where:1 it:1 lost:1 half:1 the:1 keyboard:1 functions:1 .:1 
+negative This:1 computer:1 that:1 I:1 have:1 has:1 had:1 issues:1 with:1 the:1 keyboard:1 where:1 it:1 lost:1 half:1 the:1 keyboard:1 functions:1 .:1 
+positive Fast:1 ,:1 great:1 visual:1 !:1 
+negative He:1 has:1 replaced:1 his:1 hard:1 drive:1 twice:1 and:1 (:1 of:1 course:1 ):1 has:1 had:1 to:1 pay:1 for:1 antivirus:1 software:1 every:1 year:1 .:1 
+negative He:1 has:1 replaced:1 his:1 hard:1 drive:1 twice:1 and:1 (:1 of:1 course:1 ):1 has:1 had:1 to:1 pay:1 for:1 antivirus:1 software:1 every:1 year:1 .:1 
+negative From:1 the:1 get-go:1 ,:1 the:1 M6809:1 was:1 unsteady:1 in:1 its:1 operation:1 ;:1 
+negative after:1 much:1 effort:1 and:1 10:1 days:1 ASUS:1 replaced:1 itThe:1 WiFi:1 is:1 very:1 weak:1 .:1 
+positive Great:1 laptop:1 for:1 school:1 ,:1 easy:1 to:1 use:1 for:1 beginners:1 in:1 the:1 household:1 .:1 
+positive It:1 is:1 so:1 simple:1 to:1 use:1 ,:1 I:1 use:1 it:1 more:1 than:1 my:1 desktop:1 .:1 
+neutral Was:1 searching:1 online:1 for:1 a:1 power:1 supply:1 when:1 I:1 found:1 this:1 site:1 .:1 
+negative My:1 computer:1 froze:1 on:1 several:1 occasion:1 ,:1 had:1 buttons:1 that:1 randomely:1 would:1 fall:1 off:1 and:1 even:1 had:1 moments:1 when:1 the:1 computer:1 would:1 refuse:1 to:1 turn:1 on:1 at:1 all:1 .:1 
+positive Treat:1 yourself:1 to:1 a:1 more:1 expensive:1 ,:1 long-lasting:1 laptop:1 of:1 quality:1 like:1 a:1 Sony:1 ,:1 Apple:1 ,:1 or:1 Toshiba:1 .:1 
+negative I:1 had:1 to:1 adjust:1 my:1 mousepad:1 sensitivity:1 ,:1 because:1 it:1 is:1 very:1 sensitive:1 .:1 
+neutral the:1 screen:1 brightness:1 automatically:1 adjusts:1 .:1 
+negative Keyboard:1 is:1 plastic:1 and:1 spongey:1 feeling:1 .:1 
+negative The:1 only:1 drawback:1 for:1 me:1 is:1 how:1 dirty:1 the:1 screen:1 gets:1 ,:1 and:1 rather:1 quickly:1 too:1 .:1 
+negative Did:1 n't:1 work:1 when:1 shipped:1 from:1 Walmart.com:1 but:1 went:1 into:1 a:1 store:1 and:1 exchanged:1 for:1 a:1 working:1 laptop:1 (:1 same:1 make/model:1 ):1 .:1 
+neutral We:1 paid:1 for:1 the:1 three:1 year:1 warranty:1 and:1 the:1 extended:1 warranty:1 after:1 that:1 one:1 ended:1 as:1 well:1 .:1 
+neutral We:1 paid:1 for:1 the:1 three:1 year:1 warranty:1 and:1 the:1 extended:1 warranty:1 after:1 that:1 one:1 ended:1 as:1 well:1 .:1 
+negative The:1 only:1 thing:1 i:1 can:1 say:1 is:1 that:1 the:1 touch:1 pad:1 doesnt:1 work:1 like:1 it:1 should:1 all:1 the:1 time:1 .:1 
+negative Battery:1 life:1 needs:1 more:1 life:1 .:1 
+positive My:1 friend:1 reports:1 the:1 notebook:1 is:1 astonishing:1 in:1 performance:1 ,:1 picture:1 quality:1 ,:1 and:1 ease:1 of:1 use:1 .:1 
+positive My:1 friend:1 reports:1 the:1 notebook:1 is:1 astonishing:1 in:1 performance:1 ,:1 picture:1 quality:1 ,:1 and:1 ease:1 of:1 use:1 .:1 
+positive My:1 friend:1 reports:1 the:1 notebook:1 is:1 astonishing:1 in:1 performance:1 ,:1 picture:1 quality:1 ,:1 and:1 ease:1 of:1 use:1 .:1 
+positive The:1 resolution:1 is:1 even:1 higher:1 then:1 any:1 other:1 laptop:1 on:1 the:1 market:1 .:1 
+positive If:1 you:1 want:1 a:1 little:1 more:1 custom:1 ability:1 ,:1 drop:1 a:1 few:1 bucks:1 and:1 upgrade:1 to:1 one:1 of:1 the:1 more:1 robust:1 versions:1 of:1 Win:1 7:1 and:1 grab:1 a:1 2GB:1 stick:1 of:1 memory:1 to:1 spice:1 it:1 all:1 up:1 a:1 bit:1 more:1 .:1 
+positive If:1 you:1 want:1 a:1 little:1 more:1 custom:1 ability:1 ,:1 drop:1 a:1 few:1 bucks:1 and:1 upgrade:1 to:1 one:1 of:1 the:1 more:1 robust:1 versions:1 of:1 Win:1 7:1 and:1 grab:1 a:1 2GB:1 stick:1 of:1 memory:1 to:1 spice:1 it:1 all:1 up:1 a:1 bit:1 more:1 .:1 
+positive It:1 is:1 light:1 and:1 the:1 battery:1 last:1 a:1 very:1 long:1 time:1 .:1 
+negative Unless:1 you:1 want:1 to:1 be:1 inconvenienced:1 with:1 a:1 non:1 working:1 power:1 supply:1 which:1 you:1 ca:1 n't:1 find:1 a:1 replacement:1 for:1 because:1 they:1 made:1 the:1 attachment:1 so:1 small:1 .:1 
+positive But:1 sitting:1 on:1 a:1 lap:1 or:1 on:1 a:1 desk:1 in:1 front:1 of:1 you:1 it:1 looks:1 more:1 than:1 big:1 enough:1 (:1 this:1 could:1 be:1 because:1 Im:1 used:1 to:1 my:1 Lenovo:1 10:1 tablet:1 now:1 ):1 plus:1 this:1 is:1 a:1 great:1 size:1 if:1 I:1 want:1 to:1 unplug:1 the:1 external:1 keyboard:1 ,:1 mouse:1 ,:1 and:1 monitor:1 to:1 take:1 it:1 with:1 me:1 when:1 I:1 take:1 photos:1 and:1 video:1 .:1 
+neutral But:1 sitting:1 on:1 a:1 lap:1 or:1 on:1 a:1 desk:1 in:1 front:1 of:1 you:1 it:1 looks:1 more:1 than:1 big:1 enough:1 (:1 this:1 could:1 be:1 because:1 Im:1 used:1 to:1 my:1 Lenovo:1 10:1 tablet:1 now:1 ):1 plus:1 this:1 is:1 a:1 great:1 size:1 if:1 I:1 want:1 to:1 unplug:1 the:1 external:1 keyboard:1 ,:1 mouse:1 ,:1 and:1 monitor:1 to:1 take:1 it:1 with:1 me:1 when:1 I:1 take:1 photos:1 and:1 video:1 .:1 
+neutral But:1 sitting:1 on:1 a:1 lap:1 or:1 on:1 a:1 desk:1 in:1 front:1 of:1 you:1 it:1 looks:1 more:1 than:1 big:1 enough:1 (:1 this:1 could:1 be:1 because:1 Im:1 used:1 to:1 my:1 Lenovo:1 10:1 tablet:1 now:1 ):1 plus:1 this:1 is:1 a:1 great:1 size:1 if:1 I:1 want:1 to:1 unplug:1 the:1 external:1 keyboard:1 ,:1 mouse:1 ,:1 and:1 monitor:1 to:1 take:1 it:1 with:1 me:1 when:1 I:1 take:1 photos:1 and:1 video:1 .:1 
+neutral But:1 sitting:1 on:1 a:1 lap:1 or:1 on:1 a:1 desk:1 in:1 front:1 of:1 you:1 it:1 looks:1 more:1 than:1 big:1 enough:1 (:1 this:1 could:1 be:1 because:1 Im:1 used:1 to:1 my:1 Lenovo:1 10:1 tablet:1 now:1 ):1 plus:1 this:1 is:1 a:1 great:1 size:1 if:1 I:1 want:1 to:1 unplug:1 the:1 external:1 keyboard:1 ,:1 mouse:1 ,:1 and:1 monitor:1 to:1 take:1 it:1 with:1 me:1 when:1 I:1 take:1 photos:1 and:1 video:1 .:1 
+positive It:1 's:1 software:1 and:1 speed:1 enable:1 it:1 to:1 do:1 amazing:1 things:1 .:1 
+positive It:1 's:1 software:1 and:1 speed:1 enable:1 it:1 to:1 do:1 amazing:1 things:1 .:1 
+neutral You:1 can:1 call:1 HP:1 and:1 they:1 want:1 you:1 to:1 buy:1 more:1 software:1 to:1 fix:1 it:1 .:1 
+neutral I:1 used:1 to:1 build:1 my:1 own:1 desktops:1 from:1 the:1 component:1 parts:1 ,:1 and:1 recently:1 my:1 7:1 year:1 old:1 Pentium:1 4:1 with:1 HT:1 1:1 GB:1 ram:1 SATA:1 desktop:1 stopped:1 working:1 (:1 this:1 was:1 a:1 rock:1 star:1 7:1 years:1 ago:1 ):1 .:1 
+neutral I:1 used:1 to:1 build:1 my:1 own:1 desktops:1 from:1 the:1 component:1 parts:1 ,:1 and:1 recently:1 my:1 7:1 year:1 old:1 Pentium:1 4:1 with:1 HT:1 1:1 GB:1 ram:1 SATA:1 desktop:1 stopped:1 working:1 (:1 this:1 was:1 a:1 rock:1 star:1 7:1 years:1 ago:1 ):1 .:1 
+negative Could:1 not:1 keep:1 up:1 with:1 me:1 and:1 finally:1 the:1 hard:1 drive:1 went:1 out:1 .:1 
+negative The:1 screen:1 gets:1 smeary:1 and:1 dusty:1 very:1 quickly:1 and:1 it:1 's:1 very:1 noticeable:1 .:1 
+positive It:1 is:1 fast:1 and:1 i:1 have:1 not:1 had:1 a:1 problem:1 with:1 internet:1 connection:1 or:1 any:1 other:1 problems:1 .:1 
+positive When:1 I:1 called:1 Sony:1 the:1 Customer:1 Service:1 was:1 Great:1 .:1 
+positive Which:1 is:1 great:1 I:1 am:1 running:1 Vista:1 Business:1 and:1 scored:1 a:1 5.X:1 on:1 the:1 index:1 I:1 have:1 never:1 seen:1 a:1 windows:1 machine:1 have:1 a:1 total:1 score:1 in:1 the:1 5:1 's:1 .:1 
+neutral  :1 Another:1 THREE:1 weeks:1 later:1 I:1 had:1 my:1 laptop:1 back:1 with:1 a:1 new:1 mousepad:1 ,:1 keys:1 ,:1 and:1 casing:1 .:1 
+neutral  :1 Another:1 THREE:1 weeks:1 later:1 I:1 had:1 my:1 laptop:1 back:1 with:1 a:1 new:1 mousepad:1 ,:1 keys:1 ,:1 and:1 casing:1 .:1 
+neutral  :1 Another:1 THREE:1 weeks:1 later:1 I:1 had:1 my:1 laptop:1 back:1 with:1 a:1 new:1 mousepad:1 ,:1 keys:1 ,:1 and:1 casing:1 .:1 
+positive I:1 can:1 not:1 be:1 happier:1 with:1 the:1 service:1 or:1 product:1 .:1 
+positive The:1 best:1 thing:1 to:1 do:1 is:1 build:1 your:1 own:1 computer:1 ,:1 but:1 if:1 u:1 ca:1 n't:1 company:1 's:1 like:1 dell:1 who:1 allow:1 you:1 to:1 choose:1 the:1 components:1 are:1 better:1 and:1 for:1 the:1 same:1 price:1 you:1 can:1 get:1 a:1 computer:1 who:1 compares:1 to:1 one:1 of:1 apple:1 $:1 2000:1 systems:1 and:1 if:1 you:1 google:1 ``:1 dell:1 coupons:1 '':1 you:1 can:1 find:1 codes:1 that:1 take:1 a:1 signifant :1 amount:1 off:1 the:1 price:1 .:1 
+positive The:1 best:1 thing:1 to:1 do:1 is:1 build:1 your:1 own:1 computer:1 ,:1 but:1 if:1 u:1 ca:1 n't:1 company:1 's:1 like:1 dell:1 who:1 allow:1 you:1 to:1 choose:1 the:1 components:1 are:1 better:1 and:1 for:1 the:1 same:1 price:1 you:1 can:1 get:1 a:1 computer:1 who:1 compares:1 to:1 one:1 of:1 apple:1 $:1 2000:1 systems:1 and:1 if:1 you:1 google:1 ``:1 dell:1 coupons:1 '':1 you:1 can:1 find:1 codes:1 that:1 take:1 a:1 signifant :1 amount:1 off:1 the:1 price:1 .:1 
+positive The:1 best:1 thing:1 to:1 do:1 is:1 build:1 your:1 own:1 computer:1 ,:1 but:1 if:1 u:1 ca:1 n't:1 company:1 's:1 like:1 dell:1 who:1 allow:1 you:1 to:1 choose:1 the:1 components:1 are:1 better:1 and:1 for:1 the:1 same:1 price:1 you:1 can:1 get:1 a:1 computer:1 who:1 compares:1 to:1 one:1 of:1 apple:1 $:1 2000:1 systems:1 and:1 if:1 you:1 google:1 ``:1 dell:1 coupons:1 '':1 you:1 can:1 find:1 codes:1 that:1 take:1 a:1 signifant :1 amount:1 off:1 the:1 price:1 .:1 
+positive This:1 computer:1 I:1 used:1 daily:1 nice:1 compact:1 design:1 .:1 
+neutral  :1 It:1 was:1 loaded:1 with:1 Windows:1 Vista:1 Home:1 Premium:1 --:1 delivered:1 with:1 only:1 1GB:1 of:1 RAM:1 ,:1 and:1 it:1 was:1 a:1 *dog*:1 .:1 
+negative  :1 It:1 was:1 loaded:1 with:1 Windows:1 Vista:1 Home:1 Premium:1 --:1 delivered:1 with:1 only:1 1GB:1 of:1 RAM:1 ,:1 and:1 it:1 was:1 a:1 *dog*:1 .:1 
+positive I:1 am:1 most:1 impressed:1 with:1 the:1 programming:1 ,:1 including:1 the:1 iPhoto:1 .:1 
+positive I:1 am:1 most:1 impressed:1 with:1 the:1 programming:1 ,:1 including:1 the:1 iPhoto:1 .:1 
+negative The:1 ``:1 abuse:1 '':1 is:1 that:1 I:1 pushed:1 the:1 power:1 plug:1 in:1 too:1 hard:1 .:1 
+positive Seems:1 to:1 slow:1 down:1 occassionally:1 but:1 can:1 run:1 many:1 applications:1 (:1 ie:1 Internet:1 tabs:1 ,:1 programs:1 ,:1 etc:1 ):1 simultaneously:1 .:1 
+neutral Seems:1 to:1 slow:1 down:1 occassionally:1 but:1 can:1 run:1 many:1 applications:1 (:1 ie:1 Internet:1 tabs:1 ,:1 programs:1 ,:1 etc:1 ):1 simultaneously:1 .:1 
+positive Seems:1 to:1 slow:1 down:1 occassionally:1 but:1 can:1 run:1 many:1 applications:1 (:1 ie:1 Internet:1 tabs:1 ,:1 programs:1 ,:1 etc:1 ):1 simultaneously:1 .:1 
+positive i:1 also:1 love:1 having:1 the:1 extra:1 calculator:1 number:1 set:1 up:1 on:1 the:1 keyboard:1 which:1 most:1 laptops:1 do:1 not:1 have:1 .:1 
+negative The:1 AC:1 power:1 port:1 becomes:1 loose:1 over:1 time:1 
+negative Battery:1 life:1 could:1 be:1 better:1 but:1 overall:1 for:1 the:1 price:1 and:1 Toshiba:1 's:1 reputation:1 for:1 laptops:1 it:1 's:1 great:1 !:1 
+positive Battery:1 life:1 could:1 be:1 better:1 but:1 overall:1 for:1 the:1 price:1 and:1 Toshiba:1 's:1 reputation:1 for:1 laptops:1 it:1 's:1 great:1 !:1 
+negative The:1 reflectiveness:1 of:1 the:1 display:1 is:1 only:1 a:1 minor:1 inconvenience:1 if:1 you:1 work:1 in:1 a:1 controlled-lighting:1 environment:1 like:1 me:1 (:1 I:1 prefer:1 it:1 dark:1 ):1 or:1 if:1 you:1 can:1 crank:1 up:1 the:1 brightness:1 .:1 
+neutral The:1 reflectiveness:1 of:1 the:1 display:1 is:1 only:1 a:1 minor:1 inconvenience:1 if:1 you:1 work:1 in:1 a:1 controlled-lighting:1 environment:1 like:1 me:1 (:1 I:1 prefer:1 it:1 dark:1 ):1 or:1 if:1 you:1 can:1 crank:1 up:1 the:1 brightness:1 .:1 
+positive I:1 purchased:1 a:1 Toshiba:1 Satellite:1 M60:1 (:1 with:1 harman/kardon:1 speakers:1 !:1 ):1 in:1 December:1 of:1 2005:1 .:1 
+negative This:1 computer:1 was:1 so:1 challenging:1 to:1 carry:1 and:1 handle:1 .:1 
+negative This:1 computer:1 was:1 so:1 challenging:1 to:1 carry:1 and:1 handle:1 .:1 
+neutral (:1 The:1 SATA:1 controller:1 is:1 the:1 motherboard:1 chip:1 that:1 lets:1 the:1 CPU:1 talk:1 to:1 the:1 hard:1 drive:1 .:1 ):1 
+neutral (:1 The:1 SATA:1 controller:1 is:1 the:1 motherboard:1 chip:1 that:1 lets:1 the:1 CPU:1 talk:1 to:1 the:1 hard:1 drive:1 .:1 ):1 
+neutral (:1 The:1 SATA:1 controller:1 is:1 the:1 motherboard:1 chip:1 that:1 lets:1 the:1 CPU:1 talk:1 to:1 the:1 hard:1 drive:1 .:1 ):1 
+neutral (:1 The:1 SATA:1 controller:1 is:1 the:1 motherboard:1 chip:1 that:1 lets:1 the:1 CPU:1 talk:1 to:1 the:1 hard:1 drive:1 .:1 ):1 
+neutral It:1 's:1 now:1 all:1 commodity:1 hardware:1 .:1 
+negative For:1 some:1 odd:1 reasons:1 the:1 computer:1 does:1 n't:1 reconize:1 the:1 operation:1 system:1 .:1 
+negative Of:1 course:1 ,:1 I:1 inspected:1 the:1 other:1 netbooks:1 and:1 clearly:1 their:1 hinges:1 are:1 tighter:1 and:1 I:1 even:1 demonstrate:1 the:1 difference:1 between:1 my:1 netbook:1 and:1 others:1 .:1 
+positive It:1 has:1 easy:1 to:1 use:1 features:1 and:1 all:1 the:1 speed:1 and:1 power:1 I:1 could:1 ask:1 for:1 .:1 
+positive It:1 has:1 easy:1 to:1 use:1 features:1 and:1 all:1 the:1 speed:1 and:1 power:1 I:1 could:1 ask:1 for:1 .:1 
+positive It:1 has:1 easy:1 to:1 use:1 features:1 and:1 all:1 the:1 speed:1 and:1 power:1 I:1 could:1 ask:1 for:1 .:1 
+positive There:1 are:1 so:1 many:1 wonderful:1 features:1 and:1 benefits:1 to:1 the:1 new:1 MacBook:1 !:1 
+neutral  :1 After:1 the:1 warrenty:1 expired:1 the:1 hard:1 drive:1 went:1 bad:1 and:1 it:1 would:1 have:1 cost:1 more:1 to:1 fix:1 then:1 to:1 replace:1 .:1 
+negative  :1 After:1 the:1 warrenty:1 expired:1 the:1 hard:1 drive:1 went:1 bad:1 and:1 it:1 would:1 have:1 cost:1 more:1 to:1 fix:1 then:1 to:1 replace:1 .:1 
+neutral In:1 all:1 honesty:1 ,:1 if:1 someone:1 is:1 looking:1 for:1 a:1 quality:1 laptop:1 and:1 willing:1 to:1 pay:1 a:1 little:1 more:1 money:1 for:1 a:1 normal:1 sized:1 laptop:1 than:1 a:1 cheaper:1 and:1 less:1 impressive:1 laptop:1 ,:1 then:1 do:1 not:1 buy:1 this:1 computer:1 .:1 
+positive The:1 laptop:1 is:1 very:1 lightweight:1 ,:1 can:1 easily:1 carry:1 around:1 in:1 a:1 knapsack:1 full:1 of:1 text:1 books:1 and:1 it:1 barely:1 adds:1 any:1 weight:1 .:1 
+positive The:1 laptop:1 is:1 very:1 lightweight:1 ,:1 can:1 easily:1 carry:1 around:1 in:1 a:1 knapsack:1 full:1 of:1 text:1 books:1 and:1 it:1 barely:1 adds:1 any:1 weight:1 .:1 
+neutral It:1 played:1 various:1 games:1 without:1 problems:1 and:1 ran:1 aero:1 smoothly:1 and:1 flawlessly:1 .:1 
+neutral It:1 played:1 various:1 games:1 without:1 problems:1 and:1 ran:1 aero:1 smoothly:1 and:1 flawlessly:1 .:1 
+negative Was:1 not:1 happy:1 with:1 one:1 of:1 the:1 programs:1 on:1 it:1 .:1 
+negative The:1 only:1 thing:1 I:1 wish:1 this:1 had:1 was:1 the:1 option:1 to:1 turn:1 off:1 the:1 touchpad:1 with:1 a:1 button:1 like:1 my:1 big:1 16:1 '':1 laptop:1 does:1 .:1 
+negative The:1 battery:1 life:1 ,:1 before:1 the:1 battery:1 completely:1 died:1 of:1 course:1 ,:1 left:1 much:1 to:1 be:1 desired:1 .:1 
+negative The:1 battery:1 life:1 ,:1 before:1 the:1 battery:1 completely:1 died:1 of:1 course:1 ,:1 left:1 much:1 to:1 be:1 desired:1 .:1 
+positive The:1 feel:1 of:1 this:1 is:1 better:1 than:1 the:1 Toshiba:1 ,:1 too:1 .:1 
+neutral With:1 all:1 the:1 programs:1 that:1 came:1 with:1 it:1 ,:1 such:1 as:1 iLife:1 and:1 iWork:1 ,:1 I:1 was:1 set:1 from:1 the:1 very:1 beginning:1 .:1 
+neutral With:1 all:1 the:1 programs:1 that:1 came:1 with:1 it:1 ,:1 such:1 as:1 iLife:1 and:1 iWork:1 ,:1 I:1 was:1 set:1 from:1 the:1 very:1 beginning:1 .:1 
+neutral With:1 all:1 the:1 programs:1 that:1 came:1 with:1 it:1 ,:1 such:1 as:1 iLife:1 and:1 iWork:1 ,:1 I:1 was:1 set:1 from:1 the:1 very:1 beginning:1 .:1 
+neutral But:1 to:1 be:1 honest:1 ,:1 I:1 do:1 n't:1 use:1 my:1 computer:1 for:1 anything:1 like:1 graphics:1 editing:1 and:1 complex:1 data:1 analysis:1 and:1 gaming:1 .:1 
+neutral But:1 to:1 be:1 honest:1 ,:1 I:1 do:1 n't:1 use:1 my:1 computer:1 for:1 anything:1 like:1 graphics:1 editing:1 and:1 complex:1 data:1 analysis:1 and:1 gaming:1 .:1 
+neutral But:1 to:1 be:1 honest:1 ,:1 I:1 do:1 n't:1 use:1 my:1 computer:1 for:1 anything:1 like:1 graphics:1 editing:1 and:1 complex:1 data:1 analysis:1 and:1 gaming:1 .:1 
+positive Great:1 value:1 ,:1 fast:1 delivery-:1 Computer:1 works:1 as:1 if:1 brand:1 new:1 ,:1 no:1 problems:1 ,:1 very:1 pleased:1 
+positive Great:1 value:1 ,:1 fast:1 delivery-:1 Computer:1 works:1 as:1 if:1 brand:1 new:1 ,:1 no:1 problems:1 ,:1 very:1 pleased:1 
+negative In:1 due:1 course:1 ,:1 I:1 'll:1 remove:1 the:1 hard:1 disc:1 from:1 this:1 new:1 MacBook:1 Pro:1 and:1 dump:1 it:1 where:1 it:1 belongs:1 -:1 in:1 the:1 trash:1 .:1 
+positive The:1 fact:1 that:1 the:1 screen:1 reacts:1 to:1 the:1 lighting:1 around:1 you:1 is:1 an:1 added:1 luxury-when:1 you:1 are:1 working:1 around:1 others:1 in:1 dark:1 areas:1 and:1 want:1 privacy:1 or:1 do:1 n't:1 want:1 to:1 bother:1 them:1 with:1 bright:1 lighting:1 ,:1 it:1 is:1 very:1 convenient:1 to:1 have:1 a:1 darker:1 ,:1 softer:1 lit:1 screen:1 .:1 
+positive The:1 fact:1 that:1 the:1 screen:1 reacts:1 to:1 the:1 lighting:1 around:1 you:1 is:1 an:1 added:1 luxury-when:1 you:1 are:1 working:1 around:1 others:1 in:1 dark:1 areas:1 and:1 want:1 privacy:1 or:1 do:1 n't:1 want:1 to:1 bother:1 them:1 with:1 bright:1 lighting:1 ,:1 it:1 is:1 very:1 convenient:1 to:1 have:1 a:1 darker:1 ,:1 softer:1 lit:1 screen:1 .:1 
+negative The:1 battery:1 life:1 also:1 does:1 n't:1 keep:1 up:1 with:1 the:1 claim:1 but:1 still:1 I:1 think:1 macbook:1 is:1 much:1 ahead:1 from:1 the:1 rest:1 of:1 the:1 pack:1 .:1 
+neutral 3:1 weeks:1 went:1 by:1 and:1 the:1 computer:1 keeps:1 crashing:1 and:1 will:1 not:1 open:1 any:1 applications:1 .:1 
+neutral Startup:1 in:1 about:1 30:1 seconds:1 ,:1 shutdown:1 in:1 2-4:1 seconds:1 ,:1 resume:1 from:1 sleep:1 in:1 0-2:1 seconds:1 .:1 
+neutral Startup:1 in:1 about:1 30:1 seconds:1 ,:1 shutdown:1 in:1 2-4:1 seconds:1 ,:1 resume:1 from:1 sleep:1 in:1 0-2:1 seconds:1 .:1 
+neutral Startup:1 in:1 about:1 30:1 seconds:1 ,:1 shutdown:1 in:1 2-4:1 seconds:1 ,:1 resume:1 from:1 sleep:1 in:1 0-2:1 seconds:1 .:1 
+positive The:1 powerpoint:1 opened:1 seamlessly:1 in:1 the:1 apple:1 and:1 the:1 mac:1 hooked:1 up:1 to:1 the:1 projector:1 so:1 easily:1 it:1 was:1 almost:1 scary:1 .:1 
+positive I:1 preferred:1 the:1 fit:1 and:1 feel:1 of:1 the:1 13:1 inch:1 .:1 
+positive The:1 graphics:1 are:1 stunning:1 .:1 
+negative I:1 also:1 had:1 a:1 problem:1 with:1 the:1 touchpad:1 that:1 caused:1 the:1 mouse:1 pointer:1 to:1 jump:1 all:1 over:1 the:1 screen:1 .:1 
+neutral I:1 also:1 had:1 a:1 problem:1 with:1 the:1 touchpad:1 that:1 caused:1 the:1 mouse:1 pointer:1 to:1 jump:1 all:1 over:1 the:1 screen:1 .:1 
+negative I:1 also:1 had:1 a:1 problem:1 with:1 the:1 touchpad:1 that:1 caused:1 the:1 mouse:1 pointer:1 to:1 jump:1 all:1 over:1 the:1 screen:1 .:1 
+neutral After:1 replacing:1 the:1 hard:1 drive:1 the:1 battery:1 stopped:1 working:1 (:1 3:1 months:1 of:1 use:1 ):1 which:1 was:1 frustrating:1 .:1 
+negative After:1 replacing:1 the:1 hard:1 drive:1 the:1 battery:1 stopped:1 working:1 (:1 3:1 months:1 of:1 use:1 ):1 which:1 was:1 frustrating:1 .:1 
+negative I:1 purchased:1 this:1 netbook:1 after:1 my:1 original:1 Toshiba:1 laptop:1 crashed:1 right:1 after:1 the:1 warranty:1 expired:1 .:1 
+positive Was:1 very:1 much:1 worth:1 the:1 price:1 i:1 paid:1 .:1 
+neutral It:1 is:1 much:1 faster:1 than:1 my:1 desktop:1 which:1 is:1 a:1 Core2:1 Quad:1 running:1 at:1 2.83:1 GHz:1 .:1 
+negative The:1 only:1 thing:1 I:1 do:1 n't:1 understand:1 is:1 that:1 the:1 resolution:1 of:1 the:1 screen:1 is:1 n't:1 high:1 enough:1 for:1 some:1 pages:1 ,:1 such:1 as:1 Yahoo:1 !:1 Mail:1 .:1 
+positive Crisp:1 screen:1 ,:1 great:1 battery:1 life:1 ,:1 and:1 plenty:1 of:1 storage:1 .:1 
+positive Crisp:1 screen:1 ,:1 great:1 battery:1 life:1 ,:1 and:1 plenty:1 of:1 storage:1 .:1 
+positive Crisp:1 screen:1 ,:1 great:1 battery:1 life:1 ,:1 and:1 plenty:1 of:1 storage:1 .:1 
+neutral See:1 when:1 it:1 comes:1 to:1 laptops:1 you:1 buy:1 it:1 and:1 get:1 just:1 a:1 normal:1 operating:1 system:1 with:1 trials:1 of:1 must:1 need:1 stuff:1 that:1 should:1 come:1 with:1 it:1 .:1 
+negative Externally:1 the:1 keys:1 on:1 my:1 keyboard:1 are:1 falling:1 off:1 ,:1 after:1 a:1 few:1 uses:1 the:1 paint:1 is:1 rubbing:1 off:1 the:1 button:1 below:1 the:1 mouse:1 pad:1 and:1 where:1 the:1 heals:1 of:1 my:1 hands:1 sit:1 ,:1 and:1 the:1 screen:1 has:1 a:1 terrible:1 glare:1 .:1 
+negative Externally:1 the:1 keys:1 on:1 my:1 keyboard:1 are:1 falling:1 off:1 ,:1 after:1 a:1 few:1 uses:1 the:1 paint:1 is:1 rubbing:1 off:1 the:1 button:1 below:1 the:1 mouse:1 pad:1 and:1 where:1 the:1 heals:1 of:1 my:1 hands:1 sit:1 ,:1 and:1 the:1 screen:1 has:1 a:1 terrible:1 glare:1 .:1 
+negative Externally:1 the:1 keys:1 on:1 my:1 keyboard:1 are:1 falling:1 off:1 ,:1 after:1 a:1 few:1 uses:1 the:1 paint:1 is:1 rubbing:1 off:1 the:1 button:1 below:1 the:1 mouse:1 pad:1 and:1 where:1 the:1 heals:1 of:1 my:1 hands:1 sit:1 ,:1 and:1 the:1 screen:1 has:1 a:1 terrible:1 glare:1 .:1 
+negative Externally:1 the:1 keys:1 on:1 my:1 keyboard:1 are:1 falling:1 off:1 ,:1 after:1 a:1 few:1 uses:1 the:1 paint:1 is:1 rubbing:1 off:1 the:1 button:1 below:1 the:1 mouse:1 pad:1 and:1 where:1 the:1 heals:1 of:1 my:1 hands:1 sit:1 ,:1 and:1 the:1 screen:1 has:1 a:1 terrible:1 glare:1 .:1 
+negative Externally:1 the:1 keys:1 on:1 my:1 keyboard:1 are:1 falling:1 off:1 ,:1 after:1 a:1 few:1 uses:1 the:1 paint:1 is:1 rubbing:1 off:1 the:1 button:1 below:1 the:1 mouse:1 pad:1 and:1 where:1 the:1 heals:1 of:1 my:1 hands:1 sit:1 ,:1 and:1 the:1 screen:1 has:1 a:1 terrible:1 glare:1 .:1 
+positive The:1 large:1 screen:1 gives:1 you:1 the:1 option:1 to:1 comfortably:1 watch:1 movies:1 or:1 TV:1 shows:1 on:1 your:1 computer:1 instead:1 of:1 buying:1 an:1 additional:1 TV:1 for:1 your:1 dorm:1 room:1 .:1 
+negative Sure:1 ,:1 the:1 initial:1 out:1 of:1 pocket:1 expense:1 is:1 greater:1 ,:1 but:1 that:1 should:1 not:1 dissuade:1 anyone:1 from:1 the:1 fact:1 that:1 these:1 machines:1 run:1 like:1 none:1 other:1 on:1 the:1 planet:1 ,:1 and:1 when:1 I:1 factor:1 in:1 all:1 the:1 money:1 in:1 that:1 I:1 wasted:1 on:1 Geek:1 Squad:1 and:1 the:1 latest:1 patches:1 to:1 de-corrupt:1 my:1 infested:1 PCs:1 ,:1 it:1 probably:1 comes:1 out:1 about:1 even:1 anyhow:1 .:1 
+positive Sure:1 ,:1 the:1 initial:1 out:1 of:1 pocket:1 expense:1 is:1 greater:1 ,:1 but:1 that:1 should:1 not:1 dissuade:1 anyone:1 from:1 the:1 fact:1 that:1 these:1 machines:1 run:1 like:1 none:1 other:1 on:1 the:1 planet:1 ,:1 and:1 when:1 I:1 factor:1 in:1 all:1 the:1 money:1 in:1 that:1 I:1 wasted:1 on:1 Geek:1 Squad:1 and:1 the:1 latest:1 patches:1 to:1 de-corrupt:1 my:1 infested:1 PCs:1 ,:1 it:1 probably:1 comes:1 out:1 about:1 even:1 anyhow:1 .:1 
+negative Strengths:1 ::1 Well-shaped:1 Weaknesses:1 ::1 A:1 bad:1 videocard:1 !:1 
+positive Strengths:1 ::1 Well-shaped:1 Weaknesses:1 ::1 A:1 bad:1 videocard:1 !:1 
+negative My:1 power:1 supply:1 cord:1 developed:1 exposed:1 wires:1 within:1 the:1 first:1 year:1 of:1 ownership:1 ,:1 so:1 it:1 was:1 covered:1 by:1 the:1 Applecare:1 warranty:1 plan:1 .:1 
+positive My:1 power:1 supply:1 cord:1 developed:1 exposed:1 wires:1 within:1 the:1 first:1 year:1 of:1 ownership:1 ,:1 so:1 it:1 was:1 covered:1 by:1 the:1 Applecare:1 warranty:1 plan:1 .:1 
+positive But:1 with:1 A:1 WAY:1 Bigger:1 Screen:1 ,:1 and:1 IS:1 able:1 to:1 connect:1 to:1 an:1 HDMI:1 .:1 
+neutral But:1 with:1 A:1 WAY:1 Bigger:1 Screen:1 ,:1 and:1 IS:1 able:1 to:1 connect:1 to:1 an:1 HDMI:1 .:1 
+positive I:1 especially:1 like:1 the:1 backlit:1 keyboard:1 .:1 
+negative The:1 only:1 thing:1 that:1 is:1 n't:1 perfect:1 about:1 this:1 netbook:1 is:1 the:1 speakers:1 ,:1 they:1 are:1 not:1 loud:1 at:1 all:1 but:1 I:1 expected:1 that:1 .:1 
+negative Unfortunately:1 ,:1 Apple:1 's:1 quality:1 has:1 continued:1 to:1 slide:1 .:1 
+positive It:1 is:1 VERY:1 easy:1 to:1 type:1 on:1 and:1 feels:1 great:1 -:1 besides:1 the:1 added:1 feature:1 that:1 the:1 keyboard:1 is:1 lighted:1 .:1 
+positive It:1 is:1 VERY:1 easy:1 to:1 type:1 on:1 and:1 feels:1 great:1 -:1 besides:1 the:1 added:1 feature:1 that:1 the:1 keyboard:1 is:1 lighted:1 .:1 
+positive It:1 is:1 VERY:1 easy:1 to:1 type:1 on:1 and:1 feels:1 great:1 -:1 besides:1 the:1 added:1 feature:1 that:1 the:1 keyboard:1 is:1 lighted:1 .:1 
+negative I:1 had:1 to:1 pay:1 $:1 100:1 for:1 a:1 universal:1 charger:1 for:1 this:1 cheap:1 $:1 300:1 laptop:1 .:1 
+negative power:1 supply:1 went:1 bad:1 after:1 2:1 weeks:1 --:1 
+negative I:1 have:1 had:1 no:1 problems:1 with:1 it:1 unlike:1 some:1 hardware:1 defects:1 on:1 past:1 models:1 .:1 
+positive It:1 even:1 has:1 a:1 great:1 webcam:1 ,:1 and:1 Skype:1 works:1 very:1 well:1 .:1 
+positive It:1 even:1 has:1 a:1 great:1 webcam:1 ,:1 and:1 Skype:1 works:1 very:1 well:1 .:1 
+neutral I:1 upgraded:1 the:1 memory:1 and:1 replaced:1 the:1 base:1 Windows:1 7:1 Starter:1 to:1 Win:1 7:1 Home:1 ,:1 and:1 it:1 runs:1 just:1 fine:1 .:1 
+neutral I:1 upgraded:1 the:1 memory:1 and:1 replaced:1 the:1 base:1 Windows:1 7:1 Starter:1 to:1 Win:1 7:1 Home:1 ,:1 and:1 it:1 runs:1 just:1 fine:1 .:1 
+neutral I:1 upgraded:1 the:1 memory:1 and:1 replaced:1 the:1 base:1 Windows:1 7:1 Starter:1 to:1 Win:1 7:1 Home:1 ,:1 and:1 it:1 runs:1 just:1 fine:1 .:1 
+positive I:1 upgraded:1 the:1 memory:1 and:1 replaced:1 the:1 base:1 Windows:1 7:1 Starter:1 to:1 Win:1 7:1 Home:1 ,:1 and:1 it:1 runs:1 just:1 fine:1 .:1 
+positive The:1 quality:1 ,:1 engineering:1 design:1 and:1 warranty:1 are:1 superior:1 --:1 covers:1 damage:1 from:1 dropping:1 the:1 laptop:1 .:1 
+positive The:1 quality:1 ,:1 engineering:1 design:1 and:1 warranty:1 are:1 superior:1 --:1 covers:1 damage:1 from:1 dropping:1 the:1 laptop:1 .:1 
+positive The:1 quality:1 ,:1 engineering:1 design:1 and:1 warranty:1 are:1 superior:1 --:1 covers:1 damage:1 from:1 dropping:1 the:1 laptop:1 .:1 
+neutral I:1 use:1 the:1 computer:1 to:1 basically:1 check:1 emails:1 ,:1 surf:1 the:1 web:1 ,:1 print:1 coupons:1 and:1 for:1 my:1 college:1 papers:1 .:1 
+positive I:1 upgraded:1 it:1 's:1 RAM:1 to:1 2GB:1 ,:1 I:1 am:1 very:1 happy:1 with:1 it:1 .:1 
+negative I:1 had:1 the:1 staff:1 telling:1 me:1 older:1 version:1 did:1 not:1 make:1 the:1 fan:1 noise:1 cause:1 it:1 is:1 a:1 ``:1 different:1 '':1 computer:1 .:1 
+negative I:1 had:1 the:1 staff:1 telling:1 me:1 older:1 version:1 did:1 not:1 make:1 the:1 fan:1 noise:1 cause:1 it:1 is:1 a:1 ``:1 different:1 '':1 computer:1 .:1 
+negative Microsoft:1 seems:1 to:1 be:1 unable:1 to:1 keep:1 up:1 with:1 repairs:1 for:1 the:1 multitude:1 of:1 windows:1 problems:1 .:1 
+positive Its:1 small:1 enough:1 where:1 I:1 can:1 take:1 it:1 pretty:1 much:1 anywhere:1 ,:1 but:1 still:1 has:1 a:1 big:1 enough:1 screen:1 to:1 get:1 everything:1 done:1 .:1 
+negative Had:1 some:1 trouble:1 finding:1 a:1 case:1 that:1 it:1 would:1 fit:1 in:1 .:1 
+negative Laptop:1 is:1 advertised:1 as:1 a:1 15:1 '':1 but:1 the:1 casing:1 looks:1 like:1 that:1 of:1 a:1 17:1 '':1 .:1 
+neutral Laptop:1 is:1 advertised:1 as:1 a:1 15:1 '':1 but:1 the:1 casing:1 looks:1 like:1 that:1 of:1 a:1 17:1 '':1 .:1 
+neutral Laptop:1 is:1 advertised:1 as:1 a:1 15:1 '':1 but:1 the:1 casing:1 looks:1 like:1 that:1 of:1 a:1 17:1 '':1 .:1 
+negative The:1 layout:1 of:1 the:1 MacBook:1 is:1 horrible:1 and:1 confusing:1 ;:1 
+positive It:1 works:1 great:1 for:1 general:1 internet:1 use:1 ,:1 Microsoft:1 Office:1 apps:1 ,:1 home:1 bookkeeping:1 ,:1 etc:1 .:1 
+positive It:1 works:1 great:1 for:1 general:1 internet:1 use:1 ,:1 Microsoft:1 Office:1 apps:1 ,:1 home:1 bookkeeping:1 ,:1 etc:1 .:1 
+negative After:1 numerous:1 calls:1 to:1 Applecare:1 tech:1 support:1 ,:1 I:1 was:1 directed:1 to:1 send:1 in:1 my:1 computer:1 ;:1 
+positive The:1 laptop:1 is:1 relatively:1 simple:1 to:1 use:1 ,:1 though:1 I:1 bought:1 Macs:1 for:1 Dummies:1 ,:1 which:1 is:1 well:1 worth:1 $:1 2:1 
+negative They:1 should:1 have:1 included:1 more:1 memory:1 on:1 their:1 computers:1 if:1 they:1 knew:1 Vista:1 would:1 run:1 slowly:1 .:1 
+negative They:1 should:1 have:1 included:1 more:1 memory:1 on:1 their:1 computers:1 if:1 they:1 knew:1 Vista:1 would:1 run:1 slowly:1 .:1 
+positive The:1 trackpad:1 was:1 easy:1 to:1 learn:1 and:1 navigate:1 .:1 
+positive The:1 feel:1 of:1 this:1 machine:1 compared:1 to:1 the:1 old:1 MacBook:1 is:1 far:1 superior:1 .:1 
+positive I:1 now:1 realize:1 that:1 my:1 $:1 900:1 would:1 have:1 been:1 better:1 spent:1 on:1 a:1 Windows:1 laptop:1 .:1 
+positive The:1 resolution:1 on:1 the:1 screen:1 is:1 almost:1 pure:1 HD:1 .:1 
+negative You:1 ca:1 n't:1 even:1 get:1 a:1 satellite:1 card:1 which:1 is:1 why:1 I:1 bought:1 to:1 begin:1 with:1 .:1 
+negative The:1 computer:1 runs:1 extremely:1 slowly:1 ,:1 whether:1 opening:1 Word:1 or:1 My:1 Computer:1 .:1 
+neutral It:1 is:1 a:1 much:1 more:1 streamlined:1 system:1 for:1 adding:1 programs:1 ,:1 using:1 the:1 internet:1 ,:1 and:1 doing:1 other:1 things:1 everyone:1 does:1 on:1 a:1 computer:1 .:1 
+positive It:1 is:1 a:1 much:1 more:1 streamlined:1 system:1 for:1 adding:1 programs:1 ,:1 using:1 the:1 internet:1 ,:1 and:1 doing:1 other:1 things:1 everyone:1 does:1 on:1 a:1 computer:1 .:1 
+neutral It:1 is:1 a:1 much:1 more:1 streamlined:1 system:1 for:1 adding:1 programs:1 ,:1 using:1 the:1 internet:1 ,:1 and:1 doing:1 other:1 things:1 everyone:1 does:1 on:1 a:1 computer:1 .:1 
+negative Speakers:1 too:1 small:1 to:1 be:1 of:1 any:1 real:1 use:1 .:1 
+neutral The:1 acer:1 one:1 computer:1 that:1 I:1 bought:1 is:1 17:1 ince:1 screen:1 and:1 its:1 hard:1 to:1 find:1 lap:1 top:1 bags:1 for:1 it:1 ,:1 but:1 I:1 like:1 the:1 big:1 screen:1 on:1 it:1 .:1 
+positive The:1 acer:1 one:1 computer:1 that:1 I:1 bought:1 is:1 17:1 ince:1 screen:1 and:1 its:1 hard:1 to:1 find:1 lap:1 top:1 bags:1 for:1 it:1 ,:1 but:1 I:1 like:1 the:1 big:1 screen:1 on:1 it:1 .:1 
+positive The:1 Toshiba:1 laptop:1 I:1 am:1 using:1 is:1 easier:1 to:1 use:1 than:1 most:1 I:1 have:1 tried:1 .:1 
+negative After:1 way:1 too:1 many:1 times:1 sending:1 the:1 thing:1 in:1 for:1 repairs:1 (:1 delivery:1 service:1 was:1 slow:1 ,:1 and:1 without:1 the:1 laptop:1 I:1 had:1 no:1 access:1 to:1 the:1 internet:1 ,:1 and:1 thus:1 no:1 way:1 of:1 tracking:1 it:1 to:1 find:1 out:1 when:1 I:1 might:1 hope:1 to:1 see:1 my:1 computer:1 again:1 ):1 ,:1 it:1 finally:1 kicked:1 the:1 bucket:1 after:1 just:1 over:1 2:1 years:1 .:1 
+negative The:1 one:1 thing:1 I:1 wish:1 it:1 had:1 was:1 a:1 detailed:1 hardcopy:1 manuel:1 .:1 
+negative  :1 Dealing:1 with:1 the:1 support:1 drone:1 on:1 the:1 other:1 end:1 of:1 the:1 chat:1 was:1 sheer:1 torture:1 .:1 
+neutral It:1 is:1 easy:1 to:1 navigate:1 and:1 update:1 programs:1 .:1 
+positive It:1 is:1 easy:1 to:1 navigate:1 and:1 update:1 programs:1 .:1 
+positive while:1 the:1 keyboard:1 itself:1 is:1 alright:1 ,:1 the:1 plate:1 around:1 it:1 is:1 cheap:1 plastic:1 and:1 makes:1 a:1 hollow:1 sound:1 when:1 using:1 the:1 mouse:1 command:1 buttons:1 .:1 
+negative while:1 the:1 keyboard:1 itself:1 is:1 alright:1 ,:1 the:1 plate:1 around:1 it:1 is:1 cheap:1 plastic:1 and:1 makes:1 a:1 hollow:1 sound:1 when:1 using:1 the:1 mouse:1 command:1 buttons:1 .:1 
+negative while:1 the:1 keyboard:1 itself:1 is:1 alright:1 ,:1 the:1 plate:1 around:1 it:1 is:1 cheap:1 plastic:1 and:1 makes:1 a:1 hollow:1 sound:1 when:1 using:1 the:1 mouse:1 command:1 buttons:1 .:1 
+neutral Even:1 out:1 of:1 warranty:1 !:1 
+positive the:1 mcbook:1 pro:1 notebook:1 will:1 make:1 it:1 easy:1 for:1 you:1 to:1 write:1 and:1 read:1 your:1 emails:1 at:1 blazing:1 speeds:1 .:1 
+negative After:1 purchasing:1 this:1 thing:1 ,:1 I:1 find:1 out:1 that:1 I:1 need:1 a:1 special:1 interface:1 device:1 to:1 connect:1 my:1 camera:1 ,:1 and:1 that:1 it:1 can:1 not:1 be:1 purchased:1 at:1 the:1 store:1 -:1 only:1 on:1 line:1 .:1 
+positive The:1 touch:1 pad:1 is:1 among:1 the:1 best:1 .:1 
+positive Wonderful:1 zooming:1 .:1 
+positive (:1 I:1 found:1 a:1 2GB:1 stick:1 for:1 a:1 bit:1 under:1 $:1 50:1 ):1 Nice:1 and:1 portable:1 and:1 definitely:1 a:1 decent:1 enough:1 system:1 to:1 keep:1 you:1 entertained:1 while:1 sitting:1 in:1 the:1 airplane:1 for:1 a:1 couple:1 of:1 hours:1 ,:1 or:1 at:1 the:1 hotel:1 taking:1 care:1 of:1 some:1 last:1 minute:1 details:1 and:1 documents:1 .:1 
+neutral You:1 will:1 need:1 them:1 if:1 you:1 want:1 to:1 reload:1 the:1 OS:1 (:1 I:1 recommend:1 doing:1 if:1 you:1 can:1 to:1 start:1 fresh:1 and:1 optimal:1 ):1 .:1 
+negative Cords:1 coming:1 out:1 the:1 right:1 for:1 power:1 plus:1 cords:1 coming:1 out:1 front:1 for:1 headphones/mic:1 plus:1 network:1 connection:1 on:1 left:1 make:1 for:1 a:1 very:1 messy:1 setup:1 with:1 cords:1 going:1 every:1 direction:1 .:1 
+negative Cords:1 coming:1 out:1 the:1 right:1 for:1 power:1 plus:1 cords:1 coming:1 out:1 front:1 for:1 headphones/mic:1 plus:1 network:1 connection:1 on:1 left:1 make:1 for:1 a:1 very:1 messy:1 setup:1 with:1 cords:1 going:1 every:1 direction:1 .:1 
+negative Cords:1 coming:1 out:1 the:1 right:1 for:1 power:1 plus:1 cords:1 coming:1 out:1 front:1 for:1 headphones/mic:1 plus:1 network:1 connection:1 on:1 left:1 make:1 for:1 a:1 very:1 messy:1 setup:1 with:1 cords:1 going:1 every:1 direction:1 .:1 
+negative Cords:1 coming:1 out:1 the:1 right:1 for:1 power:1 plus:1 cords:1 coming:1 out:1 front:1 for:1 headphones/mic:1 plus:1 network:1 connection:1 on:1 left:1 make:1 for:1 a:1 very:1 messy:1 setup:1 with:1 cords:1 going:1 every:1 direction:1 .:1 
+negative Cords:1 coming:1 out:1 the:1 right:1 for:1 power:1 plus:1 cords:1 coming:1 out:1 front:1 for:1 headphones/mic:1 plus:1 network:1 connection:1 on:1 left:1 make:1 for:1 a:1 very:1 messy:1 setup:1 with:1 cords:1 going:1 every:1 direction:1 .:1 
+negative Cords:1 coming:1 out:1 the:1 right:1 for:1 power:1 plus:1 cords:1 coming:1 out:1 front:1 for:1 headphones/mic:1 plus:1 network:1 connection:1 on:1 left:1 make:1 for:1 a:1 very:1 messy:1 setup:1 with:1 cords:1 going:1 every:1 direction:1 .:1 
+negative Cords:1 coming:1 out:1 the:1 right:1 for:1 power:1 plus:1 cords:1 coming:1 out:1 front:1 for:1 headphones/mic:1 plus:1 network:1 connection:1 on:1 left:1 make:1 for:1 a:1 very:1 messy:1 setup:1 with:1 cords:1 going:1 every:1 direction:1 .:1 
+negative Cords:1 coming:1 out:1 the:1 right:1 for:1 power:1 plus:1 cords:1 coming:1 out:1 front:1 for:1 headphones/mic:1 plus:1 network:1 connection:1 on:1 left:1 make:1 for:1 a:1 very:1 messy:1 setup:1 with:1 cords:1 going:1 every:1 direction:1 .:1 
+negative Not:1 even:1 safe:1 mode:1 boots:1 .:1 
+negative Its:1 not:1 just:1 slow:1 on:1 the:1 internet:1 ,:1 its:1 slow:1 in:1 general:1 .:1 
+negative I:1 also:1 did:1 not:1 like:1 the:1 loud:1 noises:1 it:1 made:1 or:1 how:1 the:1 bottom:1 of:1 the:1 computer:1 would:1 get:1 really:1 hot:1 .:1 
+negative I:1 also:1 did:1 not:1 like:1 the:1 loud:1 noises:1 it:1 made:1 or:1 how:1 the:1 bottom:1 of:1 the:1 computer:1 would:1 get:1 really:1 hot:1 .:1 
+negative This:1 is:1 an:1 over-sized:1 ,:1 18-inch:1 laptop:1 .:1 
+positive The:1 apple:1 care:1 has:1 never:1 failed:1 me:1 ,:1 and:1 I:1 expect:1 it:1 to:1 be:1 the:1 same:1 for:1 this:1 computer:1 as:1 well:1 .:1 
+positive You:1 can:1 even:1 run:1 a:1 parallels:1 type:1 program:1 easily:1 and:1 run:1 any:1 leftover:1 PC:1 software:1 that:1 you:1 absolutely:1 can:1 not:1 be:1 without:1 .:1 
+positive You:1 can:1 even:1 run:1 a:1 parallels:1 type:1 program:1 easily:1 and:1 run:1 any:1 leftover:1 PC:1 software:1 that:1 you:1 absolutely:1 can:1 not:1 be:1 without:1 .:1 
+negative Then:1 after:1 4:1 or:1 so:1 months:1 the:1 charger:1 stopped:1 working:1 so:1 I:1 was:1 forced:1 to:1 go:1 out:1 and:1 buy:1 new:1 hardware:1 just:1 to:1 keep:1 this:1 computer:1 running:1 .:1 
+negative Then:1 after:1 4:1 or:1 so:1 months:1 the:1 charger:1 stopped:1 working:1 so:1 I:1 was:1 forced:1 to:1 go:1 out:1 and:1 buy:1 new:1 hardware:1 just:1 to:1 keep:1 this:1 computer:1 running:1 .:1 
+negative The:1 buttons:1 you:1 have:1 to:1 press:1 a:1 little:1 harder:1 than:1 most:1 .:1 
+negative The:1 right:1 speaker:1 did:1 not:1 work:1 .:1 
+negative so:1 the:1 fact:1 that:1 the:1 computer:1 does:1 not:1 work:1 on:1 the:1 24:1 twenty:1 fourth:1 day:1 is:1 my:1 fault:1 .:1 
+negative I:1 took:1 it:1 in:1 to:1 the:1 Apple:1 store:1 and:1 guess:1 what:1 ?:1 They:1 fixed:1 it:1 ,:1 no:1 cost:1 out:1 of:1 pocket:1 .:1 
+negative the:1 graphics:1 are:1 awful:1 and:1 the:1 wireless:1 switch:1 it:1 at:1 the:1 top:1 rather:1 than:1 the:1 side:1 which:1 I:1 am:1 used:1 to:1 it:1 being:1 on:1 the:1 side:1 .:1 
+negative the:1 graphics:1 are:1 awful:1 and:1 the:1 wireless:1 switch:1 it:1 at:1 the:1 top:1 rather:1 than:1 the:1 side:1 which:1 I:1 am:1 used:1 to:1 it:1 being:1 on:1 the:1 side:1 .:1 
+positive Keyboard:1 was:1 also:1 very:1 nice:1 and:1 had:1 a:1 solid:1 feel:1 .:1 
+negative 1.You:1 can:1 not:1 change:1 your:1 desktop:1 background:1 (:1 window:1 's:1 7:1 starter:1 does:1 NOT:1 support:1 that:1 function:1 ):1 .:1 
+negative 1.You:1 can:1 not:1 change:1 your:1 desktop:1 background:1 (:1 window:1 's:1 7:1 starter:1 does:1 NOT:1 support:1 that:1 function:1 ):1 .:1 
+negative 1.You:1 can:1 not:1 change:1 your:1 desktop:1 background:1 (:1 window:1 's:1 7:1 starter:1 does:1 NOT:1 support:1 that:1 function:1 ):1 .:1 
+positive For:1 me:1 I:1 was:1 lucky:1 and:1 a:1 local:1 store:1 was:1 selling:1 them:1 for:1 $:1 2000:1 off:1 and:1 Best:1 Buy:1 matched:1 their:1 price:1 so:1 I:1 was:1 able:1 to:1 buy:1 one:1 for:1 under:1 $:1 1000:1 
+negative Then:1 just:1 the:1 other:1 day:1 ,:1 my:1 left:1 ``:1 mouse:1 '':1 button:1 snapped:1 !:1 
+neutral I:1 guess:1 he:1 was:1 the:1 technical:1 person:1 .:1 
+positive Everything:1 about:1 this:1 computer:1 is:1 easy:1 to:1 use:1 .:1 
+negative COMPUTER:1 HAS:1 BEEN:1 AT:1 SERVICE:1 FACILITY:1 MORE:1 THAN:1 IN:1 MY:1 HANDS:1 .:1 
+negative The:1 Internet:1 Explorer:1 was:1 very:1 slow:1 from:1 the:1 very:1 beginning:1 .:1 
+negative Also:1 ,:1 one:1 of:1 the:1 users:1 mentioned:1 how:1 the:1 edges:1 on:1 the:1 macbook:1 is:1 sharp:1 ,:1 if:1 you:1 have:1 money:1 to:1 spend:1 on:1 one:1 of:1 the:1 incase:1 shells:1 ,:1 it:1 does:1 n't:1 seem:1 to:1 be:1 a:1 problem:1 .:1 
+positive Also:1 ,:1 one:1 of:1 the:1 users:1 mentioned:1 how:1 the:1 edges:1 on:1 the:1 macbook:1 is:1 sharp:1 ,:1 if:1 you:1 have:1 money:1 to:1 spend:1 on:1 one:1 of:1 the:1 incase:1 shells:1 ,:1 it:1 does:1 n't:1 seem:1 to:1 be:1 a:1 problem:1 .:1 
+positive It:1 is:1 a:1 REAL:1 touchpad:1 ,:1 not:1 the:1 toy:1 I:1 saw:1 in:1 other:1 brands:1 .:1 
+negative I:1 acually:1 believe:1 the:1 issue:1 is:1 with:1 the:1 Nvidia:1 grafics:1 card:1 ,:1 but:1 still:1 requires:1 a:1 return:1 .:1 
+neutral  :1 And:1 at:1 one:1 point:1 ,:1 they:1 blame:1 me:1 for:1 installing:1 a:1 bad:1 memory:1 stick:1 when:1 I:1 upgrade:1 my:1 memory:1 for:1 the:1 first:1 time:1 during:1 my:1 purchase:1 of:1 the:1 laptop:1 (:1 I:1 bought:1 the:1 memory:1 stick:1 they:1 recomended:1 ):1 .:1 
+negative  :1 And:1 at:1 one:1 point:1 ,:1 they:1 blame:1 me:1 for:1 installing:1 a:1 bad:1 memory:1 stick:1 when:1 I:1 upgrade:1 my:1 memory:1 for:1 the:1 first:1 time:1 during:1 my:1 purchase:1 of:1 the:1 laptop:1 (:1 I:1 bought:1 the:1 memory:1 stick:1 they:1 recomended:1 ):1 .:1 
+neutral  :1 And:1 at:1 one:1 point:1 ,:1 they:1 blame:1 me:1 for:1 installing:1 a:1 bad:1 memory:1 stick:1 when:1 I:1 upgrade:1 my:1 memory:1 for:1 the:1 first:1 time:1 during:1 my:1 purchase:1 of:1 the:1 laptop:1 (:1 I:1 bought:1 the:1 memory:1 stick:1 they:1 recomended:1 ):1 .:1 
+negative Also:1 ,:1 I:1 issued:1 a:1 replacement:1 RMA:1 for:1 a:1 few:1 dead:1 pixels:1 in:1 the:1 upper:1 zone:1 of:1 the:1 screen:1 ,:1 which:1 is:1 noticable:1 to:1 me:1 .:1 
+negative Called:1 Acer:1 many:1 times:1 ,:1 they:1 want:1 me:1 to:1 pay:1 the:1 shipping:1 to:1 ship:1 it:1 to:1 their:1 repair:1 center:1 -:1 I:1 was:1 very:1 disappointed:1 since:1 it:1 is:1 a:1 brand:1 new:1 computer:1 !:1 
+neutral Called:1 Acer:1 many:1 times:1 ,:1 they:1 want:1 me:1 to:1 pay:1 the:1 shipping:1 to:1 ship:1 it:1 to:1 their:1 repair:1 center:1 -:1 I:1 was:1 very:1 disappointed:1 since:1 it:1 is:1 a:1 brand:1 new:1 computer:1 !:1 
+neutral While:1 it:1 was:1 highly:1 rated:1 ,:1 would:1 I:1 like:1 it:1 ?:1 I:1 tried:1 the:1 keyboard:1 at:1 the:1 store:1 ,:1 and:1 it:1 seemed:1 ok:1 .:1 
+negative sometimes:1 you:1 will:1 be:1 moving:1 your:1 finger:1 and:1 the:1 pointer:1 will:1 not:1 even:1 move:1 .:1 
+positive The:1 screen:1 is:1 huge:1 and:1 coloful:1 ,:1 but:1 no:1 LED:1 backlighting:1 .:1 
+negative Another:1 included:1 program:1 that:1 is:1 laughable:1 is:1 the:1 chess:1 game:1 .:1 
+positive I:1 love:1 this:1 program:1 ,:1 it:1 is:1 superior:1 to:1 windows:1 movie:1 maker:1 .:1 
+negative I:1 love:1 this:1 program:1 ,:1 it:1 is:1 superior:1 to:1 windows:1 movie:1 maker:1 .:1 
+positive ,:1 Applications:1 respond:1 immediately:1 (:1 not:1 like:1 the:1 tired:1 MS:1 applications:1 ):1 .:1 
+negative ,:1 Applications:1 respond:1 immediately:1 (:1 not:1 like:1 the:1 tired:1 MS:1 applications:1 ):1 .:1 
+negative Speakers:1 does:1 n't:1 sound:1 that:1 great:1 .:1 
+conflict How:1 Toshiba:1 handles:1 the:1 repair:1 seems:1 to:1 vary:1 ,:1 some:1 folks:1 indicate:1 that:1 they:1 were:1 charged:1 for:1 even:1 an:1 intial:1 fix:1 ,:1 others:1 had:1 the:1 repair:1 done:1 5:1 times:1 .:1 
+positive How:1 Toshiba:1 handles:1 the:1 repair:1 seems:1 to:1 vary:1 ,:1 some:1 folks:1 indicate:1 that:1 they:1 were:1 charged:1 for:1 even:1 an:1 intial:1 fix:1 ,:1 others:1 had:1 the:1 repair:1 done:1 5:1 times:1 .:1 
+positive It:1 is:1 easy:1 to:1 use:1 ,:1 its:1 keyboard:1 easily:1 accommodates:1 large:1 hands:1 ,:1 and:1 its:1 weight:1 is:1 fantasic:1 .:1 
+positive It:1 is:1 easy:1 to:1 use:1 ,:1 its:1 keyboard:1 easily:1 accommodates:1 large:1 hands:1 ,:1 and:1 its:1 weight:1 is:1 fantasic:1 .:1 
+positive It:1 is:1 easy:1 to:1 use:1 ,:1 its:1 keyboard:1 easily:1 accommodates:1 large:1 hands:1 ,:1 and:1 its:1 weight:1 is:1 fantasic:1 .:1 
+positive I:1 love:1 the:1 solid:1 machined:1 aluminum:1 frame:1 ,:1 and:1 the:1 keyboard:1 is:1 the:1 best:1 of:1 any:1 laptop:1 I:1 've:1 used:1 .:1 
+positive I:1 love:1 the:1 solid:1 machined:1 aluminum:1 frame:1 ,:1 and:1 the:1 keyboard:1 is:1 the:1 best:1 of:1 any:1 laptop:1 I:1 've:1 used:1 .:1 
+positive We:1 love:1 the:1 size:1 of:1 the:1 screen:1 ,:1 although:1 it:1 is:1 still:1 lightweight:1 and:1 very:1 easy:1 to:1 tote:1 around:1 .:1 
+positive We:1 love:1 the:1 size:1 of:1 the:1 screen:1 ,:1 although:1 it:1 is:1 still:1 lightweight:1 and:1 very:1 easy:1 to:1 tote:1 around:1 .:1 
+positive very:1 convenient:1 when:1 you:1 travel:1 and:1 the:1 battery:1 life:1 is:1 excellent:1 ...:1 
+negative Not:1 to:1 mention:1 sometimes:1 the:1 whole:1 charger:1 unit:1 will:1 decide:1 not:1 to:1 work:1 entirely:1 .:1 
+negative Thus:1 ,:1 when:1 you:1 carry:1 it:1 at:1 a:1 slanted:1 angle:1 ,:1 the:1 screen:1 will:1 ``:1 topple:1 '':1 or:1 ``:1 slide:1 '':1 down:1 ,:1 if:1 you:1 understand:1 what:1 I:1 mean:1 .:1 
+positive The:1 Final:1 Cut:1 Pro:1 on:1 this:1 laptop:1 is:1 so:1 fast:1 and:1 easy:1 ,:1 and:1 I:1 can:1 use:1 this:1 to:1 seemlessly:1 transfer:1 all:1 my:1 work:1 to:1 my:1 home:1 computer:1 ,:1 which:1 is:1 also:1 a:1 mac:1 .:1 
+negative  :1 The:1 battery:1 never:1 held:1 a:1 charge:1 longer:1 than:1 one:1 hour:1 and:1 within:1 two:1 months:1 ,:1 stopped:1 holding:1 a:1 charge:1 for:1 more:1 than:1 ten:1 minutes:1 .:1 
+negative  :1 The:1 battery:1 never:1 held:1 a:1 charge:1 longer:1 than:1 one:1 hour:1 and:1 within:1 two:1 months:1 ,:1 stopped:1 holding:1 a:1 charge:1 for:1 more:1 than:1 ten:1 minutes:1 .:1 
+negative  :1 The:1 battery:1 never:1 held:1 a:1 charge:1 longer:1 than:1 one:1 hour:1 and:1 within:1 two:1 months:1 ,:1 stopped:1 holding:1 a:1 charge:1 for:1 more:1 than:1 ten:1 minutes:1 .:1 
+negative My:1 husband:1 got:1 me:1 this:1 for:1 Chrismas:1 after:1 getting:1 me:1 a:1 very:1 expensve:1 laptop:1 that:1 did:1 not:1 work:1 after:1 2:1 days:1 .:1 
+negative It:1 was:1 hard:1 to:1 handle:1 and:1 operate:1 at:1 school:1 .:1 
+negative It:1 was:1 hard:1 to:1 handle:1 and:1 operate:1 at:1 school:1 .:1 
+positive It:1 had:1 most:1 of:1 the:1 features:1 and:1 all:1 of:1 the:1 power:1 that:1 I:1 wanted:1 to:1 replace:1 my:1 desktop:1 machine:1 .:1 
+positive It:1 had:1 most:1 of:1 the:1 features:1 and:1 all:1 of:1 the:1 power:1 that:1 I:1 wanted:1 to:1 replace:1 my:1 desktop:1 machine:1 .:1 
+positive You:1 can:1 do:1 it:1 all:1 on:1 this:1 bad:1 boy:1 but:1 the:1 main:1 thing:1 this:1 netbook:1 was:1 desinged:1 for:1 was:1 surfing:1 the:1 web:1 and:1 boy:1 o:1 boy:1 does:1 it:1 ever:1 .:1 
+negative Anyway:1 ,:1 in:1 early:1 July:1 of:1 this:1 year:1 ,:1 the:1 DVD:1 burner:1 stopped:1 working:1 ,:1 and:1 the:1 computer:1 stared:1 having:1 issues:1 with:1 power:1 supply:1 .:1 
+negative Anyway:1 ,:1 in:1 early:1 July:1 of:1 this:1 year:1 ,:1 the:1 DVD:1 burner:1 stopped:1 working:1 ,:1 and:1 the:1 computer:1 stared:1 having:1 issues:1 with:1 power:1 supply:1 .:1 
+positive the:1 i3:1 processor:1 does:1 n't:1 seem:1 to:1 run:1 hot:1 and:1 the:1 fan:1 rarely:1 turns:1 on:1 .:1 
+positive the:1 i3:1 processor:1 does:1 n't:1 seem:1 to:1 run:1 hot:1 and:1 the:1 fan:1 rarely:1 turns:1 on:1 .:1 
+positive I:1 'm:1 really:1 impressed:1 with:1 the:1 quality:1 and:1 performance:1 for:1 the:1 price:1 of:1 the:1 computer:1 .:1 
+positive I:1 'm:1 really:1 impressed:1 with:1 the:1 quality:1 and:1 performance:1 for:1 the:1 price:1 of:1 the:1 computer:1 .:1 
+positive I:1 'm:1 really:1 impressed:1 with:1 the:1 quality:1 and:1 performance:1 for:1 the:1 price:1 of:1 the:1 computer:1 .:1 
+positive Also:1 it:1 is:1 very:1 good:1 for:1 college:1 students:1 who:1 just:1 need:1 a:1 reliable:1 ,:1 easy:1 to:1 use:1 computer:1 .:1 
+positive And:1 the:1 ram:1 (:1 the:1 thing:1 that:1 makes:1 it:1 faster:1 ):1 comes:1 sporting:1 2:1 gigs:1 for:1 high:1 performance:1 to:1 handle:1 more:1 stuff:1 at:1 once:1 and:1 surf:1 the:1 web:1 a:1 whole:1 lot:1 faster:1 than:1 before:1 .:1 
+positive And:1 the:1 ram:1 (:1 the:1 thing:1 that:1 makes:1 it:1 faster:1 ):1 comes:1 sporting:1 2:1 gigs:1 for:1 high:1 performance:1 to:1 handle:1 more:1 stuff:1 at:1 once:1 and:1 surf:1 the:1 web:1 a:1 whole:1 lot:1 faster:1 than:1 before:1 .:1 
+positive And:1 the:1 ram:1 (:1 the:1 thing:1 that:1 makes:1 it:1 faster:1 ):1 comes:1 sporting:1 2:1 gigs:1 for:1 high:1 performance:1 to:1 handle:1 more:1 stuff:1 at:1 once:1 and:1 surf:1 the:1 web:1 a:1 whole:1 lot:1 faster:1 than:1 before:1 .:1 
+negative As:1 usual:1 at:1 customer:1 service:1 center:1 ,:1 she:1 asked:1 me:1 to:1 hold:1 for:1 a:1 moment:1 while:1 she:1 went:1 to:1 the:1 back-office:1 and:1 compare:1 it:1 with:1 other:1 same:1 model:1 netbooks:1 and:1 discussed:1 it:1 with:1 her:1 colleague:1 (:1 I:1 could:1 see:1 them:1 ):1 .:1 
+positive All:1 apple:1 associates:1 are:1 always:1 wiling:1 to:1 help:1 you:1 out:1 with:1 anything:1 ,:1 no:1 matter:1 when:1 you:1 purchased:1 the:1 computer:1 and:1 how:1 many:1 years:1 passed:1 .:1 
+positive super:1 fast:1 processor:1 and:1 really:1 nice:1 graphics:1 card..:1 
+positive super:1 fast:1 processor:1 and:1 really:1 nice:1 graphics:1 card..:1 
+negative First:1 ,:1 it:1 does:1 not:1 have:1 a:1 push:1 button:1 to:1 open:1 the:1 lid:1 .:1 
+neutral First:1 ,:1 it:1 does:1 not:1 have:1 a:1 push:1 button:1 to:1 open:1 the:1 lid:1 .:1 
+neutral I:1 have:1 had:1 to:1 call:1 with:1 a:1 few:1 questions:1 or:1 issues:1 and:1 they:1 have:1 helped:1 me:1 for:1 free:1 ,:1 even:1 without:1 the:1 warranty:1 .:1 
+negative EITHER:1 WAY:1 ,:1 THE:1 KEYBOARD:1 IS:1 UNSATISFACTORY:1 .:1 
+negative The:1 first:1 one:1 sent:1 ::1 Touchpad:1 did:1 n't:1 work:1 The:1 second:1 sent:1 ::1 USB:1 did:1 n't:1 work:1 The:1 third:1 sent:1 ::1 Touchpad:1 did:1 n't:1 work:1 The:1 fourth:1 sent:1 ::1 Has:1 n't:1 arrived:1 yet:1 .:1 
+negative The:1 first:1 one:1 sent:1 ::1 Touchpad:1 did:1 n't:1 work:1 The:1 second:1 sent:1 ::1 USB:1 did:1 n't:1 work:1 The:1 third:1 sent:1 ::1 Touchpad:1 did:1 n't:1 work:1 The:1 fourth:1 sent:1 ::1 Has:1 n't:1 arrived:1 yet:1 .:1 
+negative The:1 first:1 one:1 sent:1 ::1 Touchpad:1 did:1 n't:1 work:1 The:1 second:1 sent:1 ::1 USB:1 did:1 n't:1 work:1 The:1 third:1 sent:1 ::1 Touchpad:1 did:1 n't:1 work:1 The:1 fourth:1 sent:1 ::1 Has:1 n't:1 arrived:1 yet:1 .:1 
+negative The:1 next:1 time:1 I:1 had:1 an:1 issue:1 my:1 lightscribe:1 would:1 n't:1 work:1 .:1 
+positive All:1 of:1 the:1 programs:1 (:1 Keynote:1 ,:1 Pages:1 ,:1 Numbers:1 ):1 have:1 an:1 option:1 to:1 save:1 your:1 documents:1 as:1 Microsoft:1 compatible:1 ,:1 which:1 really:1 eliminates:1 the:1 need:1 for:1 the:1 actual:1 .:1 
+neutral All:1 of:1 the:1 programs:1 (:1 Keynote:1 ,:1 Pages:1 ,:1 Numbers:1 ):1 have:1 an:1 option:1 to:1 save:1 your:1 documents:1 as:1 Microsoft:1 compatible:1 ,:1 which:1 really:1 eliminates:1 the:1 need:1 for:1 the:1 actual:1 .:1 
+neutral All:1 of:1 the:1 programs:1 (:1 Keynote:1 ,:1 Pages:1 ,:1 Numbers:1 ):1 have:1 an:1 option:1 to:1 save:1 your:1 documents:1 as:1 Microsoft:1 compatible:1 ,:1 which:1 really:1 eliminates:1 the:1 need:1 for:1 the:1 actual:1 .:1 
+neutral All:1 of:1 the:1 programs:1 (:1 Keynote:1 ,:1 Pages:1 ,:1 Numbers:1 ):1 have:1 an:1 option:1 to:1 save:1 your:1 documents:1 as:1 Microsoft:1 compatible:1 ,:1 which:1 really:1 eliminates:1 the:1 need:1 for:1 the:1 actual:1 .:1 
+positive There:1 is:1 a:1 backlit:1 keyboard:1 which:1 is:1 perfect:1 for:1 typing:1 in:1 the:1 dark:1 .:1 
+negative  :1 Worse:1 ,:1 for:1 the:1 price:1 I:1 could:1 get:1 a:1 *netbook*:1 that:1 outperforms:1 this:1 machine:1 .:1 
+neutral Again:1 in:1 February:1 my:1 computer:1 completely:1 failed:1 to:1 the:1 point:1 that:1 it:1 could:1 not:1 load:1 Windows:1 so:1 I:1 contacted:1 Acer:1 to:1 get:1 it:1 fixed:1 thru:1 my:1 Warrenty:1 and:1 it:1 took:1 about:1 3:1 days:1 fighting:1 on:1 the:1 phone:1 with:1 agents:1 and:1 it:1 seemed:1 as:1 though:1 NONE:1 of:1 them:1 spoke:1 English:1 .:1 
+neutral Again:1 in:1 February:1 my:1 computer:1 completely:1 failed:1 to:1 the:1 point:1 that:1 it:1 could:1 not:1 load:1 Windows:1 so:1 I:1 contacted:1 Acer:1 to:1 get:1 it:1 fixed:1 thru:1 my:1 Warrenty:1 and:1 it:1 took:1 about:1 3:1 days:1 fighting:1 on:1 the:1 phone:1 with:1 agents:1 and:1 it:1 seemed:1 as:1 though:1 NONE:1 of:1 them:1 spoke:1 English:1 .:1 
+negative Again:1 in:1 February:1 my:1 computer:1 completely:1 failed:1 to:1 the:1 point:1 that:1 it:1 could:1 not:1 load:1 Windows:1 so:1 I:1 contacted:1 Acer:1 to:1 get:1 it:1 fixed:1 thru:1 my:1 Warrenty:1 and:1 it:1 took:1 about:1 3:1 days:1 fighting:1 on:1 the:1 phone:1 with:1 agents:1 and:1 it:1 seemed:1 as:1 though:1 NONE:1 of:1 them:1 spoke:1 English:1 .:1 
+positive Apparently:1 well-built:1 and:1 gorgeous:1 to:1 look:1 at:1 ,:1 the:1 i5:1 MacBook:1 Pro:1 is:1 a:1 winning:1 combination:1 of:1 price:1 and:1 performance:1 .:1 
+positive Apparently:1 well-built:1 and:1 gorgeous:1 to:1 look:1 at:1 ,:1 the:1 i5:1 MacBook:1 Pro:1 is:1 a:1 winning:1 combination:1 of:1 price:1 and:1 performance:1 .:1 
+positive Apparently:1 well-built:1 and:1 gorgeous:1 to:1 look:1 at:1 ,:1 the:1 i5:1 MacBook:1 Pro:1 is:1 a:1 winning:1 combination:1 of:1 price:1 and:1 performance:1 .:1 
+positive Apparently:1 well-built:1 and:1 gorgeous:1 to:1 look:1 at:1 ,:1 the:1 i5:1 MacBook:1 Pro:1 is:1 a:1 winning:1 combination:1 of:1 price:1 and:1 performance:1 .:1 
+negative  :1 The:1 machine:1 is:1 slow:1 to:1 boot:1 up:1 and:1 occasionally:1 crashes:1 completely:1 .:1 
+positive I:1 love:1 the:1 size:1 ,:1 keyboard:1 ,:1 the:1 functions:1 .:1 
+positive I:1 love:1 the:1 size:1 ,:1 keyboard:1 ,:1 the:1 functions:1 .:1 
+positive I:1 love:1 the:1 size:1 ,:1 keyboard:1 ,:1 the:1 functions:1 .:1 
+negative  :1 even:1 though:1 I:1 had:1 the:1 receipt:1 in:1 front:1 of:1 me:1 proving:1 it:1 still:1 had:1 2:1 months:1 left:1 on:1 the:1 warranty:1 .:1 
+positive The:1 overall:1 build:1 quality:1 of:1 the:1 unit:1 is:1 excellent:1 and:1 she:1 'd:1 recommend:1 it:1 to:1 anyone:1 else:1 looking:1 for:1 a:1 netbook:1 .:1 
+positive This:1 is:1 a:1 great:1 little:1 computer:1 for:1 the:1 price:1 .:1 
+negative Looks:1 nice:1 ,:1 but:1 has:1 a:1 horribly:1 cheap:1 feel:1 .:1 
+positive Looks:1 nice:1 ,:1 but:1 has:1 a:1 horribly:1 cheap:1 feel:1 .:1 
+positive Screen:1 size:1 is:1 perfect:1 for:1 portable:1 use:1 in:1 any:1 environment:1 .:1 
+negative My:1 laptop:1 cost:1 approximately:1 $:1 2,300:1 and:1 DIED:1 after:1 only:1 2-years:1 ,:1 10-months:1 and:1 18-days:1 of:1 use:1 .:1 
+positive The:1 Windows:1 7:1 Starter:1 is:1 ,:1 in:1 my:1 opinion:1 ,:1 a:1 great:1 way:1 to:1 think:1 about:1 using:1 your:1 netbook:1 ::1 basics:1 ,:1 basics:1 ,:1 basics:1 .:1 
+negative  :1 I:1 would:1 rather:1 spend:1 my:1 money:1 on:1 a:1 computer:1 that:1 costs:1 more:1 then:1 a:1 Toshiba:1 that:1 is:1 n't:1 good:1 at:1 all:1 .:1 
+positive Besides:1 the:1 great:1 look:1 ,:1 it:1 is:1 a:1 great:1 machine:1 .:1 
+negative So:1 then:1 you:1 may:1 be:1 lucky:1 to:1 get:1 ahold:1 to:1 someone:1 who:1 understands:1 that:1 its:1 no:1 good:1 and:1 they:1 will:1 let:1 you:1 send:1 it:1 back:1 ,:1 but:1 of:1 course:1 you:1 are:1 taking:1 a:1 chance:1 of:1 them:1 testing:1 it:1 out:1 to:1 see:1 what:1 has:1 happened:1 ,:1 and:1 they:1 tell:1 you:1 that:1 it:1 was:1 not:1 on:1 their:1 side:1 ,:1 then:1 you:1 are:1 stuck:1 paying:1 for:1 the:1 repair:1 (:1 the:1 price:1 of:1 a:1 new:1 one:1 ):1 .:1 
+negative Took:1 me:1 11:1 hours:1 ,:1 3:1 trips:1 to:1 different:1 FedEx:1 offices:1 ,:1 and:1 brutal:1 conversations:1 with:1 14:1 of:1 the:1 worse:1 IT:1 support:1 technicians:1 in:1 the:1 world:1 .:1 
+negative The:1 touchpad:1 is:1 extremely:1 sensitive:1 ,:1 which:1 is:1 the:1 only:1 drawback:1 .:1 
+positive The:1 neat:1 and:1 organized:1 icon:1 list:1 is:1 a:1 welcome:1 change:1 from:1 cluttered:1 and:1 confusing:1 desktop:1 icons:1 .:1 
+negative The:1 neat:1 and:1 organized:1 icon:1 list:1 is:1 a:1 welcome:1 change:1 from:1 cluttered:1 and:1 confusing:1 desktop:1 icons:1 .:1 
+negative The:1 battery:1 life:1 was:1 supposed:1 to:1 be:1 6:1 hours:1 ,:1 but:1 even:1 if:1 I:1 ran:1 off:1 the:1 battery:1 with:1 the:1 high:1 effeciency:1 setting:1 the:1 battery:1 would:1 only:1 last:1 me:1 on:1 average:1 about:1 2.5:1 to:1 3:1 hours:1 .:1 
+neutral The:1 battery:1 life:1 was:1 supposed:1 to:1 be:1 6:1 hours:1 ,:1 but:1 even:1 if:1 I:1 ran:1 off:1 the:1 battery:1 with:1 the:1 high:1 effeciency:1 setting:1 the:1 battery:1 would:1 only:1 last:1 me:1 on:1 average:1 about:1 2.5:1 to:1 3:1 hours:1 .:1 
+negative The:1 battery:1 life:1 was:1 supposed:1 to:1 be:1 6:1 hours:1 ,:1 but:1 even:1 if:1 I:1 ran:1 off:1 the:1 battery:1 with:1 the:1 high:1 effeciency:1 setting:1 the:1 battery:1 would:1 only:1 last:1 me:1 on:1 average:1 about:1 2.5:1 to:1 3:1 hours:1 .:1 
+neutral I:1 would:1 like:1 to:1 use:1 a:1 different:1 operating:1 system:1 altogether:1 .:1 
+negative defective:1 software:1 .:1 
+negative  :1 the:1 battery:1 is:1 irreplaceable:1 .:1 
+positive also:1 it:1 comes:1 with:1 very:1 useful:1 applications:1 like:1 iphoto:1 that:1 it:1 is:1 the:1 best:1 photo:1 application:1 i:1 have:1 ever:1 had:1 
+positive also:1 it:1 comes:1 with:1 very:1 useful:1 applications:1 like:1 iphoto:1 that:1 it:1 is:1 the:1 best:1 photo:1 application:1 i:1 have:1 ever:1 had:1 
+positive also:1 it:1 comes:1 with:1 very:1 useful:1 applications:1 like:1 iphoto:1 that:1 it:1 is:1 the:1 best:1 photo:1 application:1 i:1 have:1 ever:1 had:1 
+negative The:1 internet:1 was:1 locekd:1 and:1 froze:1 every:1 time:1 it:1 was:1 trying:1 to:1 be:1 used:1 ,:1 and:1 the:1 command:1 prompt:1 would:1 not:1 work:1 at:1 all:1 .:1 
+negative The:1 internet:1 was:1 locekd:1 and:1 froze:1 every:1 time:1 it:1 was:1 trying:1 to:1 be:1 used:1 ,:1 and:1 the:1 command:1 prompt:1 would:1 not:1 work:1 at:1 all:1 .:1 
+negative when:1 i:1 first:1 got:1 it:1 i:1 thought:1 the:1 size:1 of:1 it:1 was:1 a:1 joke:1 .:1 
+positive The:1 price:1 is:1 great:1 for:1 this:1 model:1 ,:1 I:1 only:1 plan:1 on:1 using:1 it:1 for:1 media:1 in:1 the:1 entertainment:1 room:1 .:1 
+negative Because:1 he:1 said:1 that:1 the:1 hinge:1 is:1 under:1 the:1 motherboard:1 and:1 they:1 have:1 to:1 dismantle:1 the:1 whole:1 thing:1 before:1 it:1 can:1 be:1 tightened:1 .:1 
+neutral Because:1 he:1 said:1 that:1 the:1 hinge:1 is:1 under:1 the:1 motherboard:1 and:1 they:1 have:1 to:1 dismantle:1 the:1 whole:1 thing:1 before:1 it:1 can:1 be:1 tightened:1 .:1 
+neutral Overall:1 ::1 Poor:1 ,:1 Features:1 ::1 Average:1 ,:1 Performance:1 ::1 Poor:1 ,:1 Battery:1 Life:1 ::1 Excellent:1 ,:1 Price-Value:1 ::1 Poor:1 
+negative Overall:1 ::1 Poor:1 ,:1 Features:1 ::1 Average:1 ,:1 Performance:1 ::1 Poor:1 ,:1 Battery:1 Life:1 ::1 Excellent:1 ,:1 Price-Value:1 ::1 Poor:1 
+positive Overall:1 ::1 Poor:1 ,:1 Features:1 ::1 Average:1 ,:1 Performance:1 ::1 Poor:1 ,:1 Battery:1 Life:1 ::1 Excellent:1 ,:1 Price-Value:1 ::1 Poor:1 
+negative Overall:1 ::1 Poor:1 ,:1 Features:1 ::1 Average:1 ,:1 Performance:1 ::1 Poor:1 ,:1 Battery:1 Life:1 ::1 Excellent:1 ,:1 Price-Value:1 ::1 Poor:1 
+negative Overall:1 ::1 Poor:1 ,:1 Features:1 ::1 Average:1 ,:1 Performance:1 ::1 Poor:1 ,:1 Battery:1 Life:1 ::1 Excellent:1 ,:1 Price-Value:1 ::1 Poor:1 
+positive I:1 would:1 definitely:1 reccomend:1 this:1 if:1 you:1 are:1 in:1 the:1 market:1 for:1 an:1 easy:1 to:1 use:1 ,:1 stylish:1 ,:1 fun:1 ,:1 awesome:1 computer:1 .:1 
+positive I:1 believe:1 that:1 the:1 quality:1 of:1 a:1 mac:1 is:1 worth:1 the:1 price:1 .:1 
+positive I:1 believe:1 that:1 the:1 quality:1 of:1 a:1 mac:1 is:1 worth:1 the:1 price:1 .:1 
+negative ):1 And:1 printing:1 from:1 either:1 word:1 processor:1 is:1 an:1 adventure:1 .:1 
+negative My:1 one:1 complaint:1 with:1 this:1 laptop:1 is:1 that:1 I:1 've:1 noticed:1 an:1 electronic:1 fuzz:1 sound:1 coming:1 out:1 of:1 the:1 headphone:1 jack:1 when:1 headphones:1 are:1 plugged:1 in:1 .:1 
+negative My:1 one:1 complaint:1 with:1 this:1 laptop:1 is:1 that:1 I:1 've:1 noticed:1 an:1 electronic:1 fuzz:1 sound:1 coming:1 out:1 of:1 the:1 headphone:1 jack:1 when:1 headphones:1 are:1 plugged:1 in:1 .:1 
+negative I:1 dislike:1 the:1 weight:1 and:1 size:1 ,:1 cubersome:1 .:1 
+negative I:1 dislike:1 the:1 weight:1 and:1 size:1 ,:1 cubersome:1 .:1 
+negative The:1 sound:1 is:1 a:1 bit:1 quiet:1 if:1 you:1 're:1 on:1 a:1 plane:1 ,:1 this:1 can:1 easily:1 be:1 overcome:1 with:1 a:1 decent:1 pair:1 of:1 head:1 phones:1 .:1 
+positive The:1 screen:1 is:1 nice:1 ,:1 side:1 view:1 angles:1 are:1 pretty:1 good:1 .:1 
+negative If:1 this:1 is:1 an:1 improvement:1 in:1 Customer:1 Service:1 then:1 I:1 would:1 hate:1 too:1 see:1 what:1 it:1 was:1 before:1 !:1 
+positive However:1 ,:1 I:1 love:1 this:1 particular:1 Mac:1 because:1 its:1 very:1 fast:1 ,:1 great:1 size:1 ,:1 and:1 has:1 fantastic:1 features:1 like:1 the:1 lighted:1 keyboard:1 and:1 easy:1 mouse:1 pad:1 .:1 
+positive However:1 ,:1 I:1 love:1 this:1 particular:1 Mac:1 because:1 its:1 very:1 fast:1 ,:1 great:1 size:1 ,:1 and:1 has:1 fantastic:1 features:1 like:1 the:1 lighted:1 keyboard:1 and:1 easy:1 mouse:1 pad:1 .:1 
+positive However:1 ,:1 I:1 love:1 this:1 particular:1 Mac:1 because:1 its:1 very:1 fast:1 ,:1 great:1 size:1 ,:1 and:1 has:1 fantastic:1 features:1 like:1 the:1 lighted:1 keyboard:1 and:1 easy:1 mouse:1 pad:1 .:1 
+positive However:1 ,:1 I:1 love:1 this:1 particular:1 Mac:1 because:1 its:1 very:1 fast:1 ,:1 great:1 size:1 ,:1 and:1 has:1 fantastic:1 features:1 like:1 the:1 lighted:1 keyboard:1 and:1 easy:1 mouse:1 pad:1 .:1 
+negative I:1 would:1 rate:1 this:1 computer:1 at:1 5:1 stars:1 ,:1 but:1 considering:1 it:1 has:1 a:1 short:1 life:1 span:1 I:1 can:1 only:1 give:1 it:1 1:1 and:1 implore:1 anyone:1 looking:1 at:1 laptops:1 to:1 stay:1 away:1 from:1 this:1 machine:1 .:1 
+negative Yes:1 ,:1 I:1 thought:1 the:1 expese:1 was:1 a:1 little:1 much:1 ,:1 but:1 I:1 now:1 realize:1 you:1 get:1 what:1 you:1 pay:1 for:1 .:1 
+positive It:1 has:1 just:1 enough:1 RAM:1 to:1 run:1 smoothly:1 and:1 enough:1 memory:1 to:1 satisfy:1 my:1 needs:1 .:1 
+positive It:1 has:1 just:1 enough:1 RAM:1 to:1 run:1 smoothly:1 and:1 enough:1 memory:1 to:1 satisfy:1 my:1 needs:1 .:1 
+negative The:1 only:1 objection:1 I:1 have:1 is:1 that:1 after:1 you:1 buy:1 it:1 the:1 windows:1 7:1 system:1 is:1 a:1 starter:1 and:1 charges:1 for:1 the:1 upgrade:1 .:1 
+negative The:1 speakers:1 are:1 terrible:1 and:1 are:1 probably:1 the:1 cheapest:1 ones:1 I:1 have:1 ever:1 seen:1 in:1 a:1 laptop:1 so:1 if:1 your:1 planning:1 to:1 listen:1 to:1 music:1 I:1 suggest:1 you:1 get:1 something:1 better:1 .:1 
+negative Well:1 ,:1 I:1 have:1 to:1 say:1 since:1 I:1 bought:1 my:1 Mac:1 ,:1 I:1 wo:1 n't:1 ever:1 go:1 back:1 to:1 any:1 Windows:1 .:1 
+neutral I:1 wish:1 Toshiba:1 would:1 allow:1 their:1 customers:1 to:1 select:1 an:1 option:1 that:1 only:1 boots:1 the:1 OS:1 at:1 setup:1 and:1 removes:1 all:1 the:1 unnecessary:1 stuff:1 .:1 
+positive I:1 have:1 other:1 computers:1 that:1 get:1 strong:1 signals:1 that:1 do:1 n't:1 drop:1 in:1 places:1 that:1 this:1 ``:1 net:1 '':1 book:1 loses:1 its:1 signal:1 .:1 
+negative I:1 have:1 other:1 computers:1 that:1 get:1 strong:1 signals:1 that:1 do:1 n't:1 drop:1 in:1 places:1 that:1 this:1 ``:1 net:1 '':1 book:1 loses:1 its:1 signal:1 .:1 
+negative In November:1 my:1 computer:1 messed:1 up:1 entirely:1 and:1 would:1 n't:1 power:1 on:1 after:1 intalling:1 a:1 Windows:1 update:1 ,:1 I:1 had:1 to:1 have:1 my:1 HD:1 flashed:1 and:1 lost:1 EVERYTHING:1 on:1 it:1 ,:1 including:1 my:1 school:1 assignments:1 and:1 irriplaceable:1 pictures:1 that:1 were:1 only:1 in:1 digital:1 format:1 and:1 several:1 other:1 things:1 ,:1 when:1 this:1 update:1 was:1 installed:1 for:1 some:1 reason:1 I:1 was:1 unable:1 to:1 roll:1 back:1 the:1 drivers:1 and:1 everything:1 to:1 an:1 earlier:1 working:1 condition:1 because:1 when:1 the:1 update:1 was:1 installed:1 it:1 deleted:1 my:1 history:1 .:1 
+negative In November:1 my:1 computer:1 messed:1 up:1 entirely:1 and:1 would:1 n't:1 power:1 on:1 after:1 intalling:1 a:1 Windows:1 update:1 ,:1 I:1 had:1 to:1 have:1 my:1 HD:1 flashed:1 and:1 lost:1 EVERYTHING:1 on:1 it:1 ,:1 including:1 my:1 school:1 assignments:1 and:1 irriplaceable:1 pictures:1 that:1 were:1 only:1 in:1 digital:1 format:1 and:1 several:1 other:1 things:1 ,:1 when:1 this:1 update:1 was:1 installed:1 for:1 some:1 reason:1 I:1 was:1 unable:1 to:1 roll:1 back:1 the:1 drivers:1 and:1 everything:1 to:1 an:1 earlier:1 working:1 condition:1 because:1 when:1 the:1 update:1 was:1 installed:1 it:1 deleted:1 my:1 history:1 .:1 
+neutral In November:1 my:1 computer:1 messed:1 up:1 entirely:1 and:1 would:1 n't:1 power:1 on:1 after:1 intalling:1 a:1 Windows:1 update:1 ,:1 I:1 had:1 to:1 have:1 my:1 HD:1 flashed:1 and:1 lost:1 EVERYTHING:1 on:1 it:1 ,:1 including:1 my:1 school:1 assignments:1 and:1 irriplaceable:1 pictures:1 that:1 were:1 only:1 in:1 digital:1 format:1 and:1 several:1 other:1 things:1 ,:1 when:1 this:1 update:1 was:1 installed:1 for:1 some:1 reason:1 I:1 was:1 unable:1 to:1 roll:1 back:1 the:1 drivers:1 and:1 everything:1 to:1 an:1 earlier:1 working:1 condition:1 because:1 when:1 the:1 update:1 was:1 installed:1 it:1 deleted:1 my:1 history:1 .:1 
+negative It:1 seemed:1 to:1 be:1 a:1 very:1 nice:1 laptop:1 except:1 I:1 was:1 not:1 able:1 to:1 load:1 my:1 Garmin:1 GPS:1 software:1 or:1 Microsoft:1 Office:1 2003:1 .:1 
+negative It:1 seemed:1 to:1 be:1 a:1 very:1 nice:1 laptop:1 except:1 I:1 was:1 not:1 able:1 to:1 load:1 my:1 Garmin:1 GPS:1 software:1 or:1 Microsoft:1 Office:1 2003:1 .:1 
+negative No:1 tutorials:1 on:1 the:1 display:1 .:1 
+positive It:1 has:1 a:1 lot:1 of:1 memory:1 and:1 a:1 great:1 battery:1 life:1 .:1 
+positive It:1 has:1 a:1 lot:1 of:1 memory:1 and:1 a:1 great:1 battery:1 life:1 .:1 
+negative I:1 regret:1 buying:1 it:1 before:1 understanding:1 how:1 awful:1 it:1 is:1 to:1 use:1 .:1 
+negative Summary:1 ::1 They:1 played:1 games:1 with:1 me:1 for:1 the:1 warranty:1 period:1 .:1 
+negative Even:1 though:1 the:1 computer:1 is:1 larger:1 they:1 did:1 not:1 make:1 the:1 keyboard:1 larger:1 .:1 
+negative The:1 screen:1 takes:1 some:1 getting:1 use:1 to:1 ,:1 because:1 it:1 is:1 smaller:1 than:1 the:1 laptop:1 .:1 
+negative So:1 we:1 exchanged:1 it:1 for:1 the:1 same:1 on:1 and:1 after:1 2:1 hours:1 it:1 did:1 n't:1 work:1 .:1 
+negative The:1 battery:1 never:1 held:1 a:1 charge:1 longer:1 than:1 one:1 hour:1 and:1 within:1 two:1 months:1 ,:1 stopped:1 holding:1 a:1 charge:1 for:1 more:1 than:1 ten:1 minutes:1 .:1 
+negative The:1 battery:1 never:1 held:1 a:1 charge:1 longer:1 than:1 one:1 hour:1 and:1 within:1 two:1 months:1 ,:1 stopped:1 holding:1 a:1 charge:1 for:1 more:1 than:1 ten:1 minutes:1 .:1 
+negative The:1 battery:1 never:1 held:1 a:1 charge:1 longer:1 than:1 one:1 hour:1 and:1 within:1 two:1 months:1 ,:1 stopped:1 holding:1 a:1 charge:1 for:1 more:1 than:1 ten:1 minutes:1 .:1 
+positive Comes:1 with:1 iMovie:1 ;:1 
+negative I:1 have:1 never:1 really:1 been:1 big:1 on:1 downloading:1 anything:1 so:1 I:1 was:1 n't:1 too:1 worried:1 about:1 getting:1 a:1 virus:1 ,:1 plus:1 I:1 thought:1 I:1 was:1 protected:1 by:1 Norton:1 .:1 
+negative  :1 The:1 screen:1 almost:1 looked:1 like:1 a:1 barcode:1 when:1 it:1 froze:1 .:1 
+negative I:1 've:1 also:1 had:1 to:1 have:1 the:1 keyboard:1 replaced:1 at:1 my:1 expense:1 .:1 
+positive The:1 Toshiba:1 Satellite:1 has:1 been:1 more:1 than:1 I:1 expected:1 for:1 the:1 price:1 .:1 
+positive I:1 had:1 in:1 the:1 past:1 a:1 Dell:1 laptop:1 and:1 they:1 sent:1 me:1 the:1 items:1 it:1 needed:1 or:1 they:1 sent:1 a:1 repair:1 technician:1 to:1 my:1 house:1 to:1 fix:1 it:1 .:1 
+positive The:1 screen:1 is:1 nice:1 and:1 the:1 images:1 comes:1 very:1 clear:1 ,:1 the:1 keyboard:1 and:1 the:1 fit:1 just:1 feels:1 right:1 .:1 
+positive The:1 screen:1 is:1 nice:1 and:1 the:1 images:1 comes:1 very:1 clear:1 ,:1 the:1 keyboard:1 and:1 the:1 fit:1 just:1 feels:1 right:1 .:1 
+positive The:1 screen:1 is:1 nice:1 and:1 the:1 images:1 comes:1 very:1 clear:1 ,:1 the:1 keyboard:1 and:1 the:1 fit:1 just:1 feels:1 right:1 .:1 
+positive I:1 love:1 my:1 Apple:1 ,:1 it:1 is:1 quick:1 and:1 easy:1 to:1 use:1 .:1 
+positive previous:1 laptops:1 were:1 pc:1 's:1 ,:1 still:1 have:1 them:1 ,:1 but:1 the:1 mac:1 osx:1 is:1 a:1 clean:1 and:1 smooth:1 operating:1 system:1 .:1 
+positive previous:1 laptops:1 were:1 pc:1 's:1 ,:1 still:1 have:1 them:1 ,:1 but:1 the:1 mac:1 osx:1 is:1 a:1 clean:1 and:1 smooth:1 operating:1 system:1 .:1 
+positive Right:1 size:1 and:1 weight:1 for:1 portability:1 .:1 
+positive Right:1 size:1 and:1 weight:1 for:1 portability:1 .:1 
+positive Right:1 size:1 and:1 weight:1 for:1 portability:1 .:1 
+positive As:1 a:1 user:1 of:1 a:1 PC:1 ,:1 I:1 will:1 will:1 admit:1 that:1 the:1 macBook:1 Pro:1 has:1 a:1 better:1 running:1 system:1 in:1 which:1 I:1 found:1 myself:1 ``:1 Getting:1 the:1 job:1 done:1 quicker:1 .:1 
+positive I:1 would:1 recommend:1 this:1 laptop:1 to:1 anyone:1 looking:1 to:1 get:1 a:1 new:1 laptop:1 who:1 is:1 willing:1 to:1 spend:1 a:1 little:1 more:1 money:1 to:1 get:1 great:1 quality:1 !:1 
+negative There:1 is:1 no:1 cd:1 drive:1 on:1 the:1 computer:1 ,:1 which:1 defeats:1 the:1 purpose:1 of:1 keeping:1 files:1 on:1 a:1 cd:1 .:1 
+positive I:1 love:1 windows:1 7:1 but:1 i:1 ca:1 n't:1 give:1 Toshiba:1 any:1 credit:1 for:1 that:1 ,:1 unless:1 y'all:1 get:1 serious:1 about:1 ergonomics:1 and:1 making:1 required:1 connections:1 less:1 obtrusive:1 i:1 will:1 be:1 looking:1 to:1 different:1 manufacturer:1 next:1 time:1 .:1 
+negative I:1 love:1 windows:1 7:1 but:1 i:1 ca:1 n't:1 give:1 Toshiba:1 any:1 credit:1 for:1 that:1 ,:1 unless:1 y'all:1 get:1 serious:1 about:1 ergonomics:1 and:1 making:1 required:1 connections:1 less:1 obtrusive:1 i:1 will:1 be:1 looking:1 to:1 different:1 manufacturer:1 next:1 time:1 .:1 
+negative I:1 love:1 windows:1 7:1 but:1 i:1 ca:1 n't:1 give:1 Toshiba:1 any:1 credit:1 for:1 that:1 ,:1 unless:1 y'all:1 get:1 serious:1 about:1 ergonomics:1 and:1 making:1 required:1 connections:1 less:1 obtrusive:1 i:1 will:1 be:1 looking:1 to:1 different:1 manufacturer:1 next:1 time:1 .:1 
+positive I:1 also:1 love:1 the:1 design:1 ,:1 the:1 looks:1 ,:1 the:1 feel:1 ,:1 and:1 the:1 my:1 toshiba:1 feature:1 is:1 wonderfull:1 .:1 
+positive I:1 also:1 love:1 the:1 design:1 ,:1 the:1 looks:1 ,:1 the:1 feel:1 ,:1 and:1 the:1 my:1 toshiba:1 feature:1 is:1 wonderfull:1 .:1 
+positive I:1 also:1 love:1 the:1 design:1 ,:1 the:1 looks:1 ,:1 the:1 feel:1 ,:1 and:1 the:1 my:1 toshiba:1 feature:1 is:1 wonderfull:1 .:1 
+positive I:1 also:1 love:1 the:1 design:1 ,:1 the:1 looks:1 ,:1 the:1 feel:1 ,:1 and:1 the:1 my:1 toshiba:1 feature:1 is:1 wonderfull:1 .:1 
+positive The:1 ATI:1 graphics:1 card:1 is:1 a:1 huge:1 plus:1 ,:1 definitely:1 a:1 good:1 value:1 if:1 you:1 need:1 to:1 be:1 able:1 to:1 run:1 some:1 slightly:1 older:1 games:1 that:1 a:1 Intel:1 built-in:1 card:1 would:1 have:1 trouble:1 with:1 ,:1 such:1 as:1 Half-Life:1 2:1 or:1 even:1 World:1 of:1 Warcraft:1 .:1 
+positive The:1 ATI:1 graphics:1 card:1 is:1 a:1 huge:1 plus:1 ,:1 definitely:1 a:1 good:1 value:1 if:1 you:1 need:1 to:1 be:1 able:1 to:1 run:1 some:1 slightly:1 older:1 games:1 that:1 a:1 Intel:1 built-in:1 card:1 would:1 have:1 trouble:1 with:1 ,:1 such:1 as:1 Half-Life:1 2:1 or:1 even:1 World:1 of:1 Warcraft:1 .:1 
+neutral The:1 ATI:1 graphics:1 card:1 is:1 a:1 huge:1 plus:1 ,:1 definitely:1 a:1 good:1 value:1 if:1 you:1 need:1 to:1 be:1 able:1 to:1 run:1 some:1 slightly:1 older:1 games:1 that:1 a:1 Intel:1 built-in:1 card:1 would:1 have:1 trouble:1 with:1 ,:1 such:1 as:1 Half-Life:1 2:1 or:1 even:1 World:1 of:1 Warcraft:1 .:1 
+neutral So:1 I:1 called:1 Compaq:1 ,:1 and:1 after:1 being:1 on:1 the:1 phone:1 for:1 3:1 hours:1 ,:1 i:1 finally:1 got:1 a:1 replacement:1 which:1 I:1 should:1 n't:1 have:1 had:1 a:1 problem:1 getting:1 since:1 it:1 was:1 under:1 warranty:1 .:1 
+negative Ca:1 n't:1 close:1 the:1 2nd:1 HDD:1 bay:1 since:1 there:1 are:1 brackets:1 you:1 have:1 to:1 break:1 off:1 (:1 even:1 then:1 ,:1 it:1 still:1 does:1 n't:1 shut:1 ):1 That:1 could:1 be:1 a:1 major:1 flaw:1 for:1 the:1 dual:1 HDD:1 user:1 .:1 
+positive Enjoy:1 that:1 Toshib:1 force:1 and:1 durability:1 unparalleled:1 
+positive Enjoy:1 that:1 Toshib:1 force:1 and:1 durability:1 unparalleled:1 
+positive The:1 price:1 was:1 very:1 good:1 ,:1 and:1 the:1 product:1 is:1 top:1 quality:1 .:1 
+positive The:1 price:1 was:1 very:1 good:1 ,:1 and:1 the:1 product:1 is:1 top:1 quality:1 .:1 
+negative They:1 break:1 down:1 just:1 as:1 often:1 as:1 PCs:1 do:1 ,:1 and:1 the:1 only:1 reason:1 they:1 do:1 n't:1 get:1 viruses:1 ,:1 is:1 because:1 no:1 one:1 makes:1 viruses:1 for:1 them:1 ,:1 they:1 're:1 not:1 better:1 in:1 any:1 way:1 ,:1 they:1 are:1 worse:1 ,:1 try:1 finding:1 virus:1 protection:1 programs:1 for:1 a:1 Mac:1 ,:1 they:1 do:1 n't:1 exist:1 .:1 
+negative Also:1 ,:1 my:1 sister:1 got:1 the:1 exact:1 same:1 laptop:1 (:1 since:1 they:1 were:1 so:1 cheap:1 ):1 and:1 after:1 8:1 months:1 ,:1 the:1 screen:1 split:1 in:1 half:1 just:1 from:1 everyday:1 use:1 .:1 
+positive In:1 addition:1 ,:1 there:1 is:1 photo:1 detection:1 software:1 that:1 will:1 allow:1 you:1 to:1 group:1 all:1 the:1 photos:1 together:1 based:1 upon:1 the:1 people:1 in:1 the:1 picture:1 .:1 
+positive The:1 applications:1 are:1 also:1 very:1 easy:1 to:1 find:1 and:1 maneuver:1 ,:1 much:1 easier:1 than:1 any:1 other:1 computer:1 I:1 have:1 ever:1 owned:1 .:1 
+positive This:1 is:1 great:1 if:1 you:1 have:1 several:1 lectures:1 back:1 to:1 back:1 and:1 do:1 n't:1 have:1 a:1 chance:1 to:1 charge:1 during:1 one:1 of:1 the:1 lectures:1 .:1 
+positive It:1 's:1 priced:1 very:1 reasonable:1 and:1 works:1 very:1 well:1 right:1 out:1 of:1 the:1 box:1 .:1 
+positive It:1 's:1 priced:1 very:1 reasonable:1 and:1 works:1 very:1 well:1 right:1 out:1 of:1 the:1 box:1 .:1 
+negative Not:1 sure:1 how:1 I:1 recommend:1 it:1 for:1 quality:1 gaming:1 ,:1 as:1 I:1 have:1 a:1 desktop:1 rig:1 for:1 that:1 reason:1 .:1 
+neutral A:1 seventy:1 dollar:1 mouse:1 !:1 
+positive Applications:1 open:1 in:1 seconds:1 and:1 there:1 are:1 no:1 lags:1 ,:1 hiccups:1 or:1 awkward:1 moments:1 when:1 you:1 wonder:1 whether:1 your:1 computer:1 is:1 out:1 for:1 tea:1 .:1 
+positive I:1 do:1 transcription:1 work:1 on:1 the:1 side:1 ,:1 and:1 the:1 flatline:1 keyboard:1 makes:1 typing:1 quick:1 and:1 easy:1 as:1 well:1 .:1 
+neutral But:1 when:1 I:1 received:1 my:1 replacement:1 ,:1 I:1 made:1 BOTH:1 recovery:1 DVDs:1 (:1 4:1 ):1 ,:1 and:1 a:1 driver/application:1 DVD:1 .:1 
+neutral But:1 when:1 I:1 received:1 my:1 replacement:1 ,:1 I:1 made:1 BOTH:1 recovery:1 DVDs:1 (:1 4:1 ):1 ,:1 and:1 a:1 driver/application:1 DVD:1 .:1 
+neutral The:1 leather:1 carrying:1 case:1 ,:1 keyboard:1 and:1 mouse:1 arrived:1 in:1 two:1 days:1 from:1 Memphis:1 warehouse:1 .:1 
+neutral The:1 leather:1 carrying:1 case:1 ,:1 keyboard:1 and:1 mouse:1 arrived:1 in:1 two:1 days:1 from:1 Memphis:1 warehouse:1 .:1 
+neutral The:1 leather:1 carrying:1 case:1 ,:1 keyboard:1 and:1 mouse:1 arrived:1 in:1 two:1 days:1 from:1 Memphis:1 warehouse:1 .:1 
+positive All:1 in:1 all:1 ,:1 a:1 very:1 disappointing:1 experience:1 except:1 that:1 I:1 learned:1 how:1 good:1 the:1 Geek:1 Squad:1 is:1 and:1 also:1 Customer:1 Service:1 .:1 
+negative I:1 wish:1 iWork:1 or:1 MS:1 Office:1 came:1 with:1 the:1 Mac:1 ,:1 but:1 MS:1 Office:1 does:1 n't:1 even:1 come:1 with:1 most:1 pc:1 laptops:1 .:1 
+negative I:1 wish:1 iWork:1 or:1 MS:1 Office:1 came:1 with:1 the:1 Mac:1 ,:1 but:1 MS:1 Office:1 does:1 n't:1 even:1 come:1 with:1 most:1 pc:1 laptops:1 .:1 
+negative I:1 wish:1 iWork:1 or:1 MS:1 Office:1 came:1 with:1 the:1 Mac:1 ,:1 but:1 MS:1 Office:1 does:1 n't:1 even:1 come:1 with:1 most:1 pc:1 laptops:1 .:1 
+positive Not:1 to:1 mention:1 the:1 fact:1 that:1 your:1 mac:1 comes:1 fully:1 loaded:1 with:1 all:1 necessary:1 basic:1 programs:1 .:1 
+neutral I:1 have:1 only:1 had:1 PCs:1 with:1 Windows:1 before:1 so:1 this:1 takes:1 a:1 little:1 getting:1 use:1 to:1 .:1 
+positive The:1 Mac:1 Snow:1 Leopard:1 O/S:1 is:1 extremely:1 easy:1 to:1 use:1 ,:1 although:1 very:1 different:1 than:1 Win:1 XP:1 ,:1 Visa:1 or:1 Win7:1 .:1 
+neutral The:1 Mac:1 Snow:1 Leopard:1 O/S:1 is:1 extremely:1 easy:1 to:1 use:1 ,:1 although:1 very:1 different:1 than:1 Win:1 XP:1 ,:1 Visa:1 or:1 Win7:1 .:1 
+neutral The:1 Mac:1 Snow:1 Leopard:1 O/S:1 is:1 extremely:1 easy:1 to:1 use:1 ,:1 although:1 very:1 different:1 than:1 Win:1 XP:1 ,:1 Visa:1 or:1 Win7:1 .:1 
+neutral The:1 Mac:1 Snow:1 Leopard:1 O/S:1 is:1 extremely:1 easy:1 to:1 use:1 ,:1 although:1 very:1 different:1 than:1 Win:1 XP:1 ,:1 Visa:1 or:1 Win7:1 .:1 
+positive The:1 Mac:1 Snow:1 Leopard:1 O/S:1 is:1 extremely:1 easy:1 to:1 use:1 ,:1 although:1 very:1 different:1 than:1 Win:1 XP:1 ,:1 Visa:1 or:1 Win7:1 .:1 
+positive This:1 purchase:1 opened:1 me:1 to:1 the:1 world:1 of:1 Macbooks:1 ,:1 and:1 I:1 am:1 impressed:1 with:1 the:1 intuition:1 of:1 the:1 design:1 ,:1 the:1 beauty:1 of:1 the:1 product:1 ,:1 and:1 the:1 excellent:1 technological:1 advances:1 associated:1 with:1 it:1 .:1 
+positive This:1 purchase:1 opened:1 me:1 to:1 the:1 world:1 of:1 Macbooks:1 ,:1 and:1 I:1 am:1 impressed:1 with:1 the:1 intuition:1 of:1 the:1 design:1 ,:1 the:1 beauty:1 of:1 the:1 product:1 ,:1 and:1 the:1 excellent:1 technological:1 advances:1 associated:1 with:1 it:1 .:1 
+negative I:1 edit:1 and:1 burn:1 to:1 DVD:1 a:1 lot:1 of:1 video:1 ,:1 so:1 I:1 obviously:1 could:1 not:1 live:1 with:1 a:1 non-functioning:1 drive:1 .:1 
+neutral I:1 should:1 have:1 checked:1 this:1 before:1 I:1 installed:1 my:1 applications:1 .:1 
+negative I:1 respond:1 that:1 I:1 do:1 not:1 have:1 the:1 old:1 computer:1 and:1 this:1 way:1 I:1 would:1 lose:1 the:1 data:1 on:1 my:1 hard:1 drive:1 .:1 

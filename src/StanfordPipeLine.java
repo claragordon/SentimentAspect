@@ -24,14 +24,14 @@ public class StanfordPipeLine {
 
 	public StanfordPipeLine() {
 		Properties props = new Properties ();
-		props.put("annotators", "tokenize, ssplit, pos, parse, sentiment, dcoref");
+		props.put("annotators", "tokenize, ssplit, pos, parse, sentiment");
 		pipeline = new StanfordCoreNLP(props);
 	}
 
 
 	public CoreMap parse(String text) {
 
-
+        //remove punctuation
 		text = text.replaceAll ("[\\.\\?\\',:;]", "");
 
 

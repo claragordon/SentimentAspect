@@ -53,58 +53,6 @@ Summary. test accuracy mean = 0.4077079107505071 stddev = 0.0 stderr = 0.0
 
 -------------------- Trial 0  --------------------
 
-Trial 0 Training NaiveBayesTrainer with 0 instances
-
--------------------- Trial 0  --------------------
-
-Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 with 0 instances
-Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 finished
-Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data accuracy = 0.4077079107505071
-
-MaxEntTrainer,gaussianPriorVariance=1.0
-Summary. test accuracy mean = 0.4077079107505071 stddev = 0.0 stderr = 0.0
-
--------------------- Trial 0  --------------------
-
-Trial 0 Training NaiveBayesTrainer with 1865 instances
-Trial 0 Training NaiveBayesTrainer finished
-Trial 0 Trainer NaiveBayesTrainer test data accuracy = NaN
-
-NaiveBayesTrainer
-Summary. test accuracy mean = NaN stddev = NaN stderr = NaN
-
--------------------- Trial 0  --------------------
-
-Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 with 1865 instances
-
--------------------- Trial 0  --------------------
-
-Trial 0 Training NaiveBayesTrainer with 1865 instances
-Trial 0 Training NaiveBayesTrainer finished
-Trial 0 Trainer NaiveBayesTrainer test data accuracy = NaN
-
-NaiveBayesTrainer
-Summary. test accuracy mean = NaN stddev = NaN stderr = NaN
-
--------------------- Trial 0  --------------------
-
-Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 with 1865 instances
-
--------------------- Trial 0  --------------------
-
-Trial 0 Training NaiveBayesTrainer with 1865 instances
-Trial 0 Training NaiveBayesTrainer finished
-Trial 0 Trainer NaiveBayesTrainer test data accuracy = NaN
-
-NaiveBayesTrainer
-Summary. test accuracy mean = NaN stddev = NaN stderr = NaN
-
--------------------- Trial 0  --------------------
-
-Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 with 1865 instances
-
--------------------- Trial 0  --------------------
-
 Trial 0 Training NaiveBayesTrainer with 1865 instances
 Trial 0 Training NaiveBayesTrainer finished
 Trial 0 Trainer NaiveBayesTrainer test data accuracy = 0.21095334685598377
