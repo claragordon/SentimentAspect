@@ -21,6 +21,7 @@ positional
 
 DEEP:
 tree based
+    distance from root
 
 
 

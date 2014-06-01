@@ -24,7 +24,8 @@ public class StanfordPipeLine {
 
 	public StanfordPipeLine() {
 		Properties props = new Properties ();
-		props.put("annotators", "tokenize, ssplit, pos, parse, sentiment, dcoref");
+		//, lemma, ner, dcoref
+		props.put("annotators", "tokenize, ssplit, pos, parse, sentiment");
 		pipeline = new StanfordCoreNLP(props);
 	}
 
@@ -81,12 +82,17 @@ public class StanfordPipeLine {
 	}
 
 
-	public String sentiment(String text, Aspect a) {
+	public String sentiment(String text, Aspect a, boolean compressed) {
 
 		CoreMap sentence = parse(text);
 
 		Tree tree = sentence.get(SentimentCoreAnnotations.AnnotatedTree.class);
 		int sentiment = RNNCoreAnnotations.getPredictedClass (tree);
+
+		if (compressed) {
+			if (sentiment <=2) sentiment = 1;
+			if (sentiment >=3) sentiment = 5;
+		}
 
 		return Integer.toString(sentiment);
 

@@ -36,19 +36,25 @@ public class Main {
 				// FEATURES
 
 
-				// sentiment rating: 1 - 5
-				String sentiment  = pipeline.sentiment (sText, a);
-			    writer.print("sentiment=" + sentiment + " ");
+//				// sentiment rating: 1 - 5
+//				String sentiment  = pipeline.sentiment (sText, a, false);
+//			    writer.print("sentiment=" + sentiment + " ");
 
 
-				// POS n_grams
-				String posString = pipeline.posString (sText, a);
-				writeNGrams (posString, a, 1, writer, aspectIdx, false);
+				// sentiment rating compressed
+				String sentiment  = pipeline.sentiment (sText, a, true);
+				writer.print("sentiment=" + sentiment + " ");
 
 
-				// plain n-grams
-				writeNGrams (sText, a, 1, writer, aspectIdx, true);
-				writeNGrams (sText, a, 2, writer, aspectIdx, true);
+//
+//				// POS n_grams
+//				String posString = pipeline.posString (sText, a);
+//				writeNGrams (posString, a, 1, writer, aspectIdx, false);
+//
+//
+//				// plain n-grams
+//				writeNGrams (sText, a, 1, writer, aspectIdx, true);
+//				writeNGrams (sText, a, 2, writer, aspectIdx, true);
 
 
 				counter ++;
