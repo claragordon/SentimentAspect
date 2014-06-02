@@ -1,6 +1,24 @@
 explore using MRS
 adapt MRS code and parse data
 
+
+
+Jared
+expansion using word net
+positional
+punctuation
+character grams?
+
+
+Clara
+Bi-grams
+Tri-grams
+Sentistrength Backoff
+Reimplement POS
+Some kind of tree-based?
+
+
+
 Feature ideas
 bi-, trigrams
 POS tags (alone and appended) ngrams
