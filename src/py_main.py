@@ -15,6 +15,29 @@ else:
     test_out = "../mallet_files/test"
 
 
+
+
+def n_grams_dumb(sentence, n):
+    
+    results = ''
+    counts = defaultdict(int)
+    
+    toks = nltk.word_tokenize(sentence.encode('utf-8'))
+    
+    for i in range (0, len(toks) - n):
+        n_gram = toks[i]
+        for j in range(1, n):
+            n_gram += '_' + toks[i+j]
+            
+        counts[n_gram] += 1
+
+    for item in counts:
+        results += item + ':' + str(counts[item]) + ' ' 
+        
+    return results
+
+
+
 # takes a file name and returns a dict of text -> list of aspect tuples
 def read_data(data_file):
 
@@ -34,12 +57,16 @@ def read_data(data_file):
 
 # aspect_tuple = (text, polarity, from, to)
 def process_file(dict, out_file):
+    
+    counter = 0
+
     for sentence in dict:
         # print sentence.encode("utf-8")
         for aspect in dict[sentence]:
-            out_file.write(aspect[1].encode('utf-8')+" ") # write label
+            out_file.write('Aspect' + str(counter) + ' ' + aspect[1].encode('utf-8')+" ") # write label
 
             # print aspect[0].encode("utf-8")
+
 
             # expanding by adding synonyms of adjectives
             text = nltk.word_tokenize(sentence.encode("utf-8"))
@@ -56,12 +83,13 @@ def process_file(dict, out_file):
                                 out_file.write(lemma.name.split(".")[0]+":"+'1 ')
                                 seen.add(lemma.name.split(".")[0])
 
-            # toks = nltk.word_tokenize(sentence.encode('utf-8'))
-            # for tok in toks:
-            #     out_file.write(tok+":"+'1 ')
+            # write every unigram from the sentence
+            out_file.write(n_grams_dumb(sentence, 1))
+            
+
+            counter += 1
+
             out_file.write("\n")
-
-
 
 # main
 
