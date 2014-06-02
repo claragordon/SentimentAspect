@@ -2,12 +2,17 @@ import xml.etree.ElementTree as ET
 import sys
 from collections import defaultdict
 import nltk
+from nltk.corpus import wordnet as wn
 
 if len(sys.argv) > 1:
     train, test = sys.argv[1], sys.argv[2]
+    train_out = "mallet_files/train"
+    test_out = "mallet_files/test"
 else:
     train = '../data/train/laptop--train.xml'
     test = '../data/test/laptop--test.gold.xml'
+    train_out = "../mallet_files/train"
+    test_out = "../mallet_files/test"
 
 
 
@@ -56,16 +61,29 @@ def process_file(dict, out_file):
     counter = 0
 
     for sentence in dict:
+        # print sentence.encode("utf-8")
         for aspect in dict[sentence]:
             out_file.write('Aspect' + str(counter) + ' ' + aspect[1].encode('utf-8')+" ") # write label
 
-            # features here, feature:count
+            # print aspect[0].encode("utf-8")
 
-            #toks = nltk.word_tokenize(sentence.encode('utf-8'))
-            #for tok in toks:
-            #    out_file.write(tok+":"+'1 ')
-            
-            
+
+            # expanding by adding synonyms of adjectives
+            text = nltk.word_tokenize(sentence.encode("utf-8"))
+            seen = set()
+            pos = nltk.pos_tag(text)
+            for tup in pos:
+                # print tup
+                if tup[1] in ['JJ', 'RB']: # or adv?
+                    if len(wn.synsets(tup[0])) > 0:
+                        syn = wn.synsets(tup[0]) #first synset for adjective
+                        for lemma in syn:
+                            if lemma.name.split(".")[0] not in seen:
+                                # print str(lemma.name.split(".")[0])
+                                out_file.write(lemma.name.split(".")[0]+":"+'1 ')
+                                seen.add(lemma.name.split(".")[0])
+
+            # write every unigram from the sentence
             out_file.write(n_grams_dumb(sentence, 1))
             
 
@@ -73,10 +91,8 @@ def process_file(dict, out_file):
 
             out_file.write("\n")
 
-
 # main
-train_out = "mallet_files/train"
-test_out = "mallet_files/test"
+
 
 train = read_data(train)
 test = read_data(test)
