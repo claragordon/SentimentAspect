@@ -4,7 +4,7 @@ adapt MRS code and parse data
 
 
 Jared
-expansion using word net
+expansion using word net √
 positional
 punctuation
 character grams?
