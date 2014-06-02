@@ -8,6 +8,7 @@ expansion using word net √
 positional
 punctuation
 character grams?
+prepend negatin NOT
 
 
 Clara
