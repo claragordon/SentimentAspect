@@ -1,0 +1,28 @@
+
+-------------------- Trial 0  --------------------
+
+Trial 0 Training NaiveBayesTrainer with 1865 instances
+Trial 0 Training NaiveBayesTrainer finished
+Trial 0 Trainer NaiveBayesTrainer test data accuracy = 0.5415821501014199
+Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 with 1865 instances
+Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 finished
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data accuracy = 0.5679513184584178
+Trial 0 Training cc.mallet.classify.DecisionTreeTrainer@5328f6ee with 1865 instances
+DecisionTree learned:
+!but&!great&!easy&!movie: positive
+!but&!great&!easy&movie: neutral
+!but&!great&easy&!wanted: positive
+!but&!great&easy&wanted: neutral
+!but&great&!had&!life: positive
+!but&great&!had&life: negative
+!but&great&had: negative
+but&!on&!it&!that: negative
+but&!on&!it&that: conflict
+but&!on&it&!this: conflict
+but&!on&it&this: negative
+but&on&!that&!i: conflict
+but&on&!that&i: neutral
+but&on&that&!to: negative
+but&on&that&to: neutral
+Trial 0 Training cc.mallet.classify.DecisionTreeTrainer@5328f6ee finished
+Trial 0 Trainer cc.mallet.classify.DecisionTreeTrainer@5328f6ee test data accuracy = 0.40973630831643004

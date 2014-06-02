@@ -17,7 +17,7 @@ Tri-grams
 Sentistrength Backoff
 Reimplement POS
 Some kind of tree-based?
-
+unigram stopword removal
 
 
 Feature ideas

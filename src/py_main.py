@@ -3,6 +3,7 @@ import sys
 from collections import defaultdict
 import nltk
 from nltk.corpus import wordnet as wn
+import re
 
 if len(sys.argv) > 1:
     train, test = sys.argv[1], sys.argv[2]
@@ -15,26 +16,85 @@ else:
     test_out = "../mallet_files/test"
 
 
+sentistength_file = open('lib/EmotionLookupTable.txt', 'r')
+sent_terms = defaultdict(set)
+pos_terms = ''
+neg_terms = ''
+
+def load_sentistrength(file):
+    pos_terms = ''
+    neg_terms = ''
 
 
-def n_grams_dumb(sentence, n):
-    
+    for line in file:
+        split = line.split('\t')
+        term = split[0].replace('*', '\w*')
+        if int(split[1]) > 0:
+            pos_terms += term + '|'
+            #sent_terms['pos'].add(term)
+        else:
+            neg_terms += term + '|'
+            # sent_terms['neg'].add(term)
+
+
+    return pos_terms[:-1], neg_terms[:-1]
+
+def sentistrength_expansion(term):
+
+    if re.match(pos_terms, term):
+        return "POS"
+    elif re.match(neg_terms, term):
+        return "NEG"
+    else:
+        return term
+
+
+def assemble_ngrams(toks, n, backoff):
+
     results = ''
     counts = defaultdict(int)
-    
-    toks = nltk.word_tokenize(sentence.encode('utf-8'))
-    
+
     for i in range (0, len(toks) - n):
         n_gram = toks[i]
         for j in range(1, n):
             n_gram += '_' + toks[i+j]
-            
+
         counts[n_gram] += 1
 
     for item in counts:
-        results += item + ':' + str(counts[item]) + ' ' 
-        
+        count = counts[item]
+        if backoff:
+            term = sentistrength_expansion(item)
+        else:
+            term = item
+        # remove punc-only tokens
+        if not re.match(r'\W+', item):
+            results += term + ':' + str(count) + ' '
+
+
     return results
+
+
+def ngrams_dumb(sentence, n, backoff):
+
+    toks = nltk.word_tokenize(sentence.encode('utf-8'))
+    return assemble_ngrams(toks, n, backoff)
+
+
+def ngrams_window(sentence, aspect, start, end, n, window, backoff):
+
+    first_half = nltk.word_tokenize(sentence[:start])
+    second_half = nltk.word_tokenize(sentence[end:])
+
+
+    if len(first_half) > window:
+        first_half = first_half[len(first_half) - window:]
+
+    if len(second_half) > window:
+        second_half = second_half[:len(second_half) - window + 1]
+
+    return assemble_ngrams(first_half, n, backoff) + assemble_ngrams(second_half, n, backoff)
+
 
 
 def wordnet_expansion(sentence):
@@ -56,6 +116,7 @@ def wordnet_expansion(sentence):
                         seen.add(lemma.name.split(".")[0])
 
     return results
+
 
 
 
@@ -86,15 +147,21 @@ def process_file(dict, out_file):
         for aspect in dict[sentence]:
             out_file.write('Aspect' + str(counter) + ' ' + aspect[1].encode('utf-8')+" ") # write label
 
-            # print aspect[0].encode("utf-8")
-
-
             # expanding by adding synonyms of adjectives
-            out_file.write(wordnet_expansion(sentence))
+            #out_file.write(wordnet_expansion(sentence))
 
             # write every unigram from the sentence
-            out_file.write(n_grams_dumb(sentence, 1))
-            
+            # out_file.write(ngrams_dumb(sentence, 1, False))
+
+            # write every bigram from the sentence
+            #out_file.write(ngrams_dumb(sentence, 2, False))
+
+            # write window ngrams
+            #out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 7, False))
+
+            # write every unigram from the sentence
+            out_file.write(ngrams_dumb(sentence, 1, True))
+
 
             counter += 1
 
@@ -102,6 +169,8 @@ def process_file(dict, out_file):
 
 # main
 
+
+pos_terms, neg_terms = load_sentistrength(sentistength_file)
 
 train = read_data(train)
 test = read_data(test)
