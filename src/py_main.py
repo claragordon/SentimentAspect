@@ -12,16 +12,6 @@ else:
 
 
 
-# def n_gram_window(sentence, start, end, n):
-#
-#
-#
-
-
-
-
-
-
 def n_grams_dumb(sentence, n):
     
     results = ''
