@@ -4,19 +4,103 @@ from collections import defaultdict
 import nltk
 from nltk.corpus import wordnet as wn
 import re
+import string
 
 if len(sys.argv) > 1:
     train, test = sys.argv[1], sys.argv[2]
     train_out = "mallet_files/train"
     test_out = "mallet_files/test"
+    sentistength_file = open('lib/EmotionLookupTable.txt', 'r')
+
 else:
     train = '../data/train/laptop--train.xml'
     test = '../data/test/laptop--test.gold.xml'
     train_out = "../mallet_files/train"
     test_out = "../mallet_files/test"
+    sentistength_file = open('../lib/EmotionLookupTable.txt', 'r')
 
 
-sentistength_file = open('lib/EmotionLookupTable.txt', 'r')
+# return the location of the aspect in the sentence (location = words away from from)
+def aspect_loc(sentence, aspect):
+    sentence = sentence.encode('utf-8')
+    aspect = aspect[0].encode('utf-8')
+    return len(sentence.split(aspect)[0].split())
+
+
+# return the closest adjective (distance = words away), also return the polarity of that adj
+# returns a tuple of (distance to closest adj, (word, POS))
+def closest_adj(sentence, aspect):
+    loc = aspect_loc(sentence, aspect)
+    sentence = nltk.word_tokenize(sentence.encode('utf-8'))
+    aspect = aspect[0].encode('utf-8')
+    pos = nltk.pos_tag(sentence)
+    min = (999, '')
+    for word in pos:
+        if word[1] in ['JJ']:
+            distance = abs(loc - sentence.index(word[0]))
+            if distance < min:
+                min[0], min[1] = distance, word
+    return min
+
+# return various stats, like number of words, number of POS, number of capital letters, number of punctuation marks
+def sentence_stats(sentence):
+    sentence = sentence.encode('utf-8')
+    result = "length:"+str(len(nltk.word_tokenize(sentence)))+" " # number of tokens in sentence+
+
+    # counts for each POS
+    pos_counts = defaultdict(int)
+    pos = nltk.pos_tag(nltk.word_tokenize(sentence))
+    # print pos
+    for tagged_word in pos:
+        pos_counts[tagged_word[1]] += 1
+        # print tagged_word[0], tagged_word[1], pos_counts[tagged_word[1]]
+    for k in pos_counts:
+        result = result + k+"_count:"+str(pos_counts[k])+" "
+    # print result
+
+    result = result + "cap_count:"+str(len([c for c in sentence if c.isupper()]))+" " # number of capital letters in sentence
+
+    result = result + "punc_count:"+str(len([c for c in sentence if c in string.punctuation]))+" " # number of punctuation marks in sentence
+
+    return result
+
+# prepend NOT
+def negate():
+    return
+
+def negate_sequence(sentence):
+    sentence = sentence.encode('utf-8')
+    negation = False
+    delims = "?.,!:;"
+    negated_sequence = []
+    words = sentence.split()
+
+    for word in words:
+        # stripped = word.strip(delchars)
+        stripped = word.strip(delims).lower()
+        negated = "not_" + stripped if negation else stripped #put in not_prepended if state is negative, regular if not
+        negated_sequence.append(negated)
+
+        # flip negation if another negator is encountered
+        if any(neg in word for neg in ["not", "n't", "no"]):
+            negation = not negation
+
+        # flip negation if a delimiter is encountered
+        if any(c in word for c in delims):
+            negation = False
+
+    result = ''
+    for word in negated_sequence:
+        result = result+word+":1 "
+
+    return result
+
+# prepend VERY or BARELY, can't find a list of these, don't want to build one, acl wiki is down at the moment
+def valence_shifters():
+    return
+
+
+
 sent_terms = defaultdict(set)
 pos_terms = ''
 neg_terms = ''
@@ -159,8 +243,17 @@ def process_file(dict, out_file):
             # write window ngrams
             #out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 7, False))
 
+            # write sentence stats
+            # out_file.write(sentence_stats(sentence))
+
+            # negation hueristics
+            out_file.write(negate_sequence(sentence))
+
+            # write position of aspect in sentence
+            # out_file.write("distance:"+str(aspect_loc(sentence, aspect))+" ")
+
             # write every unigram from the sentence
-            out_file.write(ngrams_dumb(sentence, 1, True))
+            # out_file.write(ngrams_dumb(sentence, 1, False)) # third argument is sentiment backoff
 
 
             counter += 1
