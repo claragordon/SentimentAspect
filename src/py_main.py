@@ -37,6 +37,27 @@ def n_grams_dumb(sentence, n):
     return results
 
 
+def wordnet_expansion(sentence):
+
+    results = ''
+
+    text = nltk.word_tokenize(sentence.encode("utf-8"))
+    seen = set()
+    pos = nltk.pos_tag(text)
+    for tup in pos:
+        # print tup
+        if tup[1] in ['JJ', 'RB']: # or adv?
+            if len(wn.synsets(tup[0])) > 0:
+                syn = wn.synsets(tup[0]) #first synset for adjective
+                for lemma in syn:
+                    if lemma.name.split(".")[0] not in seen:
+                        # print str(lemma.name.split(".")[0])
+                        results += lemma.name.split(".")[0]+":"+'1 '
+                        seen.add(lemma.name.split(".")[0])
+
+    return results
+
+
 
 # takes a file name and returns a dict of text -> list of aspect tuples
 def read_data(data_file):
@@ -69,19 +90,7 @@ def process_file(dict, out_file):
 
 
             # expanding by adding synonyms of adjectives
-            text = nltk.word_tokenize(sentence.encode("utf-8"))
-            seen = set()
-            pos = nltk.pos_tag(text)
-            for tup in pos:
-                # print tup
-                if tup[1] in ['JJ', 'RB']: # or adv?
-                    if len(wn.synsets(tup[0])) > 0:
-                        syn = wn.synsets(tup[0]) #first synset for adjective
-                        for lemma in syn:
-                            if lemma.name.split(".")[0] not in seen:
-                                # print str(lemma.name.split(".")[0])
-                                out_file.write(lemma.name.split(".")[0]+":"+'1 ')
-                                seen.add(lemma.name.split(".")[0])
+            out_file.write(wordnet_expansion(sentence))
 
             # write every unigram from the sentence
             out_file.write(n_grams_dumb(sentence, 1))
