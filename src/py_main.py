@@ -64,6 +64,12 @@ def sentence_stats(sentence):
 
     return result
 
+def pos_grams():
+    return
+
+
+
+
 # prepend NOT
 def negate():
     return
@@ -232,28 +238,28 @@ def process_file(dict, out_file):
             out_file.write('Aspect' + str(counter) + ' ' + aspect[1].encode('utf-8')+" ") # write label
 
             # expanding by adding synonyms of adjectives
-            #out_file.write(wordnet_expansion(sentence))
+            out_file.write(wordnet_expansion(sentence))
 
             # write every unigram from the sentence
-            # out_file.write(ngrams_dumb(sentence, 1, False))
+            out_file.write(ngrams_dumb(sentence, 1, False))
 
             # write every bigram from the sentence
-            #out_file.write(ngrams_dumb(sentence, 2, False))
+            out_file.write(ngrams_dumb(sentence, 2, False))
 
             # write window ngrams
-            #out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 7, False))
+            out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 7, False))
 
             # write sentence stats
-            # out_file.write(sentence_stats(sentence))
+            out_file.write(sentence_stats(sentence))
 
             # negation hueristics
             out_file.write(negate_sequence(sentence))
 
             # write position of aspect in sentence
-            # out_file.write("distance:"+str(aspect_loc(sentence, aspect))+" ")
+            out_file.write("distance:"+str(aspect_loc(sentence, aspect))+" ")
 
-            # write every unigram from the sentence
-            # out_file.write(ngrams_dumb(sentence, 1, False)) # third argument is sentiment backoff
+            # write every unigram from the sentence with sentiment backoff
+            out_file.write(ngrams_dumb(sentence, 1, True)) # third argument is sentiment backoff
 
 
             counter += 1
