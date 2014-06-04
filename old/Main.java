@@ -6,10 +6,9 @@ public class Main {
 
 	private static final int UNIGRAM_WINDOW = 5;
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException{
 		printMalletFiles (args[0], "mallet_files/train");
 		printMalletFiles (args[1], "mallet_files/test");
-
     }
 
 	private static void printMalletFiles(String xmlFile, String malletFile) throws FileNotFoundException {
@@ -35,7 +34,28 @@ public class Main {
 
 				// FEATURES
 
+<<<<<<< HEAD
 
+//				// sentiment rating: 1 - 5
+//				String sentiment  = pipeline.sentiment (sText, a, false);
+//			    writer.print("sentiment=" + sentiment + " ");
+
+
+				// sentiment rating compressed
+				String sentiment  = pipeline.sentiment (sText, a, true);
+				writer.print("sentiment=" + sentiment + " ");
+
+
+//
+//				// POS n_grams
+//				String posString = pipeline.posString (sText, a);
+//				writeNGrams (posString, a, 1, writer, aspectIdx, false);
+//
+//
+//				// plain n-grams
+//				writeNGrams (sText, a, 1, writer, aspectIdx, true);
+//				writeNGrams (sText, a, 2, writer, aspectIdx, true);
+=======
 				// sentiment rating: 1 - 5
 				String sentiment  = pipeline.sentiment (sText, a);
 			    writer.print("sentiment=" + sentiment + " ");
@@ -44,11 +64,18 @@ public class Main {
 				// POS n_grams
 				String posString = pipeline.posString (sText, a);
 				writeNGrams (posString, a, 1, writer, aspectIdx, false);
+            
+            // surface distance to closest ADJ
+            String closestAdjDistance = distanceOfClosestAdj(s, a, posString);
+            writer.print("closestAdjDistance=" + closestAdjDistance + " ");
 
 
 				// plain n-grams
 				writeNGrams (sText, a, 1, writer, aspectIdx, true);
 				writeNGrams (sText, a, 2, writer, aspectIdx, true);
+   
+            
+>>>>>>> d8ec78cab179c61adbb676796a817fbe149be09e
 
 
 				counter ++;
@@ -59,6 +86,44 @@ public class Main {
 		writer.close();
 	}
 
+   private static String distanceOfClosestAdj(Sentence s, Aspect a, String posString){
+      int start = getAspectTokenIdx(s.getText(), a);
+      int min = 999; // 999 == no adjective
+      String[] words = posString.split("\\s+");
+      
+      for (int i = 0; i < words.length; i++){
+         String pos = words[i].split("_")[1];
+         if (pos == "JJ"){
+            if (Math.abs(i-start) < min){
+               min = Math.abs(i-start);
+            }
+         }
+      }
+      
+      return Integer.toString(min);
+   }
+
+   private String distanceFromAspect(Sentence s, Aspect a){
+      //return the distance (in tokens and/or words) from this aspect to the nearest aspect
+      //something like "distance_3"
+      return "";
+   }
+   
+   private String distanceFromStart(Sentence s, Aspect a){
+      //return the distance (in tokens and/or words) from this aspect to the start of the sentence
+      return "";
+   }
+   
+   private String deepDistanceFromAspect(Sentence s, Aspect a){
+      //return the distance in tree edges from this aspect to the nearest aspect
+      //something like "tree_distance_3"
+      return "";
+   }
+   
+   private String deepDistanceFromStart(Sentence s, Aspect a){
+      //return the distance in tree edges from this aspect to the start of the sentence
+      return "";
+   }
 
 	private static void writeNGrams(String s, Aspect a, int n, PrintWriter writer, int aspectIdx, boolean raw) {
 

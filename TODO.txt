@@ -3,12 +3,14 @@ adapt MRS code and parse data
 
 
 
+
 perform sentiment term backoff on post-expansion
 take the expanded terms of the closest adj and let them vote according to lexicon (distnce = tree or word)
 how often if the sentiment of just the closest adj correct?
 
 try differnt things with how many aspects are in the sentence (if they are in a sentence with a but in between, make them different polarities)
 using the aspcet itself as a feature
+
 
 Jared
 expansion using word net √
@@ -43,10 +45,13 @@ semantic role labeling
 sentiment backoff (use sentistrength)
 expansion
 stemming
-positional
+positional - relative to other aspects or adjective or clue word or start of sentence
 
 DEEP:
+
 tree based
+    distance from root
+tree based - position relative to root?
 
 
 

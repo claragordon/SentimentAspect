@@ -5,12 +5,15 @@ import nltk
 from nltk.corpus import wordnet as wn
 import re
 import string
+from stat_parser import Parser
 
 if len(sys.argv) > 1:
     train, test = sys.argv[1], sys.argv[2]
     train_out = "mallet_files/train"
     test_out = "mallet_files/test"
     sentistength_file = open('lib/EmotionLookupTable.txt', 'r')
+    # citation: http://jmlr.org/papers/volume5/lewis04a/a11-smart-stop-list/english.stop
+    stoplist_file = open('lib/stoplist.txt', 'r')
 
 else:
     train = '../data/train/laptop--train.xml'
@@ -18,6 +21,16 @@ else:
     train_out = "../mallet_files/train"
     test_out = "../mallet_files/test"
     sentistength_file = open('../lib/EmotionLookupTable.txt', 'r')
+    stoplist_file = open('../lib/stoplist.txt', 'r')
+
+
+
+# sent_terms = defaultdict(set)
+pos_terms = ''
+neg_terms = ''
+stopwords = set()
+
+
 
 
 # return the location of the aspect in the sentence (location = words away from from)
@@ -105,12 +118,6 @@ def negate_sequence(sentence):
 def valence_shifters():
     return
 
-
-
-sent_terms = defaultdict(set)
-pos_terms = ''
-neg_terms = ''
-
 def load_sentistrength(file):
     pos_terms = ''
     neg_terms = ''
@@ -129,6 +136,15 @@ def load_sentistrength(file):
 
     return pos_terms[:-1], neg_terms[:-1]
 
+
+def load_stopwords(file):
+
+    stopword_temp = set()
+    for line in file:
+        stopword_temp.add(line.strip())
+    return stopword_temp
+
+
 def sentistrength_expansion(term):
 
     if re.match(pos_terms, term):
@@ -139,10 +155,13 @@ def sentistrength_expansion(term):
         return term
 
 
-def assemble_ngrams(toks, n, backoff):
+def assemble_ngrams(toks, n, backoff, stopword, POS, aspect_replace):
 
     results = ''
     counts = defaultdict(int)
+
+    for i in range (0, len(toks)):
+        toks[i] = sentistrength_expansion(toks[i])
 
     for i in range (0, len(toks) - n):
         n_gram = toks[i]
@@ -153,28 +172,52 @@ def assemble_ngrams(toks, n, backoff):
 
     for item in counts:
         count = counts[item]
-        if backoff:
-            term = sentistrength_expansion(item)
-        else:
-            term = item
-        # remove punc-only tokens
-        if not re.match(r'\W+', item):
-            results += term + ':' + str(count) + ' '
-
+        if not stopword or (stopword and not item in stoplist):
+            # remove punc-only tokens
+            if not re.match(r'\W+', item):
+                results += item.lower() + ':' + str(count) + ' '
 
     return results
 
 
-def ngrams_dumb(sentence, n, backoff):
+def ngrams_dumb(sentence, aspect, n, backoff=False, stopword=False, POS=False, aspect_replace=False):
 
-    toks = nltk.word_tokenize(sentence.encode('utf-8'))
-    return assemble_ngrams(toks, n, backoff)
+    toks = []
+
+    if aspect_replace:
+        sentence = string.replace(sentence, aspect[0], 'ASPECT')
+
+    if POS:
+        pos_tagged = nltk.pos_tag(nltk.word_tokenize(sentence))
+        for item in pos_tagged:
+            toks.append(item[0] + '_' + item[1])
+    else:
+        toks = nltk.word_tokenize(sentence.encode('utf-8'))
+    return assemble_ngrams(toks, n, backoff, stopword, POS, aspect_replace)
 
 
-def ngrams_window(sentence, aspect, start, end, n, window, backoff):
+def ngrams_window(sentence, aspect, start, end, n, window, backoff=False, stopword=False, POS=False, aspect_replace=False, distance=False):
+
+    # pos_mappings = {}
+    # if POS:
+    #     pos_tagged = nltk.pos_tag(nltk.word_tokenize(sentence))
+    #     for item in pos_tagged:
+    #         pos_mappings[item[0].lower] = item[1]
+
+
 
     first_half = nltk.word_tokenize(sentence[:start])
     second_half = nltk.word_tokenize(sentence[end:])
+
+    if distance:
+        counter = 1
+        for i in range (len(first_half) - 1, -1, -1):
+            first_half[i] = first_half[i] + '_' + str(counter)
+            counter +=1
+        counter = 1
+        for i in range(0, len(second_half)):
+            second_half[i] = second_half[i] + '_' + str(counter)
+            counter += 1
 
 
     if len(first_half) > window:
@@ -183,8 +226,10 @@ def ngrams_window(sentence, aspect, start, end, n, window, backoff):
     if len(second_half) > window:
         second_half = second_half[:len(second_half) - window + 1]
 
-    return assemble_ngrams(first_half, n, backoff) + assemble_ngrams(second_half, n, backoff)
+    first_half = ['before_' + k for k in assemble_ngrams(first_half, n, backoff, stopword, POS, aspect_replace).split()]
+    second_half = ['after_' + k for k in assemble_ngrams(second_half, n, backoff, stopword, POS, aspect_replace).split()]
 
+    return ' '.join(first_half) + ' ' + ' '.join(second_half)
 
 
 def wordnet_expansion(sentence):
@@ -206,7 +251,6 @@ def wordnet_expansion(sentence):
                         seen.add(lemma.name.split(".")[0])
 
     return results
-
 
 
 
@@ -252,15 +296,60 @@ def process_file(dict, out_file):
             # write sentence stats
             out_file.write(sentence_stats(sentence))
 
-            # negation hueristics
-            out_file.write(negate_sequence(sentence))
+            # DUMB NGRAMS
 
-            # write position of aspect in sentence
-            out_file.write("distance:"+str(aspect_loc(sentence, aspect))+" ")
+            # write every unigram from the sentence
+            # out_file.write(ngrams_dumb(sentence, aspect, 1))
+            #
+            # #write every unigram from the sentence, stopword removal
+            # out_file.write(ngrams_dumb(sentence, aspect, 1, stopword=True))
+            #
+            # #write every unigram from the sentence, sentiment backoff
+            # out_file.write(ngrams_dumb(sentence, aspect, 1, backoff=True))
+            #
+            # #write every unigram from the sentence, sentiment backoff and stopword removal
+            # out_file.write(ngrams_dumb(sentence, aspect, 1, backoff=True, stopword=True))
+            #
+            # # write every bigram from the sentence
+            # out_file.write(ngrams_dumb(sentence, aspect, 2))
 
-            # write every unigram from the sentence with sentiment backoff
-            out_file.write(ngrams_dumb(sentence, 1, True)) # third argument is sentiment backoff
 
+            # write every unigram from the sentence
+            # out_file.write(ngrams_dumb(sentence, aspect, 1, backoff=True))
+            # out_file.write(ngrams_dumb(sentence, aspect, 2, backoff=True))
+            # out_file.write(ngrams_dumb(sentence, aspect, 3, backoff=True))
+
+            # WINDOW NGRAMS
+
+            out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 20, distance=True))
+
+            # write window ngrams
+            #out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 5))
+
+            # write window unigrams, stopword removal
+            # out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 7, stopword=True))
+
+            # write window unigrams, sentiment backoff
+            #out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 7, backoff=True))
+
+            # # write window unigrams, sentiment backoff
+            # out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 7, backoff=True, stopword=True ))
+
+
+            # # expanding by adding synonyms of adjectives
+            #out_file.write(wordnet_expansion(sentence))
+
+
+            #
+            # # write sentence stats
+            # out_file.write(sentence_stats(sentence))
+            #
+            # # negation hueristics
+            # out_file.write(negate_sequence(sentence))
+            #
+            # # write position of aspect in sentence
+            # out_file.write("distance:"+str(aspect_loc(sentence, aspect))+" ")
+            #
 
             counter += 1
 
@@ -270,6 +359,7 @@ def process_file(dict, out_file):
 
 
 pos_terms, neg_terms = load_sentistrength(sentistength_file)
+stoplist = load_stopwords(stoplist_file)
 
 train = read_data(train)
 test = read_data(test)
