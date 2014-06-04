@@ -5,7 +5,7 @@ import nltk
 from nltk.corpus import wordnet as wn
 import re
 import string
-from stat_parser import Parser
+# from stat_parser import Parser
 
 if len(sys.argv) > 1:
     train, test = sys.argv[1], sys.argv[2]
@@ -133,7 +133,6 @@ def load_sentistrength(file):
             neg_terms += term + '|'
             # sent_terms['neg'].add(term)
 
-
     return pos_terms[:-1], neg_terms[:-1]
 
 
@@ -231,17 +230,16 @@ def ngrams_window(sentence, aspect, start, end, n, window, backoff=False, stopwo
 
     return ' '.join(first_half) + ' ' + ' '.join(second_half)
 
-
+# this now returns a tuple of the result and also a set of all synonyms
 def wordnet_expansion(sentence):
 
     results = ''
-
     text = nltk.word_tokenize(sentence.encode("utf-8"))
     seen = set()
     pos = nltk.pos_tag(text)
     for tup in pos:
         # print tup
-        if tup[1] in ['JJ', 'RB']: # or adv?
+        if tup[1] in ['JJ']:
             if len(wn.synsets(tup[0])) > 0:
                 syn = wn.synsets(tup[0]) #first synset for adjective
                 for lemma in syn:
@@ -250,8 +248,7 @@ def wordnet_expansion(sentence):
                         results += lemma.name.split(".")[0]+":"+'1 '
                         seen.add(lemma.name.split(".")[0])
 
-    return results
-
+    return (results, seen)
 
 
 # takes a file name and returns a dict of text -> list of aspect tuples
@@ -271,6 +268,16 @@ def read_data(data_file):
 
     return data
 
+def post_expansion_backoff(sentence):
+    result = ''
+    terms = wordnet_expansion(sentence)[1]
+    for term in terms:
+        result += sentistrength_expansion(term)+":1 " # would it be better to do collated counts
+    return result
+
+def other_thesaurus_expansion():
+    return
+
 # aspect_tuple = (text, polarity, from, to)
 def process_file(dict, out_file):
     
@@ -281,20 +288,27 @@ def process_file(dict, out_file):
         for aspect in dict[sentence]:
             out_file.write('Aspect' + str(counter) + ' ' + aspect[1].encode('utf-8')+" ") # write label
 
+####### Jared's experiments
+
             # expanding by adding synonyms of adjectives
-            out_file.write(wordnet_expansion(sentence))
+            # out_file.write(wordnet_expansion(sentence)[0])
 
             # write every unigram from the sentence
-            out_file.write(ngrams_dumb(sentence, 1, False))
+            # out_file.write(ngrams_dumb(sentence, 1, False))
+
+            # post expansion sentiment term back-off
+            out_file.write(post_expansion_backoff(sentence))
 
             # write every bigram from the sentence
-            out_file.write(ngrams_dumb(sentence, 2, False))
+            # out_file.write(ngrams_dumb(sentence, 2, False))
 
             # write window ngrams
-            out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 7, False))
+            # out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 7, False))
 
             # write sentence stats
-            out_file.write(sentence_stats(sentence))
+            # out_file.write(sentence_stats(sentence))
+
+####### Clara's experiments
 
             # DUMB NGRAMS
 
@@ -321,7 +335,7 @@ def process_file(dict, out_file):
 
             # WINDOW NGRAMS
 
-            out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 20, distance=True))
+            # out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 20, distance=True))
 
             # write window ngrams
             #out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 5))
