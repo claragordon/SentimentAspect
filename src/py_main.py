@@ -294,13 +294,13 @@ def process_file(dict, out_file):
             # out_file.write(wordnet_expansion(sentence)[0])
 
             # write every unigram from the sentence
-            # out_file.write(ngrams_dumb(sentence, 1, False))
+            out_file.write(ngrams_dumb(sentence, 1, False))
 
             # post expansion sentiment term back-off
             out_file.write(post_expansion_backoff(sentence))
 
             # write every bigram from the sentence
-            # out_file.write(ngrams_dumb(sentence, 2, False))
+            out_file.write(ngrams_dumb(sentence, 2, False))
 
             # write window ngrams
             # out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 7, False))

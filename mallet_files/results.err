@@ -1,0 +1,2848 @@
+Training vectors loaded from mallet_files/train.mallet
+Testing vectors loaded from mallet_files/test.mallet
+Value (labelProb=2585.4389834884746 prior=0.0) loglikelihood = -2585.4389834884746Value (labelProb=2307.378491318961 prior=0.4999999999999864) loglikelihood = -2307.878491318961Value (labelProb=2032.1268648998596 prior=0.5081734936821738) loglikelihood = -2032.6350383935417Value (labelProb=1845.0377407954786 prior=0.4126208321181232) loglikelihood = -1845.4503616275967Value (labelProb=1777.5250435188912 prior=0.4105735942649437) loglikelihood = -1777.935617113156 Value (labelProb=1734.1974578685504 prior=0.4861818670418018) loglikelihood = -1734.6836397355921Value (labelProb=1617.6518805180453 prior=0.9281151976176923) loglikelihood = -1618.579995715663 Value (labelProb=1440.08828370954 prior=2.068868369894283) loglikelihood = -1442.1571520794344  Value (labelProb=1282.7911965124201 prior=4.612815960900707) loglikelihood = -1287.4040124733208Value (labelProb=1171.2307182558486 prior=8.661046245569597) loglikelihood = -1179.8917645014183Value (labelProb=1273.8195946160772 prior=20.628456855268084) loglikelihood = -1294.4480514713453Value (labelProb=1112.3702889563156 prior=12.475886141322096) loglikelihood = -1124.8461750976376Value (labelProb=1031.1606911547408 prior=17.519490620037235) loglikelihood = -1048.680181774778 Value (labelProb=964.2402348115013 prior=23.62630857925756) loglikelihood = -987.8665433907588  Value (labelProb=911.2530952662287 prior=29.873476439068924) loglikelihood = -941.1265717052976Value (labelProb=860.7595203201769 prior=41.00686772947028) loglikelihood = -901.7663880496472 Value (labelProb=816.7465040620958 prior=42.140109823082575) loglikelihood = -858.8866138851783Value (labelProb=783.3769399747183 prior=40.836773326690974) loglikelihood = -824.2137133014093Value (labelProb=756.560968379024 prior=39.28145047146081) loglikelihood = -795.8424188504848  Value (labelProb=900.2977883584196 prior=39.954362809330384) loglikelihood = -940.25215116775Value (labelProb=744.6095792838948 prior=39.33545543672084) loglikelihood = -783.9450347206157Value (labelProb=726.9672351824865 prior=39.07441088333283) loglikelihood = -766.0416460658194Value (labelProb=706.2621542053482 prior=39.56161244007754) loglikelihood = -745.8237666454257Value (labelProb=694.2623826749792 prior=41.237524743800776) loglikelihood = -735.49990741878 Value (labelProb=677.6651238166327 prior=41.6884563560771) loglikelihood = -719.3535801727098Value (labelProb=668.1596864071248 prior=42.36763178706681) loglikelihood = -710.5273181941916Value (labelProb=658.4867857544946 prior=43.45819875543313) loglikelihood = -701.9449845099277Value (labelProb=642.7494015022586 prior=45.10357458746399) loglikelihood = -687.8529760897226Value (labelProb=641.3664949663043 prior=48.8947124652262) loglikelihood = -690.2612074315306 Value (labelProb=632.5589822803184 prior=46.821117381306706) loglikelihood = -679.3800996616252Value (labelProb=622.4496649335919 prior=47.90679958585312) loglikelihood = -670.356464519445  Value (labelProb=611.306974017045 prior=49.40052637565214) loglikelihood = -660.7075003926972Value (labelProb=592.036990976097 prior=52.64970576673188) loglikelihood = -644.6866967428289Value (labelProb=562.3661685628623 prior=59.41416888545165) loglikelihood = -621.780337448314Value (labelProb=533.4044955902345 prior=71.47572960055876) loglikelihood = -604.8802251907933Value (labelProb=519.8791121271329 prior=71.79701132345295) loglikelihood = -591.6761234505858Value (labelProb=513.946363894415 prior=71.54485848363925) loglikelihood = -585.4912223780542 Value (labelProb=499.7640491049401 prior=75.19134137459064) loglikelihood = -574.9553904795307Value (labelProb=468.6007155760618 prior=90.724187735107) loglikelihood = -559.3249033111688  Value (labelProb=447.27233664382067 prior=105.64627709265453) loglikelihood = -552.9186137364752Value (labelProb=444.4545879113873 prior=103.06205578942568) loglikelihood = -547.516643700813  Value (labelProb=441.5434895186268 prior=103.91819340604523) loglikelihood = -545.461682924672Value (labelProb=434.9132563788058 prior=107.37489038355842) loglikelihood = -542.2881467623642Value (labelProb=427.2859085433399 prior=123.57374863975517) loglikelihood = -550.859657183095 Value (labelProb=427.9100193972522 prior=112.2503712305479) loglikelihood = -540.1603906278001Value (labelProb=416.0613581771234 prior=119.85761190222149) loglikelihood = -535.918970079345Value (labelProb=405.17847213829185 prior=127.69371898061256) loglikelihood = -532.8721911189044Value (labelProb=398.1136615944661 prior=135.8521830995103) loglikelihood = -533.9658446939765  Value (labelProb=400.62777626567794 prior=131.07543176924997) loglikelihood = -531.7032080349279Value (labelProb=396.45289240555115 prior=134.02526075383884) loglikelihood = -530.47815315939  Value (labelProb=392.8801147376194 prior=135.97620638184992) loglikelihood = -528.8563211194694Value (labelProb=388.2018092201234 prior=138.33790265878488) loglikelihood = -526.5397118789083Value (labelProb=385.47112970099096 prior=140.6122023430687) loglikelihood = -526.0833320440597Value (labelProb=383.5238783188856 prior=139.86641289242962) loglikelihood = -523.3902912113152Value (labelProb=383.52214258656034 prior=138.77371075383843) loglikelihood = -522.2958533403987Value (labelProb=383.343821081842 prior=137.6236521316591) loglikelihood = -520.9674732135011   Value (labelProb=383.1612270827165 prior=137.28372184250006) loglikelihood = -520.4449489252165Value (labelProb=381.3460038905182 prior=136.91864650076073) loglikelihood = -518.2646503912789Value (labelProb=380.4114783675885 prior=137.2925913867635) loglikelihood = -517.704069754352  Value (labelProb=379.52081046702017 prior=137.73850766565607) loglikelihood = -517.2593181326763Value (labelProb=378.34419104582713 prior=138.15273331667817) loglikelihood = -516.4969243625053Value (labelProb=377.7006464101712 prior=138.73396909033534) loglikelihood = -516.4346155005065 Value (labelProb=376.75276494386895 prior=138.62575134685662) loglikelihood = -515.3785162907255Value (labelProb=376.6592416643858 prior=138.47511827317166) loglikelihood = -515.1343599375574 Value (labelProb=376.2982448123725 prior=138.1815192662802) loglikelihood = -514.4797640786527 Value (labelProb=375.89668384988545 prior=138.00936047346246) loglikelihood = -513.9060443233479Value (labelProb=375.46358693567254 prior=137.8804030462801) loglikelihood = -513.3439899819526 Value (labelProb=375.09855705779177 prior=137.94275374371358) loglikelihood = -513.0413108015053Value (labelProb=374.47385823116207 prior=138.03298869789955) loglikelihood = -512.5068469290616Value (labelProb=374.69555476433004 prior=137.99738463699572) loglikelihood = -512.6929394013257Value (labelProb=374.2518042946631 prior=138.0133336324637) loglikelihood = -512.2651379271268  Value (labelProb=374.03652768119883 prior=137.96790095940958) loglikelihood = -512.0044286406085Value (labelProb=373.7113994156857 prior=137.7722511185553) loglikelihood = -511.483650534241   Value (labelProb=373.9115915981899 prior=137.61799653102054) loglikelihood = -511.5295881292104Value (labelProb=373.63908982647786 prior=137.6969570095626) loglikelihood = -511.33604683604045Value (labelProb=373.53592571096254 prior=137.60959139906598) loglikelihood = -511.14551711002855Value (labelProb=373.3094961103095 prior=137.35033101661475) loglikelihood = -510.65982712692426 Value (labelProb=373.1865262996353 prior=137.07602746850407) loglikelihood = -510.26255376813936Value (labelProb=373.2352410381092 prior=136.6546610141289) loglikelihood = -509.8899020522381  Value (labelProb=372.9853340408937 prior=136.53887354128798) loglikelihood = -509.5242075821817Value (labelProb=372.80248095460024 prior=136.46848120680986) loglikelihood = -509.2709621614101Value (labelProb=372.64267174396133 prior=136.2809839355379) loglikelihood = -508.92365567949923Value (labelProb=372.9286902019525 prior=135.7965681205638) loglikelihood = -508.7252583225163  Value (labelProb=372.60519796781597 prior=135.78067007235168) loglikelihood = -508.3858680401677Value (labelProb=372.5173967033179 prior=135.78665590326622) loglikelihood = -508.30405260658415Value (labelProb=372.4420912038079 prior=135.51627170219732) loglikelihood = -507.95836290600516Value (labelProb=372.6122636991214 prior=135.35990897237716) loglikelihood = -507.9721726714986 Value (labelProb=372.41737458542343 prior=135.43951140355702) loglikelihood = -507.8568859889805Value (labelProb=372.4252354104105 prior=135.2744655515967) loglikelihood = -507.6997009620072  Value (labelProb=372.44500290327477 prior=135.1029542958389) loglikelihood = -507.5479571991137Value (labelProb=372.44230837711706 prior=134.99521753519335) loglikelihood = -507.43752591231043Value (labelProb=372.3350566466906 prior=135.009158193753) loglikelihood = -507.34421484044356   Value (labelProb=372.21512416006465 prior=135.03964937694656) loglikelihood = -507.2547735370112Value (labelProb=372.1274077893943 prior=135.05113310799572) loglikelihood = -507.17854089739   Value (labelProb=372.28691816061746 prior=135.04309485882823) loglikelihood = -507.3300130194457Value (labelProb=372.0771780072907 prior=135.0475873622452) loglikelihood = -507.1247653695359  Value (labelProb=372.000422536802 prior=135.03861865885852) loglikelihood = -507.0390411956605Value (labelProb=371.97317278486156 prior=135.0135487760927) loglikelihood = -506.98672156095427Value (labelProb=371.96554251832174 prior=134.97217719679645) loglikelihood = -506.9377197151182
+Exiting L-BFGS on termination #1:
+value difference below tolerance (oldValue: -506.98672156095427 newValue: -506.9377197151182
+Value (labelProb=1675.3948380415327 prior=135.39803020417912) loglikelihood = -1810.7928682457118Value (labelProb=382.6983181605103 prior=134.96976249753567) loglikelihood = -517.6680806580459  Value (labelProb=371.95886848837836 prior=134.97148572686908) loglikelihood = -506.93035421524746Value (labelProb=371.9223166307077 prior=134.97124418613566) loglikelihood = -506.8935608168434  
+Exiting L-BFGS on termination #1:
+value difference below tolerance (oldValue: -506.93035421524746 newValue: -506.8935608168434
+
+
+Splitting feature "neg" infogain=0.046392659805924996
+child0=963 child1=902
+Splitting feature "pos" infogain=0.04153990575419714
+child0=238 child1=664
+Splitting feature "editing" infogain=0.057103296350759614
+child0=648 child1=16
+Splitting feature "but" infogain=0.05702345051114355
+child0=547 child1=101
+Splitting feature "price" infogain=0.06844414221212647
+child0=232 child1=6
+Splitting feature "worth" infogain=0.9182958340544896
+child0=4 child1=2
+Splitting feature "year" infogain=0.04625397617697913
+child0=226 child1=6
+Splitting feature "big" infogain=0.05036498033646719
+child0=880 child1=83
+Splitting feature "of" infogain=0.09535322037267913
+child0=78 child1=5
+Splitting feature "and" infogain=0.7219280948873623
+child0=1 child1=4
+Splitting feature "pad" infogain=0.11130671447475532
+child0=73 child1=5
+Splitting feature "but" infogain=0.04574819073496217
+child0=789 child1=91
+Splitting feature "x" infogain=0.16892288647328502
+child0=85 child1=6
+Splitting feature "not" infogain=0.038291676597788094
+child0=699 child1=90
+===========  AdaBoostM2Trainer round 1 begin
+Splitting feature "neg" infogain=0.048386806095092716
+child0=2857 child1=2738
+Splitting feature "pos" infogain=0.04593129594961892
+child0=713 child1=2025
+Splitting feature "but" infogain=0.05711398609809182
+child0=1716 child1=309
+Splitting feature "the" infogain=0.11289795397595537
+child0=83 child1=226
+Splitting feature "or" infogain=0.05476899806866875
+child0=1527 child1=189
+Splitting feature "much" infogain=0.06703733281258195
+child0=682 child1=31
+Splitting feature "it" infogain=0.3913250345312358
+child0=24 child1=7
+Splitting feature "two" infogain=0.05621303549585521
+child0=658 child1=24
+Splitting feature "big" infogain=0.0503500655868816
+child0=2620 child1=237
+Splitting feature "of" infogain=0.09885817574473349
+child0=224 child1=13
+Splitting feature "and" infogain=0.7793498372920852
+child0=3 child1=10
+Splitting feature "pad" infogain=0.1028489541596844
+child0=212 child1=12
+Splitting feature "but" infogain=0.04879121936812392
+child0=2353 child1=267
+Splitting feature "x" infogain=0.1732645250278384
+child0=250 child1=17
+Splitting feature "not" infogain=0.03803289611422378
+child0=2085 child1=268
+===========  AdaBoostM2Trainer round 1 finished, pseudo-loss = 0.3858920856522994
+===========  AdaBoostM2Trainer round 2 begin
+Splitting feature "but" infogain=0.04271105066418257
+child0=4874 child1=721
+Splitting feature "mac" infogain=0.07888601240895587
+child0=658 child1=63
+Splitting feature "up" infogain=0.2828442372715074
+child0=43 child1=20
+Splitting feature "the" infogain=0.3650551896402848
+child0=3 child1=40
+Splitting feature "be" infogain=0.06483999678088037
+child0=569 child1=89
+Splitting feature "with" infogain=0.2326204931739977
+child0=52 child1=37
+Splitting feature "did" infogain=0.06981647947324299
+child0=522 child1=47
+Splitting feature "neg" infogain=0.03835305370617026
+child0=2545 child1=2329
+Splitting feature "movie" infogain=0.04498304689879573
+child0=2284 child1=45
+Splitting feature "capital" infogain=0.0383813118668197
+child0=2131 child1=153
+Splitting feature "up" infogain=0.048110431139486654
+child0=2189 child1=356
+Splitting feature "some" infogain=0.11259730450722749
+child0=346 child1=10
+Splitting feature "not" infogain=0.041912462075093915
+child0=1939 child1=250
+===========  AdaBoostM2Trainer round 2 finished, pseudo-loss = 0.3990325007734995
+===========  AdaBoostM2Trainer round 3 begin
+Splitting feature "but" infogain=0.04127825469063784
+child0=4888 child1=707
+Splitting feature "got" infogain=0.07451494096856637
+child0=664 child1=43
+Splitting feature "so" infogain=0.2713895875081111
+child0=41 child1=2
+Splitting feature "mac" infogain=0.07670137911090347
+child0=616 child1=48
+Splitting feature "its" infogain=0.31911842194604406
+child0=35 child1=13
+Splitting feature "x" infogain=0.05563584575990621
+child0=595 child1=21
+Splitting feature "capital" infogain=0.03488837707815651
+child0=4557 child1=331
+Splitting feature "speed" infogain=0.11681185659079729
+child0=319 child1=12
+Splitting feature "battery" infogain=0.12422686534644434
+child0=297 child1=22
+Splitting feature "and" infogain=0.029003696975148596
+child0=2203 child1=2354
+Splitting feature "back" infogain=0.04947024917581899
+child0=2239 child1=115
+Splitting feature "neg" infogain=0.04462460267947588
+child0=1270 child1=933
+===========  AdaBoostM2Trainer round 3 finished, pseudo-loss = 0.4055099250040432
+===========  AdaBoostM2Trainer round 4 begin
+Splitting feature "but" infogain=0.04413852726803014
+child0=4845 child1=750
+Splitting feature "got" infogain=0.07177519163785928
+child0=708 child1=42
+Splitting feature "so" infogain=0.2761954276479391
+child0=40 child1=2
+Splitting feature "mac" infogain=0.07149540532519416
+child0=660 child1=48
+Splitting feature "its" infogain=0.29026868835993586
+child0=33 child1=15
+Splitting feature "film" infogain=0.05407087326504478
+child0=645 child1=15
+Splitting feature "neg" infogain=0.03308594052752334
+child0=2562 child1=2283
+Splitting feature "pos" infogain=0.0355838861986027
+child0=615 child1=1668
+Splitting feature "very" infogain=0.0474799937276571
+child0=1512 child1=156
+Splitting feature "was" infogain=0.08005098009358691
+child0=541 child1=74
+Splitting feature "big" infogain=0.04204964330354022
+child0=2403 child1=159
+Splitting feature "of" infogain=0.17120183994262914
+child0=145 child1=14
+Splitting feature "very" infogain=0.03805124349831002
+child0=2231 child1=172
+===========  AdaBoostM2Trainer round 4 finished, pseudo-loss = 0.41398548668171287
+===========  AdaBoostM2Trainer round 5 begin
+Splitting feature "but" infogain=0.041145355016771745
+child0=4877 child1=718
+Splitting feature "mac" infogain=0.05860145678830775
+child0=668 child1=50
+Splitting feature "more" infogain=0.2812908992306926
+child0=35 child1=15
+Splitting feature "neg" infogain=0.3159971329784248
+child0=33 child1=2
+Splitting feature "this" infogain=0.055515408684946754
+child0=510 child1=158
+Splitting feature "computer" infogain=0.17738723489196273
+child0=131 child1=27
+Splitting feature "so" infogain=0.09495109812750879
+child0=469 child1=41
+Splitting feature "fast" infogain=0.03157138394254444
+child0=4739 child1=138
+Splitting feature "one" infogain=0.1493525254327455
+child0=134 child1=4
+Splitting feature "you" infogain=0.048494665430836414
+child0=119 child1=15
+Splitting feature "pos" infogain=0.023931079563687174
+child0=1358 child1=3381
+Splitting feature "slowly" infogain=0.03009868786985237
+child0=3195 child1=186
+Splitting feature "neg" infogain=0.06092245285942066
+child0=762 child1=596
+===========  AdaBoostM2Trainer round 5 finished, pseudo-loss = 0.4225754328757778
+===========  AdaBoostM2Trainer round 6 begin
+Splitting feature "but" infogain=0.042901777228578686
+child0=4867 child1=728
+Splitting feature "be" infogain=0.06127696512759773
+child0=634 child1=94
+Splitting feature "everything" infogain=0.20475678442749756
+child0=88 child1=6
+Splitting feature "which" infogain=0.23129603181573366
+child0=81 child1=7
+Splitting feature "the" infogain=0.06583611617355922
+child0=158 child1=476
+Splitting feature "mac" infogain=0.08232588397780027
+child0=435 child1=41
+Splitting feature "up" infogain=0.28865371083300295
+child0=116 child1=42
+Splitting feature "fast" infogain=0.0317284363446102
+child0=4725 child1=142
+Splitting feature "one" infogain=0.12878673193153184
+child0=138 child1=4
+Splitting feature "you" infogain=0.10171547502980431
+child0=124 child1=14
+Splitting feature "not" infogain=0.025398589037128882
+child0=4144 child1=581
+Splitting feature "pc" infogain=0.07487413535941134
+child0=558 child1=23
+Splitting feature "neg" infogain=0.028871891870035138
+child0=2164 child1=1980
+===========  AdaBoostM2Trainer round 6 finished, pseudo-loss = 0.4270975171198849
+===========  AdaBoostM2Trainer round 7 begin
+Splitting feature "but" infogain=0.04277973518480627
+child0=4873 child1=722
+Splitting feature "mac" infogain=0.05751230988191547
+child0=670 child1=52
+Splitting feature "its" infogain=0.36591926734526414
+child0=37 child1=15
+Splitting feature "just" infogain=0.06488132041760819
+child0=4 child1=11
+Splitting feature "system" infogain=0.4059770384755711
+child0=34 child1=3
+Splitting feature "this" infogain=0.05787905899899215
+child0=532 child1=138
+Splitting feature "x" infogain=0.22086230405027996
+child0=122 child1=16
+Splitting feature "so" infogain=0.08515521020431271
+child0=484 child1=48
+Splitting feature "fast" infogain=0.027584441740275967
+child0=4752 child1=121
+Splitting feature "with" infogain=0.10241181988910969
+child0=83 child1=38
+Splitting feature "software" infogain=0.15261144472504795
+child0=23 child1=15
+Splitting feature "pos" infogain=0.02300408552720906
+child0=1375 child1=3377
+Splitting feature "slowly" infogain=0.03261437772310849
+child0=3176 child1=201
+Splitting feature "price" infogain=0.05592426926702054
+child0=1327 child1=48
+===========  AdaBoostM2Trainer round 7 finished, pseudo-loss = 0.4328166449930029
+===========  AdaBoostM2Trainer round 8 begin
+Splitting feature "but" infogain=0.04902009801677032
+child0=4865 child1=730
+Splitting feature "mac" infogain=0.06247585666146116
+child0=676 child1=54
+Splitting feature "another" infogain=0.30954342915032507
+child0=51 child1=3
+Splitting feature "up" infogain=0.19784409202542064
+child0=36 child1=15
+Splitting feature "heavily" infogain=0.05619681536970367
+child0=640 child1=36
+Splitting feature "of" infogain=0.4044842762449024
+child0=18 child1=18
+Splitting feature "this" infogain=0.062499231408986944
+child0=508 child1=132
+Splitting feature "capital" infogain=0.025103743993528216
+child0=4609 child1=256
+Splitting feature "nearly" infogain=0.18665335316938036
+child0=236 child1=20
+Splitting feature "use" infogain=0.009668627400105323
+child0=10 child1=10
+Splitting feature "neg" infogain=0.14479076311434613
+child0=115 child1=121
+Splitting feature "movie" infogain=0.02097171335198711
+child0=4545 child1=64
+Splitting feature "just" infogain=0.16338659054764798
+child0=47 child1=17
+Splitting feature "neg" infogain=0.020693338610254908
+child0=2382 child1=2163
+===========  AdaBoostM2Trainer round 8 finished, pseudo-loss = 0.43682774368204874
+===========  AdaBoostM2Trainer round 9 begin
+Splitting feature "but" infogain=0.04977549051138297
+child0=4881 child1=714
+Splitting feature "standard" infogain=0.06447094050653335
+child0=695 child1=19
+Splitting feature "heavily" infogain=0.06338634781983976
+child0=651 child1=44
+Splitting feature "of" infogain=0.33649732997126736
+child0=23 child1=21
+Splitting feature "did" infogain=0.06113329454356875
+child0=602 child1=49
+Splitting feature "fast" infogain=0.025891624062903906
+child0=4769 child1=112
+Splitting feature "with" infogain=0.0972891455522672
+child0=78 child1=34
+Splitting feature "software" infogain=0.16949683427366768
+child0=19 child1=15
+Splitting feature "for" infogain=0.02410765521486491
+child0=3617 child1=1152
+Splitting feature "office" infogain=0.06082823964984585
+child0=1065 child1=87
+Splitting feature "n" infogain=0.022471392584317407
+child0=3367 child1=250
+===========  AdaBoostM2Trainer round 9 finished, pseudo-loss = 0.4407362037413298
+===========  AdaBoostM2Trainer round 10 begin
+Splitting feature "but" infogain=0.04426155004387988
+child0=4865 child1=730
+Splitting feature "heavily" infogain=0.059965704527192853
+child0=690 child1=40
+Splitting feature "of" infogain=0.323366957216328
+child0=20 child1=20
+Splitting feature "to" infogain=0.14489728957406034
+child0=9 child1=11
+Splitting feature "it" infogain=0.19660717939188022
+child0=17 child1=3
+Splitting feature "mac" infogain=0.057762979119047486
+child0=646 child1=44
+Splitting feature "another" infogain=0.26676498780302615
+child0=42 child1=2
+Splitting feature "did" infogain=0.05275351206436607
+child0=598 child1=48
+Splitting feature "capital" infogain=0.02321017891474897
+child0=4627 child1=238
+Splitting feature "neg" infogain=0.14913344691987562
+child0=124 child1=114
+Splitting feature "battery" infogain=0.18334726852074001
+child0=92 child1=22
+Splitting feature "i" infogain=0.1788803144960512
+child0=92 child1=32
+Splitting feature "movie" infogain=0.022066665892472415
+child0=4561 child1=66
+Splitting feature "just" infogain=0.13317258548978086
+child0=50 child1=16
+Splitting feature "i" infogain=0.02100699728478428
+child0=2680 child1=1881
+===========  AdaBoostM2Trainer round 10 finished, pseudo-loss = 0.4417784232786653
+===========  AdaBoostM2Trainer round 11 begin
+Splitting feature "but" infogain=0.04613281410275216
+child0=4845 child1=750
+Splitting feature "mac" infogain=0.057814841139640194
+child0=706 child1=44
+Splitting feature "up" infogain=0.23875280702336932
+child0=34 child1=10
+Splitting feature "it" infogain=0.20764736495255387
+child0=28 child1=6
+Splitting feature "heavily" infogain=0.05829818718237001
+child0=669 child1=37
+Splitting feature "of" infogain=0.36252491933767783
+child0=19 child1=18
+Splitting feature "x" infogain=0.06006593060656318
+child0=648 child1=21
+Splitting feature "capital" infogain=0.021689360213352105
+child0=4608 child1=237
+Splitting feature "change" infogain=0.1610129888926769
+child0=223 child1=14
+Splitting feature "that" infogain=0.16531321496964968
+child0=176 child1=47
+Splitting feature "after" infogain=0.019036365398543476
+child0=4379 child1=229
+Splitting feature "apart" infogain=0.11183657632878408
+child0=213 child1=16
+Splitting feature "and" infogain=0.02118105199595588
+child0=2140 child1=2239
+===========  AdaBoostM2Trainer round 11 finished, pseudo-loss = 0.4432302690764566
+===========  AdaBoostM2Trainer round 12 begin
+Splitting feature "but" infogain=0.045175279286527426
+child0=4854 child1=741
+Splitting feature "got" infogain=0.04886303551670235
+child0=714 child1=27
+Splitting feature "so" infogain=0.3809465857053901
+child0=25 child1=2
+Splitting feature "mac" infogain=0.05525945202288152
+child0=675 child1=39
+Splitting feature "up" infogain=0.21640035356034448
+child0=32 child1=7
+Splitting feature "this" infogain=0.04740675189299881
+child0=556 child1=119
+Splitting feature "capital" infogain=0.02367672022683931
+child0=4608 child1=246
+Splitting feature "nearly" infogain=0.15266613651807448
+child0=232 child1=14
+Splitting feature "use" infogain=0.0024834874761205383
+child0=8 child1=6
+Splitting feature "pad" infogain=0.24221572339283892
+child0=216 child1=16
+Splitting feature "back" infogain=0.02021639999922975
+child0=4461 child1=147
+Splitting feature "and" infogain=0.16884044699528725
+child0=34 child1=113
+Splitting feature "for" infogain=0.021151212612334103
+child0=3415 child1=1046
+===========  AdaBoostM2Trainer round 12 finished, pseudo-loss = 0.44756063629986065
+===========  AdaBoostM2Trainer round 13 begin
+Splitting feature "but" infogain=0.05001390775547998
+child0=4826 child1=769
+Splitting feature "yes" infogain=0.04989868137402231
+child0=735 child1=34
+Splitting feature "and" infogain=0.4743347234525802
+child0=7 child1=27
+Splitting feature "pos" infogain=0.11457931249295256
+child0=14 child1=13
+Splitting feature "new" infogain=0.049672941737420206
+child0=672 child1=63
+Splitting feature "with" infogain=0.31478384728577047
+child0=50 child1=13
+Splitting feature "big" infogain=0.052094705657663054
+child0=613 child1=59
+Splitting feature "for" infogain=0.024612829998151398
+child0=3682 child1=1144
+Splitting feature "neg" infogain=0.06013151583624554
+child0=523 child1=621
+Splitting feature "not" infogain=0.10461626357177267
+child0=519 child1=102
+Splitting feature "way" infogain=0.10471269187407217
+child0=508 child1=15
+Splitting feature "very" infogain=0.022027798757520367
+child0=3439 child1=243
+Splitting feature "neg" infogain=0.2372302016552315
+child0=106 child1=137
+Splitting feature "then" infogain=0.021886073247419757
+child0=3335 child1=104
+===========  AdaBoostM2Trainer round 13 finished, pseudo-loss = 0.4450401180201118
+===========  AdaBoostM2Trainer round 14 begin
+Splitting feature "but" infogain=0.04935747425093173
+child0=4849 child1=746
+Splitting feature "heavily" infogain=0.05696045776557224
+child0=705 child1=41
+Splitting feature "of" infogain=0.3698951345270366
+child0=22 child1=19
+Splitting feature "to" infogain=0.08943850853383661
+child0=8 child1=11
+Splitting feature "it" infogain=0.13212035722360682
+child0=19 child1=3
+Splitting feature "in" infogain=0.05901948611821384
+child0=540 child1=165
+Splitting feature "for" infogain=0.2571045326792376
+child0=94 child1=71
+Splitting feature "os" infogain=0.05935581785384936
+child0=518 child1=22
+Splitting feature "neg" infogain=0.019667593396821226
+child0=2511 child1=2338
+Splitting feature "after" infogain=0.033781761862480275
+child0=2154 child1=184
+Splitting feature "what" infogain=0.11085666298213281
+child0=177 child1=7
+Splitting feature "music" infogain=0.03506547915660607
+child0=2105 child1=49
+Splitting feature "other" infogain=0.030782890683876518
+child0=2387 child1=124
+Splitting feature "safari" infogain=0.22839213867521357
+child0=92 child1=32
+Splitting feature "long" infogain=0.031030914674118337
+child0=2345 child1=42
+===========  AdaBoostM2Trainer round 14 finished, pseudo-loss = 0.4497990060385826
+===========  AdaBoostM2Trainer round 15 begin
+Splitting feature "but" infogain=0.05235475721187921
+child0=4825 child1=770
+Splitting feature "so" infogain=0.04377270225553476
+child0=699 child1=71
+Splitting feature "it" infogain=0.37116748101524133
+child0=26 child1=45
+Splitting feature "works" infogain=0.3695338978648258
+child0=36 child1=9
+Splitting feature "of" infogain=0.7186717058886489
+child0=17 child1=9
+Splitting feature "big" infogain=0.060377320195129425
+child0=637 child1=62
+Splitting feature "to" infogain=0.3076826010542524
+child0=46 child1=16
+Splitting feature "x" infogain=0.05762860002034076
+child0=622 child1=15
+Splitting feature "capital" infogain=0.02106509780861998
+child0=4613 child1=212
+Splitting feature "neg" infogain=0.1510580800441254
+child0=102 child1=110
+Splitting feature "for" infogain=0.2211883555282288
+child0=78 child1=32
+Splitting feature "of" infogain=0.14536197145569052
+child0=89 child1=13
+Splitting feature "for" infogain=0.019639321233497098
+child0=3547 child1=1066
+Splitting feature "so" infogain=0.05259058948121731
+child0=1014 child1=52
+Splitting feature "they" infogain=0.023051346933381067
+child0=3245 child1=302
+===========  AdaBoostM2Trainer round 15 finished, pseudo-loss = 0.4502808586839034
+===========  AdaBoostM2Trainer round 16 begin
+Splitting feature "but" infogain=0.04759743651780002
+child0=4847 child1=748
+Splitting feature "repair" infogain=0.05240664123057326
+child0=712 child1=36
+Splitting feature "they" infogain=0.37185616521980064
+child0=20 child1=16
+Splitting feature "to" infogain=0.33855794887555735
+child0=11 child1=5
+Splitting feature "new" infogain=0.054013776982132056
+child0=658 child1=54
+Splitting feature "with" infogain=0.29716724883803347
+child0=41 child1=13
+Splitting feature "up" infogain=0.04986233423502262
+child0=557 child1=101
+Splitting feature "fast" infogain=0.019122824614211442
+child0=4762 child1=85
+Splitting feature "one" infogain=0.1926327339507093
+child0=81 child1=4
+Splitting feature "you" infogain=0.11973679836949187
+child0=71 child1=10
+Splitting feature "for" infogain=0.01808459647452465
+child0=3664 child1=1098
+Splitting feature "so" infogain=0.06629458166871438
+child0=1040 child1=58
+Splitting feature "when" infogain=0.023285196852119272
+child0=3406 child1=258
+===========  AdaBoostM2Trainer round 16 finished, pseudo-loss = 0.4558502058774065
+===========  AdaBoostM2Trainer round 17 begin
+Splitting feature "but" infogain=0.0438121496067756
+child0=4852 child1=743
+Splitting feature "laptops" infogain=0.054835258718020974
+child0=709 child1=34
+Splitting feature "use" infogain=0.1554330695342851
+child0=19 child1=15
+Splitting feature "to" infogain=0.12346915239972484
+child0=9 child1=10
+Splitting feature "new" infogain=0.0565019366628452
+child0=654 child1=55
+Splitting feature "with" infogain=0.24962307044494148
+child0=43 child1=12
+Splitting feature "in" infogain=0.05717570376496384
+child0=500 child1=154
+Splitting feature "pos" infogain=0.018803718085614207
+child0=1435 child1=3417
+Splitting feature "to" infogain=0.025496913410404276
+child0=2007 child1=1410
+Splitting feature "use" infogain=0.08962412243389384
+child0=1157 child1=253
+Splitting feature "run" infogain=0.03869815530994414
+child0=1932 child1=75
+Splitting feature "much" infogain=0.05347185450221503
+child0=1369 child1=66
+Splitting feature "it" infogain=0.5172648755034559
+child0=50 child1=16
+Splitting feature "price" infogain=0.041221682694374095
+child0=1319 child1=50
+===========  AdaBoostM2Trainer round 17 finished, pseudo-loss = 0.4448730860736934
+===========  AdaBoostM2Trainer round 18 begin
+Splitting feature "but" infogain=0.04559218305055546
+child0=4861 child1=734
+Splitting feature "this" infogain=0.053193896782185224
+child0=598 child1=136
+Splitting feature "computer" infogain=0.17632833735843345
+child0=117 child1=19
+Splitting feature "that" infogain=0.8314743880097293
+child0=14 child1=5
+Splitting feature "neg" infogain=0.21739953996510442
+child0=34 child1=83
+Splitting feature "so" infogain=0.06928956480843973
+child0=537 child1=61
+Splitting feature "old" infogain=0.38612908924351175
+child0=45 child1=16
+Splitting feature "tim" infogain=0.06445331004467336
+child0=525 child1=12
+Splitting feature "movie" infogain=0.018452466049199368
+child0=4800 child1=61
+Splitting feature "just" infogain=0.11248663747866455
+child0=41 child1=20
+Splitting feature "neg" infogain=0.018730773984802718
+child0=2439 child1=2361
+Splitting feature "after" infogain=0.026765744838502137
+child0=2191 child1=170
+Splitting feature "my" infogain=0.03356048594637362
+child0=2106 child1=333
+===========  AdaBoostM2Trainer round 18 finished, pseudo-loss = 0.45728404267741224
+===========  AdaBoostM2Trainer round 19 begin
+Splitting feature "but" infogain=0.049285913667921566
+child0=4865 child1=730
+Splitting feature "mac" infogain=0.058965609940154984
+child0=686 child1=44
+Splitting feature "in" infogain=0.2842725025475449
+child0=23 child1=21
+Splitting feature "slowly" infogain=0.19811742113040332
+child0=12 child1=9
+Splitting feature "the" infogain=0.2580186686648154
+child0=1 child1=22
+Splitting feature "there" infogain=0.05281662141323551
+child0=643 child1=43
+Splitting feature "to" infogain=0.5377861047409852
+child0=28 child1=15
+Splitting feature "computer" infogain=0.05120629730663362
+child0=574 child1=69
+Splitting feature "neg" infogain=0.0190215510264109
+child0=2544 child1=2321
+Splitting feature "faster" infogain=0.028967432884223765
+child0=2284 child1=37
+Splitting feature "much" infogain=0.028691468873294212
+child0=2202 child1=82
+Splitting feature "long" infogain=0.03187066970338437
+child0=2507 child1=37
+Splitting feature "so" infogain=0.8418521897563207
+child0=27 child1=10
+Splitting feature "bars" infogain=0.031055881938577334
+child0=2499 child1=8
+===========  AdaBoostM2Trainer round 19 finished, pseudo-loss = 0.4591468382036988
+===========  AdaBoostM2Trainer round 20 begin
+Splitting feature "but" infogain=0.05157416191588715
+child0=4825 child1=770
+Splitting feature "got" infogain=0.05230977277809834
+child0=744 child1=26
+Splitting feature "so" infogain=0.2351933818192415
+child0=25 child1=1
+Splitting feature "mac" infogain=0.0513736702807126
+child0=709 child1=35
+Splitting feature "up" infogain=0.15414882405609132
+child0=31 child1=4
+Splitting feature "this" infogain=0.050064287068958935
+child0=576 child1=133
+Splitting feature "and" infogain=0.020176676713486663
+child0=2327 child1=2498
+Splitting feature "i" infogain=0.047516683688564876
+child0=1339 child1=1159
+Splitting feature "what" infogain=0.09519046827755573
+child0=1110 child1=49
+Splitting feature "were" infogain=0.0786858583957144
+child0=1276 child1=63
+Splitting feature "not" infogain=0.027033007718159308
+child0=2095 child1=232
+Splitting feature "much" infogain=0.14818261994992254
+child0=211 child1=21
+Splitting feature "dependable" infogain=0.025368730394334627
+child0=2017 child1=78
+===========  AdaBoostM2Trainer round 20 finished, pseudo-loss = 0.4483240385995934
+===========  AdaBoostM2Trainer round 21 begin
+Splitting feature "but" infogain=0.04868892176337791
+child0=4832 child1=763
+Splitting feature "by" infogain=0.04803539570561943
+child0=719 child1=44
+Splitting feature "laptop" infogain=0.5715463021998222
+child0=31 child1=13
+Splitting feature "make" infogain=0.21922128106362698
+child0=20 child1=11
+Splitting feature "look" infogain=0.04961198233054742
+child0=691 child1=28
+Splitting feature "mac" infogain=0.256998116930392
+child0=16 child1=12
+Splitting feature "think" infogain=0.049702723951329464
+child0=663 child1=28
+Splitting feature "for" infogain=0.021260463978178157
+child0=3720 child1=1112
+Splitting feature "so" infogain=0.061004787783105474
+child0=1060 child1=52
+Splitting feature "battery" infogain=0.6260752205924163
+child0=31 child1=21
+Splitting feature "to" infogain=0.0468907423557573
+child0=632 child1=428
+Splitting feature "requires" infogain=0.02186726994126742
+child0=3708 child1=12
+Splitting feature "get" infogain=0.022206949414881105
+child0=3555 child1=153
+===========  AdaBoostM2Trainer round 21 finished, pseudo-loss = 0.46157211811388593
+===========  AdaBoostM2Trainer round 22 begin
+Splitting feature "but" infogain=0.04056093701893437
+child0=4846 child1=749
+Splitting feature "mac" infogain=0.04621216276819351
+child0=704 child1=45
+Splitting feature "another" infogain=0.35335933502142136
+child0=42 child1=3
+Splitting feature "up" infogain=0.15120982163070518
+child0=34 child1=8
+Splitting feature "if" infogain=0.045094406959153455
+child0=681 child1=23
+Splitting feature "to" infogain=0.828055725379504
+child0=6 child1=17
+Splitting feature "think" infogain=0.05038863035479779
+child0=658 child1=23
+Splitting feature "fast" infogain=0.01837653287493546
+child0=4769 child1=77
+Splitting feature "one" infogain=0.15958606590651492
+child0=74 child1=3
+Splitting feature "you" infogain=0.11910480765810258
+child0=63 child1=11
+Splitting feature "neg" infogain=0.018566299582917556
+child0=2489 child1=2280
+Splitting feature "or" infogain=0.02960931918877474
+child0=2045 child1=235
+Splitting feature "bars" infogain=0.03679694973705594
+child0=2477 child1=12
+===========  AdaBoostM2Trainer round 22 finished, pseudo-loss = 0.4634715460736333
+===========  AdaBoostM2Trainer round 23 begin
+Splitting feature "but" infogain=0.042952535186306706
+child0=4871 child1=724
+Splitting feature "mac" infogain=0.047891728864357885
+child0=691 child1=33
+Splitting feature "up" infogain=0.17917624018867628
+child0=28 child1=5
+Splitting feature "it" infogain=0.18090434683381706
+child0=22 child1=6
+Splitting feature "this" infogain=0.0556657336430848
+child0=550 child1=141
+Splitting feature "know" infogain=0.22107910499111316
+child0=136 child1=5
+Splitting feature "so" infogain=0.07307298166056997
+child0=502 child1=48
+Splitting feature "for" infogain=0.018823014346684097
+child0=3728 child1=1143
+Splitting feature "so" infogain=0.06023277171957764
+child0=1090 child1=53
+Splitting feature "battery" infogain=0.6050574615978963
+child0=30 child1=23
+Splitting feature "neg" infogain=0.05021297595242613
+child0=499 child1=591
+Splitting feature "compact" infogain=0.023579136907722953
+child0=3715 child1=13
+Splitting feature "use" infogain=0.0203621467318027
+child0=3432 child1=283
+===========  AdaBoostM2Trainer round 23 finished, pseudo-loss = 0.4630843125823427
+===========  AdaBoostM2Trainer round 24 begin
+Splitting feature "but" infogain=0.040021914038482764
+child0=4848 child1=747
+Splitting feature "heavily" infogain=0.05516777239786186
+child0=711 child1=36
+Splitting feature "of" infogain=0.28455543574875247
+child0=17 child1=19
+Splitting feature "to" infogain=0.10549860554203849
+child0=9 child1=10
+Splitting feature "it" infogain=0.07912699124585154
+child0=16 child1=1
+Splitting feature "this" infogain=0.06030593176165455
+child0=572 child1=139
+Splitting feature "x" infogain=0.19214893715083137
+child0=124 child1=15
+Splitting feature "so" infogain=0.0780591869597893
+child0=524 child1=48
+Splitting feature "would" infogain=0.018573524712189426
+child0=4580 child1=268
+Splitting feature "laptop" infogain=0.0908115455186489
+child0=233 child1=35
+Splitting feature "this" infogain=0.44628984248673687
+child0=26 child1=9
+Splitting feature "buy" infogain=0.08716661006410242
+child0=217 child1=16
+Splitting feature "after" infogain=0.019987752402437886
+child0=4367 child1=213
+Splitting feature "with" infogain=0.15237458095825773
+child0=184 child1=29
+Splitting feature "and" infogain=0.021378197152623457
+child0=2159 child1=2208
+===========  AdaBoostM2Trainer round 24 finished, pseudo-loss = 0.45820594513897084
+===========  AdaBoostM2Trainer round 25 begin
+Splitting feature "but" infogain=0.051814807434358734
+child0=4833 child1=762
+Splitting feature "yes" infogain=0.05354255526431784
+child0=728 child1=34
+Splitting feature "and" infogain=0.20597916043985942
+child0=3 child1=31
+Splitting feature "pos" infogain=0.11398225763565373
+child0=20 child1=11
+Splitting feature "there" infogain=0.05139196069867147
+child0=677 child1=51
+Splitting feature "to" infogain=0.5882944655196021
+child0=33 child1=18
+Splitting feature "in" infogain=0.05796616058554904
+child0=548 child1=129
+Splitting feature "neg" infogain=0.01818642146508065
+child0=2529 child1=2304
+Splitting feature "much" infogain=0.028215714882286358
+child0=2227 child1=77
+Splitting feature "of" infogain=0.6750670442647559
+child0=45 child1=32
+Splitting feature "out" infogain=0.02867881469872935
+child0=1990 child1=237
+Splitting feature "bars" infogain=0.03471434853471056
+child0=2518 child1=11
+Splitting feature "other" infogain=0.03061859201481809
+child0=2399 child1=119
+===========  AdaBoostM2Trainer round 25 finished, pseudo-loss = 0.4635393320970805
+===========  AdaBoostM2Trainer round 26 begin
+Splitting feature "but" infogain=0.05175542284002299
+child0=4846 child1=749
+Splitting feature "yes" infogain=0.04665590488407956
+child0=718 child1=31
+Splitting feature "up" infogain=0.22863793287856815
+child0=11 child1=20
+Splitting feature "is" infogain=0.19660717939188022
+child0=17 child1=3
+Splitting feature "by" infogain=0.04205829441740927
+child0=682 child1=36
+Splitting feature "laptop" infogain=0.46978191446010786
+child0=26 child1=10
+Splitting feature "email" infogain=0.041733129312175654
+child0=664 child1=18
+Splitting feature "neg" infogain=0.020470383919821256
+child0=2511 child1=2335
+Splitting feature "other" infogain=0.026625794315775053
+child0=2266 child1=69
+Splitting feature "than" infogain=0.43573443771594333
+child0=40 child1=29
+Splitting feature "price" infogain=0.029660050356045797
+child0=2204 child1=62
+Splitting feature "long" infogain=0.032228900986539966
+child0=2473 child1=38
+Splitting feature "so" infogain=0.7897492536625222
+child0=29 child1=9
+Splitting feature "would" infogain=0.030967294129286005
+child0=2356 child1=117
+===========  AdaBoostM2Trainer round 26 finished, pseudo-loss = 0.46240265327621494
+===========  AdaBoostM2Trainer round 27 begin
+Splitting feature "but" infogain=0.04303923801532239
+child0=4851 child1=744
+Splitting feature "mac" infogain=0.04752701632076706
+child0=702 child1=42
+Splitting feature "another" infogain=0.2761954276479389
+child0=40 child1=2
+Splitting feature "bit" infogain=0.11358850854373626
+child0=37 child1=3
+Splitting feature "if" infogain=0.05111859562121901
+child0=679 child1=23
+Splitting feature "to" infogain=0.7553754125614287
+child0=5 child1=18
+Splitting feature "this" infogain=0.044976018443454446
+child0=557 child1=122
+Splitting feature "for" infogain=0.019435306003515507
+child0=3721 child1=1130
+Splitting feature "office" infogain=0.052957248726075656
+child0=1062 child1=68
+Splitting feature "the" infogain=0.26835833579627655
+child0=45 child1=23
+Splitting feature "not" infogain=0.055442639761087875
+child0=881 child1=181
+Splitting feature "slowly" infogain=0.018278563785510515
+child0=3579 child1=142
+Splitting feature "slow" infogain=0.39470396010611897
+child0=119 child1=23
+Splitting feature "get" infogain=0.018967869022213257
+child0=3432 child1=147
+===========  AdaBoostM2Trainer round 27 finished, pseudo-loss = 0.46089269164009544
+===========  AdaBoostM2Trainer round 28 begin
+Splitting feature "but" infogain=0.04612862935624773
+child0=4837 child1=758
+Splitting feature "mac" infogain=0.054645128053288916
+child0=720 child1=38
+Splitting feature "up" infogain=0.1530324284669481
+child0=29 child1=9
+Splitting feature "it" infogain=0.1988101415750897
+child0=25 child1=4
+Splitting feature "heavily" infogain=0.048163172922842
+child0=685 child1=35
+Splitting feature "new" infogain=0.35390788820077757
+child0=24 child1=11
+Splitting feature "the" infogain=0.05199795266389817
+child0=184 child1=501
+Splitting feature "for" infogain=0.018980377995698294
+child0=3705 child1=1132
+Splitting feature "some" infogain=0.05231927937884917
+child0=1095 child1=37
+Splitting feature "this" infogain=0.8418521897563207
+child0=27 child1=10
+Splitting feature "not" infogain=0.05294464414022193
+child0=905 child1=190
+Splitting feature "get" infogain=0.022409877854068894
+child0=3533 child1=172
+Splitting feature "am" infogain=0.4721934991537693
+child0=150 child1=22
+Splitting feature "requires" infogain=0.022102568910720377
+child0=3523 child1=10
+===========  AdaBoostM2Trainer round 28 finished, pseudo-loss = 0.4644485352122826
+===========  AdaBoostM2Trainer round 29 begin
+Splitting feature "but" infogain=0.04422747859818399
+child0=4844 child1=751
+Splitting feature "did" infogain=0.044285226253865995
+child0=690 child1=61
+Splitting feature "in" infogain=0.4693957437186268
+child0=24 child1=37
+Splitting feature "on" infogain=0.3207655586370689
+child0=16 child1=21
+Splitting feature "software" infogain=0.99498482818597
+child0=11 child1=13
+Splitting feature "if" infogain=0.049517589084021596
+child0=668 child1=22
+Splitting feature "to" infogain=0.6840384356390417
+child0=4 child1=18
+Splitting feature "so" infogain=0.05162824137891886
+child0=604 child1=64
+Splitting feature "neg" infogain=0.018061666561418388
+child0=2479 child1=2365
+Splitting feature "after" infogain=0.026079750104906596
+child0=2175 child1=190
+Splitting feature "with" infogain=0.13467839556157224
+child0=165 child1=25
+Splitting feature "in" infogain=0.027133249054243747
+child0=1874 child1=301
+Splitting feature "would" infogain=0.031048044841447187
+child0=2362 child1=117
+Splitting feature "i" infogain=0.24185486629580938
+child0=43 child1=74
+Splitting feature "other" infogain=0.0311965543244217
+child0=2240 child1=122
+===========  AdaBoostM2Trainer round 29 finished, pseudo-loss = 0.4614132296587007
+===========  AdaBoostM2Trainer round 30 begin
+Splitting feature "but" infogain=0.05189899971014045
+child0=4833 child1=762
+Splitting feature "and" infogain=0.05237701417706653
+child0=432 child1=330
+Splitting feature "this" infogain=0.09463880066717034
+child0=253 child1=77
+Splitting feature "for" infogain=0.27188738869118523
+child0=29 child1=48
+Splitting feature "got" infogain=0.13173131233142832
+child0=237 child1=16
+Splitting feature "to" infogain=0.10713601573885057
+child0=307 child1=125
+Splitting feature "n" infogain=0.25418084594094603
+child0=99 child1=26
+Splitting feature "i" infogain=0.15460071074888926
+child0=172 child1=135
+Splitting feature "for" infogain=0.017046258721173047
+child0=3695 child1=1138
+Splitting feature "so" infogain=0.057506604177230525
+child0=1088 child1=50
+Splitting feature "laptop" infogain=0.5676530335401604
+child0=27 child1=23
+Splitting feature "neg" infogain=0.053984103144123496
+child0=496 child1=592
+Splitting feature "get" infogain=0.022690624830240536
+child0=3541 child1=154
+Splitting feature "am" infogain=0.5077116624936397
+child0=132 child1=22
+Splitting feature "much" infogain=0.021617594107327998
+child0=3428 child1=113
+===========  AdaBoostM2Trainer round 30 finished, pseudo-loss = 0.46321364340947
+===========  AdaBoostM2Trainer round 31 begin
+Splitting feature "but" infogain=0.047766365110520015
+child0=4870 child1=725
+Splitting feature "so" infogain=0.03970930597524136
+child0=659 child1=66
+Splitting feature "laptop" infogain=0.43304893903944364
+child0=45 child1=21
+Splitting feature "toshiba" infogain=0.7918583525674836
+child0=16 child1=5
+Splitting feature "i" infogain=0.34628510135433077
+child0=32 child1=13
+Splitting feature "in" infogain=0.05325472510213336
+child0=536 child1=123
+Splitting feature "did" infogain=0.2679138336873894
+child0=93 child1=30
+Splitting feature "heavily" infogain=0.0727634638863357
+child0=506 child1=30
+Splitting feature "neg" infogain=0.018012977753002812
+child0=2503 child1=2367
+Splitting feature "extra" infogain=0.02830150173229007
+child0=2274 child1=93
+Splitting feature "and" infogain=0.20216305374959176
+child0=17 child1=76
+Splitting feature "worth" infogain=0.036954407130349365
+child0=2228 child1=46
+Splitting feature "would" infogain=0.028867772444302497
+child0=2384 child1=119
+Splitting feature "they" infogain=0.27126736647434313
+child0=105 child1=14
+Splitting feature "when" infogain=0.030060065382016443
+child0=2232 child1=152
+===========  AdaBoostM2Trainer round 31 finished, pseudo-loss = 0.4621341228139503
+===========  AdaBoostM2Trainer round 32 begin
+Splitting feature "but" infogain=0.043286331162017744
+child0=4880 child1=715
+Splitting feature "up" infogain=0.05035161977686142
+child0=604 child1=111
+Splitting feature "the" infogain=0.23775764835779767
+child0=47 child1=64
+Splitting feature "first" infogain=0.3344500312859773
+child0=52 child1=12
+Splitting feature "new" infogain=0.2594300762626297
+child0=35 child1=12
+Splitting feature "the" infogain=0.061413688795670274
+child0=133 child1=471
+Splitting feature "be" infogain=0.062322488855588665
+child0=418 child1=53
+Splitting feature "it" infogain=0.22595341593892182
+child0=66 child1=67
+Splitting feature "neg" infogain=0.018461639063901525
+child0=2495 child1=2385
+Splitting feature "movie" infogain=0.027913374329435303
+child0=2349 child1=36
+Splitting feature "after" infogain=0.027725227282297427
+child0=2166 child1=183
+Splitting feature "other" infogain=0.028370151982146652
+child0=2388 child1=107
+Splitting feature "to" infogain=0.19150407279196802
+child0=67 child1=40
+Splitting feature "my" infogain=0.028092050710949223
+child0=2056 child1=332
+===========  AdaBoostM2Trainer round 32 finished, pseudo-loss = 0.46514033550679246
+===========  AdaBoostM2Trainer round 33 begin
+Splitting feature "but" infogain=0.046224599349566686
+child0=4842 child1=753
+Splitting feature "did" infogain=0.048057966256300766
+child0=695 child1=58
+Splitting feature "of" infogain=0.40889483069690385
+child0=21 child1=37
+Splitting feature "my" infogain=0.2603735074391662
+child0=24 child1=13
+Splitting feature "in" infogain=0.9852281360342515
+child0=12 child1=9
+Splitting feature "there" infogain=0.04829738523384308
+child0=648 child1=47
+Splitting feature "much" infogain=0.5509844433017146
+child0=41 child1=6
+Splitting feature "by" infogain=0.04855889933789492
+child0=611 child1=37
+Splitting feature "neg" infogain=0.019670515086894547
+child0=2544 child1=2298
+Splitting feature "capital" infogain=0.026239094776508542
+child0=2192 child1=106
+Splitting feature "for" infogain=0.205923072669011
+child0=78 child1=28
+Splitting feature "and" infogain=0.026399593578229408
+child0=975 child1=1217
+Splitting feature "i" infogain=0.03152890176799883
+child0=1583 child1=961
+Splitting feature "pc" infogain=0.059048389403175916
+child0=935 child1=26
+Splitting feature "pos" infogain=0.034639996557504604
+child0=526 child1=1057
+===========  AdaBoostM2Trainer round 33 finished, pseudo-loss = 0.4646719252671594
+===========  AdaBoostM2Trainer round 34 begin
+Splitting feature "but" infogain=0.04715553070649192
+child0=4852 child1=743
+Splitting feature "by" infogain=0.044800385376611906
+child0=708 child1=35
+Splitting feature "laptop" infogain=0.3181051922870657
+child0=29 child1=6
+Splitting feature "make" infogain=0.35846263926947713
+child0=18 child1=11
+Splitting feature "heavily" infogain=0.043837423922823415
+child0=676 child1=32
+Splitting feature "of" infogain=0.2910936330076448
+child0=19 child1=13
+Splitting feature "the" infogain=0.04812031816077855
+child0=193 child1=483
+Splitting feature "for" infogain=0.023718572239157076
+child0=3700 child1=1152
+Splitting feature "dollar" infogain=0.0534932185736674
+child0=1137 child1=15
+Splitting feature "so" infogain=0.05600895653116056
+child0=1084 child1=53
+Splitting feature "requires" infogain=0.021690091027498637
+child0=3688 child1=12
+Splitting feature "laptops" infogain=0.019518851311966623
+child0=3634 child1=54
+===========  AdaBoostM2Trainer round 34 finished, pseudo-loss = 0.4731060321649478
+===========  AdaBoostM2Trainer round 35 begin
+Splitting feature "but" infogain=0.04081708013340579
+child0=4836 child1=759
+Splitting feature "office" infogain=0.043136309873216705
+child0=740 child1=19
+Splitting feature "just" infogain=0.03821641346730392
+child0=4 child1=15
+Splitting feature "os" infogain=0.04097035489509904
+child0=715 child1=25
+Splitting feature "substantive" infogain=0.402179190202273
+child0=23 child1=2
+Splitting feature "did" infogain=0.046076690973954726
+child0=659 child1=56
+Splitting feature "uses" infogain=0.01942054672352378
+child0=4786 child1=50
+Splitting feature "of" infogain=0.8267463724926178
+child0=37 child1=13
+Splitting feature "pos" infogain=0.017086496874436197
+child0=1405 child1=3381
+Splitting feature "reboot" infogain=0.025967505964625603
+child0=3368 child1=13
+Splitting feature "much" infogain=0.05990875786548111
+child0=1334 child1=71
+===========  AdaBoostM2Trainer round 35 finished, pseudo-loss = 0.47203282408890485
+===========  AdaBoostM2Trainer round 36 begin
+Splitting feature "but" infogain=0.04748433382390882
+child0=4841 child1=754
+Splitting feature "this" infogain=0.04983420914210779
+child0=619 child1=135
+Splitting feature "know" infogain=0.192531054818194
+child0=131 child1=4
+Splitting feature "features" infogain=0.1403960992065647
+child0=120 child1=11
+Splitting feature "so" infogain=0.06341626029178316
+child0=562 child1=57
+Splitting feature "it" infogain=0.3512433902056597
+child0=25 child1=32
+Splitting feature "apple" infogain=0.08276852070922658
+child0=521 child1=41
+Splitting feature "uses" infogain=0.018022340262557
+child0=4797 child1=44
+Splitting feature "of" infogain=0.8756633923230397
+child0=31 child1=13
+Splitting feature "generally" infogain=0.017668485379622734
+child0=4772 child1=25
+Splitting feature "i" infogain=0.017709231360753863
+child0=2789 child1=1983
+===========  AdaBoostM2Trainer round 36 finished, pseudo-loss = 0.47120812385702654
+===========  AdaBoostM2Trainer round 37 begin
+Splitting feature "but" infogain=0.05042783032381304
+child0=4848 child1=747
+Splitting feature "computer" infogain=0.05201061575794097
+child0=675 child1=72
+Splitting feature "keys" infogain=0.24398797453097676
+child0=61 child1=11
+Splitting feature "known" infogain=0.32829107928954815
+child0=55 child1=6
+Splitting feature "this" infogain=0.0696910269021056
+child0=568 child1=107
+Splitting feature "neg" infogain=0.21467825290590326
+child0=28 child1=79
+Splitting feature "mac" infogain=0.059929549671216886
+child0=538 child1=30
+Splitting feature "neg" infogain=0.020084267174679926
+child0=2545 child1=2303
+Splitting feature "price" infogain=0.031015833770471124
+child0=2223 child1=80
+Splitting feature "worth" infogain=0.8603787180245965
+child0=50 child1=30
+Splitting feature "and" infogain=0.03120449735994324
+child0=921 child1=1302
+Splitting feature "my" infogain=0.03096766177519883
+child0=2217 child1=328
+Splitting feature "and" infogain=0.13189563477401867
+child0=184 child1=144
+Splitting feature "other" infogain=0.03613602579333275
+child0=2107 child1=110
+===========  AdaBoostM2Trainer round 37 finished, pseudo-loss = 0.46771750658148553
+===========  AdaBoostM2Trainer round 38 begin
+Splitting feature "but" infogain=0.046186193931131214
+child0=4862 child1=733
+Splitting feature "once" infogain=0.04330794771474156
+child0=714 child1=19
+Splitting feature "pos" infogain=0.1922090910245527
+child0=1 child1=18
+Splitting feature "to" infogain=0.0336655289479027
+child0=12 child1=6
+Splitting feature "neg" infogain=0.04318884245250698
+child0=303 child1=411
+Splitting feature "in" infogain=0.08990966422285651
+child0=319 child1=92
+Splitting feature "another" infogain=0.12047722303053177
+child0=290 child1=13
+Splitting feature "for" infogain=0.02320732012675286
+child0=3714 child1=1148
+Splitting feature "so" infogain=0.06571139333832288
+child0=1084 child1=64
+Splitting feature "battery" infogain=0.6925373402593598
+child0=36 child1=28
+Splitting feature "despite" infogain=0.07477755030628508
+child0=1059 child1=25
+Splitting feature "much" infogain=0.022656708167402728
+child0=3582 child1=132
+Splitting feature "laptops" infogain=0.47421522731061927
+child0=112 child1=20
+Splitting feature "get" infogain=0.02289628583477521
+child0=3433 child1=149
+===========  AdaBoostM2Trainer round 38 finished, pseudo-loss = 0.46980197862489664
+===========  AdaBoostM2Trainer round 39 begin
+Splitting feature "but" infogain=0.04708177321813056
+child0=4859 child1=736
+Splitting feature "got" infogain=0.04372989714394304
+child0=713 child1=23
+Splitting feature "so" infogain=0.42622865699814483
+child0=21 child1=2
+Splitting feature "mac" infogain=0.05094011548667621
+child0=678 child1=35
+Splitting feature "up" infogain=0.22068374701619453
+child0=27 child1=8
+Splitting feature "this" infogain=0.05054457931905798
+child0=560 child1=118
+Splitting feature "generally" infogain=0.01792571052232761
+child0=4838 child1=21
+Splitting feature "then" infogain=0.016845594369392147
+child0=4724 child1=114
+Splitting feature "pos" infogain=0.255811327474539
+child0=34 child1=80
+Splitting feature "fast" infogain=0.016747209796009965
+child0=4647 child1=77
+===========  AdaBoostM2Trainer round 39 finished, pseudo-loss = 0.47230946094024473
+===========  AdaBoostM2Trainer round 40 begin
+Splitting feature "but" infogain=0.04672717020024009
+child0=4848 child1=747
+Splitting feature "this" infogain=0.05038973587589979
+child0=612 child1=135
+Splitting feature "know" infogain=0.22853814395352812
+child0=130 child1=5
+Splitting feature "features" infogain=0.14485928110575963
+child0=120 child1=10
+Splitting feature "so" infogain=0.08037745226042237
+child0=552 child1=60
+Splitting feature "it" infogain=0.39765921825964895
+child0=25 child1=35
+Splitting feature "big" infogain=0.05676405008385177
+child0=500 child1=52
+Splitting feature "uses" infogain=0.016529881783760247
+child0=4806 child1=42
+Splitting feature "of" infogain=0.863120568566631
+child0=30 child1=12
+Splitting feature "get" infogain=0.01716872426119198
+child0=4566 child1=240
+Splitting feature "am" infogain=0.27408595662318924
+child0=215 child1=25
+Splitting feature "and" infogain=0.01993838502883616
+child0=2280 child1=2286
+===========  AdaBoostM2Trainer round 40 finished, pseudo-loss = 0.47086584834122086
+===========  AdaBoostM2Trainer round 41 begin
+Splitting feature "but" infogain=0.05071967993598214
+child0=4866 child1=729
+Splitting feature "yes" infogain=0.04509668084368146
+child0=697 child1=32
+Splitting feature "and" infogain=0.3212122601251459
+child0=6 child1=26
+Splitting feature "pos" infogain=0.1920058354921066
+child0=16 child1=10
+Splitting feature "there" infogain=0.04510375195110505
+child0=652 child1=45
+Splitting feature "much" infogain=0.4327501587887539
+child0=41 child1=4
+Splitting feature "new" infogain=0.04869066275785894
+child0=602 child1=50
+Splitting feature "neg" infogain=0.017829000490150237
+child0=2522 child1=2344
+Splitting feature "what" infogain=0.026971328496473657
+child0=2248 child1=96
+Splitting feature "about" infogain=0.5037212418352137
+child0=53 child1=43
+Splitting feature "and" infogain=0.035255902327398725
+child0=957 child1=1291
+Splitting feature "other" infogain=0.026820012325085463
+child0=2411 child1=111
+Splitting feature "safari" infogain=0.17662135503755894
+child0=86 child1=25
+Splitting feature "want" infogain=0.028708868461628567
+child0=2351 child1=60
+===========  AdaBoostM2Trainer round 41 finished, pseudo-loss = 0.4711976233916413
+===========  AdaBoostM2Trainer round 42 begin
+Splitting feature "but" infogain=0.04356182395151631
+child0=4878 child1=717
+Splitting feature "heavily" infogain=0.05414070267954885
+child0=682 child1=35
+Splitting feature "of" infogain=0.28063231756716933
+child0=16 child1=19
+Splitting feature "to" infogain=0.11686303998710867
+child0=7 child1=12
+Splitting feature "it" infogain=0.09353165849888112
+child0=15 child1=1
+Splitting feature "overall" infogain=0.05174227267966147
+child0=654 child1=28
+Splitting feature "to" infogain=0.21784587810274303
+child0=17 child1=11
+Splitting feature "did" infogain=0.04980854029026016
+child0=620 child1=34
+Splitting feature "for" infogain=0.017543298678244446
+child0=3715 child1=1163
+Splitting feature "so" infogain=0.05528961821488987
+child0=1116 child1=47
+Splitting feature "laptop" infogain=0.5409193536016337
+child0=22 child1=25
+Splitting feature "dollar" infogain=0.05529180571911896
+child0=1103 child1=13
+Splitting feature "requires" infogain=0.02620103088955794
+child0=3700 child1=15
+Splitting feature "get" infogain=0.02346543187576189
+child0=3534 child1=166
+===========  AdaBoostM2Trainer round 42 finished, pseudo-loss = 0.4745680877957903
+===========  AdaBoostM2Trainer round 43 begin
+Splitting feature "but" infogain=0.04857118962905993
+child0=4866 child1=729
+Splitting feature "be" infogain=0.04641261194699986
+child0=656 child1=73
+Splitting feature "screen" infogain=0.31333470021332976
+child0=66 child1=7
+Splitting feature "thing" infogain=0.24550014373692675
+child0=59 child1=7
+Splitting feature "the" infogain=0.050382566183760746
+child0=171 child1=485
+Splitting feature "they" infogain=0.091530660938558
+child0=433 child1=52
+Splitting feature "up" infogain=0.21994506443969786
+child0=129 child1=42
+Splitting feature "after" infogain=0.01607398586509201
+child0=4640 child1=226
+Splitting feature "with" infogain=0.13314032172032175
+child0=207 child1=19
+Splitting feature "i" infogain=0.9980008838722996
+child0=10 child1=9
+Splitting feature "price" infogain=0.09897878750613298
+child0=203 child1=4
+Splitting feature "neg" infogain=0.016606535221753815
+child0=2425 child1=2215
+Splitting feature "in" infogain=0.03129841176901271
+child0=1883 child1=332
+Splitting feature "bars" infogain=0.0323070632867819
+child0=2415 child1=10
+===========  AdaBoostM2Trainer round 43 finished, pseudo-loss = 0.4706604948446156
+===========  AdaBoostM2Trainer round 44 begin
+Splitting feature "but" infogain=0.04297370958671287
+child0=4856 child1=739
+Splitting feature "yes" infogain=0.04319811656397232
+child0=710 child1=29
+Splitting feature "and" infogain=0.31836925403293204
+child0=5 child1=24
+Splitting feature "pos" infogain=0.14092604445374568
+child0=16 child1=8
+Splitting feature "heavily" infogain=0.04125061581889611
+child0=675 child1=35
+Splitting feature "of" infogain=0.35035598746437024
+child0=18 child1=17
+Splitting feature "mac" infogain=0.04344542368598692
+child0=645 child1=30
+Splitting feature "for" infogain=0.018667265825751178
+child0=3683 child1=1173
+Splitting feature "so" infogain=0.05993249858665162
+child0=1118 child1=55
+Splitting feature "laptop" infogain=0.5990506154640356
+child0=27 child1=28
+Splitting feature "versions" infogain=0.054820434124237094
+child0=1105 child1=13
+Splitting feature "stack" infogain=0.02261349858948125
+child0=3670 child1=13
+Splitting feature "get" infogain=0.025122669233127226
+child0=3496 child1=174
+===========  AdaBoostM2Trainer round 44 finished, pseudo-loss = 0.47620327133176615
+===========  AdaBoostM2Trainer round 45 begin
+Splitting feature "but" infogain=0.04749738359521838
+child0=4880 child1=715
+Splitting feature "yes" infogain=0.04828609372463055
+child0=686 child1=29
+Splitting feature "and" infogain=0.3029325556666026
+child0=4 child1=25
+Splitting feature "pos" infogain=0.08408230995435961
+child0=18 child1=7
+Splitting feature "big" infogain=0.043818418147328675
+child0=631 child1=55
+Splitting feature "what" infogain=0.3102458435983777
+child0=42 child1=13
+Splitting feature "x" infogain=0.04372034798778923
+child0=618 child1=13
+Splitting feature "generally" infogain=0.01759093231894404
+child0=4858 child1=22
+Splitting feature "not" infogain=0.01565110504286027
+child0=4269 child1=589
+Splitting feature "compact" infogain=0.1435326141579698
+child0=577 child1=12
+Splitting feature "change" infogain=0.019856821878535325
+child0=4208 child1=61
+===========  AdaBoostM2Trainer round 45 finished, pseudo-loss = 0.47272128097481625
+===========  AdaBoostM2Trainer round 46 begin
+Splitting feature "but" infogain=0.04583595804834295
+child0=4848 child1=747
+Splitting feature "big" infogain=0.04974175700655059
+child0=688 child1=59
+Splitting feature "from" infogain=0.30264479950264134
+child0=55 child1=4
+Splitting feature "just" infogain=0.8112781244591328
+child0=1 child1=3
+Splitting feature "screen" infogain=0.2078082780565359
+child0=39 child1=16
+Splitting feature "whole" infogain=0.05016729142483123
+child0=659 child1=29
+Splitting feature "pos" infogain=0.1555114978560641
+child0=8 child1=21
+Splitting feature "heavily" infogain=0.04653414939674838
+child0=626 child1=33
+Splitting feature "pos" infogain=0.019180664150801552
+child0=1461 child1=3387
+Splitting feature "to" infogain=0.02800316984347806
+child0=1996 child1=1391
+Splitting feature "slowly" infogain=0.08022262512061351
+child0=1242 child1=149
+Splitting feature "reboot" infogain=0.044846722148705
+child0=1982 child1=14
+Splitting feature "deserving" infogain=0.07609806597779478
+child0=1432 child1=29
+Splitting feature "to" infogain=0.4798320236161285
+child0=26 child1=3
+Splitting feature "battery" infogain=0.07134989359085431
+child0=1308 child1=124
+===========  AdaBoostM2Trainer round 46 finished, pseudo-loss = 0.4640208727633007
+===========  AdaBoostM2Trainer round 47 begin
+Splitting feature "but" infogain=0.05549926603639799
+child0=4833 child1=762
+Splitting feature "big" infogain=0.044244157400496587
+child0=695 child1=67
+Splitting feature "keyboard" infogain=0.3166289267671689
+child0=57 child1=10
+Splitting feature "and" infogain=0.2812908992306927
+child0=4 child1=6
+Splitting feature "what" infogain=0.23527665457265212
+child0=42 child1=15
+Splitting feature "laptop" infogain=0.04454674889389065
+child0=629 child1=66
+Splitting feature "a" infogain=0.41794937394442133
+child0=24 child1=42
+Splitting feature "need" infogain=0.05380357237148825
+child0=601 child1=28
+Splitting feature "for" infogain=0.015590652027298368
+child0=3706 child1=1127
+Splitting feature "so" infogain=0.04986664147685049
+child0=1079 child1=48
+Splitting feature "laptop" infogain=0.6277802868398481
+child0=26 child1=22
+Splitting feature "neg" infogain=0.05432455979344031
+child0=480 child1=599
+Splitting feature "compact" infogain=0.021166199188291435
+child0=3694 child1=12
+Splitting feature "and" infogain=0.0224844471590796
+child0=1937 child1=1757
+===========  AdaBoostM2Trainer round 47 finished, pseudo-loss = 0.4747979171757238
+===========  AdaBoostM2Trainer round 48 begin
+Splitting feature "but" infogain=0.04482468574294196
+child0=4851 child1=744
+Splitting feature "mac" infogain=0.03936774681474153
+child0=710 child1=34
+Splitting feature "neg" infogain=0.19785194565352882
+child0=29 child1=5
+Splitting feature "slowly" infogain=0.7219280948873623
+child0=4 child1=1
+Splitting feature "use" infogain=0.16211572946202202
+child0=25 child1=4
+Splitting feature "this" infogain=0.04400296290605055
+child0=588 child1=122
+Splitting feature "know" infogain=0.24678395505718842
+child0=117 child1=5
+Splitting feature "laptop" infogain=0.06412087747201833
+child0=540 child1=48
+Splitting feature "generally" infogain=0.01937730004246707
+child0=4828 child1=23
+Splitting feature "pos" infogain=0.01642121089815396
+child0=1418 child1=3410
+Splitting feature "other" infogain=0.0269526772318478
+child0=3284 child1=126
+Splitting feature "much" infogain=0.057908553061323476
+child0=1347 child1=71
+===========  AdaBoostM2Trainer round 48 finished, pseudo-loss = 0.47796890581637347
+===========  AdaBoostM2Trainer round 49 begin
+Splitting feature "but" infogain=0.04054944565942442
+child0=4854 child1=741
+Splitting feature "does" infogain=0.04056517167010454
+child0=697 child1=44
+Splitting feature "when" infogain=0.5746356978376798
+child0=38 child1=6
+Splitting feature "a" infogain=0.19500002477333178
+child0=22 child1=16
+Splitting feature "battery" infogain=0.045889113825044126
+child0=660 child1=37
+Splitting feature "been" infogain=0.4310292763435497
+child0=24 child1=13
+Splitting feature "repair" infogain=0.04787731199662093
+child0=634 child1=26
+Splitting feature "for" infogain=0.022043216784229935
+child0=3705 child1=1149
+Splitting feature "so" infogain=0.05871937049849141
+child0=1099 child1=50
+Splitting feature "battery" infogain=0.7237319136520985
+child0=24 child1=26
+Splitting feature "desktop" infogain=0.06367268159974127
+child0=1075 child1=24
+Splitting feature "requires" infogain=0.025134914518344154
+child0=3691 child1=14
+Splitting feature "much" infogain=0.020059655221647876
+child0=3581 child1=110
+===========  AdaBoostM2Trainer round 49 finished, pseudo-loss = 0.47512439948446583
+===========  AdaBoostM2Trainer round 50 begin
+Splitting feature "but" infogain=0.05001641511489208
+child0=4863 child1=732
+Splitting feature "got" infogain=0.04637096740913238
+child0=711 child1=21
+Splitting feature "so" infogain=0.2761954276479391
+child0=20 child1=1
+Splitting feature "tim" infogain=0.04489568692134438
+child0=697 child1=14
+Splitting feature "this" infogain=0.04870465479092645
+child0=588 child1=109
+Splitting feature "uses" infogain=0.016775198359714416
+child0=4822 child1=41
+Splitting feature "of" infogain=0.9011701959974223
+child0=28 child1=13
+Splitting feature "get" infogain=0.016290152800877866
+child0=4606 child1=216
+Splitting feature "am" infogain=0.27209691004101866
+child0=192 child1=24
+Splitting feature "and" infogain=0.021055085800963713
+child0=2301 child1=2305
+===========  AdaBoostM2Trainer round 50 finished, pseudo-loss = 0.4755458505219752
+===========  AdaBoostM2Trainer round 51 begin
+Splitting feature "but" infogain=0.04638814236752342
+child0=4874 child1=721
+Splitting feature "tim" infogain=0.04334640619187358
+child0=707 child1=14
+Splitting feature "mac" infogain=0.044423237248173875
+child0=674 child1=33
+Splitting feature "the" infogain=0.195909270873605
+child0=1 child1=32
+Splitting feature "heavily" infogain=0.04968545936060975
+child0=641 child1=33
+Splitting feature "opted" infogain=0.02150193892984098
+child0=4847 child1=27
+Splitting feature "uses" infogain=0.01717074511389005
+child0=4804 child1=43
+Splitting feature "of" infogain=0.8541802051521675
+child0=31 child1=12
+Splitting feature "very" infogain=0.017848308498223275
+child0=4494 child1=310
+===========  AdaBoostM2Trainer round 51 finished, pseudo-loss = 0.4771126589494832
+===========  AdaBoostM2Trainer round 52 begin
+Splitting feature "but" infogain=0.04228174380809269
+child0=4858 child1=737
+Splitting feature "mac" infogain=0.04331346223239474
+child0=707 child1=30
+Splitting feature "used" infogain=0.10254524195377257
+child0=28 child1=2
+Splitting feature "bit" infogain=0.12559516383453362
+child0=26 child1=2
+Splitting feature "this" infogain=0.046834039794727556
+child0=577 child1=130
+Splitting feature "know" infogain=0.23519338181924154
+child0=125 child1=5
+Splitting feature "so" infogain=0.062411279292474475
+child0=527 child1=50
+Splitting feature "for" infogain=0.020272438500583467
+child0=3697 child1=1161
+Splitting feature "so" infogain=0.07045545191204705
+child0=1106 child1=55
+Splitting feature "laptop" infogain=0.629432853525347
+child0=26 child1=29
+Splitting feature "despite" infogain=0.057925941960607075
+child0=1085 child1=21
+Splitting feature "requires" infogain=0.0243478172666185
+child0=3683 child1=14
+Splitting feature "get" infogain=0.02204151059312598
+child0=3532 child1=151
+===========  AdaBoostM2Trainer round 52 finished, pseudo-loss = 0.4776357647694168
+===========  AdaBoostM2Trainer round 53 begin
+Splitting feature "but" infogain=0.04456271314815008
+child0=4839 child1=756
+Splitting feature "if" infogain=0.05133574198866575
+child0=731 child1=25
+Splitting feature "to" infogain=0.6343095546405662
+child0=4 child1=21
+Splitting feature "mac" infogain=0.04097799303452665
+child0=704 child1=27
+Splitting feature "up" infogain=0.2557926442274985
+child0=22 child1=5
+Splitting feature "apple" infogain=0.04495019275294032
+child0=669 child1=35
+Splitting feature "opted" infogain=0.017422439246772115
+child0=4815 child1=24
+Splitting feature "much" infogain=0.018253606197190964
+child0=4656 child1=159
+Splitting feature "i" infogain=0.46648370845025955
+child0=105 child1=54
+Splitting feature "get" infogain=0.019411244431584596
+child0=4450 child1=206
+===========  AdaBoostM2Trainer round 53 finished, pseudo-loss = 0.47921274418008414
+===========  AdaBoostM2Trainer round 54 begin
+Splitting feature "but" infogain=0.04918582188253762
+child0=4869 child1=726
+Splitting feature "if" infogain=0.0462172896434343
+child0=706 child1=20
+Splitting feature "to" infogain=0.6098403047164005
+child0=3 child1=17
+Splitting feature "mac" infogain=0.047808742881771504
+child0=677 child1=29
+Splitting feature "up" infogain=0.16211572946202202
+child0=25 child1=4
+Splitting feature "heavily" infogain=0.05142417950350242
+child0=645 child1=32
+Splitting feature "after" infogain=0.0183655347166356
+child0=4633 child1=236
+Splitting feature "sales" infogain=0.12991916751867483
+child0=225 child1=11
+Splitting feature "so" infogain=0.40400975732485983
+child0=6 child1=5
+Splitting feature "with" infogain=0.1012781838912572
+child0=211 child1=14
+Splitting feature "generally" infogain=0.018227817831371063
+child0=4611 child1=22
+Splitting feature "opted" infogain=0.01771647344269489
+child0=4588 child1=23
+===========  AdaBoostM2Trainer round 54 finished, pseudo-loss = 0.4789557941274346
+===========  AdaBoostM2Trainer round 55 begin
+Splitting feature "but" infogain=0.04127849866037825
+child0=4857 child1=738
+Splitting feature "mac" infogain=0.04354937905836498
+child0=710 child1=28
+Splitting feature "up" infogain=0.3197990126380288
+child0=23 child1=5
+Splitting feature "much" infogain=0.2151524408123472
+child0=21 child1=2
+Splitting feature "this" infogain=0.048674087738272975
+child0=580 child1=130
+Splitting feature "know" infogain=0.23519338181924176
+child0=125 child1=5
+Splitting feature "so" infogain=0.07026273680492756
+child0=525 child1=55
+Splitting feature "dollar" infogain=0.018703407733828836
+child0=4840 child1=17
+Splitting feature "and" infogain=0.01732817317168578
+child0=2428 child1=2412
+Splitting feature "i" infogain=0.043331370138334324
+child0=1250 child1=1162
+Splitting feature "not" infogain=0.027453492623329856
+child0=2196 child1=232
+===========  AdaBoostM2Trainer round 55 finished, pseudo-loss = 0.47433926648079805
+===========  AdaBoostM2Trainer round 56 begin
+Splitting feature "but" infogain=0.048118952868113185
+child0=4845 child1=750
+Splitting feature "this" infogain=0.04892173899581809
+child0=623 child1=127
+Splitting feature "know" infogain=0.20183992963258723
+child0=123 child1=4
+Splitting feature "x" infogain=0.15861673129658516
+child0=112 child1=11
+Splitting feature "so" infogain=0.0664018075223336
+child0=565 child1=58
+Splitting feature "graphics" infogain=0.35593372707355786
+child0=45 child1=13
+Splitting feature "size" infogain=0.06637232497788892
+child0=538 child1=27
+Splitting feature "opted" infogain=0.018213474226928872
+child0=4822 child1=23
+Splitting feature "price" infogain=0.017338489861750794
+child0=4655 child1=167
+Splitting feature "worth" infogain=0.508320416893186
+child0=135 child1=32
+Splitting feature "generally" infogain=0.01745585504898073
+child0=4636 child1=19
+===========  AdaBoostM2Trainer round 56 finished, pseudo-loss = 0.47656629022866925
+===========  AdaBoostM2Trainer round 57 begin
+Splitting feature "but" infogain=0.04781375127380927
+child0=4825 child1=770
+Splitting feature "make" infogain=0.04187760987698108
+child0=722 child1=48
+Splitting feature "than" infogain=0.3544079569112474
+child0=11 child1=37
+Splitting feature "to" infogain=0.11134785288180304
+child0=10 child1=1
+Splitting feature "computer" infogain=0.04284786317413203
+child0=655 child1=67
+Splitting feature "keys" infogain=0.21585912630631188
+child0=56 child1=11
+Splitting feature "this" infogain=0.06985217331020155
+child0=557 child1=98
+Splitting feature "for" infogain=0.017853290136087274
+child0=3705 child1=1120
+Splitting feature "despite" infogain=0.05485028925164026
+child0=1099 child1=21
+Splitting feature "dollar" infogain=0.057107960272646974
+child0=1085 child1=14
+Splitting feature "requires" infogain=0.024057088207764865
+child0=3691 child1=14
+Splitting feature "much" infogain=0.02392923757272114
+child0=3572 child1=119
+===========  AdaBoostM2Trainer round 57 finished, pseudo-loss = 0.4792912361197079
+===========  AdaBoostM2Trainer round 58 begin
+Splitting feature "but" infogain=0.04555100651467758
+child0=4904 child1=691
+Splitting feature "mac" infogain=0.044605480189849
+child0=662 child1=29
+Splitting feature "up" infogain=0.2092656877781447
+child0=24 child1=5
+Splitting feature "it" infogain=0.12712195793512482
+child0=20 child1=4
+Splitting feature "if" infogain=0.05406836570437168
+child0=641 child1=21
+Splitting feature "to" infogain=0.5916727785823274
+child0=3 child1=18
+Splitting feature "this" infogain=0.051727319891757384
+child0=530 child1=111
+Splitting feature "for" infogain=0.01851754554298246
+child0=3715 child1=1189
+Splitting feature "so" infogain=0.06190600591797879
+child0=1131 child1=58
+Splitting feature "battery" infogain=0.6346927988573619
+child0=31 child1=27
+Splitting feature "dollar" infogain=0.0598139982055097
+child0=1116 child1=15
+Splitting feature "requires" infogain=0.022233891741281653
+child0=3702 child1=13
+Splitting feature "much" infogain=0.022027939059308776
+child0=3574 child1=128
+===========  AdaBoostM2Trainer round 58 finished, pseudo-loss = 0.4786218413480586
+===========  AdaBoostM2Trainer round 59 begin
+Splitting feature "but" infogain=0.0425162826104335
+child0=4878 child1=717
+Splitting feature "up" infogain=0.05018902276383441
+child0=602 child1=115
+Splitting feature "the" infogain=0.26997494794883514
+child0=49 child1=66
+Splitting feature "first" infogain=0.33369799936213507
+child0=54 child1=12
+Splitting feature "new" infogain=0.36773761221220813
+child0=35 child1=14
+Splitting feature "was" infogain=0.057031059406317475
+child0=477 child1=125
+Splitting feature "did" infogain=0.20311407198176812
+child0=97 child1=28
+Splitting feature "too" infogain=0.05994425459954189
+child0=464 child1=13
+Splitting feature "for" infogain=0.0167063301935908
+child0=3744 child1=1134
+Splitting feature "office" infogain=0.053710741920126814
+child0=1069 child1=65
+Splitting feature "the" infogain=0.22840349995291542
+child0=44 child1=21
+Splitting feature "in" infogain=0.060821115235804024
+child0=953 child1=116
+Splitting feature "get" infogain=0.021309313717552847
+child0=3593 child1=151
+Splitting feature "am" infogain=0.5299785607729752
+child0=126 child1=25
+Splitting feature "stack" infogain=0.023092846556777236
+child0=3582 child1=11
+===========  AdaBoostM2Trainer round 59 finished, pseudo-loss = 0.47250345868902854
+===========  AdaBoostM2Trainer round 60 begin
+Splitting feature "but" infogain=0.046296787633424374
+child0=4841 child1=754
+Splitting feature "repair" infogain=0.04452087762795487
+child0=724 child1=30
+Splitting feature "they" infogain=0.3539845481434941
+child0=14 child1=16
+Splitting feature "to" infogain=0.2537978408001329
+child0=12 child1=4
+Splitting feature "full" infogain=0.04992347824939536
+child0=695 child1=29
+Splitting feature "software" infogain=0.28174463153625084
+child0=14 child1=15
+Splitting feature "battery" infogain=0.05040304757539338
+child0=634 child1=61
+Splitting feature "neg" infogain=0.01996053486607119
+child0=2445 child1=2396
+Splitting feature "opted" infogain=0.03126339253947097
+child0=2374 child1=22
+Splitting feature "much" infogain=0.03127885563249322
+child0=2298 child1=76
+Splitting feature "bars" infogain=0.031040877141357726
+child0=2435 child1=10
+Splitting feature "long" infogain=0.03429876250582198
+child0=2405 child1=30
+===========  AdaBoostM2Trainer round 60 finished, pseudo-loss = 0.48038267346473945
+===========  AdaBoostM2Trainer round 61 begin
+Splitting feature "but" infogain=0.0422624781834775
+child0=4881 child1=714
+Splitting feature "this" infogain=0.04602852663042123
+child0=595 child1=119
+Splitting feature "computer" infogain=0.26134061928666186
+child0=103 child1=16
+Splitting feature "that" infogain=0.9544340029249652
+child0=10 child1=6
+Splitting feature "with" infogain=0.15444237516984138
+child0=78 child1=25
+Splitting feature "machine" infogain=0.05020098879113566
+child0=579 child1=16
+Splitting feature "mac" infogain=0.05312925916503741
+child0=553 child1=26
+Splitting feature "for" infogain=0.017982966201136596
+child0=3720 child1=1161
+Splitting feature "so" infogain=0.05808718332326457
+child0=1109 child1=52
+Splitting feature "battery" infogain=0.7095317780095405
+child0=27 child1=25
+Splitting feature "despite" infogain=0.06384119615445538
+child0=1082 child1=27
+Splitting feature "requires" infogain=0.02435995060141094
+child0=3706 child1=14
+Splitting feature "compact" infogain=0.020715699822571265
+child0=3695 child1=11
+===========  AdaBoostM2Trainer round 61 finished, pseudo-loss = 0.47876566109165525
+===========  AdaBoostM2Trainer round 62 begin
+Splitting feature "but" infogain=0.04264205621154327
+child0=4866 child1=729
+Splitting feature "this" infogain=0.04375805368843566
+child0=598 child1=131
+Splitting feature "know" infogain=0.23382826233572285
+child0=126 child1=5
+Splitting feature "x" infogain=0.13598526324986637
+child0=116 child1=10
+Splitting feature "so" infogain=0.0648554543982196
+child0=544 child1=54
+Splitting feature "it" infogain=0.3710566165116171
+child0=17 child1=37
+Splitting feature "size" infogain=0.05716694357907115
+child0=520 child1=24
+Splitting feature "uses" infogain=0.01706123933898218
+child0=4825 child1=41
+Splitting feature "of" infogain=0.9262122127346664
+child0=27 child1=14
+Splitting feature "opted" infogain=0.017424759846772497
+child0=4807 child1=18
+Splitting feature "get" infogain=0.01782531726110248
+child0=4576 child1=231
+===========  AdaBoostM2Trainer round 62 finished, pseudo-loss = 0.47998813062523277
+===========  AdaBoostM2Trainer round 63 begin
+Splitting feature "but" infogain=0.049057110420646755
+child0=4839 child1=756
+Splitting feature "i" infogain=0.04466036723657463
+child0=424 child1=332
+Splitting feature "which" infogain=0.11600043886137867
+child0=315 child1=17
+Splitting feature "use" infogain=0.3193536406050497
+child0=11 child1=6
+Splitting feature "ever" infogain=0.10979771260108362
+child0=292 child1=23
+Splitting feature "that" infogain=0.08230790782952879
+child0=330 child1=94
+Splitting feature "for" infogain=0.38686796071830853
+child0=80 child1=14
+Splitting feature "windows" infogain=0.09390369844909152
+child0=309 child1=21
+Splitting feature "get" infogain=0.01814786722511741
+child0=4604 child1=235
+Splitting feature "am" infogain=0.31535866215788144
+child0=207 child1=28
+Splitting feature "toshiba" infogain=0.3712323266408757
+child0=26 child1=2
+Splitting feature "pay" infogain=0.33846856271605485
+child0=194 child1=13
+Splitting feature "for" infogain=0.020212951228725462
+child0=3532 child1=1072
+Splitting feature "versions" infogain=0.05897252959992816
+child0=1057 child1=15
+Splitting feature "much" infogain=0.024625013067997248
+child0=3414 child1=118
+===========  AdaBoostM2Trainer round 63 finished, pseudo-loss = 0.47587440608723564
+===========  AdaBoostM2Trainer round 64 begin
+Splitting feature "but" infogain=0.040991129042881935
+child0=4861 child1=734
+Splitting feature "the" infogain=0.05085981262720707
+child0=201 child1=533
+Splitting feature "standard" infogain=0.07725360560873873
+child0=518 child1=15
+Splitting feature "processing" infogain=0.06172861975003019
+child0=504 child1=14
+Splitting feature "it" infogain=0.18769009310390894
+child0=93 child1=108
+Splitting feature "new" infogain=0.36503087596391803
+child0=85 child1=23
+Splitting feature "i" infogain=0.3651615218331916
+child0=53 child1=40
+Splitting feature "requires" infogain=0.017858674379896078
+child0=4845 child1=16
+Splitting feature "dollar" infogain=0.017443159019055132
+child0=4830 child1=15
+Splitting feature "generally" infogain=0.01651554370649455
+child0=4808 child1=22
+===========  AdaBoostM2Trainer round 64 finished, pseudo-loss = 0.4810729143490175
+===========  AdaBoostM2Trainer round 65 begin
+Splitting feature "but" infogain=0.056025780813604875
+child0=4873 child1=722
+Splitting feature "outside" infogain=0.04900882085740199
+child0=695 child1=27
+Splitting feature "pos" infogain=0.2847801777269895
+child0=14 child1=13
+Splitting feature "this" infogain=0.054645433019081535
+child0=585 child1=110
+Splitting feature "know" infogain=0.225363639127395
+child0=106 child1=4
+Splitting feature "mac" infogain=0.06794000130733036
+child0=555 child1=30
+Splitting feature "much" infogain=0.01894449721730118
+child0=4721 child1=152
+Splitting feature "i" infogain=0.40735857038334156
+child0=104 child1=48
+Splitting feature "it" infogain=0.6675990212874714
+child0=36 child1=12
+Splitting feature "neg" infogain=0.4218094465037833
+child0=59 child1=45
+Splitting feature "for" infogain=0.018204502948195866
+child0=3638 child1=1083
+Splitting feature "or" infogain=0.05227373792122347
+child0=927 child1=156
+Splitting feature "get" infogain=0.024414468238665332
+child0=3476 child1=162
+===========  AdaBoostM2Trainer round 65 finished, pseudo-loss = 0.47741978218996406
+===========  AdaBoostM2Trainer round 66 begin
+Splitting feature "but" infogain=0.04544545183276405
+child0=4856 child1=739
+Splitting feature "this" infogain=0.05091003740268274
+child0=622 child1=117
+Splitting feature "little" infogain=0.14149662118086792
+child0=99 child1=18
+Splitting feature "just" infogain=0.19915934088204323
+child0=5 child1=13
+Splitting feature "neg" infogain=0.22036601883417306
+child0=29 child1=70
+Splitting feature "up" infogain=0.0616428564185203
+child0=524 child1=98
+Splitting feature "the" infogain=0.18644718892330286
+child0=37 child1=61
+Splitting feature "looking" infogain=0.06768325656492924
+child0=504 child1=20
+Splitting feature "for" infogain=0.01847813270857146
+child0=3732 child1=1124
+Splitting feature "so" infogain=0.058757290631774595
+child0=1074 child1=50
+Splitting feature "laptop" infogain=0.7140987710057087
+child0=22 child1=28
+Splitting feature "neg" infogain=0.056801422451783656
+child0=483 child1=591
+Splitting feature "laptops" infogain=0.021415693814930803
+child0=3680 child1=52
+Splitting feature "it" infogain=0.9470622432515331
+child0=33 child1=19
+Splitting feature "requires" infogain=0.02413696356277928
+child0=3668 child1=12
+===========  AdaBoostM2Trainer round 66 finished, pseudo-loss = 0.479105948444206
+===========  AdaBoostM2Trainer round 67 begin
+Splitting feature "but" infogain=0.039828922212554074
+child0=4857 child1=738
+Splitting feature "repair" infogain=0.043404287261580965
+child0=709 child1=29
+Splitting feature "to" infogain=0.45485739265477987
+child0=24 child1=5
+Splitting feature "toshiba" infogain=0.11301347743389945
+child0=14 child1=10
+Splitting feature "new" infogain=0.04517178474331773
+child0=657 child1=52
+Splitting feature "when" infogain=0.3580749823914092
+child0=44 child1=8
+Splitting feature "big" infogain=0.052169768969332786
+child0=597 child1=60
+Splitting feature "fast" infogain=0.016885410602209827
+child0=4785 child1=72
+Splitting feature "with" infogain=0.209578048753093
+child0=53 child1=19
+Splitting feature "just" infogain=0.26627043689604724
+child0=16 child1=3
+Splitting feature "is" infogain=0.015271992362672071
+child0=3441 child1=1344
+Splitting feature "not" infogain=0.05394198811471629
+child0=1161 child1=183
+Splitting feature "for" infogain=0.021702038958838932
+child0=2640 child1=801
+===========  AdaBoostM2Trainer round 67 finished, pseudo-loss = 0.4766394381567953
+===========  AdaBoostM2Trainer round 68 begin
+Splitting feature "but" infogain=0.0465625807377803
+child0=4853 child1=742
+Splitting feature "apple" infogain=0.04901888174430824
+child0=701 child1=41
+Splitting feature "slowly" infogain=0.6593758812786993
+child0=34 child1=7
+Splitting feature "just" infogain=0.22771078017985835
+child0=31 child1=3
+Splitting feature "this" infogain=0.04960419745011024
+child0=581 child1=120
+Splitting feature "know" infogain=0.24988229283318542
+child0=115 child1=5
+Splitting feature "so" infogain=0.09093488791844861
+child0=514 child1=67
+Splitting feature "generally" infogain=0.02126049432807653
+child0=4827 child1=26
+Splitting feature "pos" infogain=0.017703170063579743
+child0=1378 child1=3449
+Splitting feature "other" infogain=0.029450893638249154
+child0=3323 child1=126
+Splitting feature "much" infogain=0.06760603842644564
+child0=1313 child1=65
+===========  AdaBoostM2Trainer round 68 finished, pseudo-loss = 0.4801322282581598
+===========  AdaBoostM2Trainer round 69 begin
+Splitting feature "but" infogain=0.04329429021872033
+child0=4855 child1=740
+Splitting feature "if" infogain=0.047418042183997144
+child0=716 child1=24
+Splitting feature "to" infogain=0.6500224216483543
+child0=4 child1=20
+Splitting feature "mac" infogain=0.8112781244591328
+child0=3 child1=1
+Splitting feature "new" infogain=0.05020438959688267
+child0=670 child1=46
+Splitting feature "when" infogain=0.37018330848658487
+child0=36 child1=10
+Splitting feature "the" infogain=0.045241876941150894
+child0=152 child1=518
+Splitting feature "and" infogain=0.019030368513230922
+child0=2405 child1=2450
+Splitting feature "what" infogain=0.0378282196081563
+child0=2369 child1=81
+Splitting feature "about" infogain=0.8063495153650779
+child0=61 child1=20
+Splitting feature "back" infogain=0.03627010077812742
+child0=2259 child1=110
+Splitting feature "requires" infogain=0.02969711724769053
+child0=2390 child1=15
+Splitting feature "generally" infogain=0.030005523694534242
+child0=2368 child1=22
+===========  AdaBoostM2Trainer round 69 finished, pseudo-loss = 0.4760460013721281
+===========  AdaBoostM2Trainer round 70 begin
+Splitting feature "but" infogain=0.043990435697654595
+child0=4857 child1=738
+Splitting feature "this" infogain=0.050968372358515035
+child0=614 child1=124
+Splitting feature "x" infogain=0.1703097410232184
+child0=112 child1=12
+Splitting feature "know" infogain=0.17800689613931464
+child0=109 child1=3
+Splitting feature "so" infogain=0.058788541382589043
+child0=557 child1=57
+Splitting feature "it" infogain=0.37834638470810356
+child0=22 child1=35
+Splitting feature "heavily" infogain=0.05458882260352116
+child0=530 child1=27
+Splitting feature "for" infogain=0.014841553318437839
+child0=3717 child1=1140
+Splitting feature "so" infogain=0.061610365427463565
+child0=1087 child1=53
+Splitting feature "laptop" infogain=0.5992311946663418
+child0=22 child1=31
+Splitting feature "neg" infogain=0.06150591402621475
+child0=469 child1=618
+Splitting feature "pc" infogain=0.0255135842482217
+child0=3615 child1=102
+Splitting feature "pos" infogain=0.5070257915922933
+child0=46 child1=56
+Splitting feature "compact" infogain=0.020389953736332123
+child0=3605 child1=10
+===========  AdaBoostM2Trainer round 70 finished, pseudo-loss = 0.4802511328108317
+===========  AdaBoostM2Trainer round 71 begin
+Splitting feature "but" infogain=0.04779616998584002
+child0=4847 child1=748
+Splitting feature "battery" infogain=0.042647237073656585
+child0=691 child1=57
+Splitting feature "would" infogain=0.3011039947027796
+child0=38 child1=19
+Splitting feature "i" infogain=0.5285438028962995
+child0=9 child1=10
+Splitting feature "n" infogain=0.15520783629545265
+child0=34 child1=4
+Splitting feature "got" infogain=0.04486374001703464
+child0=672 child1=19
+Splitting feature "so" infogain=0.2974722489192897
+child0=18 child1=1
+Splitting feature "my" infogain=0.04507919985541364
+child0=629 child1=43
+Splitting feature "neg" infogain=0.015769846378099084
+child0=2500 child1=2347
+Splitting feature "after" infogain=0.030716659369622645
+child0=2163 child1=184
+Splitting feature "board" infogain=0.12288701774943123
+child0=166 child1=18
+Splitting feature "much" infogain=0.030375297909789323
+child0=2086 child1=77
+Splitting feature "bars" infogain=0.03331555773215866
+child0=2489 child1=11
+Splitting feature "long" infogain=0.03465629521931146
+child0=2457 child1=32
+===========  AdaBoostM2Trainer round 71 finished, pseudo-loss = 0.4803805423020929
+===========  AdaBoostM2Trainer round 72 begin
+Splitting feature "but" infogain=0.043372499897095684
+child0=4880 child1=715
+Splitting feature "especially" infogain=0.045943133412196024
+child0=685 child1=30
+Splitting feature "to" infogain=0.27209602363899965
+child0=12 child1=18
+Splitting feature "this" infogain=0.048630118227386054
+child0=569 child1=116
+Splitting feature "ever" infogain=0.18177833562629075
+child0=106 child1=10
+Splitting feature "laptop" infogain=0.0581396845644937
+child0=526 child1=43
+Splitting feature "much" infogain=0.018453485491274346
+child0=4721 child1=159
+Splitting feature "of" infogain=0.4253274814065511
+child0=117 child1=42
+Splitting feature "not" infogain=0.5627827066933899
+child0=21 child1=21
+Splitting feature "neg" infogain=0.4973304993011587
+child0=65 child1=52
+Splitting feature "other" infogain=0.018021157811710875
+child0=4549 child1=172
+Splitting feature "neg" infogain=0.4147396895229817
+child0=102 child1=70
+Splitting feature "not" infogain=0.018890707163085718
+child0=4037 child1=512
+===========  AdaBoostM2Trainer round 72 finished, pseudo-loss = 0.47577762490703135
+===========  AdaBoostM2Trainer round 73 begin
+Splitting feature "but" infogain=0.045137872793022726
+child0=4868 child1=727
+Splitting feature "this" infogain=0.04470754799230692
+child0=609 child1=118
+Splitting feature "know" infogain=0.21357981533827752
+child0=114 child1=4
+Splitting feature "features" infogain=0.19276263701551244
+child0=101 child1=13
+Splitting feature "outside" infogain=0.05750890268642639
+child0=581 child1=28
+Splitting feature "pos" infogain=0.31127812445913294
+child0=14 child1=14
+Splitting feature "so" infogain=0.06397932879838275
+child0=526 child1=55
+Splitting feature "opted" infogain=0.01758658005048752
+child0=4848 child1=20
+Splitting feature "uses" infogain=0.015775648279158894
+child0=4811 child1=37
+Splitting feature "of" infogain=0.9090221560878149
+child0=25 child1=12
+Splitting feature "pc" infogain=0.015110073602913943
+child0=4691 child1=120
+===========  AdaBoostM2Trainer round 73 finished, pseudo-loss = 0.4815570577343835
+===========  AdaBoostM2Trainer round 74 begin
+Splitting feature "but" infogain=0.046104374800074455
+child0=4855 child1=740
+Splitting feature "yes" infogain=0.04054895681967974
+child0=712 child1=28
+Splitting feature "up" infogain=0.21784587810274303
+child0=7 child1=21
+Splitting feature "is" infogain=0.14886990701819403
+child0=18 child1=3
+Splitting feature "still" infogain=0.04177545007079275
+child0=655 child1=57
+Splitting feature "and" infogain=0.377037563700326
+child0=21 child1=36
+Splitting feature "quality" infogain=0.05331829901481333
+child0=629 child1=26
+Splitting feature "acceptable" infogain=0.023378793090300443
+child0=4834 child1=21
+Splitting feature "generally" infogain=0.018230597035181262
+child0=4813 child1=21
+Splitting feature "price" infogain=0.015175955002696861
+child0=4650 child1=163
+===========  AdaBoostM2Trainer round 74 finished, pseudo-loss = 0.4838308143692811
+===========  AdaBoostM2Trainer round 75 begin
+Splitting feature "but" infogain=0.04723109374819434
+child0=4833 child1=762
+Splitting feature "mac" infogain=0.04589133726992345
+child0=728 child1=34
+Splitting feature "up" infogain=0.09440445847262047
+child0=31 child1=3
+Splitting feature "it" infogain=0.15810756960396244
+child0=26 child1=5
+Splitting feature "think" infogain=0.049372446701672956
+child0=704 child1=24
+Splitting feature "on" infogain=0.7382848661434507
+child0=5 child1=19
+Splitting feature "overall" infogain=0.045080991869359766
+child0=669 child1=35
+Splitting feature "generally" infogain=0.016892217408561727
+child0=4813 child1=20
+Splitting feature "opted" infogain=0.01763241054547926
+child0=4792 child1=21
+Splitting feature "get" infogain=0.01561556555684307
+child0=4560 child1=232
+===========  AdaBoostM2Trainer round 75 finished, pseudo-loss = 0.4852296455986725
+===========  AdaBoostM2Trainer round 76 begin
+Splitting feature "but" infogain=0.047563246965654615
+child0=4868 child1=727
+Splitting feature "heavily" infogain=0.05504835337179603
+child0=689 child1=38
+Splitting feature "of" infogain=0.29381526240829947
+child0=20 child1=18
+Splitting feature "to" infogain=0.16041636652019148
+child0=8 child1=10
+Splitting feature "it" infogain=0.06897117983611778
+child0=19 child1=1
+Splitting feature "tim" infogain=0.05681694309160146
+child0=673 child1=16
+Splitting feature "this" infogain=0.04570335873272091
+child0=562 child1=111
+Splitting feature "neg" infogain=0.017284053372648267
+child0=2475 child1=2393
+Splitting feature "price" infogain=0.0298612170650967
+child0=2315 child1=78
+Splitting feature "worth" infogain=0.8729639567741518
+child0=47 child1=31
+Splitting feature "opted" infogain=0.03185274509475944
+child0=2294 child1=21
+Splitting feature "long" infogain=0.02920772215982015
+child0=2447 child1=28
+Splitting feature "so" infogain=0.9059282160429993
+child0=19 child1=9
+Splitting feature "bars" infogain=0.03170292617751236
+child0=2439 child1=8
+===========  AdaBoostM2Trainer round 76 finished, pseudo-loss = 0.47891848891446187
+===========  AdaBoostM2Trainer round 77 begin
+Splitting feature "but" infogain=0.04600362503798894
+child0=4894 child1=701
+Splitting feature "got" infogain=0.044600035248572034
+child0=681 child1=20
+Splitting feature "so" infogain=0.2863969571159562
+child0=19 child1=1
+Splitting feature "mac" infogain=0.04476317728577994
+child0=652 child1=29
+Splitting feature "it" infogain=0.1648748569413644
+child0=22 child1=7
+Splitting feature "this" infogain=0.049986032961157
+child0=545 child1=107
+Splitting feature "generally" infogain=0.017131951058806605
+child0=4873 child1=21
+Splitting feature "opted" infogain=0.015744405503167913
+child0=4854 child1=19
+Splitting feature "other" infogain=0.01623721201082029
+child0=4686 child1=168
+===========  AdaBoostM2Trainer round 77 finished, pseudo-loss = 0.48568317567769936
+===========  AdaBoostM2Trainer round 78 begin
+Splitting feature "but" infogain=0.046937250514770046
+child0=4858 child1=737
+Splitting feature "this" infogain=0.041062291762095526
+child0=612 child1=125
+Splitting feature "know" infogain=0.242292189082415
+child0=120 child1=5
+Splitting feature "x" infogain=0.1591592094628531
+child0=109 child1=11
+Splitting feature "so" infogain=0.061112879984576596
+child0=553 child1=59
+Splitting feature "it" infogain=0.30049076817323295
+child0=19 child1=40
+Splitting feature "heavily" infogain=0.06324801059884
+child0=527 child1=26
+Splitting feature "generally" infogain=0.015356804468751095
+child0=4839 child1=19
+Splitting feature "opted" infogain=0.014931718669631167
+child0=4821 child1=18
+Splitting feature "price" infogain=0.01532056087692002
+child0=4662 child1=159
+===========  AdaBoostM2Trainer round 78 finished, pseudo-loss = 0.48376648085444646
+===========  AdaBoostM2Trainer round 79 begin
+Splitting feature "but" infogain=0.04279559379430742
+child0=4882 child1=713
+Splitting feature "this" infogain=0.05519539299258924
+child0=599 child1=114
+Splitting feature "x" infogain=0.19399918459488985
+child0=100 child1=14
+Splitting feature "with" infogain=0.19364993656819474
+child0=70 child1=30
+Splitting feature "which" infogain=0.06379829996713826
+child0=552 child1=47
+Splitting feature "and" infogain=0.355225795073536
+child0=33 child1=14
+Splitting feature "up" infogain=0.06665008794110672
+child0=460 child1=92
+Splitting feature "opted" infogain=0.017108669178856006
+child0=4860 child1=22
+Splitting feature "much" infogain=0.0173269718377973
+child0=4723 child1=137
+Splitting feature "i" infogain=0.5049535916025155
+child0=87 child1=50
+Splitting feature "uses" infogain=0.018486898561700604
+child0=4686 child1=37
+===========  AdaBoostM2Trainer round 79 finished, pseudo-loss = 0.4817858760722113
+===========  AdaBoostM2Trainer round 80 begin
+Splitting feature "but" infogain=0.04915626433064202
+child0=4869 child1=726
+Splitting feature "this" infogain=0.04370330155011226
+child0=612 child1=114
+Splitting feature "know" infogain=0.21929730813217518
+child0=110 child1=4
+Splitting feature "with" infogain=0.16447779539429463
+child0=73 child1=37
+Splitting feature "whole" infogain=0.05410380518555802
+child0=584 child1=28
+Splitting feature "just" infogain=0.25698118924235414
+child0=22 child1=6
+Splitting feature "so" infogain=0.05895250624233617
+child0=522 child1=62
+Splitting feature "opted" infogain=0.016884055846454693
+child0=4848 child1=21
+Splitting feature "much" infogain=0.017460047610466045
+child0=4706 child1=142
+Splitting feature "i" infogain=0.40205373773684894
+child0=95 child1=47
+Splitting feature "get" infogain=0.02067554701543628
+child0=4477 child1=229
+===========  AdaBoostM2Trainer round 80 finished, pseudo-loss = 0.48427962618668313
+===========  AdaBoostM2Trainer round 81 begin
+Splitting feature "but" infogain=0.051713536307358865
+child0=4871 child1=724
+Splitting feature "this" infogain=0.0471928053809616
+child0=621 child1=103
+Splitting feature "know" infogain=0.18999075553626765
+child0=100 child1=3
+Splitting feature "not" infogain=0.17006060669020484
+child0=89 child1=11
+Splitting feature "size" infogain=0.05495712668858199
+child0=592 child1=29
+Splitting feature "pos" infogain=0.28793238409083854
+child0=18 child1=11
+Splitting feature "screen" infogain=0.0815797606949602
+child0=551 child1=41
+Splitting feature "fast" infogain=0.015870158431357195
+child0=4801 child1=70
+Splitting feature "one" infogain=0.20171141869271042
+child0=66 child1=4
+Splitting feature "you" infogain=0.18273234377462083
+child0=56 child1=10
+Splitting feature "generally" infogain=0.01577866922270177
+child0=4783 child1=18
+Splitting feature "get" infogain=0.01672508873335099
+child0=4554 child1=229
+===========  AdaBoostM2Trainer round 81 finished, pseudo-loss = 0.481917676015488
+===========  AdaBoostM2Trainer round 82 begin
+Splitting feature "but" infogain=0.03815627238117947
+child0=4883 child1=712
+Splitting feature "size" infogain=0.04275081257640978
+child0=686 child1=26
+Splitting feature "and" infogain=0.2191860327990069
+child0=11 child1=15
+Splitting feature "heavily" infogain=0.04825149651931904
+child0=653 child1=33
+Splitting feature "of" infogain=0.3688973011017913
+child0=16 child1=17
+Splitting feature "in" infogain=0.0585012718427409
+child0=508 child1=145
+Splitting feature "acceptable" infogain=0.018588755590659423
+child0=4866 child1=17
+Splitting feature "requires" infogain=0.017078224464248892
+child0=4851 child1=15
+Splitting feature "stack" infogain=0.017809863749089327
+child0=4836 child1=15
+===========  AdaBoostM2Trainer round 82 finished, pseudo-loss = 0.48627539801708014
+===========  AdaBoostM2Trainer round 83 begin
+Splitting feature "but" infogain=0.04480171410258249
+child0=4897 child1=698
+Splitting feature "repair" infogain=0.041724327572826736
+child0=671 child1=27
+Splitting feature "they" infogain=0.32294316012077695
+child0=12 child1=15
+Splitting feature "to" infogain=0.3033074086078339
+child0=11 child1=4
+Splitting feature "be" infogain=0.04493975418459395
+child0=594 child1=77
+Splitting feature "with" infogain=0.3998325158085322
+child0=51 child1=26
+Splitting feature "new" infogain=0.05144770135964816
+child0=551 child1=43
+Splitting feature "acceptable" infogain=0.019752531447899013
+child0=4879 child1=18
+Splitting feature "much" infogain=0.019287261890137852
+child0=4729 child1=150
+Splitting feature "i" infogain=0.4194073307546754
+child0=93 child1=57
+Splitting feature "get" infogain=0.01979317327031671
+child0=4504 child1=225
+===========  AdaBoostM2Trainer round 83 finished, pseudo-loss = 0.48366189792491854
+===========  AdaBoostM2Trainer round 84 begin
+Splitting feature "but" infogain=0.04376933545397543
+child0=4855 child1=740
+Splitting feature "this" infogain=0.04933371366526362
+child0=620 child1=120
+Splitting feature "neg" infogain=0.1763813813900732
+child0=36 child1=84
+Splitting feature "little" infogain=0.30447104375102896
+child0=67 child1=17
+Splitting feature "is" infogain=0.3275325787316917
+child0=29 child1=7
+Splitting feature "apple" infogain=0.05627221765108237
+child0=583 child1=37
+Splitting feature "slowly" infogain=0.6997722217733071
+child0=30 child1=7
+Splitting feature "so" infogain=0.06616600528957162
+child0=529 child1=54
+Splitting feature "requires" infogain=0.01866686025835196
+child0=4838 child1=17
+Splitting feature "opted" infogain=0.019094296544199807
+child0=4817 child1=21
+Splitting feature "other" infogain=0.01846630453618059
+child0=4643 child1=174
+===========  AdaBoostM2Trainer round 84 finished, pseudo-loss = 0.483872621813185
+===========  AdaBoostM2Trainer round 85 begin
+Splitting feature "but" infogain=0.04465282968486761
+child0=4872 child1=723
+Splitting feature "mac" infogain=0.04744373245385414
+child0=693 child1=30
+Splitting feature "up" infogain=0.14448434380562813
+child0=27 child1=3
+Splitting feature "much" infogain=0.12621175020251674
+child0=25 child1=2
+Splitting feature "this" infogain=0.05131807263903854
+child0=580 child1=113
+Splitting feature "x" infogain=0.2087073386237197
+child0=100 child1=13
+Splitting feature "machine" infogain=0.058165314802695045
+child0=563 child1=17
+Splitting feature "uses" infogain=0.01571892108072337
+child0=4831 child1=41
+Splitting feature "of" infogain=0.8721617883411699
+child0=29 child1=12
+Splitting feature "much" infogain=0.015679434166391282
+child0=4685 child1=146
+Splitting feature "i" infogain=0.46649862715711055
+child0=94 child1=52
+Splitting feature "get" infogain=0.018181908956436565
+child0=4465 child1=220
+===========  AdaBoostM2Trainer round 85 finished, pseudo-loss = 0.4827276623569165
+===========  AdaBoostM2Trainer round 86 begin
+Splitting feature "but" infogain=0.04357579957907931
+child0=4858 child1=737
+Splitting feature "bluetooth" infogain=0.045888969772908794
+child0=719 child1=18
+Splitting feature "neg" infogain=0.04286197544019621
+child0=288 child1=431
+Splitting feature "screen" infogain=0.0747045741511898
+child0=380 child1=51
+Splitting feature "you" infogain=0.12896675978727012
+child0=236 child1=52
+Splitting feature "capital" infogain=0.01522860263027681
+child0=4675 child1=183
+Splitting feature "processors" infogain=0.18068817897053036
+child0=170 child1=13
+Splitting feature "pad" infogain=0.15642858751140143
+child0=153 child1=17
+Splitting feature "generally" infogain=0.015438694816271692
+child0=4655 child1=20
+Splitting feature "much" infogain=0.015886389374228482
+child0=4518 child1=137
+===========  AdaBoostM2Trainer round 86 finished, pseudo-loss = 0.48136522227481776
+===========  AdaBoostM2Trainer round 87 begin
+Splitting feature "but" infogain=0.04387521814149942
+child0=4830 child1=765
+Splitting feature "still" infogain=0.041815967708457524
+child0=696 child1=69
+Splitting feature "of" infogain=0.36150009998584876
+child0=42 child1=27
+Splitting feature "pos" infogain=0.691289869405789
+child0=5 child1=22
+Splitting feature "can" infogain=0.30743390668486636
+child0=21 child1=21
+Splitting feature "processing" infogain=0.045439231672032454
+child0=682 child1=14
+Splitting feature "new" infogain=0.049542697146395476
+child0=626 child1=56
+Splitting feature "acceptable" infogain=0.015554236192082849
+child0=4816 child1=14
+Splitting feature "requires" infogain=0.01612247756930696
+child0=4802 child1=14
+Splitting feature "generally" infogain=0.016419604131165277
+child0=4783 child1=19
+===========  AdaBoostM2Trainer round 87 finished, pseudo-loss = 0.4855890534894555
+===========  AdaBoostM2Trainer round 88 begin
+Splitting feature "but" infogain=0.0463605706833603
+child0=4845 child1=750
+Splitting feature "computer" infogain=0.0406509004140172
+child0=679 child1=71
+Splitting feature "after" infogain=0.22850680340424723
+child0=58 child1=13
+Splitting feature "use" infogain=0.4964793754946901
+child0=5 child1=8
+Splitting feature "that" infogain=0.39356288428476366
+child0=35 child1=23
+Splitting feature "this" infogain=0.07342341562138621
+child0=566 child1=113
+Splitting feature "with" infogain=0.19301352538708128
+child0=88 child1=25
+Splitting feature "so" infogain=0.05814429897615403
+child0=522 child1=44
+Splitting feature "sit" infogain=0.0176550392640622
+child0=4829 child1=16
+Splitting feature "and" infogain=0.020087383475651754
+child0=2384 child1=2445
+Splitting feature "i" infogain=0.040673680263303424
+child0=1275 child1=1170
+Splitting feature "requires" infogain=0.028330503097859117
+child0=2370 child1=14
+===========  AdaBoostM2Trainer round 88 finished, pseudo-loss = 0.47923998122675915
+===========  AdaBoostM2Trainer round 89 begin
+Splitting feature "but" infogain=0.04763270251992613
+child0=4881 child1=714
+Splitting feature "if" infogain=0.042884928120735744
+child0=695 child1=19
+Splitting feature "to" infogain=0.6292492238560347
+child0=3 child1=16
+Splitting feature "i" infogain=0.040149104607369424
+child0=396 child1=299
+Splitting feature "which" infogain=0.13868031613859788
+child0=278 child1=21
+Splitting feature "apple" infogain=0.08161419308355455
+child0=360 child1=36
+Splitting feature "for" infogain=0.022484951798810826
+child0=3713 child1=1168
+Splitting feature "so" infogain=0.06187717820434191
+child0=1110 child1=58
+Splitting feature "battery" infogain=0.6752051507212256
+child0=25 child1=33
+Splitting feature "despite" infogain=0.07238893578995564
+child0=1083 child1=27
+Splitting feature "much" infogain=0.02000179397238866
+child0=3598 child1=115
+Splitting feature "laptops" infogain=0.5828420626937525
+child0=96 child1=19
+Splitting feature "get" infogain=0.024244460529691425
+child0=3449 child1=149
+===========  AdaBoostM2Trainer round 89 finished, pseudo-loss = 0.48014720364864244
+===========  AdaBoostM2Trainer round 90 begin
+Splitting feature "but" infogain=0.048719345688029936
+child0=4858 child1=737
+Splitting feature "this" infogain=0.04789169601318011
+child0=624 child1=113
+Splitting feature "ever" infogain=0.22670536083295434
+child0=103 child1=10
+Splitting feature "is" infogain=0.9709505944546688
+child0=6 child1=4
+Splitting feature "by" infogain=0.14317087173319964
+child0=87 child1=16
+Splitting feature "mac" infogain=0.058808571278271105
+child0=594 child1=30
+Splitting feature "more" infogain=0.19087450462110933
+child0=25 child1=5
+Splitting feature "better" infogain=0.06565714096997044
+child0=564 child1=30
+Splitting feature "pos" infogain=0.014898316019338775
+child0=1439 child1=3419
+Splitting feature "reboot" infogain=0.023582432639165152
+child0=3406 child1=13
+Splitting feature "very" infogain=0.023769495636972504
+child0=3190 child1=216
+Splitting feature "deserving" infogain=0.0652984882589771
+child0=1414 child1=25
+Splitting feature "to" infogain=0.5293608652873644
+child0=22 child1=3
+Splitting feature "battery" infogain=0.05417892445069228
+child0=1304 child1=110
+===========  AdaBoostM2Trainer round 90 finished, pseudo-loss = 0.47886278861742665
+===========  AdaBoostM2Trainer round 91 begin
+Splitting feature "but" infogain=0.044313064244684064
+child0=4871 child1=724
+Splitting feature "mac" infogain=0.047337323663239506
+child0=690 child1=34
+Splitting feature "pos" infogain=0.24393426069857815
+child0=6 child1=28
+Splitting feature "new" infogain=0.16329816043354894
+child0=21 child1=7
+Splitting feature "this" infogain=0.047629260382291205
+child0=579 child1=111
+Splitting feature "know" infogain=0.22381255513458576
+child0=107 child1=4
+Splitting feature "so" infogain=0.06462763293986207
+child0=529 child1=50
+Splitting feature "generally" infogain=0.023020761774794396
+child0=4844 child1=27
+Splitting feature "my" infogain=0.016503081493865812
+child0=4103 child1=741
+Splitting feature "laptop" infogain=0.08945639482692846
+child0=670 child1=71
+Splitting feature "neg" infogain=0.022649004103953096
+child0=2184 child1=1919
+===========  AdaBoostM2Trainer round 91 finished, pseudo-loss = 0.48669984990661197
+===========  AdaBoostM2Trainer round 92 begin
+Splitting feature "but" infogain=0.04964326311832967
+child0=4867 child1=728
+Splitting feature "by" infogain=0.04057956446641553
+child0=700 child1=28
+Splitting feature "laptop" infogain=0.5178015074140133
+child0=22 child1=6
+Splitting feature "make" infogain=0.1648677151048581
+child0=15 child1=7
+Splitting feature "heavily" infogain=0.04023999918503063
+child0=664 child1=36
+Splitting feature "of" infogain=0.39030956507628645
+child0=19 child1=17
+Splitting feature "laptop" infogain=0.047470026775471075
+child0=607 child1=57
+Splitting feature "get" infogain=0.017361193489134452
+child0=4632 child1=235
+Splitting feature "i" infogain=0.26663240834424473
+child0=118 child1=117
+Splitting feature "out" infogain=0.42446175501848615
+child0=72 child1=45
+Splitting feature "this" infogain=0.21177040912309142
+child0=97 child1=21
+Splitting feature "and" infogain=0.017759873244024615
+child0=2336 child1=2296
+Splitting feature "i" infogain=0.039818550832877
+child0=1164 child1=1132
+Splitting feature "laptops" infogain=0.0320447156376118
+child0=2307 child1=29
+===========  AdaBoostM2Trainer round 92 finished, pseudo-loss = 0.4771828750915444
+===========  AdaBoostM2Trainer round 93 begin
+Splitting feature "but" infogain=0.04841654599554546
+child0=4855 child1=740
+Splitting feature "this" infogain=0.05993073436591523
+child0=622 child1=118
+Splitting feature "features" infogain=0.19031696568615364
+child0=107 child1=11
+Splitting feature "to" infogain=0.22396608616311453
+child0=70 child1=37
+Splitting feature "apple" infogain=0.05398408606887628
+child0=582 child1=40
+Splitting feature "slowly" infogain=0.5435644431995964
+child0=35 child1=5
+Splitting feature "so" infogain=0.060257364157712656
+child0=529 child1=53
+Splitting feature "uses" infogain=0.016431544010352628
+child0=4816 child1=39
+Splitting feature "of" infogain=0.9418285354475157
+child0=25 child1=14
+Splitting feature "generally" infogain=0.016849655506945282
+child0=4796 child1=20
+Splitting feature "get" infogain=0.01754731355379091
+child0=4578 child1=218
+===========  AdaBoostM2Trainer round 93 finished, pseudo-loss = 0.4845128664291184
+===========  AdaBoostM2Trainer round 94 begin
+Splitting feature "but" infogain=0.04916163420046793
+child0=4830 child1=765
+Splitting feature "this" infogain=0.04532810203120019
+child0=646 child1=119
+Splitting feature "know" infogain=0.21220132752136256
+child0=115 child1=4
+Splitting feature "to" infogain=0.15068141205682828
+child0=70 child1=45
+Splitting feature "up" infogain=0.05374609911239614
+child0=547 child1=99
+Splitting feature "the" infogain=0.24774088181030274
+child0=41 child1=58
+Splitting feature "there" infogain=0.05875944267821831
+child0=515 child1=32
+Splitting feature "generally" infogain=0.015998061728239144
+child0=4810 child1=20
+Splitting feature "price" infogain=0.016637493217874555
+child0=4641 child1=169
+Splitting feature "worth" infogain=0.4924694244876885
+child0=133 child1=36
+Splitting feature "opted" infogain=0.018207639045199286
+child0=4619 child1=22
+===========  AdaBoostM2Trainer round 94 finished, pseudo-loss = 0.4832066441881106
+===========  AdaBoostM2Trainer round 95 begin
+Splitting feature "but" infogain=0.04879437223964134
+child0=4848 child1=747
+Splitting feature "this" infogain=0.04715144245895386
+child0=626 child1=121
+Splitting feature "know" infogain=0.16756763953194387
+child0=118 child1=3
+Splitting feature "not" infogain=0.15528752749993013
+child0=106 child1=12
+Splitting feature "up" infogain=0.06386325381632796
+child0=535 child1=91
+Splitting feature "small" infogain=0.22144056921861122
+child0=82 child1=9
+Splitting feature "outside" infogain=0.0587095252094878
+child0=507 child1=28
+Splitting feature "opted" infogain=0.01707551267522045
+child0=4830 child1=18
+Splitting feature "uses" infogain=0.015092505137303647
+child0=4796 child1=34
+Splitting feature "of" infogain=0.9366673818775625
+child0=22 child1=12
+Splitting feature "requires" infogain=0.014866970775919697
+child0=4784 child1=12
+===========  AdaBoostM2Trainer round 95 finished, pseudo-loss = 0.4846244892323632
+===========  AdaBoostM2Trainer round 96 begin
+Splitting feature "but" infogain=0.0475179709803728
+child0=4842 child1=753
+Splitting feature "this" infogain=0.04923779294566111
+child0=616 child1=137
+Splitting feature "ever" infogain=0.22910122675143407
+child0=125 child1=12
+Splitting feature "is" infogain=0.9798687566511528
+child0=7 child1=5
+Splitting feature "features" infogain=0.18827680852890905
+child0=111 child1=14
+Splitting feature "overall" infogain=0.05380100118978204
+child0=583 child1=33
+Splitting feature "to" infogain=0.3572053988705378
+child0=20 child1=13
+Splitting feature "size" infogain=0.05989929203989841
+child0=558 child1=25
+Splitting feature "acceptable" infogain=0.019142991955547695
+child0=4825 child1=17
+Splitting feature "bars" infogain=0.016439250263410754
+child0=4811 child1=14
+Splitting feature "much" infogain=0.014780766778269339
+child0=4674 child1=137
+===========  AdaBoostM2Trainer round 96 finished, pseudo-loss = 0.4868875547872643
+===========  AdaBoostM2Trainer round 97 begin
+Splitting feature "but" infogain=0.048692176771192974
+child0=4882 child1=713
+Splitting feature "this" infogain=0.047837769642309125
+child0=604 child1=109
+Splitting feature "know" infogain=0.18181317169561795
+child0=106 child1=3
+Splitting feature "to" infogain=0.1410517505075548
+child0=75 child1=31
+Splitting feature "so" infogain=0.05953718994571511
+child0=542 child1=62
+Splitting feature "it" infogain=0.38099595253114454
+child0=24 child1=38
+Splitting feature "size" infogain=0.06507484115842943
+child0=518 child1=24
+Splitting feature "acceptable" infogain=0.016404387082351368
+child0=4867 child1=15
+Splitting feature "generally" infogain=0.015490272613734701
+child0=4848 child1=19
+Splitting feature "pos" infogain=0.016775386725897512
+child0=1456 child1=3392
+===========  AdaBoostM2Trainer round 97 finished, pseudo-loss = 0.4861019077982509
+===========  AdaBoostM2Trainer round 98 begin
+Splitting feature "but" infogain=0.04376172066624062
+child0=4910 child1=685
+Splitting feature "this" infogain=0.056810966207265556
+child0=571 child1=114
+Splitting feature "x" infogain=0.1560262543317823
+child0=103 child1=11
+Splitting feature "that" infogain=0.1697158220565821
+child0=46 child1=57
+Splitting feature "mac" infogain=0.0615933889639233
+child0=544 child1=27
+Splitting feature "use" infogain=0.19715972342414934
+child0=24 child1=3
+Splitting feature "so" infogain=0.05753895873553416
+child0=501 child1=43
+Splitting feature "were" infogain=0.01682615180101088
+child0=4792 child1=118
+Splitting feature "too" infogain=0.4743454375622397
+child0=106 child1=12
+Splitting feature "so" infogain=0.4065588587634717
+child0=86 child1=20
+Splitting feature "generally" infogain=0.01678049605814591
+child0=4772 child1=20
+Splitting feature "very" infogain=0.016781191930693273
+child0=4478 child1=294
+===========  AdaBoostM2Trainer round 98 finished, pseudo-loss = 0.480107426060176
+===========  AdaBoostM2Trainer round 99 begin
+Splitting feature "but" infogain=0.042897052776098565
+child0=4846 child1=749
+Splitting feature "this" infogain=0.052475328590326775
+child0=629 child1=120
+Splitting feature "ever" infogain=0.16795355735199702
+child0=110 child1=10
+Splitting feature "is" infogain=0.7219280948873623
+child0=8 child1=2
+Splitting feature "features" infogain=0.14304428396610636
+child0=101 child1=9
+Splitting feature "tim" infogain=0.05507243324166944
+child0=615 child1=14
+Splitting feature "so" infogain=0.0589891843231003
+child0=561 child1=54
+Splitting feature "get" infogain=0.02095495533578573
+child0=4616 child1=230
+Splitting feature "am" infogain=0.37855145997654804
+child0=195 child1=35
+Splitting feature "toshiba" infogain=0.3159971329784247
+child0=33 child1=2
+Splitting feature "pay" infogain=0.3725863421041409
+child0=181 child1=14
+Splitting feature "generally" infogain=0.019646130091538705
+child0=4595 child1=21
+Splitting feature "reboot" infogain=0.017288522697887165
+child0=4582 child1=13
+===========  AdaBoostM2Trainer round 99 finished, pseudo-loss = 0.48385514374032057
+===========  AdaBoostM2Trainer round 100 begin
+Splitting feature "but" infogain=0.043211075501973006
+child0=4870 child1=725
+Splitting feature "did" infogain=0.053066255513278815
+child0=664 child1=61
+Splitting feature "in" infogain=0.3742760249587941
+child0=25 child1=36
+Splitting feature "me" infogain=0.4204484631347318
+child0=30 child1=6
+Splitting feature "software" infogain=0.9895875212220556
+child0=11 child1=14
+Splitting feature "be" infogain=0.06323339582869059
+child0=589 child1=75
+Splitting feature "thing" infogain=0.2729106325502486
+child0=62 child1=13
+Splitting feature "size" infogain=0.049983254286650736
+child0=560 child1=29
+Splitting feature "acceptable" infogain=0.017470657701835757
+child0=4854 child1=16
+Splitting feature "opted" infogain=0.016431407328338032
+child0=4833 child1=21
+Splitting feature "generally" infogain=0.01638830918147227
+child0=4815 child1=18
+===========  AdaBoostM2Trainer round 100 finished, pseudo-loss = 0.4852358338055581
+AdaBoostM2Trainer weight[weakLearner[0]]=0.46461290944178224
+AdaBoostM2Trainer weight[weakLearner[1]]=0.40949798610160815
+AdaBoostM2Trainer weight[weakLearner[2]]=0.38255867206173005
+AdaBoostM2Trainer weight[weakLearner[3]]=0.34751363913861577
+AdaBoostM2Trainer weight[weakLearner[4]]=0.3122098439542076
+AdaBoostM2Trainer weight[weakLearner[5]]=0.29370315080116677
+AdaBoostM2Trainer weight[weakLearner[6]]=0.2703684432408825
+AdaBoostM2Trainer weight[weakLearner[7]]=0.25404660466212636
+AdaBoostM2Trainer weight[weakLearner[8]]=0.23817475027125243
+AdaBoostM2Trainer weight[weakLearner[9]]=0.2339475228769967
+AdaBoostM2Trainer weight[weakLearner[10]]=0.22806231522341835
+AdaBoostM2Trainer weight[weakLearner[11]]=0.2105316497630069
+AdaBoostM2Trainer weight[weakLearner[12]]=0.22073139545594642
+AdaBoostM2Trainer weight[weakLearner[13]]=0.20148282529699668
+AdaBoostM2Trainer weight[weakLearner[14]]=0.19953597716209148
+AdaBoostM2Trainer weight[weakLearner[15]]=0.17706030613029344
+AdaBoostM2Trainer weight[weakLearner[16]]=0.22140771969103648
+AdaBoostM2Trainer weight[weakLearner[17]]=0.1712813488095178
+AdaBoostM2Trainer weight[weakLearner[18]]=0.16377775419443577
+AdaBoostM2Trainer weight[weakLearner[19]]=0.20744457605626584
+AdaBoostM2Trainer weight[weakLearner[20]]=0.15401525288372586
+AdaBoostM2Trainer weight[weakLearner[21]]=0.14637460302171523
+AdaBoostM2Trainer weight[weakLearner[22]]=0.1479319373932556
+AdaBoostM2Trainer weight[weakLearner[23]]=0.16756721172858363
+AdaBoostM2Trainer weight[weakLearner[24]]=0.1461020066945815
+AdaBoostM2Trainer weight[weakLearner[25]]=0.15067379839133144
+AdaBoostM2Trainer weight[weakLearner[26]]=0.156749396074052
+AdaBoostM2Trainer weight[weakLearner[27]]=0.1424462352989417
+AdaBoostM2Trainer weight[weakLearner[28]]=0.1546545988349048
+AdaBoostM2Trainer weight[weakLearner[29]]=0.14741178863827595
+AdaBoostM2Trainer weight[weakLearner[30]]=0.15175407209965278
+AdaBoostM2Trainer weight[weakLearner[31]]=0.13966524628373186
+AdaBoostM2Trainer weight[weakLearner[32]]=0.14154816323174269
+AdaBoostM2Trainer weight[weakLearner[33]]=0.10767979589240782
+AdaBoostM2Trainer weight[weakLearner[34]]=0.11198558920995381
+AdaBoostM2Trainer weight[weakLearner[35]]=0.11529505263168817
+AdaBoostM2Trainer weight[weakLearner[36]]=0.12930985582491905
+AdaBoostM2Trainer weight[weakLearner[37]]=0.12093927815335077
+AdaBoostM2Trainer weight[weakLearner[38]]=0.11087560328234902
+AdaBoostM2Trainer weight[weakLearner[39]]=0.11666876413478157
+AdaBoostM2Trainer weight[weakLearner[40]]=0.11533719428120985
+AdaBoostM2Trainer weight[weakLearner[41]]=0.10181551275075412
+AdaBoostM2Trainer weight[weakLearner[42]]=0.11749299632171203
+AdaBoostM2Trainer weight[weakLearner[43]]=0.09525888298233928
+AdaBoostM2Trainer weight[weakLearner[44]]=0.10922333051017032
+AdaBoostM2Trainer weight[weakLearner[45]]=0.14416568297182517
+AdaBoostM2Trainer weight[weakLearner[46]]=0.10089383220871266
+AdaBoostM2Trainer weight[weakLearner[47]]=0.08818147372794162
+AdaBoostM2Trainer weight[weakLearner[48]]=0.09958461971723076
+AdaBoostM2Trainer weight[weakLearner[49]]=0.09789470318231198
+AdaBoostM2Trainer weight[weakLearner[50]]=0.09161338649409648
+AdaBoostM2Trainer weight[weakLearner[51]]=0.08951666956347454
+AdaBoostM2Trainer weight[weakLearner[52]]=0.08319697905580628
+AdaBoostM2Trainer weight[weakLearner[53]]=0.08422658095992912
+AdaBoostM2Trainer weight[weakLearner[54]]=0.10273319359461773
+AdaBoostM2Trainer weight[weakLearner[55]]=0.09380356092247397
+AdaBoostM2Trainer weight[weakLearner[56]]=0.08288246973688435
+AdaBoostM2Trainer weight[weakLearner[57]]=0.08556480046365338
+AdaBoostM2Trainer weight[weakLearner[58]]=0.11009724168848717
+AdaBoostM2Trainer weight[weakLearner[59]]=0.07850960748861217
+AdaBoostM2Trainer weight[weakLearner[60]]=0.08498847497907074
+AdaBoostM2Trainer weight[weakLearner[61]]=0.08009026130357712
+AdaBoostM2Trainer weight[weakLearner[62]]=0.0965773719830294
+AdaBoostM2Trainer weight[weakLearner[63]]=0.0757445355205617
+AdaBoostM2Trainer weight[weakLearner[64]]=0.090382348569789
+AdaBoostM2Trainer weight[weakLearner[65]]=0.08362490545091376
+AdaBoostM2Trainer weight[weakLearner[66]]=0.0935103271142416
+AdaBoostM2Trainer weight[weakLearner[67]]=0.07951295262433597
+AdaBoostM2Trainer weight[weakLearner[68]]=0.0958894004892542
+AdaBoostM2Trainer weight[weakLearner[69]]=0.07903658676561581
+AdaBoostM2Trainer weight[weakLearner[70]]=0.0785181452833487
+AdaBoostM2Trainer weight[weakLearner[71]]=0.09696540373943047
+AdaBoostM2Trainer weight[weakLearner[72]]=0.07380525358268455
+AdaBoostM2Trainer weight[weakLearner[73]]=0.06469930235119845
+AdaBoostM2Trainer weight[weakLearner[74]]=0.0590986124774653
+AdaBoostM2Trainer weight[weakLearner[75]]=0.0843760670863866
+AdaBoostM2Trainer weight[weakLearner[76]]=0.05728295587482264
+AdaBoostM2Trainer weight[weakLearner[77]]=0.06495690687897519
+AdaBoostM2Trainer weight[weakLearner[78]]=0.07288874867052107
+AdaBoostM2Trainer weight[weakLearner[79]]=0.06290222743588082
+AdaBoostM2Trainer weight[weakLearner[80]]=0.07236085342818761
+AdaBoostM2Trainer weight[weakLearner[81]]=0.054912202064360156
+AdaBoostM2Trainer weight[weakLearner[82]]=0.06537568288248312
+AdaBoostM2Trainer weight[weakLearner[83]]=0.06453189796131695
+AdaBoostM2Trainer weight[weakLearner[84]]=0.0691168525037188
+AdaBoostM2Trainer weight[weakLearner[85]]=0.07457365179148749
+AdaBoostM2Trainer weight[weakLearner[86]]=0.05765975559600302
+AdaBoostM2Trainer weight[weakLearner[87]]=0.08308784248013878
+AdaBoostM2Trainer weight[weakLearner[88]]=0.07945295640495381
+AdaBoostM2Trainer weight[weakLearner[89]]=0.08459926610928009
+AdaBoostM2Trainer weight[weakLearner[90]]=0.05321315352550678
+AdaBoostM2Trainer weight[weakLearner[91]]=0.09133193399977411
+AdaBoostM2Trainer weight[weakLearner[92]]=0.06196835694471398
+AdaBoostM2Trainer weight[weakLearner[93]]=0.06719869906923377
+AdaBoostM2Trainer weight[weakLearner[94]]=0.061521440040261596
+AdaBoostM2Trainer weight[weakLearner[95]]=0.05246180983776544
+AdaBoostM2Trainer weight[weakLearner[96]]=0.05560669285232855
+AdaBoostM2Trainer weight[weakLearner[97]]=0.07961231850232658
+AdaBoostM2Trainer weight[weakLearner[98]]=0.06460188314214597
+AdaBoostM2Trainer weight[weakLearner[99]]=0.05907383803947973
