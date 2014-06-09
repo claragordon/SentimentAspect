@@ -1,4 +1,10 @@
-ass
+
+mallet_files/train
+mallet_files/test
+mallet_files/train.mallet
+mallet_files/test.mallet
+
+
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
