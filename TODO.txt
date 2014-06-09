@@ -3,7 +3,15 @@ adapt MRS code and parse data
 
 
 
-<<<<<<< HEAD
+
+perform sentiment term backoff on post-expansion
+take the expanded terms of the closest adj and let them vote according to lexicon (distnce = tree or word)
+how often if the sentiment of just the closest adj correct?
+
+try differnt things with how many aspects are in the sentence (if they are in a sentence with a but in between, make them different polarities)
+using the aspcet itself as a feature
+
+
 Jared
 expansion using word net √
 positional
@@ -21,8 +29,6 @@ Some kind of tree-based?
 unigram stopword removal
 
 
-=======
->>>>>>> 63c719fd042d442cfe1401d2641f8a8f01c38006
 Feature ideas
 bi-, trigrams
 POS tags (alone and appended) ngrams
@@ -42,12 +48,10 @@ stemming
 positional - relative to other aspects or adjective or clue word or start of sentence
 
 DEEP:
-<<<<<<< HEAD
+
 tree based
     distance from root
-=======
 tree based - position relative to root?
->>>>>>> d8ec78cab179c61adbb676796a817fbe149be09e
 
 
 

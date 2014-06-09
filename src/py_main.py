@@ -5,7 +5,7 @@ import nltk
 from nltk.corpus import wordnet as wn
 import re
 import string
-from stat_parser import Parser
+# from stat_parser import Parser
 
 if len(sys.argv) > 1:
     train, test = sys.argv[1], sys.argv[2]
@@ -23,22 +23,53 @@ else:
     sentistength_file = open('../lib/EmotionLookupTable.txt', 'r')
     stoplist_file = open('../lib/stoplist.txt', 'r')
 
+#TODO
 
+# threshold create, need to make use of it
+# add pos_grams method
+# add more positional features (distance from start, distance from other aspects,
+# aspects as feature (already added?)
+
+# presence/absence of but ort something clever with the number of aspects and conjunctions
+
+# number of negation terms in sentence (or window)
+# number of other valence shifters (if we can find a list of them somewhere)
+# improve the negation
+# stemming/lemmatizating?
+# other kinds of expansion?
+# character n-grams
 
 # sent_terms = defaultdict(set)
 pos_terms = ''
 neg_terms = ''
 stopwords = set()
+allowed_words = set() # words with freq above a certain threshold
+
+def pos_grams():
+    return
+
+def threshold(train, test, threshold):
+    counts = defaultdict(int)
+    for sentence in train:
+        words = nltk.word_tokenize(sentence.encode('utf-8'))
+        for word in words:
+            counts[word] += 1
+
+    for sentence in test:
+        words = nltk.word_tokenize(sentence.encode('utf-8'))
+        for word in words:
+            counts[word] += 1
+
+    for word in counts:
+        if counts[word] > threshold:
+            allowed_words.add(word)
 
 
-
-
-# return the location of the aspect in the sentence (location = words away from from)
+# return the location of the aspect in the sentence (location = words away from from sentence start)
 def aspect_loc(sentence, aspect):
     sentence = sentence.encode('utf-8')
     aspect = aspect[0].encode('utf-8')
     return len(sentence.split(aspect)[0].split())
-
 
 # return the closest adjective (distance = words away), also return the polarity of that adj
 # returns a tuple of (distance to closest adj, (word, POS))
@@ -72,14 +103,25 @@ def sentence_stats(sentence):
     # print result
 
     result = result + "cap_count:"+str(len([c for c in sentence if c.isupper()]))+" " # number of capital letters in sentence
-
     result = result + "punc_count:"+str(len([c for c in sentence if c in string.punctuation]))+" " # number of punctuation marks in sentence
 
-    return result
+    # pos ratios: nn/jj and vb/rb
+    nn, jj, vb, rb, = 0.0, 0.0, 0.0, 0.0
+    for pos in pos_counts:
+        if 'NN' in pos:
+            nn += pos_counts[pos]
+        if 'JJ' in pos:
+            jj += pos_counts[pos]
+        if 'VB' in pos:
+            vb += pos_counts[pos]
+        if 'RB' in pos:
+            rb += pos_counts[pos]
 
-# prepend NOT
-def negate():
-    return
+    if jj != 0:
+        result = result + "nn_jj_ratio:" + str(nn/jj)+" "
+    if rb != 0:
+        result = result + "vb_rb_ratio:" + str(vb/rb)+" "
+    return result
 
 def negate_sequence(sentence):
     sentence = sentence.encode('utf-8')
@@ -126,7 +168,6 @@ def load_sentistrength(file):
         else:
             neg_terms += term + '|'
             # sent_terms['neg'].add(term)
-
 
     return pos_terms[:-1], neg_terms[:-1]
 
@@ -225,17 +266,16 @@ def ngrams_window(sentence, aspect, start, end, n, window, backoff=False, stopwo
 
     return ' '.join(first_half) + ' ' + ' '.join(second_half)
 
-
+# this now returns a tuple of the result and also a set of all synonyms
 def wordnet_expansion(sentence):
 
     results = ''
-
     text = nltk.word_tokenize(sentence.encode("utf-8"))
     seen = set()
     pos = nltk.pos_tag(text)
     for tup in pos:
         # print tup
-        if tup[1] in ['JJ', 'RB']: # or adv?
+        if tup[1] in ['JJ']:
             if len(wn.synsets(tup[0])) > 0:
                 syn = wn.synsets(tup[0]) #first synset for adjective
                 for lemma in syn:
@@ -244,11 +284,16 @@ def wordnet_expansion(sentence):
                         results += lemma.name.split(".")[0]+":"+'1 '
                         seen.add(lemma.name.split(".")[0])
 
+<<<<<<< HEAD
     return results
 
 def aspect_feat(aspect):
     result = 'aspect=' + '_'.join(aspect[0].encode('utf-8').split()) + ' '
     return result
+=======
+    return (results, seen)
+
+>>>>>>> 336de3ee92803d941248106f914c29a08e0a1dae
 
 # takes a file name and returns a dict of text -> list of aspect tuples
 def read_data(data_file):
@@ -267,6 +312,20 @@ def read_data(data_file):
 
     return data
 
+def post_expansion_backoff(sentence):
+    result = ''
+    terms = wordnet_expansion(sentence)[1]
+    counts = defaultdict(int)
+    for term in terms:
+        counts[sentistrength_expansion(term)] += 1
+        # result += sentistrength_expansion(term)+":1 "
+    for k in counts:
+        result += k+":"+str(counts[k])+" "
+    return result
+
+def other_thesaurus_expansion():
+    return
+
 # aspect_tuple = (text, polarity, from, to)
 def process_file(dict, out_file):
     
@@ -277,6 +336,27 @@ def process_file(dict, out_file):
         for aspect in dict[sentence]:
             out_file.write('Aspect' + str(counter) + ' ' + aspect[1].encode('utf-8')+" ") # write label
 
+####### Jared's experiments
+
+            # expanding by adding synonyms of adjectives
+            # out_file.write(wordnet_expansion(sentence)[0])
+
+            # write every unigram from the sentence
+            # out_file.write(ngrams_dumb(sentence, 1, False))
+
+            # post expansion sentiment term back-off
+            # out_file.write(post_expansion_backoff(sentence))
+
+            # write every bigram from the sentence
+            # out_file.write(ngrams_dumb(sentence, 2, False))
+
+            # write window ngrams
+            # out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 7, False))
+
+            # write sentence stats
+            # out_file.write(sentence_stats(sentence))
+
+####### Clara's experiments
 
             # DUMB NGRAMS
 
@@ -306,7 +386,11 @@ def process_file(dict, out_file):
 
             # WINDOW NGRAMS
 
+<<<<<<< HEAD
             #out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 20, distance=True))
+=======
+            # out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 20, distance=True))
+>>>>>>> 336de3ee92803d941248106f914c29a08e0a1dae
 
             # write window ngrams
             #out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 5))
@@ -320,8 +404,10 @@ def process_file(dict, out_file):
             # # write window unigrams, sentiment backoff
             # out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 7, backoff=True, stopword=True ))
 
+
             # # expanding by adding synonyms of adjectives
             #out_file.write(wordnet_expansion(sentence))
+
 
             #
             # # write sentence stats
@@ -334,13 +420,6 @@ def process_file(dict, out_file):
             # out_file.write("distance:"+str(aspect_loc(sentence, aspect))+" ")
             #
 
-
-
-
-
-
-
-
             counter += 1
 
             out_file.write("\n")
@@ -348,14 +427,23 @@ def process_file(dict, out_file):
 # main
 
 
+
 pos_terms, neg_terms = load_sentistrength(sentistength_file)
 stoplist = load_stopwords(stoplist_file)
+neg_words = ["no", "not", "can't", "cannot", "never", "won't", "shouldn't", "don't", "nothing", "non", "isn't", "aint", "doesn't", "couldn't", "shouldn't", "without", "minus", "sans", "nor", "neither", "nought"]
+intensifiers = ["so", "very", "super", "extremely", "uber", "so many", "unbelievably", "ridiculously", "really", "so much", "high", "highly", "absolutely", "pretty", "totally", "completely", ]
+diminishers = ["little", "barely", "hardly", "not even", "only", "partially", "somewhat"]
+swear_words = ["fuck", "shit", "damn", "fucking", "goddamn", "bitch", "fuckin", "freaking", "dang", "ass", "dick"]
+
+
 
 train = read_data(train)
 test = read_data(test)
 
 train_out = open(train_out, 'w')
 test_out = open(test_out, 'w')
+
+threshold(train, test, 5)
 
 process_file(train, train_out)
 process_file(test, test_out)
