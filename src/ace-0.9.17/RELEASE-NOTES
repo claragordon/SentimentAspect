@@ -1,0 +1,23 @@
+Release notes for ACE version 0.9
+
+LICENSE:
+This package is released under the MIT license.  See the attached file named 'LICENSE' for details.
+
+GRAMMAR SUPPORT:
+ACE has been extensively tested with many versions of the English Resource Grammar (ERG).  Limited testing with other grammars has been largely successful, but your mileage may vary.
+
+PARSING:
+ACE supports token mapping and lexical filtering
+ACE supports idiom checking
+ACE has a built-in part-of-speech tagger
+ACE has built-in REPP support
+
+GENERATING:
+ACE requires results to be subsumed by input MRS (when reconstructed without specializations)
+ACE has no support for generation-specific reranking
+ACE has no support for generating from unknown predicates like _frobinate_v_1_rel
+There are small differences in string post-processing
+
+MRS PROCESSING:
+ACE inputs and outputs the simple text-based MRS format
+ACE has no support for the XML-based MRX format
