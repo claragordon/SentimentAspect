@@ -283,17 +283,11 @@ def wordnet_expansion(sentence):
                         # print str(lemma.name.split(".")[0])
                         results += lemma.name.split(".")[0]+":"+'1 '
                         seen.add(lemma.name.split(".")[0])
-
-<<<<<<< HEAD
-    return results
+    return (results, seen)
 
 def aspect_feat(aspect):
     result = 'aspect=' + '_'.join(aspect[0].encode('utf-8').split()) + ' '
     return result
-=======
-    return (results, seen)
-
->>>>>>> 336de3ee92803d941248106f914c29a08e0a1dae
 
 # takes a file name and returns a dict of text -> list of aspect tuples
 def read_data(data_file):
@@ -384,13 +378,6 @@ def process_file(dict, out_file):
             # out_file.write(ngrams_dumb(sentence, aspect, 2))
             # out_file.write(ngrams_dumb(sentence, aspect, 3))
 
-            # WINDOW NGRAMS
-
-<<<<<<< HEAD
-            #out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 20, distance=True))
-=======
-            # out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 20, distance=True))
->>>>>>> 336de3ee92803d941248106f914c29a08e0a1dae
 
             # write window ngrams
             #out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 5))
