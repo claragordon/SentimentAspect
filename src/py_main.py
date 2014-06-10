@@ -5,6 +5,7 @@ import nltk
 from nltk.corpus import wordnet as wn
 import re
 import string
+from nltk.stem.porter import *
 # from stat_parser import Parser
 
 if len(sys.argv) > 1:
@@ -14,6 +15,7 @@ if len(sys.argv) > 1:
     sentistength_file = open('lib/EmotionLookupTable.txt', 'r')
     # citation: http://jmlr.org/papers/volume5/lewis04a/a11-smart-stop-list/english.stop
     stoplist_file = open('lib/stoplist.txt', 'r')
+    swear_file =open('lib/swearWords.txt', 'r')
 
 else:
     train = '../data/train/laptop--train.xml'
@@ -22,22 +24,19 @@ else:
     test_out = "../mallet_files/test"
     sentistength_file = open('../lib/EmotionLookupTable.txt', 'r')
     stoplist_file = open('../lib/stoplist.txt', 'r')
+    swear_file =open('../lib/swearWords.txt', 'r')
 
 #TODO
 
-# threshold create, need to make use of it
-# add pos_grams method
-# add more positional features (distance from start, distance from other aspects,
 # aspects as feature (already added?)
 
-# presence/absence of but ort something clever with the number of aspects and conjunctions
+# presence/absence of but or something clever with the number of aspects and conjunctions
 
 # number of negation terms in sentence (or window)
 # number of other valence shifters (if we can find a list of them somewhere)
 # improve the negation
-# stemming/lemmatizating?
 # other kinds of expansion?
-# character n-grams
+
 
 # sent_terms = defaultdict(set)
 pos_terms = ''
@@ -45,8 +44,6 @@ neg_terms = ''
 stopwords = set()
 allowed_words = set() # words with freq above a certain threshold
 
-def pos_grams():
-    return
 
 def threshold(train, test, threshold):
     counts = defaultdict(int)
@@ -67,9 +64,26 @@ def threshold(train, test, threshold):
 
 # return the location of the aspect in the sentence (location = words away from from sentence start)
 def aspect_loc(sentence, aspect):
+    result = ''
     sentence = sentence.encode('utf-8')
-    aspect = aspect[0].encode('utf-8')
-    return len(sentence.split(aspect)[0].split())
+    aspect = aspect[0].encode('utf-8').split()[0]
+
+    result += "distance:"+str(len(sentence.split(aspect)[0].split()))+" "
+    # toks = nltk.word_tokenize(sentence.encode('utf-8'))
+    # print aspect
+    # print toks
+    # index = toks.index(aspect)
+    front = len(sentence.split(aspect)[0])
+    back = len(sentence.split(aspect)[1])
+
+    if front < 4:
+        result += "first_four:1 "
+    elif back < 4:
+        result += "last_four:1 "
+    else:
+        result += "middle:1 "
+    return result
+
 
 # return the closest adjective (distance = words away), also return the polarity of that adj
 # returns a tuple of (distance to closest adj, (word, POS))
@@ -172,8 +186,11 @@ def load_sentistrength(file):
     return pos_terms[:-1], neg_terms[:-1]
 
 
-def load_stopwords(file):
+def load_swear_words(file):
+    data = file.read().strip().split("\n")
+    return data
 
+def load_stopwords(file):
     stopword_temp = set()
     for line in file:
         stopword_temp.add(line.strip())
@@ -190,7 +207,7 @@ def sentistrength_expansion(term):
         return term
 
 
-def assemble_ngrams(toks, n, backoff, stopword, POS, aspect_replace):
+def assemble_ngrams(toks, n, backoff, stopword, POS, aspect_replace, threshold):
 
     results = ''
     counts = defaultdict(int)
@@ -207,15 +224,37 @@ def assemble_ngrams(toks, n, backoff, stopword, POS, aspect_replace):
 
     for item in counts:
         count = counts[item]
-        if not stopword or (stopword and not item in stoplist):
-            # remove punc-only tokens
-            if not re.match(r'\W+', item):
-                results += item.lower() + ':' + str(count) + ' '
+        if not threshold or (threshold and item in allowed_words):
+            if not stopword or (stopword and not item in stoplist):
+                # remove punc-only tokens
+                if not re.match(r'\W+', item):
+                    results += item.lower() + ':' + str(count) + ' '
 
     return results
 
 
-def ngrams_dumb(sentence, aspect, n, backoff=False, stopword=False, POS=False, aspect_replace=False):
+def char_grams(sentence, aspect, n, backoff=False, stopword=False, POS=False, aspect_replace=False, threshold=False):
+    sentence = sentence.encode('utf-8')
+    sentence = sentence.replace(" ", '@')
+    toks = list(sentence)
+    return assemble_ngrams(toks, n, backoff, stopword, POS, aspect_replace, threshold)
+
+def pos_grams(sentence, aspect, n, backoff=False, stopword=False, POS=False, aspect_replace=False, threshold=False):
+    sentence = sentence.encode('utf-8')
+    sentence = nltk.word_tokenize(sentence)
+    tagged = nltk.pos_tag(sentence)
+    toks = [item[1] for item in tagged]
+    return assemble_ngrams(toks, n, backoff, stopword, POS, aspect_replace, threshold)
+
+def stem_sentence(sentence):
+    stemmer = PorterStemmer()
+    # sentence = sentence.encode('utf-8')
+    result = ''
+    for word in nltk.word_tokenize(sentence):
+        result += stemmer.stem(word) + " "
+    return result
+
+def ngrams_dumb(sentence, aspect, n, backoff=False, stopword=False, POS=False, aspect_replace=False, threshold=False):
 
     toks = []
 
@@ -228,10 +267,10 @@ def ngrams_dumb(sentence, aspect, n, backoff=False, stopword=False, POS=False, a
             toks.append(item[0] + '_' + item[1])
     else:
         toks = nltk.word_tokenize(sentence.encode('utf-8'))
-    return assemble_ngrams(toks, n, backoff, stopword, POS, aspect_replace)
+    return assemble_ngrams(toks, n, backoff, stopword, POS, aspect_replace, threshold)
 
 
-def ngrams_window(sentence, aspect, start, end, n, window, backoff=False, stopword=False, POS=False, aspect_replace=False, distance=False):
+def ngrams_window(sentence, aspect, start, end, n, window, backoff=False, stopword=False, POS=False, aspect_replace=False, distance=False, threshold=False):
 
     # pos_mappings = {}
     # if POS:
@@ -261,8 +300,8 @@ def ngrams_window(sentence, aspect, start, end, n, window, backoff=False, stopwo
     if len(second_half) > window:
         second_half = second_half[:len(second_half) - window + 1]
 
-    first_half = ['before_' + k for k in assemble_ngrams(first_half, n, backoff, stopword, POS, aspect_replace).split()]
-    second_half = ['after_' + k for k in assemble_ngrams(second_half, n, backoff, stopword, POS, aspect_replace).split()]
+    first_half = ['before_' + k for k in assemble_ngrams(first_half, n, backoff, stopword, POS, aspect_replace, threshold).split()]
+    second_half = ['after_' + k for k in assemble_ngrams(second_half, n, backoff, stopword, POS, aspect_replace, threshold).split()]
 
     return ' '.join(first_half) + ' ' + ' '.join(second_half)
 
@@ -315,12 +354,27 @@ def post_expansion_backoff(sentence):
         result += k+":"+str(counts[k])+" "
     return result
 
-def other_thesaurus_expansion():
-    return
+def swear_count(sentence):
+    sentence = nltk.word_tokenize(sentence.encode('utf-8'))
+    return "swear_count:"+str(len([word for word in sentence if word in swear_words]))+" "
+
+def swear_near(sentence, aspect):
+    sentence = sentence.encode('utf-8')
+    aspect = aspect[0].encode('utf-8').split()[0]
+
+    front = sentence.split(aspect)[0].split()[-3:]
+    back = sentence.split(aspect)[1].split()[:3]
+
+    if any(word for word in front if word in swear_words):
+        return "swear_near:1 "
+    elif any(word for word in back if word in swear_words):
+        return "swear_near:1 "
+    else:
+        return "swear_near:0 "
 
 # aspect_tuple = (text, polarity, from, to)
 def process_file(dict, out_file):
-    
+
     counter = 0
 
     for sentence in dict:
@@ -352,8 +406,24 @@ def process_file(dict, out_file):
 
             # DUMB NGRAMS
 
+
+            # stemming
+            # sentence = stem_sentence(sentence)
+
+            # swear word count
+            # out_file.write(swear_count(sentence))
+
+            # swear word within three toekns of aspect, binary feature
+            out_file.write(swear_near(sentence, aspect))
+
+            # pos grams
+            # out_file.write(pos_grams(sentence, aspect, 3))
+
+            # character grams
+            # out_file.write(char_grams(sentence, aspect, 8))
+
             # write every unigram from the sentence
-            # out_file.write(ngrams_dumb(sentence, aspect, 1))
+            # out_file.write(ngrams_dumb(sentence, aspect, 1, threshold=False))
             #
             # #write every unigram from the sentence, stopword removal
             # out_file.write(ngrams_dumb(sentence, aspect, 1, stopword=True))
@@ -402,8 +472,7 @@ def process_file(dict, out_file):
             # out_file.write(negate_sequence(sentence))
             #
             # # write position of aspect in sentence
-            # out_file.write("distance:"+str(aspect_loc(sentence, aspect))+" ")
-            #
+            out_file.write(aspect_loc(sentence, aspect))
 
             counter += 1
 
@@ -418,8 +487,8 @@ stoplist = load_stopwords(stoplist_file)
 neg_words = ["no", "not", "can't", "cannot", "never", "won't", "shouldn't", "don't", "nothing", "non", "isn't", "aint", "doesn't", "couldn't", "shouldn't", "without", "minus", "sans", "nor", "neither", "nought"]
 intensifiers = ["so", "very", "super", "extremely", "uber", "so many", "unbelievably", "ridiculously", "really", "so much", "high", "highly", "absolutely", "pretty", "totally", "completely", ]
 diminishers = ["little", "barely", "hardly", "not even", "only", "partially", "somewhat"]
-swear_words = ["fuck", "shit", "damn", "fucking", "goddamn", "bitch", "fuckin", "freaking", "dang", "ass", "dick"]
-
+# swear_words = ["fuck", "shit", "damn", "fucking", "goddamn", "bitch", "fuckin", "freaking", "dang", "ass", "dick"]
+swear_words = load_swear_words(swear_file)
 
 
 train = read_data(train)
