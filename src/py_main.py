@@ -374,6 +374,23 @@ def swear_near(sentence, aspect):
     else:
         return "swear_near:0 "
 
+
+def other_aspects(sentence, all_aspects, aspect):
+
+    results = ''
+
+
+    for asp_candidate in all_aspects:
+        if not asp_candidate[0] == aspect[0]:
+            results += aspect[0] + '_' + str(abs(int(asp_candidate[2]) - int(aspect[2]))) + ' '
+
+    return results.encode('utf-8')
+
+
+
+
+
+
 # aspect_tuple = (text, polarity, from, to)
 def process_file(dict, out_file):
 
