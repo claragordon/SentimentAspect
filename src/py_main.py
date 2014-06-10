@@ -322,9 +322,11 @@ def wordnet_expansion(sentence):
                         # print str(lemma.name.split(".")[0])
                         results += lemma.name.split(".")[0]+":"+'1 '
                         seen.add(lemma.name.split(".")[0])
-
     return (results, seen)
 
+def aspect_feat(aspect):
+    result = 'aspect=' + '_'.join(aspect[0].encode('utf-8').split()) + ' '
+    return result
 
 # takes a file name and returns a dict of text -> list of aspect tuples
 def read_data(data_file):
@@ -425,6 +427,9 @@ def process_file(dict, out_file):
             # write every unigram from the sentence
             # out_file.write(ngrams_dumb(sentence, aspect, 1, threshold=False))
             #
+            # print aspect_feat(aspect)
+            out_file.write(aspect_feat(aspect))
+            #
             # #write every unigram from the sentence, stopword removal
             # out_file.write(ngrams_dumb(sentence, aspect, 1, stopword=True))
             #
@@ -439,13 +444,10 @@ def process_file(dict, out_file):
 
 
             # write every unigram from the sentence
-            # out_file.write(ngrams_dumb(sentence, aspect, 1, backoff=True))
-            # out_file.write(ngrams_dumb(sentence, aspect, 2, backoff=True))
-            # out_file.write(ngrams_dumb(sentence, aspect, 3, backoff=True))
+            out_file.write(ngrams_dumb(sentence, aspect, 1, POS=True))
+            # out_file.write(ngrams_dumb(sentence, aspect, 2))
+            # out_file.write(ngrams_dumb(sentence, aspect, 3))
 
-            # WINDOW NGRAMS
-
-            # out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 20, distance=True))
 
             # write window ngrams
             #out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 5))
