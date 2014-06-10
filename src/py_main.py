@@ -28,7 +28,6 @@ else:
 
 #TODO
 
-# aspects as feature (already added?)
 
 # presence/absence of but or something clever with the number of aspects and conjunctions
 
@@ -61,6 +60,10 @@ def threshold(train, test, threshold):
         if counts[word] > threshold:
             allowed_words.add(word)
 
+
+def count_neg(sentence):
+    sentence = nltk.word_tokenize(sentence.encode('utf-8'))
+    return "neg_count:"+str(len([word for word in sentence if word in neg_words]))+" "
 
 # return the location of the aspect in the sentence (location = words away from from sentence start)
 def aspect_loc(sentence, aspect):
@@ -164,9 +167,60 @@ def negate_sequence(sentence):
 
     return result
 
-# prepend VERY or BARELY, can't find a list of these, don't want to build one, acl wiki is down at the moment
-def valence_shifters():
-    return
+# prepend VERY
+def intensify_sequence(sentence):
+    sentence = sentence.encode('utf-8')
+    negation = False
+    delims = "?.,!:;"
+    negated_sequence = []
+    words = sentence.split()
+
+    for word in words:
+        # stripped = word.strip(delchars)
+        stripped = word.strip(delims).lower()
+        negated = "very_" + stripped if negation else stripped #put in not_prepended if state is negative, regular if not
+        negated_sequence.append(negated)
+
+        # flip negation if another negator is encountered
+        if word in intensifiers:
+            negation = not negation
+
+        # flip negation if a delimiter is encountered
+        if any(c in word for c in delims):
+            negation = False
+
+    result = ''
+    for word in negated_sequence:
+        result = result+word+":1 "
+    return result
+
+# prepend BARELY
+def diminish_sequence(sentence):
+    sentence = sentence.encode('utf-8')
+    negation = False
+    delims = "?.,!:;"
+    negated_sequence = []
+    words = sentence.split()
+
+    for word in words:
+        # stripped = word.strip(delchars)
+        stripped = word.strip(delims).lower()
+        negated = "barely_" + stripped if negation else stripped #put in not_prepended if state is negative, regular if not
+        negated_sequence.append(negated)
+
+        # flip negation if another negator is encountered
+        if word in diminishers:
+            negation = not negation
+
+        # flip negation if a delimiter is encountered
+        if any(c in word for c in delims):
+            negation = False
+
+    result = ''
+    for word in negated_sequence:
+        result = result+word+":1 "
+
+    return result
 
 def load_sentistrength(file):
     pos_terms = ''
@@ -403,6 +457,16 @@ def process_file(dict, out_file):
 
 ####### Jared's experiments
 
+
+            # prepend barely
+            # out_file.write(diminish_sequence(sentence))
+
+            # prepend barely
+            # out_file.write(intensify_sequence(sentence))
+
+            # neg_count
+            # out_file.write(count_neg(sentence))
+
             # expanding by adding synonyms of adjectives
             # out_file.write(wordnet_expansion(sentence)[0])
 
@@ -433,7 +497,7 @@ def process_file(dict, out_file):
             # out_file.write(swear_count(sentence))
 
             # swear word within three toekns of aspect, binary feature
-            out_file.write(swear_near(sentence, aspect))
+            # out_file.write(swear_near(sentence, aspect))
 
             # pos grams
             # out_file.write(pos_grams(sentence, aspect, 3))
@@ -445,7 +509,7 @@ def process_file(dict, out_file):
             # out_file.write(ngrams_dumb(sentence, aspect, 1, threshold=False))
             #
             # print aspect_feat(aspect)
-            out_file.write(aspect_feat(aspect))
+            # out_file.write(aspect_feat(aspect))
             #
             # #write every unigram from the sentence, stopword removal
             # out_file.write(ngrams_dumb(sentence, aspect, 1, stopword=True))
@@ -461,7 +525,7 @@ def process_file(dict, out_file):
 
 
             # write every unigram from the sentence
-            out_file.write(ngrams_dumb(sentence, aspect, 1, POS=True))
+            # out_file.write(ngrams_dumb(sentence, aspect, 1, POS=True))
             # out_file.write(ngrams_dumb(sentence, aspect, 2))
             # out_file.write(ngrams_dumb(sentence, aspect, 3))
 
@@ -491,7 +555,7 @@ def process_file(dict, out_file):
             # out_file.write(negate_sequence(sentence))
             #
             # # write position of aspect in sentence
-            out_file.write(aspect_loc(sentence, aspect))
+            # out_file.write(aspect_loc(sentence, aspect))
 
             counter += 1
 
@@ -505,8 +569,7 @@ pos_terms, neg_terms = load_sentistrength(sentistength_file)
 stoplist = load_stopwords(stoplist_file)
 neg_words = ["no", "not", "can't", "cannot", "never", "won't", "shouldn't", "don't", "nothing", "non", "isn't", "aint", "doesn't", "couldn't", "shouldn't", "without", "minus", "sans", "nor", "neither", "nought"]
 intensifiers = ["so", "very", "super", "extremely", "uber", "so many", "unbelievably", "ridiculously", "really", "so much", "high", "highly", "absolutely", "pretty", "totally", "completely", ]
-diminishers = ["little", "barely", "hardly", "not even", "only", "partially", "somewhat"]
-# swear_words = ["fuck", "shit", "damn", "fucking", "goddamn", "bitch", "fuckin", "freaking", "dang", "ass", "dick"]
+diminishers = ["little", "barely", "hardly", "not even", "only", "partially", "somewhat", "kind of", "kinda", "a bit", "a little"]
 swear_words = load_swear_words(swear_file)
 
 
