@@ -502,7 +502,6 @@ def process_file(dict, out_file):
         for aspect in dict[sentence]:
             out_file.write('Aspect' + str(counter) + ' ' + aspect[1].encode('utf-8')+" ") # write label
 
-<<<<<<< HEAD
             # # INDIVIDUAL FEATURE TESTS
             #
             # 1
@@ -613,64 +612,10 @@ def process_file(dict, out_file):
             # out_file.write(sentence_stats(sentence))
             #
             # #33
-=======
-####### Jared's experiments
-
-
-            # prepend barely
-            # out_file.write(diminish_sequence(sentence))
-
-            # prepend barely
-            # out_file.write(intensify_sequence(sentence))
-
-            # neg_count
-            # out_file.write(count_neg(sentence))
-
-            # expanding by adding synonyms of adjectives
->>>>>>> b45ca615962e5a1272afc0a48da41369cbdba73b
             # out_file.write(wordnet_expansion(sentence)[0])
             #
             # #34
             # out_file.write(post_expansion_backoff(sentence))
-<<<<<<< HEAD
-            #
-=======
-
-            # write every bigram from the sentence
-            # out_file.write(ngrams_dumb(sentence, 2, False))
-
-            # write window ngrams
-            # out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 7, False))
-
-            # write sentence stats
-            # out_file.write(sentence_stats(sentence))
-
-####### Clara's experiments
-
-            # DUMB NGRAMS
-
-
-            # stemming
-            # sentence = stem_sentence(sentence)
-
-            # swear word count
-            # out_file.write(swear_count(sentence))
-
-            # swear word within three toekns of aspect, binary feature
-            # out_file.write(swear_near(sentence, aspect))
-
-            # pos grams
-            # out_file.write(pos_grams(sentence, aspect, 3))
-
-            # character grams
-            # out_file.write(char_grams(sentence, aspect, 8))
-
-            # write every unigram from the sentence
-            # out_file.write(ngrams_dumb(sentence, aspect, 1, threshold=False))
-            #
-            # print aspect_feat(aspect)
-            # out_file.write(aspect_feat(aspect))
->>>>>>> b45ca615962e5a1272afc0a48da41369cbdba73b
             #
             # # WINDOW TESTS
             #
@@ -680,26 +625,13 @@ def process_file(dict, out_file):
             # 36
             # out_file.write(ngrams(sentence, aspect, 1, window=4))
             #
-<<<<<<< HEAD
             # 37
             # out_file.write(ngrams(sentence, aspect, 1, window=6))
             #
             # 38
             # out_file.write(ngrams(sentence, aspect, 1, window=8))
-=======
             # # write every bigram from the sentence
             # out_file.write(ngrams_dumb(sentence, aspect, 2))
-
-
-            # write every unigram from the sentence
-            # out_file.write(ngrams_dumb(sentence, aspect, 1, POS=True))
-            # out_file.write(ngrams_dumb(sentence, aspect, 2))
-            # out_file.write(ngrams_dumb(sentence, aspect, 3))
-
-
-            # write window ngrams
-            #out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 5))
->>>>>>> b45ca615962e5a1272afc0a48da41369cbdba73b
 
             #39
             # stemmed = stem_sentence(sentence)
@@ -739,7 +671,6 @@ def process_file(dict, out_file):
             # out_file.write(ngrams(dimin, aspect, 1, window=7))
             #
             #
-<<<<<<< HEAD
             # out_file.write(ngrams(sentence, aspect, 1, window=7, distance=True))
             #
             # out_file.write(ngrams(sentence, aspect, 1, window=7, POS=True))
@@ -789,10 +720,9 @@ def process_file(dict, out_file):
             # stemmed = stem_sentence(sentence)
             # out_file.write(ngrams(stemmed, aspect, 1, window=7))
             # out_file.write(aspect_feat(aspect))
-=======
             # # write position of aspect in sentence
             # out_file.write(aspect_loc(sentence, aspect))
->>>>>>> b45ca615962e5a1272afc0a48da41369cbdba73b
+
 
             counter += 1
 
