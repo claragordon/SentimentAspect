@@ -6,6 +6,7 @@ from nltk.corpus import wordnet as wn
 import re
 import string
 from nltk.stem.porter import *
+from mrs_features import *
 # from stat_parser import Parser
 
 if len(sys.argv) > 1:
@@ -44,6 +45,60 @@ neg_terms = ''
 stopwords = set()
 allowed_words = set() # words with freq above a certain threshold
 
+# takes a file name and returns a dict of text -> list of aspect tuples
+def read_data(data_file):
+
+    data = defaultdict(list)
+
+    xml = ET.parse(data_file)
+    root = xml.getroot()
+
+    for sentence in root.iter('sentence'):
+        text = sentence.find('text').text
+        aspects = sentence.find('aspectTerms').findall('aspectTerm')
+        if aspects != None:
+            for aspect in aspects:
+
+                # get word-tokenized indices of start and end of aspect range
+                start = len(nltk.word_tokenize(text.split(aspect.get('term'))[0]))
+                end = start + len(nltk.word_tokenize(aspect.get('term'))) - 1
+
+                data[text].append((aspect.get('term'), aspect.get('polarity'), start, end, aspect.get('from'), aspect.get('to')))
+
+    return data
+
+
+
+# load data from outside resources
+
+def load_sentistrength(file):
+    pos_terms = ''
+    neg_terms = ''
+
+
+    for line in file:
+        split = line.split('\t')
+        term = split[0].replace('*', '\w*')
+        if int(split[1]) > 0:
+            pos_terms += term + '|'
+            #sent_terms['pos'].add(term)
+        else:
+            neg_terms += term + '|'
+            # sent_terms['neg'].add(term)
+
+    return pos_terms[:-1], neg_terms[:-1]
+
+
+def load_swear_words(file):
+    data = file.read().strip().split("\n")
+    return data
+
+def load_stopwords(file):
+    stopword_temp = set()
+    for line in file:
+        stopword_temp.add(line.strip())
+    return stopword_temp
+
 
 def threshold(train, test, threshold):
     counts = defaultdict(int)
@@ -66,15 +121,10 @@ def threshold(train, test, threshold):
 def aspect_loc(sentence, aspect):
     result = ''
     sentence = sentence.encode('utf-8')
-    aspect = aspect[0].encode('utf-8').split()[0]
+    s_len = len(nltk.word_tokenize(sentence))
 
-    result += "distance:"+str(len(sentence.split(aspect)[0].split()))+" "
-    # toks = nltk.word_tokenize(sentence.encode('utf-8'))
-    # print aspect
-    # print toks
-    # index = toks.index(aspect)
-    front = len(sentence.split(aspect)[0])
-    back = len(sentence.split(aspect)[1])
+    back = s_len - aspect[3] - 1
+    front = aspect[2]
 
     if front < 4:
         result += "first_four:1 "
@@ -137,17 +187,51 @@ def sentence_stats(sentence):
         result = result + "vb_rb_ratio:" + str(vb/rb)+" "
     return result
 
-def negate_sequence(sentence):
-    sentence = sentence.encode('utf-8')
-    negation = False
+
+def valence_heuristics(sentence, intensifier):
+
+    if intensifier:
+        vocab = intensifiers
+        marker = 'intensifier'
+    else:
+        vocab = diminishers
+        marker = 'diminisher'
+
+
+    activated = False
     delims = "?.,!:;"
-    negated_sequence = []
-    words = sentence.split()
+    sequence = []
+    words = nltk.word_tokenize(sentence)
 
     for word in words:
         # stripped = word.strip(delchars)
-        stripped = word.strip(delims).lower()
-        negated = "not_" + stripped if negation else stripped #put in not_prepended if state is negative, regular if not
+        word = word.lower()
+        term = marker + '_' + word if (activated and not re.match(r'\W+', term)) else word #put in not_prepended if state is negative, regular if not
+        sequence.append(term)
+
+        # flip negation if another negator is encountered
+        if word in vocab:
+            activated = not activated
+
+        # flip negation if a delimiter is encountered
+        if any(c in word for c in delims):
+            activated = False
+
+    return ' '.join(sequence)
+
+
+
+def negate_sequence(sentence):
+
+    negation = False
+    delims = "?.,!:;"
+    negated_sequence = []
+    words = nltk.word_tokenize(sentence)
+
+    for word in words:
+        # stripped = word.strip(delchars)
+        stripped = word.lower()
+        negated = "not_" + stripped if (negation and not re.match(r'\W+', negated)) else stripped #put in not_prepended if state is negative, regular if not
         negated_sequence.append(negated)
 
         # flip negation if another negator is encountered
@@ -158,43 +242,14 @@ def negate_sequence(sentence):
         if any(c in word for c in delims):
             negation = False
 
-    result = ''
-    for word in negated_sequence:
-        result = result+word+":1 "
 
-    return result
+    return ' '.join(negated_sequence)
 
 # prepend VERY or BARELY, can't find a list of these, don't want to build one, acl wiki is down at the moment
 def valence_shifters():
     return
 
-def load_sentistrength(file):
-    pos_terms = ''
-    neg_terms = ''
 
-
-    for line in file:
-        split = line.split('\t')
-        term = split[0].replace('*', '\w*')
-        if int(split[1]) > 0:
-            pos_terms += term + '|'
-            #sent_terms['pos'].add(term)
-        else:
-            neg_terms += term + '|'
-            # sent_terms['neg'].add(term)
-
-    return pos_terms[:-1], neg_terms[:-1]
-
-
-def load_swear_words(file):
-    data = file.read().strip().split("\n")
-    return data
-
-def load_stopwords(file):
-    stopword_temp = set()
-    for line in file:
-        stopword_temp.add(line.strip())
-    return stopword_temp
 
 
 def sentistrength_expansion(term):
@@ -207,44 +262,21 @@ def sentistrength_expansion(term):
         return term
 
 
-def assemble_ngrams(toks, n, backoff, stopword, POS, aspect_replace, threshold):
 
-    results = ''
-    counts = defaultdict(int)
-
-    for i in range (0, len(toks)):
-        toks[i] = sentistrength_expansion(toks[i])
-
-    for i in range (0, len(toks) - n):
-        n_gram = toks[i]
-        for j in range(1, n):
-            n_gram += '_' + toks[i+j]
-
-        counts[n_gram] += 1
-
-    for item in counts:
-        count = counts[item]
-        if not threshold or (threshold and item in allowed_words):
-            if not stopword or (stopword and not item in stoplist):
-                # remove punc-only tokens
-                if not re.match(r'\W+', item):
-                    results += item.lower() + ':' + str(count) + ' '
-
-    return results
 
 
 def char_grams(sentence, aspect, n, backoff=False, stopword=False, POS=False, aspect_replace=False, threshold=False):
     sentence = sentence.encode('utf-8')
     sentence = sentence.replace(" ", '@')
     toks = list(sentence)
-    return assemble_ngrams(toks, n, backoff, stopword, POS, aspect_replace, threshold)
+    return assemble_ngrams(toks, n, stopword, threshold)
 
 def pos_grams(sentence, aspect, n, backoff=False, stopword=False, POS=False, aspect_replace=False, threshold=False):
     sentence = sentence.encode('utf-8')
     sentence = nltk.word_tokenize(sentence)
     tagged = nltk.pos_tag(sentence)
     toks = [item[1] for item in tagged]
-    return assemble_ngrams(toks, n, backoff, stopword, POS, aspect_replace, threshold)
+    return assemble_ngrams(toks, n, backoff, stopword)
 
 def stem_sentence(sentence):
     stemmer = PorterStemmer()
@@ -254,56 +286,87 @@ def stem_sentence(sentence):
         result += stemmer.stem(word) + " "
     return result
 
-def ngrams_dumb(sentence, aspect, n, backoff=False, stopword=False, POS=False, aspect_replace=False, threshold=False):
+def assemble_ngrams(toks, n, stopword, threshold):
 
-    toks = []
+    results = ''
+    counts = defaultdict(int)
+
+
+    for i in range (0, len(toks) - n + 1):
+        n_gram = toks[i]
+        for j in range(1, n):
+
+            n_gram += '_' + toks[i+j]
+
+        counts[n_gram] += 1
+
+    for item in counts:
+        count = counts[item]
+        if not threshold or (threshold and item in allowed_words):
+            if not stopword or (stopword and not item in stoplist):
+                # remove punc-only tokens
+                #     if not re.match(r'\W+', item):
+                results += item.lower() + ':' + str(count) + ' '
+
+    return results
+
+def ngrams(sentence, aspect, n, backoff=False, stopword=False,
+                POS=False, aspect_replace=False, threshold=False, distance=False, window=0):
+
 
     if aspect_replace:
         sentence = string.replace(sentence, aspect[0], 'ASPECT')
 
+
+    toks = nltk.word_tokenize(sentence.encode('utf-8'))
+
+    if backoff:
+        for i in range (0, len(toks)):
+            toks[i] = sentistrength_expansion(toks[i])
+
     if POS:
-        pos_tagged = nltk.pos_tag(nltk.word_tokenize(sentence))
-        for item in pos_tagged:
-            toks.append(item[0] + '_' + item[1])
-    else:
-        toks = nltk.word_tokenize(sentence.encode('utf-8'))
-    return assemble_ngrams(toks, n, backoff, stopword, POS, aspect_replace, threshold)
-
-
-def ngrams_window(sentence, aspect, start, end, n, window, backoff=False, stopword=False, POS=False, aspect_replace=False, distance=False, threshold=False):
-
-    # pos_mappings = {}
-    # if POS:
-    #     pos_tagged = nltk.pos_tag(nltk.word_tokenize(sentence))
-    #     for item in pos_tagged:
-    #         pos_mappings[item[0].lower] = item[1]
-
-
-
-    first_half = nltk.word_tokenize(sentence[:start])
-    second_half = nltk.word_tokenize(sentence[end:])
+        pos_tagged = nltk.pos_tag(toks)
+        for i in range (0, len(toks)):
+            toks[i] = toks[i] + '_' + pos_tagged[i][1]
 
     if distance:
+        len_asp = len(nltk.word_tokenize(aspect[0]))
+        i = aspect[2] - 1
+        j = aspect[3] + 1
         counter = 1
-        for i in range (len(first_half) - 1, -1, -1):
-            first_half[i] = first_half[i] + '_' + str(counter)
-            counter +=1
-        counter = 1
-        for i in range(0, len(second_half)):
-            second_half[i] = second_half[i] + '_' + str(counter)
+        while i > -1 or j < len(toks):
+            if i > -1:
+                toks[i] = toks[i] + '_' + str(counter)
+            if j < len(toks):
+                toks[j] = toks[j] + '_' + str(counter)
+            i -= 1
+            j += 1
             counter += 1
 
 
-    if len(first_half) > window:
-        first_half = first_half[len(first_half) - window:]
+    if window > 0:
+        toks = ngrams_window(toks, aspect, window, distance)
 
-    if len(second_half) > window:
-        second_half = second_half[:len(second_half) - window + 1]
+    return assemble_ngrams(toks, n, stopword, threshold)
 
-    first_half = ['before_' + k for k in assemble_ngrams(first_half, n, backoff, stopword, POS, aspect_replace, threshold).split()]
-    second_half = ['after_' + k for k in assemble_ngrams(second_half, n, backoff, stopword, POS, aspect_replace, threshold).split()]
 
-    return ' '.join(first_half) + ' ' + ' '.join(second_half)
+def ngrams_window(toks, aspect, window, distance):
+
+
+
+    asp_start = aspect[2]
+    asp_end = aspect[3]
+    len_asp = asp_end - asp_start + 1
+    left_idx = asp_start - window
+    right_idx = asp_end + window
+    if left_idx < 0:
+        left_idx = 0
+    if right_idx > len(toks):
+        right_idx = len(toks)
+
+    slice = toks[left_idx:right_idx + 1]
+
+    return slice
 
 # this now returns a tuple of the result and also a set of all synonyms
 def wordnet_expansion(sentence):
@@ -328,22 +391,6 @@ def aspect_feat(aspect):
     result = 'aspect=' + '_'.join(aspect[0].encode('utf-8').split()) + ' '
     return result
 
-# takes a file name and returns a dict of text -> list of aspect tuples
-def read_data(data_file):
-
-    data = defaultdict(list)
-
-    xml = ET.parse(data_file)
-    root = xml.getroot()
-
-    for sentence in root.iter('sentence'):
-        text = sentence.find('text').text
-        aspects = sentence.find('aspectTerms').findall('aspectTerm')
-        if aspects != None:
-            for aspect in aspects:
-                data[text].append((aspect.get('term'), aspect.get('polarity'), aspect.get('from'), aspect.get('to')))
-
-    return data
 
 def post_expansion_backoff(sentence):
     result = ''
@@ -401,99 +448,226 @@ def process_file(dict, out_file):
         for aspect in dict[sentence]:
             out_file.write('Aspect' + str(counter) + ' ' + aspect[1].encode('utf-8')+" ") # write label
 
-####### Jared's experiments
-
-            # expanding by adding synonyms of adjectives
-            # out_file.write(wordnet_expansion(sentence)[0])
-
-            # write every unigram from the sentence
-            # out_file.write(ngrams_dumb(sentence, 1, False))
-
-            # post expansion sentiment term back-off
-            # out_file.write(post_expansion_backoff(sentence))
-
-            # write every bigram from the sentence
-            # out_file.write(ngrams_dumb(sentence, 2, False))
-
-            # write window ngrams
-            # out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 7, False))
-
-            # write sentence stats
-            # out_file.write(sentence_stats(sentence))
-
-####### Clara's experiments
-
-            # DUMB NGRAMS
-
-
-            # stemming
-            # sentence = stem_sentence(sentence)
-
-            # swear word count
+            # # INDIVIDUAL FEATURE TESTS
+            #
+            # 1
+            # out_file.write(ngrams(sentence, aspect, 1))
+            #
+            # 2
+            # out_file.write(ngrams(sentence, aspect, 2))
+            #
+            # 3
+            #
+            # out_file.write(ngrams(sentence, aspect, 3))
+            #
+            #
+            # 4
+            # out_file.write(ngrams(sentence, aspect, 1, POS=True))
+            #
+            # 5
+            # out_file.write(ngrams(sentence, aspect, 2, POS=True))
+            #
+            # 6
+            # out_file.write(ngrams(sentence, aspect, 1, backoff=True))
+            #
+            # # 7
+            # out_file.write(ngrams(sentence, aspect, 2, backoff=True))x
+            #
+            # 8
+            # out_file.write(ngrams(sentence, aspect, 2, aspect_replace=True))
+            #
+            # 9
+            # out_file.write(ngrams(sentence, aspect, 1, threshold=True))
+            #
+            # 10
+            # out_file.write(ngrams(sentence, aspect, 1, distance=True))
+            #
+            # 11
+            # stemmed = stem_sentence(sentence)
+            # out_file.write(ngrams(stemmed, aspect, 1))
+            #
+            # 12
+            # stemmed = stem_sentence(sentence)
+            # out_file.write(ngrams(stemmed, aspect, 2))
+            #
+            # 13
+            # out_file.write(pos_grams(sentence, aspect, 2))
+            #
+            # 14
+            # out_file.write(char_grams(sentence, aspect, 4))
+            #
+            # 15
+            # out_file.write(char_grams(sentence, aspect, 5))
+            #
+            # 16
+            # out_file.write(char_grams(sentence, aspect, 6))
+            #
+            # 17
+            # negated = negate_sequence(sentence)
+            # out_file.write(ngrams(negated, aspect, 1))
+            #
+            # 18
+            # negated = negate_sequence(sentence)
+            # out_file.write(ngrams(negated, aspect, 2))
+            #
+            # # 19
+            # intense = valence_heuristics(sentence, True)
+            # out_file.write(ngrams(intense, aspect, 1))
+            #
+            # # 20
+            # intense = valence_heuristics(sentence, True)
+            # out_file.write(ngrams(intense, aspect, 2))
+            #
+            # # 21
+            # dimin = valence_heuristics(sentence, False)
+            # out_file.write(ngrams(dimin, aspect, 1))
+            #
+            # # 22
+            # dimin = valence_heuristics(sentence, False)
+            # out_file.write(ngrams(dimin, aspect, 2))
+            #
+            # #23
+            # out_file.write(ngrams(sentence, aspect, 1, window=5))
+            #
+            # #24
+            # out_file.write(ngrams(sentence, aspect, 2, window=5))
+            #
+            # #25
+            # out_file.write(ngrams(sentence, aspect, 3, window=5))
+            #
+            #
+            # #26
+            # out_file.write(ngrams(sentence, aspect, 1, window=7))
+            #
+            # #27
+            # out_file.write(ngrams(sentence, aspect, 2, window=7))
+            #
+            # #28
+            # out_file.write(ngrams(sentence, aspect, 3, window=7))
+            #
+            # 29
+            # out_file.write(swear_near(sentence, aspect))
+            #
+            # #30
             # out_file.write(swear_count(sentence))
-
-            # swear word within three toekns of aspect, binary feature
-            out_file.write(swear_near(sentence, aspect))
-
-            # pos grams
-            # out_file.write(pos_grams(sentence, aspect, 3))
-
-            # character grams
-            # out_file.write(char_grams(sentence, aspect, 8))
-
-            # write every unigram from the sentence
-            # out_file.write(ngrams_dumb(sentence, aspect, 1, threshold=False))
             #
-            # print aspect_feat(aspect)
-            out_file.write(aspect_feat(aspect))
+            # #31
+            # out_file.write(aspect_feat(aspect))
             #
-            # #write every unigram from the sentence, stopword removal
-            # out_file.write(ngrams_dumb(sentence, aspect, 1, stopword=True))
-            #
-            # #write every unigram from the sentence, sentiment backoff
-            # out_file.write(ngrams_dumb(sentence, aspect, 1, backoff=True))
-            #
-            # #write every unigram from the sentence, sentiment backoff and stopword removal
-            # out_file.write(ngrams_dumb(sentence, aspect, 1, backoff=True, stopword=True))
-            #
-            # # write every bigram from the sentence
-            # out_file.write(ngrams_dumb(sentence, aspect, 2))
-
-
-            # write every unigram from the sentence
-            out_file.write(ngrams_dumb(sentence, aspect, 1, POS=True))
-            # out_file.write(ngrams_dumb(sentence, aspect, 2))
-            # out_file.write(ngrams_dumb(sentence, aspect, 3))
-
-
-            # write window ngrams
-            #out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 5))
-
-            # write window unigrams, stopword removal
-            # out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 7, stopword=True))
-
-            # write window unigrams, sentiment backoff
-            #out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 7, backoff=True))
-
-            # # write window unigrams, sentiment backoff
-            # out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 7, backoff=True, stopword=True ))
-
-
-            # # expanding by adding synonyms of adjectives
-            #out_file.write(wordnet_expansion(sentence))
-
-
-            #
-            # # write sentence stats
+            # #32
             # out_file.write(sentence_stats(sentence))
             #
-            # # negation hueristics
-            # out_file.write(negate_sequence(sentence))
+            # #33
+            # out_file.write(wordnet_expansion(sentence)[0])
             #
-            # # write position of aspect in sentence
-            out_file.write(aspect_loc(sentence, aspect))
+            # #34
+            # out_file.write(post_expansion_backoff(sentence))
+            #
+            #
+            # # WINDOW TESTS
+            #
+            # 35
+            # out_file.write(ngrams(sentence, aspect, 1, window=3))
+            #
+            # 36
+            # out_file.write(ngrams(sentence, aspect, 1, window=4))
+            #
+            # 37
+            # out_file.write(ngrams(sentence, aspect, 1, window=6))
+            #
+            # 38
+            # out_file.write(ngrams(sentence, aspect, 1, window=8))
+
+            #39
+            # stemmed = stem_sentence(sentence)
+            # out_file.write(ngrams(stemmed, aspect, 1, window=7))
+
+            #40
+            # negated = negate_sequence(sentence)
+            # out_file.write(ngrams(negated, aspect, 1, window=7))
+
+            #41
+            # intense = valence_heuristics(sentence, True)
+            # out_file.write(ngrams(intense, aspect, 1, window=7))
+
+            #42
+            # dimin = valence_heuristics(sentence, False)
+            # out_file.write(ngrams(dimin, aspect, 1, window=7))
+
+            #43
+            # out_file.write(ngrams(sentence, aspect, 1, window=7, distance=True))
+
+            #44
+            # out_file.write(ngrams(sentence, aspect, 1, window=7, POS=True))
+
+            #45
+            # stemmed = stem_sentence(sentence)
+            # out_file.write(ngrams(stemmed, aspect, 1, window=7))
+            #
+            # negated = negate_sequence(sentence)
+            # out_file.write(ngrams(negated, aspect, 1, window=7))
+            #
+            #
+            # intense = valence_heuristics(sentence, True)
+            # out_file.write(ngrams(intense, aspect, 1, window=7))
+            #
+            #
+            # dimin = valence_heuristics(sentence, False)
+            # out_file.write(ngrams(dimin, aspect, 1, window=7))
+            #
+            #
+            # out_file.write(ngrams(sentence, aspect, 1, window=7, distance=True))
+            #
+            # out_file.write(ngrams(sentence, aspect, 1, window=7, POS=True))
+
+            #46
+            # out_file.write(aspect_loc(sentence, aspect))
+
+            #47
+            # out_file.write(swear_near(sentence, aspect))
+            # out_file.write(sentence_stats(sentence))
+            # out_file.write(aspect_loc(sentence, aspect))
+            # out_file.write(aspect_feat(aspect))
+
+            #48
+            # stemmed = stem_sentence(sentence)
+            # out_file.write(ngrams(stemmed, aspect, 1, window=7, distance=True))
+
+            #49
+            # stemmed = stem_sentence(sentence)
+            # out_file.write(ngrams(stemmed, aspect, 1, window=7))
+            # out_file.write(ngrams(sentence, aspect, 1, POS=True))
+
+            #50
+            # stemmed = stem_sentence(sentence)
+            # intense = valence_heuristics(stemmed, True)
+            # dimin = valence_heuristics(intense, False)
+            # # print ngrams(dimin, aspect, 1, window=7)
+            # out_file.write(ngrams(dimin, aspect, 1, window=7))
+
+            #51
+            # stemmed = stem_sentence(sentence)
+            # intense = valence_heuristics(stemmed, True)
+            # dimin = valence_heuristics(intense, False)
+            # # print ngrams(dimin, aspect, 1, window=7)
+            # out_file.write(ngrams(dimin, aspect, 1, window=7, distance=True))
+
+
+            #52
+            # stemmed = stem_sentence(sentence)
+            # out_file.write(ngrams(stemmed, aspect, 1, window=7))
+            # out_file.write(swear_near(sentence, aspect))
+            # out_file.write(sentence_stats(sentence))
+            # out_file.write(aspect_loc(sentence, aspect))
+            # out_file.write(aspect_feat(aspect))
+
+            #53
+            # stemmed = stem_sentence(sentence)
+            # out_file.write(ngrams(stemmed, aspect, 1, window=7))
+            # out_file.write(aspect_feat(aspect))
 
             counter += 1
+
 
             out_file.write("\n")
 
