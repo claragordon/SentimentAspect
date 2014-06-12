@@ -1,5 +1,6 @@
 
-mallet_files/*
+mallet_files/test
+mallet_files/train
 
 
 

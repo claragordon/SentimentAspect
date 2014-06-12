@@ -1,0 +1,229 @@
+
+-------------------- Trial 0  --------------------
+
+Trial 0 Training NaiveBayesTrainer with 2956 instances
+Trial 0 Training NaiveBayesTrainer finished
+Trial 0 Trainer NaiveBayesTrainer test data accuracy = 0.5780189959294437
+Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 with 2956 instances
+Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 finished
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data accuracy = 0.5780189959294437
+Trial 0 Training cc.mallet.classify.DecisionTreeTrainer@79de256f with 2956 instances
+DecisionTree learned:
+root: positive
+Trial 0 Training cc.mallet.classify.DecisionTreeTrainer@79de256f finished
+Trial 0 Trainer cc.mallet.classify.DecisionTreeTrainer@79de256f test data accuracy = 0.5780189959294437
+Trial 0 Training cc.mallet.classify.AdaBoostM2Trainer@4e17e4ca with 2956 instances
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+DecisionTree learned:
+root: positive
+Trial 0 Training cc.mallet.classify.AdaBoostM2Trainer@4e17e4ca finished
+Trial 0 Trainer cc.mallet.classify.AdaBoostM2Trainer@4e17e4ca test data accuracy = 0.5780189959294437
+
+NaiveBayesTrainer
+Summary. test accuracy mean = 0.5780189959294437 stddev = 0.0 stderr = 0.0
+
+MaxEntTrainer,gaussianPriorVariance=1.0
+Summary. test accuracy mean = 0.5780189959294437 stddev = 0.0 stderr = 0.0
+
+cc.mallet.classify.DecisionTreeTrainer@79de256f
+Summary. test accuracy mean = 0.5780189959294437 stddev = 0.0 stderr = 0.0
+
+cc.mallet.classify.AdaBoostM2Trainer@4e17e4ca
+Summary. test accuracy mean = 0.5780189959294437 stddev = 0.0 stderr = 0.0

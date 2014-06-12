@@ -93,3 +93,104 @@ LAPTOPS
 PASSED! This corpus has: 3045 sentences, 2358 aspect term occurrences, and 1042 distinct aspect terms.
 Estimating aspect term polarity...
 Accuracy = 0.470588, #Correct/#All: 232/493
+
+
+
+
+
+
+
+
+
+# expanding by adding synonyms of adjectives
+            # out_file.write(wordnet_expansion(sentence)[0])
+
+            # write every unigram from the sentence
+            # cd
+
+            # post expansion sentiment term back-off
+            # out_file.write(post_expansion_backoff(sentence))
+
+            # write every bigram from the sentence
+            # out_file.write(ngrams_dumb(sentence, 2, False))
+
+            # write window ngrams
+            # out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 7, False))
+
+            # write sentence stats
+            # out_file.write(sentence_stats(sentence))
+
+####### Clara's experiments
+
+            # print wordnet_expansion(sentence)
+
+            # out_file.write(wordnet_expansion(sentence))
+            # DUMB NGRAMS
+
+
+            # stemming
+            # sentence = stem_sentence(sentence)
+
+            # swear word count
+            # out_file.write(swear_count(sentence))
+
+            # swear word within three toekns of aspect, binary feature
+            # out_file.write(swear_near(sentence, aspect))
+
+            # pos grams
+            # out_file.write(pos_grams(sentence, aspect, 3))
+
+            # character grams
+            # out_file.write(char_grams(sentence, aspect, 8))
+
+            # write every unigram from the sentence
+            # out_file.write(ngrams_dumb(sentence, aspect, 1, threshold=False))
+            #
+            # print aspect_feat(aspect)
+            # out_file.write(aspect_feat(aspect))
+            #
+            # #write every unigram from the sentence, stopword removal
+            # out_file.write(ngrams_dumb(sentence, aspect, 1, stopword=True))
+            #
+            # #write every unigram from the sentence, sentiment backoff
+            # out_file.write(ngrams_dumb(sentence, aspect, 1, backoff=True))
+            #
+            # #write every unigram from the sentence, sentiment backoff and stopword removal
+            # out_file.write(ngrams_dumb(sentence, aspect, 1, backoff=True, stopword=True))
+            #
+            # # write every bigram from the sentence
+            # out_file.write(ngrams_dumb(sentence, aspect, 2))
+
+
+            # write every unigram from the sentence
+            # out_file.write(ngrams_dumb(sentence, aspect, 1, POS=True))
+            # out_file.write(ngrams_dumb(sentence, aspect, 2))
+            # out_file.write(ngrams_dumb(sentence, aspect, 3))
+
+
+            # write window ngrams
+            #out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 5))
+
+            # write window unigrams, stopword removal
+            # out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 7, stopword=True))
+
+            # write window unigrams, sentiment backoff
+            #out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 7, backoff=True))
+
+            # # write window unigrams, sentiment backoff
+            # out_file.write(ngrams_window(sentence, aspect, int(aspect[2]), int(aspect[3]), 1, 7, backoff=True, stopword=True ))
+
+
+            # # expanding by adding synonyms of adjectives
+            #out_file.write(wordnet_expansion(sentence))
+
+
+            #
+            # # write sentence stats
+            # out_file.write(sentence_stats(sentence))
+            #
+            # # negation hueristics
+            # out_file.write(negate_sequence(sentence))
+            #
+            # # write position of aspect in sentence
+            # out_file.write(aspect_loc(sentence, aspect))

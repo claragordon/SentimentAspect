@@ -6,7 +6,6 @@ from nltk.corpus import wordnet as wn
 import re
 import string
 from nltk.stem.porter import *
-from mrs_features import *
 # from stat_parser import Parser
 
 if len(sys.argv) > 1:
@@ -28,7 +27,6 @@ else:
     swear_file =open('../lib/swearWords.txt', 'r')
 
 #TODO
-
 
 # presence/absence of but or something clever with the number of aspects and conjunctions
 
@@ -315,6 +313,13 @@ def sentistrength_expansion(term):
     else:
         return term
 
+
+def backoff_sentence(sentence):
+    toks = nltk.word_tokenize(sentence)
+    for i in range (0, len(toks)):
+        toks[i] = sentistrength_expansion(toks[i])
+
+    return ' '.join(toks)
 
 
 
@@ -723,9 +728,98 @@ def process_file(dict, out_file):
             # # write position of aspect in sentence
             # out_file.write(aspect_loc(sentence, aspect))
 
+            #54
+            # stemmed = stem_sentence(sentence)
+            # out_file.write(ngrams(stemmed, aspect, 1, window=7))
+            # out_file.write(ngrams(stemmed, aspect, 2, window=7))
+
+            # #55
+            # stemmed = stem_sentence(sentence)
+            # out_file.write(ngrams(stemmed, aspect, 1, window=7))
+            # out_file.write(ngrams(stemmed, aspect, 2, window=7))
+            # out_file.write(ngrams(stemmed, aspect, 3, window=7))
+
+            # 56
+            # stemmed = stem_sentence(sentence)
+            # if len(dict[sentence]) == 1:
+            #     window = 0
+            # else:
+            #     window = 7
+            # out_file.write(ngrams(stemmed, aspect, 1, window=window))
+
+            # 57
+            # stemmed = stem_sentence(sentence)
+            # if len(dict[sentence]) == 1:
+            #     print dict[sentence], 'only 1'
+            #     window = 0
+            # else:
+            #     window = 3
+            # out_file.write(ngrams(stemmed, aspect, 1, window=window))
+
+            #58
+            # stemmed = stem_sentence(sentence)
+            # if len(dict[sentence]) == 1:
+            #     print dict[sentence], 'only 1'
+            #     window = 0
+            # else:
+            #     window = 5
+            # out_file.write(ngrams(stemmed, aspect, 1, window=window))
+
+
+            #59
+            #
+            # backed_off= backoff_sentence(sentence)
+            # negated = negate_sequence(backed_off)
+            # out_file.write(ngrams(negated, aspect, 1, window=7))
+
+
+
+            #60
+
+            # if len(dict[sentence]) == 1:
+            #     print dict[sentence], 'only 1'
+            #     window = 0
+            # else:
+            #     window = 5
+            # out_file.write(ngrams(sentence, aspect, 1, window=window, POS=True))
+
+            #61
+
+            # if len(dict[sentence]) == 1:
+            #     out_file.write(ngrams(negate_sequence(sentence), aspect, 1, window=5))
+            # else:
+            #     out_file.write(ngrams(stem_sentence(sentence), aspect, 1))
+
+            #62
+            # stemmed = stem_sentence(sentence)
+            # if len(dict[sentence]) == 1:
+            #     out_file.write(ngrams(stemmed, aspect, 1, window=5))
+            # else:
+            #     out_file.write(ngrams(stemmed, aspect, 1))
+            #     out_file.write(ngrams(stemmed, aspect, 2))
+
+
+            #63
+            # stemmed = stem_sentence(sentence)
+            # if len(dict[sentence]) == 1:
+            #     window = 0
+            # else:
+            #     window = 5
+            # out_file.write(ngrams(stemmed, aspect, 1, window=window, stopword=True))
+
+
+            #64
+            stemmed = stem_sentence(sentence)
+            if len(dict[sentence]) == 1:
+                window = 0
+            else:
+                window = 5
+            out_file.write(ngrams(stemmed, aspect, 1, window=window))
+
+            out_file.write(sentence_stats(sentence))
+
 
             counter += 1
-
 
             out_file.write("\n")
 
