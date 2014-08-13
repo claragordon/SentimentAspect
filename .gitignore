@@ -3,16 +3,65 @@ mallet_files/test
 mallet_files/train
 
 
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-
-.idea/*
+# Byte-compiled / optimized / DLL files 
+2 __pycache__/ 
+3 *.py[cod] 
+4 
+ 
+5 # C extensions 
+6 *.so 
+7 
+ 
+8 # Distribution / packaging 
+9 .Python 
+10 env/ 
+11 build/ 
+12 develop-eggs/ 
+13 dist/ 
+14 eggs/ 
+15 lib/ 
+16 lib64/ 
+17 parts/ 
+18 sdist/ 
+19 var/ 
+20 *.egg-info/ 
+21 .installed.cfg 
+22 *.egg 
+23 
+ 
+24 # PyInstaller 
+25 #  Usually these files are written by a python script from a template  
+26 #  before PyInstaller builds the exe, so as to inject date/other infos into it. 
+27 *.manifest 
+28 *.spec 
+29 
+ 
+30 # Installer logs 
+31 pip-log.txt 
+32 pip-delete-this-directory.txt 
+33 
+ 
+34 # Unit test / coverage reports 
+35 htmlcov/ 
+36 .tox/ 
+37 .coverage 
+38 .cache 
+39 nosetests.xml 
+40 coverage.xml 
+41 
+ 
+42 # Translations 
+43 *.mo 
+44 *.pot 
+45 
+ 
+46 # Django stuff: 
+47 *.log 
+48 
+ 
+49 # Sphinx documentation 
+50 docs/_build/ 
+51 
+ 
+52 # PyBuilder 
+53 target/ 
